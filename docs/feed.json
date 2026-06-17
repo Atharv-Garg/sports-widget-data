@@ -1,0 +1,406 @@
+{
+  "generated_at_utc": "2026-06-17T08:28:50.342926Z",
+  "generated_at_ist": "2026-06-17T13:58:50.342934+05:30",
+  "f1": {
+    "next": {
+      "name": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
+      "short_name": "Austrian Grand Prix",
+      "round": 1288,
+      "circuit": "Spielberg",
+      "location": "Spielberg",
+      "country": "Austria",
+      "flag_emoji": "🇦🇹",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start_utc": "2026-06-26T11:30:00+00:00",
+          "end_utc": "2026-06-26T12:30:00+00:00",
+          "start_ist": "2026-06-26T17:00:00+05:30",
+          "end_ist": "2026-06-26T18:00:00+05:30"
+        },
+        {
+          "type": "FP2",
+          "start_utc": "2026-06-26T15:00:00+00:00",
+          "end_utc": "2026-06-26T16:00:00+00:00",
+          "start_ist": "2026-06-26T20:30:00+05:30",
+          "end_ist": "2026-06-26T21:30:00+05:30"
+        },
+        {
+          "type": "FP3",
+          "start_utc": "2026-06-27T10:30:00+00:00",
+          "end_utc": "2026-06-27T11:30:00+00:00",
+          "start_ist": "2026-06-27T16:00:00+05:30",
+          "end_ist": "2026-06-27T17:00:00+05:30"
+        },
+        {
+          "type": "Qualifying",
+          "start_utc": "2026-06-27T14:00:00+00:00",
+          "end_utc": "2026-06-27T15:00:00+00:00",
+          "start_ist": "2026-06-27T19:30:00+05:30",
+          "end_ist": "2026-06-27T20:30:00+05:30"
+        },
+        {
+          "type": "Race",
+          "start_utc": "2026-06-28T13:00:00+00:00",
+          "end_utc": "2026-06-28T15:00:00+00:00",
+          "start_ist": "2026-06-28T18:30:00+05:30",
+          "end_ist": "2026-06-28T20:30:00+05:30"
+        }
+      ]
+    },
+    "upcoming": [
+      {
+        "name": "FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026",
+        "short_name": "British Grand Prix",
+        "round": 1289,
+        "circuit": "Silverstone",
+        "location": "Silverstone",
+        "country": "United Kingdom",
+        "flag_emoji": "🇬🇧",
+        "sessions": [
+          {
+            "type": "FP1",
+            "start_utc": "2026-07-03T11:30:00+00:00",
+            "end_utc": "2026-07-03T12:30:00+00:00",
+            "start_ist": "2026-07-03T17:00:00+05:30",
+            "end_ist": "2026-07-03T18:00:00+05:30"
+          },
+          {
+            "type": "Sprint Quali",
+            "start_utc": "2026-07-03T15:30:00+00:00",
+            "end_utc": "2026-07-03T16:14:00+00:00",
+            "start_ist": "2026-07-03T21:00:00+05:30",
+            "end_ist": "2026-07-03T21:44:00+05:30"
+          },
+          {
+            "type": "Sprint",
+            "start_utc": "2026-07-04T11:00:00+00:00",
+            "end_utc": "2026-07-04T12:00:00+00:00",
+            "start_ist": "2026-07-04T16:30:00+05:30",
+            "end_ist": "2026-07-04T17:30:00+05:30"
+          },
+          {
+            "type": "Qualifying",
+            "start_utc": "2026-07-04T15:00:00+00:00",
+            "end_utc": "2026-07-04T16:00:00+00:00",
+            "start_ist": "2026-07-04T20:30:00+05:30",
+            "end_ist": "2026-07-04T21:30:00+05:30"
+          },
+          {
+            "type": "Race",
+            "start_utc": "2026-07-05T14:00:00+00:00",
+            "end_utc": "2026-07-05T16:00:00+00:00",
+            "start_ist": "2026-07-05T19:30:00+05:30",
+            "end_ist": "2026-07-05T21:30:00+05:30"
+          }
+        ]
+      },
+      {
+        "name": "FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026",
+        "short_name": "Belgian Grand Prix",
+        "round": 1290,
+        "circuit": "Spa-Francorchamps",
+        "location": "Spa-Francorchamps",
+        "country": "Belgium",
+        "flag_emoji": "🇧🇪",
+        "sessions": [
+          {
+            "type": "FP1",
+            "start_utc": "2026-07-17T11:30:00+00:00",
+            "end_utc": "2026-07-17T12:30:00+00:00",
+            "start_ist": "2026-07-17T17:00:00+05:30",
+            "end_ist": "2026-07-17T18:00:00+05:30"
+          },
+          {
+            "type": "FP2",
+            "start_utc": "2026-07-17T15:00:00+00:00",
+            "end_utc": "2026-07-17T16:00:00+00:00",
+            "start_ist": "2026-07-17T20:30:00+05:30",
+            "end_ist": "2026-07-17T21:30:00+05:30"
+          },
+          {
+            "type": "FP3",
+            "start_utc": "2026-07-18T10:30:00+00:00",
+            "end_utc": "2026-07-18T11:30:00+00:00",
+            "start_ist": "2026-07-18T16:00:00+05:30",
+            "end_ist": "2026-07-18T17:00:00+05:30"
+          },
+          {
+            "type": "Qualifying",
+            "start_utc": "2026-07-18T14:00:00+00:00",
+            "end_utc": "2026-07-18T15:00:00+00:00",
+            "start_ist": "2026-07-18T19:30:00+05:30",
+            "end_ist": "2026-07-18T20:30:00+05:30"
+          },
+          {
+            "type": "Race",
+            "start_utc": "2026-07-19T13:00:00+00:00",
+            "end_utc": "2026-07-19T15:00:00+00:00",
+            "start_ist": "2026-07-19T18:30:00+05:30",
+            "end_ist": "2026-07-19T20:30:00+05:30"
+          }
+        ]
+      },
+      {
+        "name": "FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026",
+        "short_name": "Hungarian Grand Prix",
+        "round": 1291,
+        "circuit": "Hungaroring",
+        "location": "Budapest",
+        "country": "Hungary",
+        "flag_emoji": "🇭🇺",
+        "sessions": [
+          {
+            "type": "FP1",
+            "start_utc": "2026-07-24T11:30:00+00:00",
+            "end_utc": "2026-07-24T12:30:00+00:00",
+            "start_ist": "2026-07-24T17:00:00+05:30",
+            "end_ist": "2026-07-24T18:00:00+05:30"
+          },
+          {
+            "type": "FP2",
+            "start_utc": "2026-07-24T15:00:00+00:00",
+            "end_utc": "2026-07-24T16:00:00+00:00",
+            "start_ist": "2026-07-24T20:30:00+05:30",
+            "end_ist": "2026-07-24T21:30:00+05:30"
+          },
+          {
+            "type": "FP3",
+            "start_utc": "2026-07-25T10:30:00+00:00",
+            "end_utc": "2026-07-25T11:30:00+00:00",
+            "start_ist": "2026-07-25T16:00:00+05:30",
+            "end_ist": "2026-07-25T17:00:00+05:30"
+          },
+          {
+            "type": "Qualifying",
+            "start_utc": "2026-07-25T14:00:00+00:00",
+            "end_utc": "2026-07-25T15:00:00+00:00",
+            "start_ist": "2026-07-25T19:30:00+05:30",
+            "end_ist": "2026-07-25T20:30:00+05:30"
+          },
+          {
+            "type": "Race",
+            "start_utc": "2026-07-26T13:00:00+00:00",
+            "end_utc": "2026-07-26T15:00:00+00:00",
+            "start_ist": "2026-07-26T18:30:00+05:30",
+            "end_ist": "2026-07-26T20:30:00+05:30"
+          }
+        ]
+      }
+    ]
+  },
+  "ufc": {
+    "next": {
+      "name": "UFC Fight Night: Kape vs Horiguchi",
+      "kind": "Fight Night",
+      "venue": "Meta APEX",
+      "city": "Las Vegas United States",
+      "country": "",
+      "main_card_start_utc": "2026-06-20T20:00:00Z",
+      "main_card": [
+        {
+          "red": "Manel Kape",
+          "blue": "Kyoji Horiguchi",
+          "weight_class": "Flyweight Bout",
+          "title_fight": false
+        },
+        {
+          "red": "Ion Cutelaba",
+          "blue": "Navajo Stirling",
+          "weight_class": "Light Heavyweight Bout",
+          "title_fight": false
+        },
+        {
+          "red": "Vinicius Oliveira",
+          "blue": "Andre Fili",
+          "weight_class": "Featherweight Bout",
+          "title_fight": false
+        },
+        {
+          "red": "Hyder Amil",
+          "blue": "Christian Rodriguez",
+          "weight_class": "Featherweight Bout",
+          "title_fight": false
+        },
+        {
+          "red": "Melsik Baghdasaryan",
+          "blue": "Murtazali Magomedov",
+          "weight_class": "Featherweight Bout",
+          "title_fight": false
+        }
+      ],
+      "url": "https://www.ufc.com/event/ufc-fight-night-june-20-2026",
+      "main_card_start_ist": "2026-06-21T01:30:00+05:30"
+    },
+    "upcoming": [
+      {
+        "name": "UFC Fight Night: Fiziev vs Torres: UFC Baku",
+        "kind": "Fight Night",
+        "venue": "National Gymnastics Arena",
+        "city": "Baku Azerbaijan",
+        "country": "",
+        "main_card_start_utc": "2026-06-27T12:00:00Z",
+        "main_card": [
+          {
+            "red": "Rafael Fiziev",
+            "blue": "Manuel Torres",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Shara Magomedov",
+            "blue": "Michel Pereira",
+            "weight_class": "Middleweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Nazim Sadykhov",
+            "blue": "Matheus Camilo",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Asu Almabayev",
+            "blue": "Charles Johnson",
+            "weight_class": "Flyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Ikram Aliskerov",
+            "blue": "Brunno Ferreira",
+            "weight_class": "Middleweight Bout",
+            "title_fight": false
+          }
+        ],
+        "url": "https://www.ufc.com/event/ufc-fight-night-june-27-2026",
+        "main_card_start_ist": "2026-06-27T17:30:00+05:30"
+      },
+      {
+        "name": "UFC 329: McGregor vs Holloway 2",
+        "kind": "PPV",
+        "venue": "T-Mobile Arena",
+        "city": "Las Vegas United States",
+        "country": "",
+        "main_card_start_utc": "2026-07-19T00:00:00Z",
+        "main_card": [
+          {
+            "red": "Conor McGregor",
+            "blue": "Max Holloway",
+            "weight_class": "Welterweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Paddy Pimblett",
+            "blue": "Benoît Saint Denis",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Cory Sandhagen",
+            "blue": "Mario Bautista",
+            "weight_class": "Bantamweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Brandon Royval",
+            "blue": "Lone’er Kavanagh",
+            "weight_class": "Flyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Gable Steveson",
+            "blue": "Elisha Ellison",
+            "weight_class": "Heavyweight Bout",
+            "title_fight": false
+          }
+        ],
+        "url": "https://www.ufc.com/event/ufc-329",
+        "main_card_start_ist": "2026-07-19T05:30:00+05:30"
+      },
+      {
+        "name": "UFC Fight Night: TBD vs TBD",
+        "kind": "Fight Night",
+        "venue": "Paycom Center",
+        "city": "Oklahoma City United States",
+        "country": "",
+        "main_card_start_utc": "2026-07-25T16:00:00Z",
+        "main_card": [
+          {
+            "red": "Jared Cannonier",
+            "blue": "Christian Leroy Duncan",
+            "weight_class": "Middleweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Kevin Holland",
+            "blue": "Jacobe Smith",
+            "weight_class": "Welterweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Amanda Ribas",
+            "blue": "Fatima Kline",
+            "weight_class": "Women's Strawweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Brad Tavares",
+            "blue": "Marc-Andre Barriault",
+            "weight_class": "Middleweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Chase Hooper",
+            "blue": "Mitch Ramirez",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
+          }
+        ],
+        "url": "https://www.ufc.com/event/ufc-fight-night-july-18-2026",
+        "main_card_start_ist": "2026-07-25T21:30:00+05:30"
+      },
+      {
+        "name": "UFC Abu Dhabi",
+        "kind": "Event",
+        "venue": "Etihad Arena",
+        "city": "Yas Island/Yas West United Arab Emirates",
+        "country": "",
+        "main_card_start_utc": "2026-08-01T18:00:00Z",
+        "main_card": [
+          {
+            "red": "Magomed Ankalaev",
+            "blue": "Khalil Rountree Jr.",
+            "weight_class": "Light Heavyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Umar Nurmagomedov",
+            "blue": "David Martinez",
+            "weight_class": "Bantamweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Rizvan Kuniev",
+            "blue": "Tyrell Fortune",
+            "weight_class": "Heavyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Valter Walker",
+            "blue": "Thomas Petersen",
+            "weight_class": "Heavyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Magomed Tuchalov",
+            "blue": "Brendson Ribeiro",
+            "weight_class": "Light Heavyweight Bout",
+            "title_fight": false
+          }
+        ],
+        "url": "https://www.ufc.com/event/ufc-fight-night-july-25-2026",
+        "main_card_start_ist": "2026-08-01T23:30:00+05:30"
+      }
+    ]
+  }
+}
