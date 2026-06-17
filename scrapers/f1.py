@@ -84,6 +84,7 @@ def fetch() -> list[dict]:
             continue
 
         country = m.get("country_name") or ""
+        season_year = msessions[0]["date_start"][:4]
         out.append({
             "name": m.get("meeting_official_name") or m.get("meeting_name"),
             "short_name": m.get("meeting_name"),
@@ -92,6 +93,7 @@ def fetch() -> list[dict]:
             "location": m.get("location"),
             "country": country,
             "flag_emoji": FLAG.get(country, ""),
+            "external_url": f"https://www.formula1.com/en/racing/{season_year}.html",
             "sessions": [
                 {
                     "type": SESSION_DISPLAY.get(s["session_name"], s["session_name"]),
