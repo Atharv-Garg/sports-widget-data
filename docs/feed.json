@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-17T19:20:26.379372Z",
-  "generated_at_ist": "2026-06-18T00:50:26.379375+05:30",
+  "generated_at_utc": "2026-06-17T21:54:44.520177Z",
+  "generated_at_ist": "2026-06-18T03:24:44.520181+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
@@ -294,8 +294,8 @@
             "title_fight": false
           },
           {
-            "red": "Paddy Pimblett",
-            "blue": "Benoît Saint Denis",
+            "red": "Benoît Saint Denis",
+            "blue": "Paddy Pimblett",
             "weight_class": "Lightweight Bout",
             "title_fight": false
           },
