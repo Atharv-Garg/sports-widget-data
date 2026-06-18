@@ -40,10 +40,10 @@ function fmt(iso, pattern) {
   df.dateFormat = pattern;
   return df.string(new Date(iso));
 }
-const fmtDayTime  = iso => iso ? fmt(iso, "EEE h:mm a")    : "—";  // "Sun 6:30 PM"
-const fmtFullDate = iso => iso ? fmt(iso, "EEE d MMM")     : "—";  // "Sat 20 Jun"
-const fmtTime     = iso => iso ? fmt(iso, "h:mm a")        : "—";  // "5:30 AM"
-const fmtShortDay = iso => iso ? fmt(iso, "d MMM")         : "—";  // "27 Jun"
+const fmtDateTime = iso => iso ? fmt(iso, "EEE d MMM · h:mm a") : "—";  // "Sat 27 Jun · 7:30 PM"
+const fmtFullDate = iso => iso ? fmt(iso, "EEE d MMM")          : "—";  // "Sat 20 Jun"
+const fmtTime     = iso => iso ? fmt(iso, "h:mm a")             : "—";  // "5:30 AM"
+const fmtShortDay = iso => iso ? fmt(iso, "d MMM")              : "—";  // "27 Jun"
 
 // --- Helpers --------------------------------------------------------------
 function addText(stack, text, font, color, lineLimit = 1) {
@@ -106,19 +106,26 @@ function renderF1Small(widget, ev) {
   addText(head, ev.flag_emoji || "", Font.systemFont(11), TEXT_SECONDARY);
 
   widget.addSpacer(2);
+  // GP name on a single line so the session block below has a predictable
+  // vertical budget; lineLimit:1 lets WidgetKit ellipsise long names like
+  // "Saudi Arabian Grand Prix" instead of wrapping and clipping the schedule.
   addText(widget, ev.short_name || ev.name || "Grand Prix",
-          Font.headline(), TEXT_PRIMARY, 2);
+          Font.headline(), TEXT_PRIMARY, 1);
 
-  widget.addSpacer(6);
+  widget.addSpacer(4);
 
   const rows = (ev.sessions || []).filter(s => F1_KEEP_SMALL.has(s.type));
-  for (const s of rows) {
-    const row = widget.addStack();
-    row.layoutHorizontally();
-    addText(row, s.type === "Qualifying" ? "Quali" : s.type,
+  // Sprint weekends list 3 sessions; tighten inter-row spacing so the third
+  // row never gets clipped off the bottom of a Small tile.
+  const tight = rows.length >= 3;
+
+  for (let i = 0; i < rows.length; i++) {
+    const s = rows[i];
+    addText(widget, s.type === "Qualifying" ? "Quali" : s.type,
             Font.subheadline(), TEXT_PRIMARY);
-    row.addSpacer();
-    addText(row, fmtDayTime(s.start_ist), Font.caption1(), TEXT_SECONDARY);
+    addText(widget, fmtDateTime(s.start_ist),
+            Font.caption1(), TEXT_SECONDARY);
+    if (i < rows.length - 1) widget.addSpacer(tight ? 2 : 5);
   }
 }
 
