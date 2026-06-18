@@ -2,15 +2,23 @@
 
 Output: docs/feed.json (served by GitHub Pages).
 
-All UTC timestamps from the scrapers are augmented with pre-converted IST
-strings so the Scriptable widget doesn't need timezone logic.
+UFC source policy:
+  - Primary: ufc.com via scrapers/ufc.py (BeautifulSoup, authoritative source).
+  - Fallback: scrapers/ufc_espn.py (ESPN's undocumented JSON API). Used ONLY
+    when ufc.com fails — either the whole listing (network/parse failure) or
+    individual events that fail self-validation.
+  - No comparison/reconciliation: when ufc.com works, ESPN is never called.
+
+Self-validation runs on every ufc.com event before it's published. If an event
+fails (e.g., empty name, far-past date, unparseable timestamp), it's dropped
+from the output and we attempt to fill its date slot from ESPN as a recovery.
 """
 
 from __future__ import annotations
 
 import json
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -47,9 +55,73 @@ def _enrich_ufc(events: list[dict]) -> list[dict]:
     return events
 
 
+def _validate_ufc_event(ev: dict) -> bool:
+    """Cheap sanity checks. Reject events whose data is obviously broken
+    (HTML in name, empty name, date outside [now-12h, now+12mo], etc.)."""
+    name = (ev.get("name") or "").strip()
+    if not name or "<" in name or "undefined" in name.lower() or "null" in name.lower():
+        return False
+
+    raw = ev.get("main_card_start_utc") or ""
+    try:
+        dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+    except ValueError:
+        return False
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    now = datetime.now(timezone.utc)
+    if not (now - timedelta(hours=12) <= dt <= now + timedelta(days=365)):
+        return False
+
+    for f in ev.get("main_card") or []:
+        if not (f.get("red") or "").strip() or not (f.get("blue") or "").strip():
+            return False
+
+    return True
+
+
+def _fetch_ufc() -> list[dict]:
+    """Try ufc.com first; degrade to ESPN on whole-listing failure. Per-event
+    failures (self-validation fails) are individually filled from ESPN."""
+    sys.path.insert(0, str(ROOT / "scrapers"))
+    import ufc, ufc_espn  # noqa: E402
+
+    try:
+        ufc_events = ufc.fetch()
+    except Exception as e:
+        print(f"[warn] ufc.com fetch failed ({e}); falling back to ESPN whole list",
+              file=sys.stderr)
+        try:
+            return ufc_espn.fetch()
+        except Exception as e2:
+            print(f"[error] ESPN fallback also failed: {e2}", file=sys.stderr)
+            return []
+
+    cleaned: list[dict] = []
+    for ev in ufc_events:
+        if _validate_ufc_event(ev):
+            cleaned.append(ev)
+            continue
+        # Per-event recovery: try ESPN for an event near this date.
+        print(f"[warn] ufc.com event failed validation: {ev.get('name')!r} "
+              f"on {ev.get('main_card_start_utc')} — trying ESPN", file=sys.stderr)
+        try:
+            raw = ev.get("main_card_start_utc") or ""
+            dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            recovered = ufc_espn.fetch_one(dt, name_hint=ev.get("name", ""))
+            if recovered and _validate_ufc_event(recovered):
+                cleaned.append(recovered)
+        except Exception as e:
+            print(f"[warn] ESPN per-event recovery failed: {e}", file=sys.stderr)
+
+    return cleaned
+
+
 def main() -> int:
     sys.path.insert(0, str(ROOT / "scrapers"))
-    import f1, ufc  # noqa: E402
+    import f1  # noqa: E402
 
     try:
         f1_events = _enrich_f1(f1.fetch())
@@ -57,11 +129,7 @@ def main() -> int:
         print(f"[warn] F1 fetch failed: {e}", file=sys.stderr)
         f1_events = []
 
-    try:
-        ufc_events = _enrich_ufc(ufc.fetch())
-    except Exception as e:
-        print(f"[warn] UFC fetch failed: {e}", file=sys.stderr)
-        ufc_events = []
+    ufc_events = _enrich_ufc(_fetch_ufc())
 
     payload = {
         "generated_at_utc": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),

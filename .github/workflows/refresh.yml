@@ -27,6 +27,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install dependencies
+        run: pip install beautifulsoup4
+
       - name: Build feed
         run: python scrapers/build.py
 

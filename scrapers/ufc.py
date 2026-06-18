@@ -1,34 +1,37 @@
-"""UFC scraper — sources every field from ufc.com directly.
+"""UFC scraper — ufc.com is the authoritative source.
 
 Pipeline:
-  1. Fetch ufc.com/events — extract per-event (slug, data-main-card-timestamp, h3).
-  2. For each event page extract: page <title>, hero divider (top/bottom big text),
-     venue, and the Main Card lineup.
-  3. Compose a display name from <title> + hero divider, and use the listing
-     data-main-card-timestamp as the authoritative main-card UTC time.
+  1. Fetch ufc.com/events. Parse with BeautifulSoup to locate each event card,
+     extract its slug, data-main-card-timestamp, and <h3> headliner text.
+  2. For each event, GET ufc.com/event/<slug>. Parse the per-event page to
+     extract: page <title>, hero divider (`e-divider__top` + `__bottom`,
+     ufc.com's authoritative headliner), venue, and the Main Card lineup.
+  3. Compose a display name and emit the unified event record.
 
-Why these specific sources:
-  - `data-main-card-timestamp` is the named, per-card timestamp attached to the
-    listing card's `__date` div. It does NOT drift between scrapes (unlike the
-    per-event page's `<time datetime>` tag, which sometimes reflects broadcast
-    window start rather than main-card start).
-  - The hero divider (`e-divider__top` + `e-divider__bottom`) is ufc.com's
-    authoritative "this is the main event" branding. If it says "TBD / TBD",
-    UFC has not yet promoted any fight to the headliner slot — we report TBD
-    honestly rather than fabricating one from the top of the fight list.
-  - The first fight in the per-event page's c-listing-fight list is NOT a
-    reliable main-event source: for events where the headliner hasn't been
-    formally designated, the top fight may simply be the highest-profile
-    booked fight while the actual headliner slot is still open.
+Design choices:
+  - `bs4.BeautifulSoup` is used over regex because ufc.com tweaks whitespace,
+    class ordering, and attribute formats regularly. Tree traversal is
+    resilient to those nuisance changes; regex isn't.
+  - The hero divider text (e.g. "Kape vs Horiguchi", "TBD vs TBD") is the
+    authoritative headliner per ufc.com's own UI. We don't fabricate headliners
+    from `main_card[0]` — for events where UFC hasn't formally designated a
+    headliner, we honestly report "Main event TBA".
+  - Dates come from the listing's `data-main-card-timestamp` (named, per-card,
+    no drift between scrapes). Per-event `<time datetime>` is used only as a
+    last-resort fallback when the listing attribute is missing.
+
+The scraper raises on hard failures (no event cards parseable, network error).
+build.py catches and degrades to ESPN. Per-event soft failures (parse-empty
+fields) are reported via the validation step in build.py.
 """
 
 from __future__ import annotations
 
 import json
-import re
 import urllib.request
 from datetime import datetime, timedelta, timezone
-from html import unescape
+
+from bs4 import BeautifulSoup
 
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/120.0 Safari/537.36")
@@ -42,85 +45,86 @@ def _http(url: str) -> str:
         return r.read().decode("utf-8", errors="replace")
 
 
-def _list_events() -> list[tuple[str, datetime | None, str]]:
-    """Return [(path, main_card_start_utc, h3_headliner), ...] from ufc.com/events.
+def _soup(html: str) -> BeautifulSoup:
+    return BeautifulSoup(html, "html.parser")
 
-    Reads the per-card `data-main-card-timestamp` (authoritative main-card UTC
-    start, per ufc.com itself) and the `<h3>` headliner string for each event.
-    """
-    try:
-        html = _http(f"{BASE}/events")
-    except Exception:
-        return []
+
+def _list_events() -> list[tuple[str, datetime | None, str]]:
+    """Return [(path, main_card_start_utc, h3_headliner), ...]."""
+    html = _http(f"{BASE}/events")
+    soup = _soup(html)
 
     out: list[tuple[str, datetime | None, str]] = []
     seen: set[str] = set()
-    for block in re.split(r'class="c-card-event--result__headline"', html)[1:]:
-        head = block[:6000]
-        slug_m = re.search(r'/event/([a-z][a-z0-9\-]+)', head)
-        if not slug_m or slug_m.group(1) in seen:
+
+    for headline in soup.select("h3.c-card-event--result__headline"):
+        a = headline.find("a", href=True)
+        if not a or "/event/" not in a["href"]:
             continue
-        seen.add(slug_m.group(1))
+        slug = a["href"].rsplit("/", 1)[-1]
+        if not slug or slug in seen:
+            continue
+        seen.add(slug)
 
-        ts_m = re.search(r'data-main-card-timestamp="(\d+)"', head)
-        start = datetime.fromtimestamp(int(ts_m.group(1)), tz=timezone.utc) if ts_m else None
+        h3_text = a.get_text(strip=True)
 
-        # `<h3>` headliner — the first text inside the anchor in this block.
-        h3_m = re.search(r'/event/[a-z][a-z0-9\-]+">([^<]+)</a>', head)
-        h3 = unescape(h3_m.group(1)).strip() if h3_m else ""
+        # Walk up to find the event card root. The wrapper element is named
+        # `c-card-event--result` but its tag varies (article/div) across pages —
+        # search by class only.
+        card = headline.find_parent(class_="c-card-event--result")
+        ts = None
+        if card:
+            date_div = card.select_one("[data-main-card-timestamp]")
+            if date_div:
+                raw = date_div.get("data-main-card-timestamp")
+                if raw and raw.isdigit():
+                    ts = datetime.fromtimestamp(int(raw), tz=timezone.utc)
 
-        out.append((f"/event/{slug_m.group(1)}", start, h3))
+        out.append((f"/event/{slug}", ts, h3_text))
+
     return out
 
 
-def _extract_page_title(html: str) -> str:
+def _extract_page_title(soup: BeautifulSoup) -> str:
     """Strip `<title>UFC Fight Night | Kape vs Horiguchi | UFC</title>` to its
-    meaningful brand prefix (e.g. 'UFC Fight Night', 'UFC 329: McGregor vs Holloway 2',
-    'UFC Abu Dhabi'). When the title already contains a 'vs' headliner we keep
-    it; otherwise we return just the brand to be combined with the hero divider.
+    meaningful part. If the title already has a "vs" headliner we keep it;
+    otherwise we return the brand alone for the caller to combine with hero.
     """
-    m = re.search(r"<title>(.*?)</title>", html, re.DOTALL)
-    if not m:
+    title_tag = soup.find("title")
+    if not title_tag:
         return "UFC Event"
-    parts = [p.strip() for p in unescape(m.group(1)).split("|")]
+    parts = [p.strip() for p in title_tag.get_text().split("|")]
     parts = [p for p in parts if p and p.lower() != "ufc"]
     if not parts:
         return "UFC Event"
     if len(parts) == 1:
         return parts[0]
-    # Title has both brand and headliner segments: "UFC Fight Night | Kape vs Horiguchi"
-    # If the headliner segment is real fighters (has " vs " and isn't TBD), join.
     brand, head = parts[0], parts[1]
     if " vs " in head.lower() and "tbd" not in head.lower():
         return f"{brand}: {head}"
-    return brand  # brand only; caller will append hero divider headliner
+    return brand
 
 
-def _extract_hero_divider(html: str) -> str:
-    """Return ufc.com's officially-branded headliner from the per-event page hero,
-    e.g. 'Kape vs Horiguchi', 'TBD vs TBD', or '' when the hero is missing.
-    """
-    top = re.search(r'class="e-divider__top">([^<]+)<', html)
-    bot = re.search(r'class="e-divider__bottom">([^<]+)<', html)
+def _extract_hero_divider(soup: BeautifulSoup) -> str:
+    """Return ufc.com's officially-branded headliner from the page hero."""
+    top = soup.select_one("[class*='e-divider__top']")
+    bot = soup.select_one("[class*='e-divider__bottom']")
     if not top or not bot:
         return ""
-    t = unescape(top.group(1)).strip()
-    b = unescape(bot.group(1)).strip()
+    t = top.get_text(strip=True)
+    b = bot.get_text(strip=True)
     if not t or not b:
         return ""
     return f"{t} vs {b}"
 
 
 def _compose_name(title: str, hero: str, listing_h3: str) -> str:
-    """Build the display name from page title + hero divider + listing h3.
+    """Build display name from page title + hero divider + listing h3.
 
-    Rules:
-      - If the title already contains a 'vs' (e.g. 'UFC 329: McGregor vs Holloway 2'),
-        use it verbatim.
-      - Else if hero is real fighters (contains ' vs ', not 'TBD vs TBD'),
-        join: '<title>: <hero>'.
-      - Else if listing h3 is real fighters, join: '<title>: <h3>'.
-      - Else label honestly: '<title>: Main event TBA'.
+    - title contains "vs" -> use verbatim
+    - hero has real fighters -> "<title>: <hero>"
+    - listing h3 has real fighters -> "<title>: <h3>"
+    - otherwise -> "<title>: Main event TBA"
     """
     if " vs " in title.lower() and "tbd" not in title.lower():
         return title
@@ -135,14 +139,11 @@ def _compose_name(title: str, hero: str, listing_h3: str) -> str:
     return f"{title}: Main event TBA"
 
 
-def _extract_per_event_time(html: str) -> datetime | None:
-    """Fallback time source from the per-event page's <time datetime="...">.
-    Used only if the listing lacks a `data-main-card-timestamp` value.
-    """
-    m = re.search(r'<time[^>]*datetime="([^"]+)"', html)
-    if not m:
+def _extract_per_event_time(soup: BeautifulSoup) -> datetime | None:
+    tag = soup.find("time", attrs={"datetime": True})
+    if not tag:
         return None
-    s = m.group(1).replace("Z", "+00:00")
+    s = tag["datetime"].replace("Z", "+00:00")
     try:
         dt = datetime.fromisoformat(s)
         if dt.tzinfo is None:
@@ -152,12 +153,11 @@ def _extract_per_event_time(html: str) -> datetime | None:
         return None
 
 
-def _extract_venue(html: str) -> tuple[str, str]:
-    """Return (venue_name, city_country)."""
-    m = re.search(r'field--name-venue[^>]*>\s*([^<]+?)\s*<', html)
-    if not m:
+def _extract_venue(soup: BeautifulSoup) -> tuple[str, str]:
+    venue_div = soup.select_one(".field--name-venue")
+    if not venue_div:
         return "", ""
-    raw = unescape(re.sub(r"\s+", " ", m.group(1))).strip()
+    raw = " ".join(venue_div.get_text(separator=" ", strip=True).split())
     if "," in raw:
         venue, rest = raw.split(",", 1)
         return venue.strip(), rest.strip()
@@ -165,54 +165,53 @@ def _extract_venue(html: str) -> tuple[str, str]:
 
 
 def _classify(name: str) -> str:
-    if re.search(r"UFC\s+\d+", name):
+    if "UFC " in name and any(c.isdigit() for c in name.split(":", 1)[0]):
         return "PPV"
     if "fight night" in name.lower():
         return "Fight Night"
     return "Event"
 
 
-def _parse_main_card(html: str) -> list[dict]:
-    """Extract main-card fights from a ufc.com event page.
+def _parse_main_card(soup: BeautifulSoup) -> list[dict]:
+    """Extract main-card fights from the per-event page.
 
-    Note: the fight at position 0 is NOT guaranteed to be the official main
-    event — it's only the first booked fight on the card. The hero divider on
-    the per-event page is the authoritative source for the headliner.
+    ufc.com renders each fight twice (mobile + desktop layouts). Each
+    `c-listing-fight` block contains the corner names and one
+    `c-listing-fight__class-text` element with the weight class. With
+    BeautifulSoup we can iterate over fight containers directly instead of
+    splitting on text markers.
     """
-
-    def name_from_anchor(raw: str) -> str:
-        spans = re.findall(r"<span[^>]*>([^<]+)</span>", raw)
-        if spans:
-            return unescape(" ".join(s.strip() for s in spans if s.strip())).strip()
-        return unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", raw))).strip()
-
-    parts = re.split(r"c-listing-fight__class-text", html)[1:]
     fights: list[dict] = []
-    for i in range(0, len(parts) - 1, 2):
-        mobile_ch = parts[i]
-        desktop_ch = parts[i + 1]
+    for fight in soup.select("div.c-listing-fight"):
+        # Weight class.
+        wt_el = fight.select_one(".c-listing-fight__class-text")
+        weight = wt_el.get_text(strip=True) if wt_el else ""
 
-        wt_m = re.match(r"[^>]*>\s*([^<]+?)\s*<", mobile_ch[:400])
-        weight = unescape(wt_m.group(1)).strip() if wt_m else ""
-
-        anchors = re.findall(r'/athlete/[a-z0-9\-]+">(.*?)</a>',
-                             desktop_ch[:8000], re.DOTALL)
-        if len(anchors) < 2:
+        # Red / blue corner names — fighter name <a> inside corner-name divs.
+        red_a = fight.select_one(".c-listing-fight__corner-name--red a")
+        blue_a = fight.select_one(".c-listing-fight__corner-name--blue a")
+        if not red_a or not blue_a:
             continue
-        red = name_from_anchor(anchors[0])
-        blue = name_from_anchor(anchors[1])
+
+        def anchor_to_name(a) -> str:
+            spans = a.find_all("span")
+            if spans:
+                return " ".join(s.get_text(strip=True) for s in spans if s.get_text(strip=True))
+            return a.get_text(strip=True)
+
+        red = anchor_to_name(red_a)
+        blue = anchor_to_name(blue_a)
         if not red or not blue:
             continue
 
-        title = bool(re.search(r"title\s+bout|championship",
-                               mobile_ch[:1000] + desktop_ch[:2000],
-                               re.IGNORECASE))
+        text = fight.get_text(" ", strip=True).lower()
+        title_fight = "title bout" in text or "championship" in text
 
         fights.append({
             "red": red,
             "blue": blue,
             "weight_class": weight or "TBD",
-            "title_fight": title,
+            "title_fight": title_fight,
         })
 
     return fights[:5]
@@ -225,18 +224,18 @@ def _fetch_event(path: str, listing_start: datetime | None,
     except Exception:
         return None
 
-    # Date: listing's data-main-card-timestamp > per-event <time> fallback.
-    start = listing_start or _extract_per_event_time(html)
+    soup = _soup(html)
+    start = listing_start or _extract_per_event_time(soup)
     if not start:
         return None
     if start < datetime.now(timezone.utc) - timedelta(hours=12):
         return None
 
-    title = _extract_page_title(html)
-    hero = _extract_hero_divider(html)
+    title = _extract_page_title(soup)
+    hero = _extract_hero_divider(soup)
     name = _compose_name(title, hero, listing_h3)
-    venue, city = _extract_venue(html)
-    main_card = _parse_main_card(html)
+    venue, city = _extract_venue(soup)
+    main_card = _parse_main_card(soup)
 
     return {
         "name": name,
@@ -247,12 +246,18 @@ def _fetch_event(path: str, listing_start: datetime | None,
         "main_card_start_utc": start.isoformat().replace("+00:00", "Z"),
         "main_card": main_card,
         "url": f"{BASE}{path}",
+        "_source": "ufc.com",
     }
 
 
 def fetch() -> list[dict]:
+    """Fetch upcoming UFC events from ufc.com. Raises on listing failure."""
+    listings = _list_events()
+    if not listings:
+        raise RuntimeError("ufc.com listing returned 0 events")
+
     out: list[dict] = []
-    for path, start, h3 in _list_events():
+    for path, start, h3 in listings:
         ev = _fetch_event(path, start, h3)
         if ev:
             out.append(ev)

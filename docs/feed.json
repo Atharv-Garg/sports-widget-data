@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-18T07:29:36.664057Z",
-  "generated_at_ist": "2026-06-18T12:59:36.664060+05:30",
+  "generated_at_utc": "2026-06-18T09:10:06.760117Z",
+  "generated_at_ist": "2026-06-18T14:40:06.760120+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
@@ -234,6 +234,7 @@
         }
       ],
       "url": "https://www.ufc.com/event/ufc-fight-night-june-20-2026",
+      "_source": "ufc.com",
       "main_card_start_ist": "2026-06-21T05:30:00+05:30"
     },
     "upcoming": [
@@ -277,6 +278,7 @@
           }
         ],
         "url": "https://www.ufc.com/event/ufc-fight-night-june-27-2026",
+        "_source": "ufc.com",
         "main_card_start_ist": "2026-06-27T21:30:00+05:30"
       },
       {
@@ -319,6 +321,7 @@
           }
         ],
         "url": "https://www.ufc.com/event/ufc-329",
+        "_source": "ufc.com",
         "main_card_start_ist": "2026-07-12T06:30:00+05:30"
       },
       {
@@ -361,6 +364,7 @@
           }
         ],
         "url": "https://www.ufc.com/event/ufc-fight-night-july-18-2026",
+        "_source": "ufc.com",
         "main_card_start_ist": "2026-07-19T05:30:00+05:30"
       },
       {
@@ -403,6 +407,7 @@
           }
         ],
         "url": "https://www.ufc.com/event/ufc-fight-night-july-25-2026",
+        "_source": "ufc.com",
         "main_card_start_ist": "2026-07-25T21:30:00+05:30"
       },
       {
@@ -445,6 +450,7 @@
           }
         ],
         "url": "https://www.ufc.com/event/ufc-fight-night-august-01-2026",
+        "_source": "ufc.com",
         "main_card_start_ist": "2026-08-01T23:30:00+05:30"
       },
       {
@@ -469,6 +475,7 @@
           }
         ],
         "url": "https://www.ufc.com/event/ufc-330",
+        "_source": "ufc.com",
         "main_card_start_ist": "2026-08-16T03:30:00+05:30"
       },
       {
@@ -480,6 +487,7 @@
         "main_card_start_utc": "2026-09-05T22:00:00Z",
         "main_card": [],
         "url": "https://www.ufc.com/event/ufc-fight-night-september-05-2026",
+        "_source": "ufc.com",
         "main_card_start_ist": "2026-09-06T03:30:00+05:30"
       }
     ]
