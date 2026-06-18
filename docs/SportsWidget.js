@@ -172,7 +172,7 @@ function renderUFCLarge(widget, feed) {
 
   addText(widget, "UP NEXT", Font.caption2(), TEXT_TERTIARY);
   widget.addSpacer(2);
-  const upcoming = (feed.ufc.upcoming || []).slice(0, 3);
+  const upcoming = (feed.ufc.upcoming || []).slice(0, 6);
   for (const u of upcoming) {
     const row = widget.addStack();
     row.layoutHorizontally();

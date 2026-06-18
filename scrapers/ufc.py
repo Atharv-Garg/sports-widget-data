@@ -2,13 +2,25 @@
 
 Pipeline:
   1. Fetch ufc.com/events  → list of /event/<slug> paths for upcoming events.
-  2. For each event page extract: event name, start time (from <time datetime>),
-     venue, and the Main Card lineup.
+  2. For each event page extract: event name, start time (multi-source), venue,
+     and the Main Card lineup.
   3. Return the next N events with full detail.
 
-ufc.com is the canonical source — TheSportsDB lags it by weeks for fight cards
-and weight classes, so going straight to ufc.com gives the freshest data and
-also yields a much longer upcoming list (5+ events typically).
+Date precedence (most to least authoritative):
+  a) Per-event page `<time datetime="...">` — the broadcast main-card start.
+  b) Date encoded in the slug (`ufc-fight-night-<month>-<day>-<year>`) —
+     rock-solid for date-based slugs even when the page lacks `<time>`.
+  c) Shifted listing-page timestamp — the events index embeds a "How to
+     Watch the next UFC event" CTA on each card; those `data-timestamp`
+     values describe event N+1, NOT event N. So for slugs without dates
+     (e.g. `ufc-329`), we look up the PREVIOUS card's listing timestamp.
+
+Event name normalization:
+  When the page <title> contains "TBD vs TBD" (ufc.com placeholder for an
+  unannounced headliner), but the main card is already populated, rewrite
+  the headline from main_card[0] so the widget shows real fighters. Done
+  at build time so any future change to main_card[0] flows through on the
+  next hourly scrape.
 """
 
 from __future__ import annotations
@@ -24,6 +36,12 @@ UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
 
 BASE = "https://www.ufc.com"
 
+MONTHS = {
+    "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
+    "july": 7, "august": 8, "september": 9, "october": 10, "november": 11,
+    "december": 12,
+}
+
 
 def _http(url: str) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": UA})
@@ -32,30 +50,58 @@ def _http(url: str) -> str:
 
 
 def _list_events() -> list[tuple[str, int | None]]:
-    """Scrape ufc.com/events for (path, main_card_unix_ts).
+    """Return (path, shifted_listing_ts) for each upcoming event on ufc.com/events.
 
-    Each event card on the listing exposes one or more `data-timestamp` Unix
-    seconds values — early prelims, prelims, main card. The largest is the main
-    card start. Returning the timestamp here means we don't depend on the
-    per-event page having a `<time datetime>` tag (which it lacks for events
-    further out, e.g. UFC 329).
+    `shifted_listing_ts` is the largest `data-timestamp` value found in the
+    PREVIOUS card's HTML block — because ufc.com's per-card "How to Watch"
+    CTA describes the next upcoming event, not the event the card belongs to.
+    For the very first event (no previous card) we return None and rely on
+    the per-event `<time>` tag or the slug date.
     """
     try:
         html = _http(f"{BASE}/events")
     except Exception:
         return []
 
-    results: list[tuple[str, int | None]] = []
+    parts = re.split(r'class="c-card-event--result__headline"', html)[1:]
+    paths: list[str] = []
+    ts_per_block: list[int | None] = []
     seen: set[str] = set()
-    for block in re.split(r'class="c-card-event--result__headline"', html)[1:]:
+    for block in parts:
         m = re.search(r'/event/([a-z][a-z0-9\-]+)', block[:6000])
         if not m or m.group(1) in seen:
             continue
         seen.add(m.group(1))
         ts_strs = re.findall(r'data-timestamp="(\d+)"', block[:6000])
-        ts = max((int(t) for t in ts_strs), default=None)
-        results.append((f"/event/{m.group(1)}", ts))
+        block_max = max((int(t) for t in ts_strs), default=None)
+        paths.append(f"/event/{m.group(1)}")
+        ts_per_block.append(block_max)
+
+    # Shift: path[i] gets timestamp from block i-1 (the previous card's
+    # "next event" CTA describes this card's event).
+    results: list[tuple[str, int | None]] = []
+    for i, p in enumerate(paths):
+        shifted = ts_per_block[i - 1] if i > 0 else None
+        results.append((p, shifted))
     return results
+
+
+def _slug_date(slug: str) -> datetime | None:
+    """Parse a date out of a ufc-fight-night-<month>-<day>-<year> slug."""
+    m = re.match(r"ufc-fight-night-([a-z]+)-(\d{1,2})-(\d{4})", slug)
+    if not m:
+        return None
+    month = MONTHS.get(m.group(1).lower())
+    if not month:
+        return None
+    try:
+        # No time of day in the slug — set to 00:00 UTC as a sentinel; the
+        # per-event `<time>` tag (when present) overrides this anyway. We use
+        # 00:00 so events sort correctly relative to events with real times.
+        return datetime(int(m.group(3)), month, int(m.group(2)),
+                        tzinfo=timezone.utc)
+    except ValueError:
+        return None
 
 
 def _extract_event_name(html: str) -> str:
@@ -69,8 +115,28 @@ def _extract_event_name(html: str) -> str:
         return "UFC Event"
     if len(parts) == 1:
         return parts[0]
-    # "UFC Fight Night | Kape vs Horiguchi" -> "UFC Fight Night: Kape vs Horiguchi"
     return f"{parts[0]}: {parts[1]}"
+
+
+def _rewrite_tbd_name(name: str, main_card: list[dict]) -> str:
+    """If <title> still says 'TBD vs TBD' but main_card is announced, use the
+    actual main-event fighters' last names. Re-runs on every scrape so any
+    future change to main_card[0] propagates automatically."""
+    if not main_card:
+        return name
+    if not re.search(r"\bTBD\b", name, re.IGNORECASE):
+        return name
+    main = main_card[0]
+    red_last = (main.get("red") or "").strip().split()[-1:] or [""]
+    blue_last = (main.get("blue") or "").strip().split()[-1:] or [""]
+    if not red_last[0] or not blue_last[0]:
+        return name
+    headliner = f"{red_last[0]} vs {blue_last[0]}"
+    # Preserve the prefix ("UFC Fight Night:", "UFC <n>:", etc.).
+    if ":" in name:
+        prefix = name.split(":", 1)[0].strip()
+        return f"{prefix}: {headliner}"
+    return f"UFC Fight Night: {headliner}"
 
 
 def _extract_start_utc(html: str) -> datetime | None:
@@ -94,7 +160,6 @@ def _extract_venue(html: str) -> tuple[str, str]:
     if not m:
         return "", ""
     raw = unescape(re.sub(r"\s+", " ", m.group(1))).strip()
-    # ufc.com format: "Meta APEX,      Las Vegas United States"
     if "," in raw:
         venue, rest = raw.split(",", 1)
         return venue.strip(), rest.strip()
@@ -115,10 +180,8 @@ def _parse_main_card(html: str) -> list[dict]:
     ufc.com renders each fight twice (mobile + desktop layouts), and each layout
     has its own `c-listing-fight__class-text` weight-class label. Splitting on
     that label yields two chunks per fight; the *second* chunk of each pair
-    contains the full fight markup with linked athletes, so we walk chunks[1::2].
-    Chunk[0] of each fight pair starts immediately after the weight-class label,
-    so the weight class is the first text node in chunk[0] — we read it from the
-    preceding chunk via paired iteration.
+    contains the full fight markup with linked athletes. The weight class is
+    the first text node of the preceding chunk.
     """
 
     def name_from_anchor(raw: str) -> str:
@@ -129,9 +192,6 @@ def _parse_main_card(html: str) -> list[dict]:
 
     parts = re.split(r"c-listing-fight__class-text", html)[1:]
     fights: list[dict] = []
-    # Pair consecutive chunks: even index = mobile (weight class lives at top of
-    # the chunk and the anchors are empty), odd index = desktop (anchors live in
-    # this chunk, weight class is at the top of its preceding chunk).
     for i in range(0, len(parts) - 1, 2):
         mobile_ch = parts[i]
         desktop_ch = parts[i + 1]
@@ -162,23 +222,27 @@ def _parse_main_card(html: str) -> list[dict]:
     return fights[:5]
 
 
-def _fetch_event(path: str, listing_ts: int | None) -> dict | None:
+def _fetch_event(path: str, shifted_listing_ts: int | None) -> dict | None:
     try:
         html = _http(f"{BASE}{path}")
     except Exception:
         return None
 
-    # Prefer the per-event page's <time datetime="..."> (most precise — includes
-    # adjustments). Fall back to the listing-page Unix timestamp.
+    slug = path.rsplit("/", 1)[-1]
+    main_card = _parse_main_card(html)
+
+    # Date: page <time> > slug-encoded date > previous-card's listing timestamp.
     start = _extract_start_utc(html)
-    if not start and listing_ts is not None:
-        start = datetime.fromtimestamp(listing_ts, tz=timezone.utc)
+    if not start:
+        start = _slug_date(slug)
+    if not start and shifted_listing_ts is not None:
+        start = datetime.fromtimestamp(shifted_listing_ts, tz=timezone.utc)
     if not start:
         return None
     if start < datetime.now(timezone.utc) - timedelta(hours=12):
         return None
 
-    name = _extract_event_name(html)
+    name = _rewrite_tbd_name(_extract_event_name(html), main_card)
     venue, city = _extract_venue(html)
     return {
         "name": name,
@@ -187,7 +251,7 @@ def _fetch_event(path: str, listing_ts: int | None) -> dict | None:
         "city": city,
         "country": "",
         "main_card_start_utc": start.isoformat().replace("+00:00", "Z"),
-        "main_card": _parse_main_card(html),
+        "main_card": main_card,
         "url": f"{BASE}{path}",
     }
 
@@ -199,10 +263,10 @@ def fetch() -> list[dict]:
         ev = _fetch_event(path, ts)
         if ev:
             out.append(ev)
-        if len(out) >= 8:
+        if len(out) >= 10:
             break
     out.sort(key=lambda x: x["main_card_start_utc"])
-    return out[:5]
+    return out[:8]
 
 
 if __name__ == "__main__":
