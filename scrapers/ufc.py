@@ -1,26 +1,25 @@
 """UFC scraper — sources every field from ufc.com directly.
 
 Pipeline:
-  1. Fetch ufc.com/events  → list of /event/<slug> paths for upcoming events.
-  2. For each event page extract: event name, start time (multi-source), venue,
-     and the Main Card lineup.
-  3. Return the next N events with full detail.
+  1. Fetch ufc.com/events — extract per-event (slug, data-main-card-timestamp, h3).
+  2. For each event page extract: page <title>, hero divider (top/bottom big text),
+     venue, and the Main Card lineup.
+  3. Compose a display name from <title> + hero divider, and use the listing
+     data-main-card-timestamp as the authoritative main-card UTC time.
 
-Date precedence (most to least authoritative):
-  a) Per-event page `<time datetime="...">` — the broadcast main-card start.
-  b) Date encoded in the slug (`ufc-fight-night-<month>-<day>-<year>`) —
-     rock-solid for date-based slugs even when the page lacks `<time>`.
-  c) Shifted listing-page timestamp — the events index embeds a "How to
-     Watch the next UFC event" CTA on each card; those `data-timestamp`
-     values describe event N+1, NOT event N. So for slugs without dates
-     (e.g. `ufc-329`), we look up the PREVIOUS card's listing timestamp.
-
-Event name normalization:
-  When the page <title> contains "TBD vs TBD" (ufc.com placeholder for an
-  unannounced headliner), but the main card is already populated, rewrite
-  the headline from main_card[0] so the widget shows real fighters. Done
-  at build time so any future change to main_card[0] flows through on the
-  next hourly scrape.
+Why these specific sources:
+  - `data-main-card-timestamp` is the named, per-card timestamp attached to the
+    listing card's `__date` div. It does NOT drift between scrapes (unlike the
+    per-event page's `<time datetime>` tag, which sometimes reflects broadcast
+    window start rather than main-card start).
+  - The hero divider (`e-divider__top` + `e-divider__bottom`) is ufc.com's
+    authoritative "this is the main event" branding. If it says "TBD / TBD",
+    UFC has not yet promoted any fight to the headliner slot — we report TBD
+    honestly rather than fabricating one from the top of the fight list.
+  - The first fight in the per-event page's c-listing-fight list is NOT a
+    reliable main-event source: for events where the headliner hasn't been
+    formally designated, the top fight may simply be the highest-profile
+    booked fight while the actual headliner slot is still open.
 """
 
 from __future__ import annotations
@@ -36,12 +35,6 @@ UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
 
 BASE = "https://www.ufc.com"
 
-MONTHS = {
-    "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
-    "july": 7, "august": 8, "september": 9, "october": 10, "november": 11,
-    "december": 12,
-}
-
 
 def _http(url: str) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": UA})
@@ -49,63 +42,43 @@ def _http(url: str) -> str:
         return r.read().decode("utf-8", errors="replace")
 
 
-def _list_events() -> list[tuple[str, int | None]]:
-    """Return (path, shifted_listing_ts) for each upcoming event on ufc.com/events.
+def _list_events() -> list[tuple[str, datetime | None, str]]:
+    """Return [(path, main_card_start_utc, h3_headliner), ...] from ufc.com/events.
 
-    `shifted_listing_ts` is the largest `data-timestamp` value found in the
-    PREVIOUS card's HTML block — because ufc.com's per-card "How to Watch"
-    CTA describes the next upcoming event, not the event the card belongs to.
-    For the very first event (no previous card) we return None and rely on
-    the per-event `<time>` tag or the slug date.
+    Reads the per-card `data-main-card-timestamp` (authoritative main-card UTC
+    start, per ufc.com itself) and the `<h3>` headliner string for each event.
     """
     try:
         html = _http(f"{BASE}/events")
     except Exception:
         return []
 
-    parts = re.split(r'class="c-card-event--result__headline"', html)[1:]
-    paths: list[str] = []
-    ts_per_block: list[int | None] = []
+    out: list[tuple[str, datetime | None, str]] = []
     seen: set[str] = set()
-    for block in parts:
-        m = re.search(r'/event/([a-z][a-z0-9\-]+)', block[:6000])
-        if not m or m.group(1) in seen:
+    for block in re.split(r'class="c-card-event--result__headline"', html)[1:]:
+        head = block[:6000]
+        slug_m = re.search(r'/event/([a-z][a-z0-9\-]+)', head)
+        if not slug_m or slug_m.group(1) in seen:
             continue
-        seen.add(m.group(1))
-        ts_strs = re.findall(r'data-timestamp="(\d+)"', block[:6000])
-        block_max = max((int(t) for t in ts_strs), default=None)
-        paths.append(f"/event/{m.group(1)}")
-        ts_per_block.append(block_max)
+        seen.add(slug_m.group(1))
 
-    # Shift: path[i] gets timestamp from block i-1 (the previous card's
-    # "next event" CTA describes this card's event).
-    results: list[tuple[str, int | None]] = []
-    for i, p in enumerate(paths):
-        shifted = ts_per_block[i - 1] if i > 0 else None
-        results.append((p, shifted))
-    return results
+        ts_m = re.search(r'data-main-card-timestamp="(\d+)"', head)
+        start = datetime.fromtimestamp(int(ts_m.group(1)), tz=timezone.utc) if ts_m else None
+
+        # `<h3>` headliner — the first text inside the anchor in this block.
+        h3_m = re.search(r'/event/[a-z][a-z0-9\-]+">([^<]+)</a>', head)
+        h3 = unescape(h3_m.group(1)).strip() if h3_m else ""
+
+        out.append((f"/event/{slug_m.group(1)}", start, h3))
+    return out
 
 
-def _slug_date(slug: str) -> datetime | None:
-    """Parse a date out of a ufc-fight-night-<month>-<day>-<year> slug."""
-    m = re.match(r"ufc-fight-night-([a-z]+)-(\d{1,2})-(\d{4})", slug)
-    if not m:
-        return None
-    month = MONTHS.get(m.group(1).lower())
-    if not month:
-        return None
-    try:
-        # No time of day in the slug — set to 00:00 UTC as a sentinel; the
-        # per-event `<time>` tag (when present) overrides this anyway. We use
-        # 00:00 so events sort correctly relative to events with real times.
-        return datetime(int(m.group(3)), month, int(m.group(2)),
-                        tzinfo=timezone.utc)
-    except ValueError:
-        return None
-
-
-def _extract_event_name(html: str) -> str:
-    # <title>UFC Fight Night | Kape vs Horiguchi | UFC</title>
+def _extract_page_title(html: str) -> str:
+    """Strip `<title>UFC Fight Night | Kape vs Horiguchi | UFC</title>` to its
+    meaningful brand prefix (e.g. 'UFC Fight Night', 'UFC 329: McGregor vs Holloway 2',
+    'UFC Abu Dhabi'). When the title already contains a 'vs' headliner we keep
+    it; otherwise we return just the brand to be combined with the hero divider.
+    """
     m = re.search(r"<title>(.*?)</title>", html, re.DOTALL)
     if not m:
         return "UFC Event"
@@ -115,32 +88,57 @@ def _extract_event_name(html: str) -> str:
         return "UFC Event"
     if len(parts) == 1:
         return parts[0]
-    return f"{parts[0]}: {parts[1]}"
+    # Title has both brand and headliner segments: "UFC Fight Night | Kape vs Horiguchi"
+    # If the headliner segment is real fighters (has " vs " and isn't TBD), join.
+    brand, head = parts[0], parts[1]
+    if " vs " in head.lower() and "tbd" not in head.lower():
+        return f"{brand}: {head}"
+    return brand  # brand only; caller will append hero divider headliner
 
 
-def _rewrite_tbd_name(name: str, main_card: list[dict]) -> str:
-    """If <title> still says 'TBD vs TBD' but main_card is announced, use the
-    actual main-event fighters' last names. Re-runs on every scrape so any
-    future change to main_card[0] propagates automatically."""
-    if not main_card:
-        return name
-    if not re.search(r"\bTBD\b", name, re.IGNORECASE):
-        return name
-    main = main_card[0]
-    red_last = (main.get("red") or "").strip().split()[-1:] or [""]
-    blue_last = (main.get("blue") or "").strip().split()[-1:] or [""]
-    if not red_last[0] or not blue_last[0]:
-        return name
-    headliner = f"{red_last[0]} vs {blue_last[0]}"
-    # Preserve the prefix ("UFC Fight Night:", "UFC <n>:", etc.).
-    if ":" in name:
-        prefix = name.split(":", 1)[0].strip()
-        return f"{prefix}: {headliner}"
-    return f"UFC Fight Night: {headliner}"
+def _extract_hero_divider(html: str) -> str:
+    """Return ufc.com's officially-branded headliner from the per-event page hero,
+    e.g. 'Kape vs Horiguchi', 'TBD vs TBD', or '' when the hero is missing.
+    """
+    top = re.search(r'class="e-divider__top">([^<]+)<', html)
+    bot = re.search(r'class="e-divider__bottom">([^<]+)<', html)
+    if not top or not bot:
+        return ""
+    t = unescape(top.group(1)).strip()
+    b = unescape(bot.group(1)).strip()
+    if not t or not b:
+        return ""
+    return f"{t} vs {b}"
 
 
-def _extract_start_utc(html: str) -> datetime | None:
-    # <time datetime="2026-06-20T20:00:00Z">...</time> — main card start.
+def _compose_name(title: str, hero: str, listing_h3: str) -> str:
+    """Build the display name from page title + hero divider + listing h3.
+
+    Rules:
+      - If the title already contains a 'vs' (e.g. 'UFC 329: McGregor vs Holloway 2'),
+        use it verbatim.
+      - Else if hero is real fighters (contains ' vs ', not 'TBD vs TBD'),
+        join: '<title>: <hero>'.
+      - Else if listing h3 is real fighters, join: '<title>: <h3>'.
+      - Else label honestly: '<title>: Main event TBA'.
+    """
+    if " vs " in title.lower() and "tbd" not in title.lower():
+        return title
+
+    def usable(s: str) -> bool:
+        return bool(s) and " vs " in s.lower() and "tbd" not in s.lower()
+
+    if usable(hero):
+        return f"{title}: {hero}"
+    if usable(listing_h3):
+        return f"{title}: {listing_h3}"
+    return f"{title}: Main event TBA"
+
+
+def _extract_per_event_time(html: str) -> datetime | None:
+    """Fallback time source from the per-event page's <time datetime="...">.
+    Used only if the listing lacks a `data-main-card-timestamp` value.
+    """
     m = re.search(r'<time[^>]*datetime="([^"]+)"', html)
     if not m:
         return None
@@ -177,11 +175,9 @@ def _classify(name: str) -> str:
 def _parse_main_card(html: str) -> list[dict]:
     """Extract main-card fights from a ufc.com event page.
 
-    ufc.com renders each fight twice (mobile + desktop layouts), and each layout
-    has its own `c-listing-fight__class-text` weight-class label. Splitting on
-    that label yields two chunks per fight; the *second* chunk of each pair
-    contains the full fight markup with linked athletes. The weight class is
-    the first text node of the preceding chunk.
+    Note: the fight at position 0 is NOT guaranteed to be the official main
+    event — it's only the first booked fight on the card. The hero divider on
+    the per-event page is the authoritative source for the headliner.
     """
 
     def name_from_anchor(raw: str) -> str:
@@ -222,28 +218,26 @@ def _parse_main_card(html: str) -> list[dict]:
     return fights[:5]
 
 
-def _fetch_event(path: str, shifted_listing_ts: int | None) -> dict | None:
+def _fetch_event(path: str, listing_start: datetime | None,
+                 listing_h3: str) -> dict | None:
     try:
         html = _http(f"{BASE}{path}")
     except Exception:
         return None
 
-    slug = path.rsplit("/", 1)[-1]
-    main_card = _parse_main_card(html)
-
-    # Date: page <time> > slug-encoded date > previous-card's listing timestamp.
-    start = _extract_start_utc(html)
-    if not start:
-        start = _slug_date(slug)
-    if not start and shifted_listing_ts is not None:
-        start = datetime.fromtimestamp(shifted_listing_ts, tz=timezone.utc)
+    # Date: listing's data-main-card-timestamp > per-event <time> fallback.
+    start = listing_start or _extract_per_event_time(html)
     if not start:
         return None
     if start < datetime.now(timezone.utc) - timedelta(hours=12):
         return None
 
-    name = _rewrite_tbd_name(_extract_event_name(html), main_card)
+    title = _extract_page_title(html)
+    hero = _extract_hero_divider(html)
+    name = _compose_name(title, hero, listing_h3)
     venue, city = _extract_venue(html)
+    main_card = _parse_main_card(html)
+
     return {
         "name": name,
         "kind": _classify(name),
@@ -257,10 +251,9 @@ def _fetch_event(path: str, shifted_listing_ts: int | None) -> dict | None:
 
 
 def fetch() -> list[dict]:
-    listings = _list_events()
     out: list[dict] = []
-    for path, ts in listings:
-        ev = _fetch_event(path, ts)
+    for path, start, h3 in _list_events():
+        ev = _fetch_event(path, start, h3)
         if ev:
             out.append(ev)
         if len(out) >= 10:

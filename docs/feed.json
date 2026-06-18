@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-18T06:05:24.294226Z",
-  "generated_at_ist": "2026-06-18T11:35:24.294230+05:30",
+  "generated_at_utc": "2026-06-18T06:59:39.429650Z",
+  "generated_at_ist": "2026-06-18T12:29:39.429653+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
@@ -200,7 +200,7 @@
       "venue": "Meta APEX",
       "city": "Las Vegas United States",
       "country": "",
-      "main_card_start_utc": "2026-06-20T20:00:00Z",
+      "main_card_start_utc": "2026-06-21T00:00:00Z",
       "main_card": [
         {
           "red": "Manel Kape",
@@ -234,16 +234,16 @@
         }
       ],
       "url": "https://www.ufc.com/event/ufc-fight-night-june-20-2026",
-      "main_card_start_ist": "2026-06-21T01:30:00+05:30"
+      "main_card_start_ist": "2026-06-21T05:30:00+05:30"
     },
     "upcoming": [
       {
-        "name": "UFC Fight Night: Fiziev vs Torres: UFC Baku",
+        "name": "UFC Fight Night: Fiziev vs Torres",
         "kind": "Fight Night",
         "venue": "National Gymnastics Arena",
         "city": "Baku Azerbaijan",
         "country": "",
-        "main_card_start_utc": "2026-06-27T12:00:00Z",
+        "main_card_start_utc": "2026-06-27T16:00:00Z",
         "main_card": [
           {
             "red": "Rafael Fiziev",
@@ -277,7 +277,7 @@
           }
         ],
         "url": "https://www.ufc.com/event/ufc-fight-night-june-27-2026",
-        "main_card_start_ist": "2026-06-27T17:30:00+05:30"
+        "main_card_start_ist": "2026-06-27T21:30:00+05:30"
       },
       {
         "name": "UFC 329: McGregor vs Holloway 2",
@@ -322,12 +322,12 @@
         "main_card_start_ist": "2026-07-12T06:30:00+05:30"
       },
       {
-        "name": "UFC Fight Night: Cannonier vs Duncan",
+        "name": "UFC Fight Night: Main event TBA",
         "kind": "Fight Night",
         "venue": "Paycom Center",
         "city": "Oklahoma City United States",
         "country": "",
-        "main_card_start_utc": "2026-07-18T00:00:00Z",
+        "main_card_start_utc": "2026-07-19T00:00:00Z",
         "main_card": [
           {
             "red": "Jared Cannonier",
@@ -361,15 +361,15 @@
           }
         ],
         "url": "https://www.ufc.com/event/ufc-fight-night-july-18-2026",
-        "main_card_start_ist": "2026-07-18T05:30:00+05:30"
+        "main_card_start_ist": "2026-07-19T05:30:00+05:30"
       },
       {
-        "name": "UFC Abu Dhabi",
+        "name": "UFC Abu Dhabi: Ankalaev vs Rountree Jr.",
         "kind": "Event",
         "venue": "Etihad Arena",
         "city": "Yas Island/Yas West United Arab Emirates",
         "country": "",
-        "main_card_start_utc": "2026-07-25T00:00:00Z",
+        "main_card_start_utc": "2026-07-25T16:00:00Z",
         "main_card": [
           {
             "red": "Magomed Ankalaev",
@@ -403,15 +403,15 @@
           }
         ],
         "url": "https://www.ufc.com/event/ufc-fight-night-july-25-2026",
-        "main_card_start_ist": "2026-07-25T05:30:00+05:30"
+        "main_card_start_ist": "2026-07-25T21:30:00+05:30"
       },
       {
-        "name": "UFC Fight Night: Medić vs Rodriguez: UFC Belgrade",
+        "name": "UFC Fight Night: Medić vs Rodriguez",
         "kind": "Fight Night",
         "venue": "Belgrade Arena",
         "city": "BG Serbia",
         "country": "",
-        "main_card_start_utc": "2026-08-01T00:00:00Z",
+        "main_card_start_utc": "2026-08-01T18:00:00Z",
         "main_card": [
           {
             "red": "Uroš Medić",
@@ -445,7 +445,7 @@
           }
         ],
         "url": "https://www.ufc.com/event/ufc-fight-night-august-01-2026",
-        "main_card_start_ist": "2026-08-01T05:30:00+05:30"
+        "main_card_start_ist": "2026-08-01T23:30:00+05:30"
       },
       {
         "name": "UFC 330: Makhachev vs Machado Garry",
@@ -453,7 +453,7 @@
         "venue": "Xfinity Mobile Arena",
         "city": "Philadelphia United States",
         "country": "",
-        "main_card_start_utc": "2026-08-15T18:00:00Z",
+        "main_card_start_utc": "2026-08-15T22:00:00Z",
         "main_card": [
           {
             "red": "Islam Makhachev",
@@ -469,18 +469,18 @@
           }
         ],
         "url": "https://www.ufc.com/event/ufc-330",
-        "main_card_start_ist": "2026-08-15T23:30:00+05:30"
+        "main_card_start_ist": "2026-08-16T03:30:00+05:30"
       },
       {
-        "name": "UFC Paris",
+        "name": "UFC Paris: Main event TBA",
         "kind": "Event",
         "venue": "Accor Arena",
         "city": "Paris France",
         "country": "",
-        "main_card_start_utc": "2026-09-05T00:00:00Z",
+        "main_card_start_utc": "2026-09-05T22:00:00Z",
         "main_card": [],
         "url": "https://www.ufc.com/event/ufc-fight-night-september-05-2026",
-        "main_card_start_ist": "2026-09-05T05:30:00+05:30"
+        "main_card_start_ist": "2026-09-06T03:30:00+05:30"
       }
     ]
   }
