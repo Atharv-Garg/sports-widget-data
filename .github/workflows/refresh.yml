@@ -2,7 +2,11 @@ name: Refresh feed
 
 on:
   schedule:
-    - cron: "0 * * * *"  # hourly
+    # Run twice an hour at :17 and :47. GitHub's docs explicitly recommend
+    # avoiding the top of the hour because high-load periods can skip those
+    # firings entirely. Two firings per hour means even if one is skipped,
+    # the next attempt is ~30 minutes away instead of 60.
+    - cron: "17,47 * * * *"
   workflow_dispatch:
   push:
     branches: [main]

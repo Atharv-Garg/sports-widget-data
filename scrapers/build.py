@@ -80,31 +80,59 @@ def _validate_ufc_event(ev: dict) -> bool:
     return True
 
 
-def _fetch_ufc() -> list[dict]:
+def _fetch_ufc(warnings: list[str]) -> list[dict]:
     """Try ufc.com first; degrade to ESPN on whole-listing failure. Per-event
-    failures (self-validation fails) are individually filled from ESPN."""
+    failures (validation, degraded stubs) trigger ESPN per-event recovery."""
     sys.path.insert(0, str(ROOT / "scrapers"))
     import ufc, ufc_espn  # noqa: E402
 
     try:
         ufc_events = ufc.fetch()
     except Exception as e:
-        print(f"[warn] ufc.com fetch failed ({e}); falling back to ESPN whole list",
-              file=sys.stderr)
+        msg = f"ufc.com whole-listing fetch failed ({e}); using ESPN fallback"
+        print(f"[warn] {msg}", file=sys.stderr)
+        warnings.append(msg)
         try:
             return ufc_espn.fetch()
         except Exception as e2:
-            print(f"[error] ESPN fallback also failed: {e2}", file=sys.stderr)
+            err = f"ESPN whole-listing fallback also failed: {e2}"
+            print(f"[error] {err}", file=sys.stderr)
+            warnings.append(err)
             return []
 
     cleaned: list[dict] = []
     for ev in ufc_events:
+        # Stubs from ufc.py (per-event fetch failed but listing data present):
+        # try ESPN by date; if ESPN has the event, prefer it; otherwise keep
+        # the stub so the event remains visible.
+        if ev.get("_degraded"):
+            warnings.append(
+                f"ufc.com per-event fetch failed for {ev.get('name')} "
+                f"({ev.get('_degraded')}); attempting ESPN recovery"
+            )
+            try:
+                raw = ev.get("main_card_start_utc") or ""
+                dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=timezone.utc)
+                recovered = ufc_espn.fetch_one(dt, name_hint=ev.get("name", ""))
+                if recovered and _validate_ufc_event(recovered):
+                    cleaned.append(recovered)
+                    continue
+            except Exception as e:
+                warnings.append(f"ESPN recovery failed for {ev.get('name')}: {e}")
+            # ESPN didn't have it either — keep the stub.
+            cleaned.append(ev)
+            continue
+
         if _validate_ufc_event(ev):
             cleaned.append(ev)
             continue
-        # Per-event recovery: try ESPN for an event near this date.
-        print(f"[warn] ufc.com event failed validation: {ev.get('name')!r} "
-              f"on {ev.get('main_card_start_utc')} — trying ESPN", file=sys.stderr)
+
+        warnings.append(
+            f"ufc.com event failed validation: {ev.get('name')!r} "
+            f"on {ev.get('main_card_start_utc')}; attempting ESPN recovery"
+        )
         try:
             raw = ev.get("main_card_start_utc") or ""
             dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
@@ -114,7 +142,7 @@ def _fetch_ufc() -> list[dict]:
             if recovered and _validate_ufc_event(recovered):
                 cleaned.append(recovered)
         except Exception as e:
-            print(f"[warn] ESPN per-event recovery failed: {e}", file=sys.stderr)
+            warnings.append(f"ESPN recovery failed: {e}")
 
     return cleaned
 
@@ -123,13 +151,17 @@ def main() -> int:
     sys.path.insert(0, str(ROOT / "scrapers"))
     import f1  # noqa: E402
 
+    warnings: list[str] = []
+
     try:
         f1_events = _enrich_f1(f1.fetch())
     except Exception as e:
-        print(f"[warn] F1 fetch failed: {e}", file=sys.stderr)
+        msg = f"F1 fetch failed: {e}"
+        print(f"[warn] {msg}", file=sys.stderr)
+        warnings.append(msg)
         f1_events = []
 
-    ufc_events = _enrich_ufc(_fetch_ufc())
+    ufc_events = _enrich_ufc(_fetch_ufc(warnings))
 
     payload = {
         "generated_at_utc": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
@@ -142,11 +174,12 @@ def main() -> int:
             "next": ufc_events[0] if ufc_events else None,
             "upcoming": ufc_events[1:],
         },
+        "_warnings": warnings,
     }
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"Wrote {OUT} ({OUT.stat().st_size} bytes)")
+    print(f"Wrote {OUT} ({OUT.stat().st_size} bytes, {len(warnings)} warnings)")
     return 0
 
 

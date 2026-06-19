@@ -28,6 +28,7 @@ fields) are reported via the validation step in build.py.
 from __future__ import annotations
 
 import json
+import time
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
@@ -39,10 +40,22 @@ UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
 BASE = "https://www.ufc.com"
 
 
-def _http(url: str) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=20) as r:
-        return r.read().decode("utf-8", errors="replace")
+def _http(url: str, *, retries: int = 3) -> str:
+    """GET with exponential-backoff retry. ufc.com occasionally times out for
+    individual event pages; without retry, the per-event scrape fails and the
+    event silently disappears from the feed for that hour. With three attempts
+    (300ms, 1s backoff), transient failures become invisible."""
+    last_err = None
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                return r.read().decode("utf-8", errors="replace")
+        except Exception as e:
+            last_err = e
+            if attempt < retries - 1:
+                time.sleep(0.3 * (3 ** attempt))  # 0.3, 0.9, 2.7s
+    raise last_err  # type: ignore[misc]
 
 
 def _soup(html: str) -> BeautifulSoup:
@@ -217,11 +230,49 @@ def _parse_main_card(soup: BeautifulSoup) -> list[dict]:
     return fights[:5]
 
 
+def _make_stub(path: str, listing_start: datetime, listing_h3: str,
+               reason: str) -> dict:
+    """Build a minimal event record from listing data alone — used when the
+    per-event page is unreachable. The widget will show the event with a real
+    date and headliner; only the main_card detail is missing until next run."""
+    slug = path.rsplit("/", 1)[-1]
+    # Derive a brand from the slug.
+    if slug.startswith("ufc-fight-night"):
+        brand = "UFC Fight Night"
+    elif slug.startswith("ufc-") and slug[4:].split("-", 1)[0].isdigit():
+        brand = f"UFC {slug[4:].split('-', 1)[0]}"
+    else:
+        brand = "UFC Event"
+    if listing_h3 and " vs " in listing_h3.lower() and "tbd" not in listing_h3.lower():
+        name = f"{brand}: {listing_h3}"
+    else:
+        name = f"{brand}: Main event TBA"
+    return {
+        "name": name,
+        "kind": _classify(name),
+        "venue": "",
+        "city": "",
+        "country": "",
+        "main_card_start_utc": listing_start.isoformat().replace("+00:00", "Z"),
+        "main_card": [],
+        "url": f"{BASE}{path}",
+        "_source": "ufc.com-listing",
+        "_degraded": reason,
+    }
+
+
 def _fetch_event(path: str, listing_start: datetime | None,
                  listing_h3: str) -> dict | None:
     try:
         html = _http(f"{BASE}{path}")
-    except Exception:
+    except Exception as e:
+        # Per-event page unreachable after retries. If we have listing data
+        # (slug + date + h3 from /events), surface a stub so the event doesn't
+        # silently disappear from the feed. build.py may further upgrade this
+        # via ESPN per-event recovery.
+        if listing_start is not None:
+            return _make_stub(path, listing_start, listing_h3,
+                              f"per-event fetch failed: {type(e).__name__}")
         return None
 
     soup = _soup(html)
