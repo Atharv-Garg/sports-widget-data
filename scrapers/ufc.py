@@ -28,6 +28,7 @@ fields) are reported via the validation step in build.py.
 from __future__ import annotations
 
 import json
+import re
 import time
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -131,13 +132,33 @@ def _extract_hero_divider(soup: BeautifulSoup) -> str:
     return f"{t} vs {b}"
 
 
-def _compose_name(title: str, hero: str, listing_h3: str) -> str:
-    """Build display name from page title + hero divider + listing h3.
+def _last_name(full: str) -> str:
+    """Return the final family-name token from a fighter's full name. Strips
+    generational suffixes ("Jr.", "Sr.", "II"-"IV") so 'Khalil Rountree Jr.'
+    yields 'Rountree' rather than 'Jr.'. Mirrors the lastName() helper in
+    SportsWidget.js."""
+    parts = (full or "").strip().split()
+    if not parts:
+        return ""
+    last = parts[-1]
+    if re.fullmatch(r"(Jr\.?|Sr\.?|II|III|IV)", last, re.IGNORECASE) and len(parts) >= 2:
+        last = parts[-2]
+    return last
 
-    - title contains "vs" -> use verbatim
-    - hero has real fighters -> "<title>: <hero>"
-    - listing h3 has real fighters -> "<title>: <h3>"
-    - otherwise -> "<title>: Main event TBA"
+
+def _compose_name(title: str, hero: str, listing_h3: str,
+                  main_card: list[dict] | None = None) -> str:
+    """Build display name from the strongest available signal.
+
+    Precedence:
+      1. <title> already contains a real "X vs Y" -> use verbatim.
+      2. Hero divider has real fighters -> "<title>: <hero>".
+      3. Listing <h3> has real fighters -> "<title>: <h3>".
+      4. main_card has at least one announced fight -> "<title>: <last(red)>
+         vs <last(blue)>" using main_card[0]. The first fight on a ufc.com
+         event page is the top-of-card bout by convention; when nothing else
+         is branded, it is the de facto main event.
+      5. Nothing announced anywhere -> "<title>: Main event TBA".
     """
     if " vs " in title.lower() and "tbd" not in title.lower():
         return title
@@ -149,6 +170,12 @@ def _compose_name(title: str, hero: str, listing_h3: str) -> str:
         return f"{title}: {hero}"
     if usable(listing_h3):
         return f"{title}: {listing_h3}"
+    if main_card:
+        first = main_card[0]
+        red = _last_name(first.get("red", ""))
+        blue = _last_name(first.get("blue", ""))
+        if red and blue:
+            return f"{title}: {red} vs {blue}"
     return f"{title}: Main event TBA"
 
 
@@ -284,9 +311,11 @@ def _fetch_event(path: str, listing_start: datetime | None,
 
     title = _extract_page_title(soup)
     hero = _extract_hero_divider(soup)
-    name = _compose_name(title, hero, listing_h3)
     venue, city = _extract_venue(soup)
     main_card = _parse_main_card(soup)
+    # Compose name AFTER parsing main_card so the position-based fallback
+    # (use main_card[0] when hero/h3/title are all TBD) can see the fights.
+    name = _compose_name(title, hero, listing_h3, main_card)
 
     return {
         "name": name,

@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-19T06:14:11.740527Z",
-  "generated_at_ist": "2026-06-19T11:44:11.740531+05:30",
+  "generated_at_utc": "2026-06-19T06:36:08.691236Z",
+  "generated_at_ist": "2026-06-19T12:06:08.691240+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
@@ -325,7 +325,7 @@
         "main_card_start_ist": "2026-07-12T06:30:00+05:30"
       },
       {
-        "name": "UFC Fight Night: Main event TBA",
+        "name": "UFC Fight Night: Cannonier vs Duncan",
         "kind": "Fight Night",
         "venue": "Paycom Center",
         "city": "Oklahoma City United States",
