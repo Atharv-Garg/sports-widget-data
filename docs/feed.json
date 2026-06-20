@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-20T20:07:19.896876Z",
-  "generated_at_ist": "2026-06-21T01:37:19.896879+05:30",
+  "generated_at_utc": "2026-06-20T21:39:58.395222Z",
+  "generated_at_ist": "2026-06-21T03:09:58.395225+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
@@ -425,6 +425,12 @@
             "title_fight": false
           },
           {
+            "red": "Jan Błachowicz",
+            "blue": "Bogdan Guskov",
+            "weight_class": "Light Heavyweight Bout",
+            "title_fight": false
+          },
+          {
             "red": "Ante Delija",
             "blue": "Johnny Walker",
             "weight_class": "Heavyweight Bout",
@@ -437,15 +443,9 @@
             "title_fight": false
           },
           {
-            "red": "Ludovit Klein",
-            "blue": "Tofiq Musayev",
-            "weight_class": "Lightweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Mark Vologdin",
-            "blue": "Josias Musasa",
-            "weight_class": "Bantamweight Bout",
+            "red": "Oban Elliott",
+            "blue": "Michael Oliveira",
+            "weight_class": "Welterweight Bout",
             "title_fight": false
           }
         ],
@@ -472,6 +472,18 @@
             "blue": "Gillian Robertson",
             "weight_class": "Women's Strawweight Title Bout",
             "title_fight": true
+          },
+          {
+            "red": "Edson Barboza",
+            "blue": "Esteban Ribovics",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Erin Blanchfield",
+            "blue": "Jasmine Jasudavicius",
+            "weight_class": "Women's Flyweight Bout",
+            "title_fight": false
           }
         ],
         "url": "https://www.ufc.com/event/ufc-330",
