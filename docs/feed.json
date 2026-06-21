@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-21T14:32:16.374183Z",
-  "generated_at_ist": "2026-06-21T20:02:16.374186+05:30",
+  "generated_at_utc": "2026-06-21T16:20:55.210351Z",
+  "generated_at_ist": "2026-06-21T21:50:55.210354+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
@@ -282,13 +282,19 @@
         "main_card_start_ist": "2026-07-12T06:30:00+05:30"
       },
       {
-        "name": "UFC Fight Night: Cannonier vs Duncan",
+        "name": "UFC Fight Night: Du Plessis vs Usman",
         "kind": "Fight Night",
         "venue": "Paycom Center",
         "city": "Oklahoma City United States",
         "country": "",
         "main_card_start_utc": "2026-07-19T00:00:00Z",
         "main_card": [
+          {
+            "red": "Dricus Du Plessis",
+            "blue": "Kamaru Usman",
+            "weight_class": "Middleweight Bout",
+            "title_fight": false
+          },
           {
             "red": "Jared Cannonier",
             "blue": "Christian Leroy Duncan",
@@ -311,12 +317,6 @@
             "red": "Alden Coria",
             "blue": "Stewart Nicoll",
             "weight_class": "Flyweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Brad Tavares",
-            "blue": "Marc-Andre Barriault",
-            "weight_class": "Middleweight Bout",
             "title_fight": false
           }
         ],
