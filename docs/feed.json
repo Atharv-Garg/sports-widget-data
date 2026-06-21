@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-21T09:28:55.222241Z",
-  "generated_at_ist": "2026-06-21T14:58:55.222244+05:30",
+  "generated_at_utc": "2026-06-21T12:01:53.695462Z",
+  "generated_at_ist": "2026-06-21T17:31:53.695466+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
@@ -195,92 +195,49 @@
   },
   "ufc": {
     "next": {
-      "name": "UFC Fight Night: Kape vs Horiguchi",
+      "name": "UFC Fight Night: Fiziev vs Torres",
       "kind": "Fight Night",
-      "venue": "Meta APEX",
-      "city": "Las Vegas United States",
+      "venue": "National Gymnastics Arena",
+      "city": "Baku Azerbaijan",
       "country": "",
-      "main_card_start_utc": "2026-06-21T00:00:00Z",
+      "main_card_start_utc": "2026-06-27T16:00:00Z",
       "main_card": [
         {
-          "red": "Manel Kape",
-          "blue": "Kyoji Horiguchi",
+          "red": "Rafael Fiziev",
+          "blue": "Manuel Torres",
+          "weight_class": "Lightweight Bout",
+          "title_fight": false
+        },
+        {
+          "red": "Shara Magomedov",
+          "blue": "Michel Pereira",
+          "weight_class": "Middleweight Bout",
+          "title_fight": false
+        },
+        {
+          "red": "Nazim Sadykhov",
+          "blue": "Matheus Camilo",
+          "weight_class": "Lightweight Bout",
+          "title_fight": false
+        },
+        {
+          "red": "Asu Almabayev",
+          "blue": "Charles Johnson",
           "weight_class": "Flyweight Bout",
           "title_fight": false
         },
         {
-          "red": "Ion Cutelaba",
-          "blue": "Navajo Stirling",
-          "weight_class": "Light Heavyweight Bout",
-          "title_fight": false
-        },
-        {
-          "red": "Hyder Amil",
-          "blue": "Christian Rodriguez",
-          "weight_class": "Featherweight Bout",
-          "title_fight": false
-        },
-        {
-          "red": "Melsik Baghdasaryan",
-          "blue": "Murtazali Magomedov",
-          "weight_class": "Featherweight Bout",
-          "title_fight": false
-        },
-        {
-          "red": "Vinicius Oliveira",
-          "blue": "Andre Fili",
-          "weight_class": "Featherweight Bout",
+          "red": "Ikram Aliskerov",
+          "blue": "Brunno Ferreira",
+          "weight_class": "Middleweight Bout",
           "title_fight": false
         }
       ],
-      "url": "https://www.ufc.com/event/ufc-fight-night-june-20-2026",
+      "url": "https://www.ufc.com/event/ufc-fight-night-june-27-2026",
       "_source": "ufc.com",
-      "main_card_start_ist": "2026-06-21T05:30:00+05:30"
+      "main_card_start_ist": "2026-06-27T21:30:00+05:30"
     },
     "upcoming": [
-      {
-        "name": "UFC Fight Night: Fiziev vs Torres",
-        "kind": "Fight Night",
-        "venue": "National Gymnastics Arena",
-        "city": "Baku Azerbaijan",
-        "country": "",
-        "main_card_start_utc": "2026-06-27T16:00:00Z",
-        "main_card": [
-          {
-            "red": "Rafael Fiziev",
-            "blue": "Manuel Torres",
-            "weight_class": "Lightweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Shara Magomedov",
-            "blue": "Michel Pereira",
-            "weight_class": "Middleweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Nazim Sadykhov",
-            "blue": "Matheus Camilo",
-            "weight_class": "Lightweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Asu Almabayev",
-            "blue": "Charles Johnson",
-            "weight_class": "Flyweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Ikram Aliskerov",
-            "blue": "Brunno Ferreira",
-            "weight_class": "Middleweight Bout",
-            "title_fight": false
-          }
-        ],
-        "url": "https://www.ufc.com/event/ufc-fight-night-june-27-2026",
-        "_source": "ufc.com",
-        "main_card_start_ist": "2026-06-27T21:30:00+05:30"
-      },
       {
         "name": "UFC 329: McGregor vs Holloway 2",
         "kind": "PPV",
