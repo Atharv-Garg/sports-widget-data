@@ -90,13 +90,147 @@ function stripBout(wc) {
   return (wc || "").replace(/\s*Bout$/i, "").trim();
 }
 
-function addFighter(row, rank, name) {
-  // Render the divisional rank ("#2", "C") smaller and in the muted secondary
-  // tone — like the date line — then the surname at full size in the primary
-  // text colour, so the rank reads as a subtle qualifier rather than competing
-  // with the name. Unranked (empty / undefined rank) renders the surname alone.
-  if (rank) addText(row, `${rank} `, Font.caption1(), TEXT_SECONDARY);
-  addText(row, name, Font.subheadline(), TEXT_PRIMARY);
+// --- UFC data helpers -----------------------------------------------------
+const WEIGHT_ABBR = {
+  "Strawweight": "STW", "Flyweight": "FLW", "Bantamweight": "BW",
+  "Featherweight": "FW", "Lightweight": "LW", "Welterweight": "WW",
+  "Middleweight": "MW", "Light Heavyweight": "LHW", "Heavyweight": "HW",
+  "Catchweight": "CW", "Openweight": "OW",
+};
+
+function abbrevWeight(wc) {
+  // "Lightweight Bout" -> "LW", "Women's Flyweight" -> "WFLW",
+  // "Welterweight Title Bout" -> "WW" (the ★ already marks it a title fight).
+  // Unknown divisions fall back to the stripped full name so nothing breaks.
+  let s = stripBout(wc || "");
+  s = s.replace(/\s+(Title|Championship)\s*$/i, "").trim();
+  let women = false;
+  s = s.replace(/^Women['’]s\s+/i, () => { women = true; return ""; }).trim();
+  const a = WEIGHT_ABBR[s];
+  if (!a) return s;
+  return women ? `W${a}` : a;
+}
+
+// Nationality name -> ISO-3166 alpha-2, then -> flag emoji (real flags on iOS).
+const COUNTRY_ISO = {
+  "United States": "US", "USA": "US", "Brazil": "BR", "Russia": "RU",
+  "Mexico": "MX", "Kazakhstan": "KZ", "Azerbaijan": "AZ", "Canada": "CA",
+  "United Kingdom": "GB", "England": "GB", "Scotland": "GB", "Wales": "GB",
+  "Northern Ireland": "GB", "Ireland": "IE", "Australia": "AU",
+  "New Zealand": "NZ", "China": "CN", "Japan": "JP", "South Korea": "KR",
+  "Korea": "KR", "Georgia": "GE", "Armenia": "AM", "Poland": "PL",
+  "Sweden": "SE", "Norway": "NO", "Denmark": "DK", "Finland": "FI",
+  "Netherlands": "NL", "France": "FR", "Germany": "DE", "Spain": "ES",
+  "Italy": "IT", "Portugal": "PT", "Switzerland": "CH", "Austria": "AT",
+  "Belgium": "BE", "Czechia": "CZ", "Czech Republic": "CZ", "Slovakia": "SK",
+  "Croatia": "HR", "Serbia": "RS", "Ukraine": "UA", "Belarus": "BY",
+  "Romania": "RO", "Bulgaria": "BG", "Greece": "GR", "Iceland": "IS",
+  "Kyrgyzstan": "KG", "Uzbekistan": "UZ", "Tajikistan": "TJ",
+  "Turkmenistan": "TM", "Turkey": "TR", "Iran": "IR", "Iraq": "IQ",
+  "Israel": "IL", "Jordan": "JO", "Lebanon": "LB", "Bahrain": "BH",
+  "United Arab Emirates": "AE", "Saudi Arabia": "SA", "Morocco": "MA",
+  "Tunisia": "TN", "Algeria": "DZ", "Egypt": "EG", "Nigeria": "NG",
+  "Cameroon": "CM", "Ghana": "GH", "South Africa": "ZA", "Angola": "AO",
+  "Congo": "CG", "DR Congo": "CD", "Democratic Republic of the Congo": "CD",
+  "Suriname": "SR", "Argentina": "AR", "Chile": "CL", "Peru": "PE",
+  "Ecuador": "EC", "Colombia": "CO", "Venezuela": "VE", "Uruguay": "UY",
+  "Paraguay": "PY", "Bolivia": "BO", "Cuba": "CU", "Panama": "PA",
+  "Dominican Republic": "DO", "Jamaica": "JM", "Philippines": "PH",
+  "Thailand": "TH", "Vietnam": "VN", "Indonesia": "ID", "Singapore": "SG",
+  "Malaysia": "MY", "India": "IN", "Mongolia": "MN", "Moldova": "MD",
+  "Lithuania": "LT", "Latvia": "LV", "Estonia": "EE", "Slovenia": "SI",
+  "Hungary": "HU", "Albania": "AL", "Cape Verde": "CV", "Guam": "GU",
+};
+
+function flagEmoji(country) {
+  const cc = COUNTRY_ISO[(country || "").trim()];
+  if (!cc) return "";
+  return cc.replace(/./g, c => String.fromCodePoint(127397 + c.charCodeAt(0)));
+}
+
+// Crop a tall fighter cutout to its top fraction (head & torso) so the hero
+// reads big without the lower-body whitespace eating vertical budget.
+function cropTop(img, frac) {
+  const w = img.size.width, h = img.size.height;
+  const dc = new DrawContext();
+  dc.size = new Size(w, Math.round(h * frac));
+  dc.respectScreenScale = true;
+  dc.opaque = false;
+  dc.drawImageAtPoint(img, new Point(0, 0));  // bottom is clipped by dc.size
+  return dc.getImage();
+}
+
+async function loadImg(url) {
+  if (!url) return null;
+  try {
+    const r = new Request(url);
+    r.timeoutInterval = 8;
+    return await r.loadImage();
+  } catch (e) {
+    return null;  // network/timeout -> caller falls back to text
+  }
+}
+
+function addPhoto(stack, img, targetH) {
+  const wi = stack.addImage(img);
+  const s = targetH / img.size.height;
+  wi.imageSize = new Size(img.size.width * s, targetH);
+}
+
+// A fixed-width weight-class "chip" so fighter names line up in a column.
+function chip(row, text) {
+  const c = row.addStack();
+  c.size = new Size(40, 15);
+  c.cornerRadius = 4;
+  c.backgroundColor = Color.dynamic(new Color("#000000", 0.06), new Color("#FFFFFF", 0.13));
+  c.centerAlignContent();
+  c.addSpacer();
+  addText(c, text, Font.mediumSystemFont(9), TEXT_SECONDARY);
+  c.addSpacer();
+}
+
+// One fighter's centered label column for the hero: flag · rank · surname,
+// with odds beneath.
+function heroFighter(parent, flag, rank, name, odds) {
+  const col = parent.addStack();
+  col.layoutVertically();
+  const l1 = col.addStack();
+  l1.layoutHorizontally();
+  l1.centerAlignContent();
+  l1.addSpacer();
+  if (flag) addText(l1, `${flag} `, Font.systemFont(12), TEXT_PRIMARY);
+  if (rank) addText(l1, `${rank} `, Font.caption2(), TEXT_SECONDARY);
+  addText(l1, name, Font.semiboldSystemFont(15), TEXT_PRIMARY);
+  l1.addSpacer();
+  if (odds) {
+    const l2 = col.addStack();
+    l2.layoutHorizontally();
+    l2.addSpacer();
+    addText(l2, odds, Font.caption1(), TEXT_SECONDARY);
+    l2.addSpacer();
+  }
+  return col;
+}
+
+// One "REST OF CARD" row: [chip] flag rank name vs flag rank name … odds.
+function cardRow(widget, f) {
+  const row = widget.addStack();
+  row.layoutHorizontally();
+  row.centerAlignContent();
+  chip(row, abbrevWeight(f.weight_class));
+  row.addSpacer(9);
+  const rf = flagEmoji(f.red_country), bf = flagEmoji(f.blue_country);
+  if (rf) addText(row, `${rf} `, Font.systemFont(12), TEXT_PRIMARY);
+  if (f.red_rank) addText(row, `${f.red_rank} `, Font.caption2(), TEXT_SECONDARY);
+  addText(row, lastName(f.red), Font.subheadline(), TEXT_PRIMARY);
+  addText(row, " vs ", Font.caption1(), TEXT_TERTIARY);
+  if (bf) addText(row, `${bf} `, Font.systemFont(12), TEXT_PRIMARY);
+  if (f.blue_rank) addText(row, `${f.blue_rank} `, Font.caption2(), TEXT_SECONDARY);
+  addText(row, lastName(f.blue), Font.subheadline(), TEXT_PRIMARY);
+  if (f.title_fight) addText(row, " ★", Font.caption1(), ACCENT_UFC);
+  row.addSpacer();
+  const odds = [f.red_odds, f.blue_odds].filter(Boolean).join(" / ");
+  if (odds) addText(row, odds, Font.caption1(), TEXT_SECONDARY);
 }
 
 // --- F1 Small -------------------------------------------------------------
@@ -139,58 +273,82 @@ function renderF1Small(widget, ev) {
 }
 
 // --- UFC Large ------------------------------------------------------------
-function renderUFCLarge(widget, feed) {
+async function renderUFCLarge(widget, feed) {
   const ev = feed.ufc?.next;
   if (!ev) {
     addText(widget, "No upcoming UFC event", Font.subheadline(), TEXT_SECONDARY);
     return;
   }
 
-  const tag = widget.addStack();
-  tag.centerAlignContent();
-  addText(tag, `UFC · ${(ev.kind || "Event").toUpperCase()}`,
+  const card = ev.main_card || [];
+  const main = card[0];
+
+  // Header: brand tag (left) + date·time (right) on one row.
+  const head = widget.addStack();
+  head.layoutHorizontally();
+  head.centerAlignContent();
+  addText(head, `UFC · ${(ev.kind || "Event").toUpperCase()}`,
           Font.semiboldRoundedSystemFont(11), ACCENT_UFC);
-  widget.addSpacer(2);
+  head.addSpacer();
+  addText(head, `${fmtFullDate(ev.main_card_start_ist)} · ${fmtTime(ev.main_card_start_ist)} IST`,
+          Font.caption1(), TEXT_SECONDARY);
+  widget.addSpacer(4);
 
-  addText(widget, eventHeadline(ev.name), Font.headline(), TEXT_PRIMARY, 2);
-  widget.addSpacer(2);
-  addText(widget, `${fmtFullDate(ev.main_card_start_ist)} · ${fmtTime(ev.main_card_start_ist)} IST`,
-          Font.subheadline(), TEXT_SECONDARY);
+  // Hero: main-event cutout photos (head & torso) + flag·rank·name·odds beneath.
+  // Falls back to a text headline when photos are missing (TBA / ESPN events).
+  const redImg = main ? await loadImg(main.red_img) : null;
+  const blueImg = main ? await loadImg(main.blue_img) : null;
 
-  if (ev.venue || ev.city) {
-    // The feed's `city` is "Las Vegas United States" style — drop the trailing
-    // country to keep the venue line tight on one row.
-    let city = (ev.city || "")
-      .replace(/\s+(United States|United Kingdom)$/i, "")
-      .replace(/\s+(Brazil|Mexico|Australia|Canada|Japan|China|Singapore|Germany|France|Spain|Italy|Russia|Azerbaijan|United Arab Emirates)$/i, "");
-    const venueLine = [ev.venue, city].filter(Boolean).join(", ");
-    addText(widget, venueLine, Font.caption1(), TEXT_TERTIARY);
+  if (main && redImg && blueImg) {
+    const photos = widget.addStack();
+    photos.layoutHorizontally();
+    photos.bottomAlignContent();
+    photos.addSpacer();
+    addPhoto(photos, cropTop(redImg, 0.58), 92);
+    photos.addSpacer(8);
+    addPhoto(photos, cropTop(blueImg, 0.58), 92);
+    photos.addSpacer();
+    widget.addSpacer(5);
+
+    const labels = widget.addStack();
+    labels.layoutHorizontally();
+    labels.topAlignContent();
+    labels.addSpacer();
+    heroFighter(labels, flagEmoji(main.red_country), main.red_rank, lastName(main.red), main.red_odds);
+    labels.addSpacer(10);
+    const mid = labels.addStack();
+    mid.layoutVertically();
+    const m1 = mid.addStack(); m1.layoutHorizontally(); m1.addSpacer();
+    addText(m1, `VS${main.title_fight ? " ★" : ""}`, Font.boldSystemFont(11), ACCENT_UFC);
+    m1.addSpacer();
+    const m2 = mid.addStack(); m2.layoutHorizontally(); m2.addSpacer();
+    addText(m2, stripBout(main.weight_class), Font.caption2(), TEXT_SECONDARY);
+    m2.addSpacer();
+    labels.addSpacer(10);
+    heroFighter(labels, flagEmoji(main.blue_country), main.blue_rank, lastName(main.blue), main.blue_odds);
+    labels.addSpacer();
+  } else {
+    // Text fallback: keep the headliner visible without photos.
+    addText(widget, eventHeadline(ev.name), Font.headline(), TEXT_PRIMARY, 2);
   }
 
   divider(widget);
 
-  addText(widget, "MAIN CARD", Font.caption2(), TEXT_TERTIARY);
-  widget.addSpacer(2);
-  for (const f of (ev.main_card || []).slice(0, 5)) {
-    const row = widget.addStack();
-    row.layoutHorizontally();
-    row.centerAlignContent();
-    addFighter(row, f.red_rank, lastName(f.red));
-    addText(row, " vs ", Font.subheadline(), TEXT_PRIMARY);
-    addFighter(row, f.blue_rank, lastName(f.blue));
-    if (f.title_fight) addText(row, "  ★", Font.subheadline(), TEXT_PRIMARY);
-    row.addSpacer();
-    addText(row, stripBout(f.weight_class), Font.caption1(), TEXT_SECONDARY);
-  }
-  if (!(ev.main_card || []).length) {
-    addText(widget, "Main card TBA", Font.caption1(), TEXT_TERTIARY);
+  // Rest of the main card (everything below the hero bout).
+  addText(widget, "REST OF CARD", Font.caption2(), TEXT_TERTIARY);
+  widget.addSpacer(3);
+  const rest = card.slice(1, 5);
+  for (const f of rest) cardRow(widget, f);
+  if (!rest.length) {
+    addText(widget, main ? "Full card TBA" : "Main card TBA",
+            Font.caption1(), TEXT_TERTIARY);
   }
 
   divider(widget);
 
   addText(widget, "UP NEXT", Font.caption2(), TEXT_TERTIARY);
-  widget.addSpacer(2);
-  const upcoming = (feed.ufc.upcoming || []).slice(0, 6);
+  widget.addSpacer(3);
+  const upcoming = (feed.ufc.upcoming || []).slice(0, 3);
   for (const u of upcoming) {
     const row = widget.addStack();
     row.layoutHorizontally();
@@ -222,7 +380,7 @@ async function makeWidget(feed, sport) {
     w.backgroundColor = Color.dynamic(new Color("#FFFFFF"), new Color("#1C1C1E"));
   }
   if (sport === "f1") renderF1Small(w, feed.f1?.next);
-  else                renderUFCLarge(w, feed);
+  else                await renderUFCLarge(w, feed);
 
   w.url = tapURL(feed, sport);
   w.refreshAfterDate = new Date(Date.now() + 30 * 60 * 1000);

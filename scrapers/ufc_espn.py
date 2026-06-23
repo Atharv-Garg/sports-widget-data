@@ -78,10 +78,18 @@ def _normalize(event: dict) -> dict | None:
             main_fight = {
                 "red": names[0],
                 "blue": names[1],
-                # ESPN's scoreboard doesn't expose divisional ranks; emit empty
-                # strings for schema parity so the widget treats both as unranked.
+                # ESPN's scoreboard doesn't expose divisional ranks, odds,
+                # nationality, or fighter cutouts; emit empty strings for schema
+                # parity so the widget treats both corners as unranked and
+                # renders a text-only (no-flag/odds/photo) fallback.
                 "red_rank": "",
                 "blue_rank": "",
+                "red_odds": "",
+                "blue_odds": "",
+                "red_country": "",
+                "blue_country": "",
+                "red_img": "",
+                "blue_img": "",
                 "weight_class": weight or "TBD",
                 "title_fight": False,  # ESPN doesn't expose this
             }

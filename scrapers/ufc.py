@@ -212,6 +212,18 @@ def _classify(name: str) -> str:
     return "Event"
 
 
+def _norm_img(src: str) -> str:
+    """Normalise a fighter cutout URL. ufc.com emits these against the bare host
+    `https://ufc.com/...`, which 301-redirects to `www.ufc.com`. Scriptable's
+    URLSession follows redirects, but normalising up front avoids a needless hop
+    and any redirect-stripping of the `?itok=` access token."""
+    if src.startswith("https://ufc.com/"):
+        return "https://www.ufc.com/" + src[len("https://ufc.com/"):]
+    if src.startswith("http://ufc.com/"):
+        return "https://www.ufc.com/" + src[len("http://ufc.com/"):]
+    return src
+
+
 def _parse_main_card(soup: BeautifulSoup) -> list[dict]:
     """Extract main-card fights from the per-event page.
 
@@ -259,6 +271,25 @@ def _parse_main_card(soup: BeautifulSoup) -> list[dict]:
                 red_rank = rank_divs[0].get_text(strip=True)
                 blue_rank = rank_divs[1].get_text(strip=True)
 
+        # American betting odds, nationality, and fighter cutout image per
+        # corner — all rendered on the same fight block. ufc.com lays these out
+        # red-then-blue in document order, so the first two matches map to the
+        # red and blue corners respectively (verified live). Each is optional:
+        # unannounced/new fighters can be missing any of them, so we default to
+        # "" and let the widget degrade gracefully.
+        od = fight.select(".c-listing-fight__odds-amount")
+        red_odds = od[0].get_text(strip=True) if len(od) >= 1 else ""
+        blue_odds = od[1].get_text(strip=True) if len(od) >= 2 else ""
+
+        ct = fight.select(".c-listing-fight__country-text")
+        red_country = ct[0].get_text(strip=True) if len(ct) >= 1 else ""
+        blue_country = ct[1].get_text(strip=True) if len(ct) >= 2 else ""
+
+        ri = fight.select_one(".c-listing-fight__corner-image--red img")
+        bi = fight.select_one(".c-listing-fight__corner-image--blue img")
+        red_img = _norm_img((ri.get("src") if ri else "") or "")
+        blue_img = _norm_img((bi.get("src") if bi else "") or "")
+
         text = fight.get_text(" ", strip=True).lower()
         title_fight = "title bout" in text or "championship" in text
 
@@ -267,6 +298,12 @@ def _parse_main_card(soup: BeautifulSoup) -> list[dict]:
             "blue": blue,
             "red_rank": red_rank,
             "blue_rank": blue_rank,
+            "red_odds": red_odds,
+            "blue_odds": blue_odds,
+            "red_country": red_country,
+            "blue_country": blue_country,
+            "red_img": red_img,
+            "blue_img": blue_img,
             "weight_class": weight or "TBD",
             "title_fight": title_fight,
         })
