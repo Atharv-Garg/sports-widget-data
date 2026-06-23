@@ -91,11 +91,11 @@ function stripBout(wc) {
 }
 
 function addFighter(row, rank, name) {
-  // Render the divisional rank ("#2", "C") in the muted secondary tone — same
-  // weight as the date line — then the surname in the primary text colour, so
-  // the rank reads as a subtle qualifier rather than competing with the name.
-  // Unranked (empty / undefined rank) renders the surname alone.
-  if (rank) addText(row, `${rank} `, Font.subheadline(), TEXT_SECONDARY);
+  // Render the divisional rank ("#2", "C") smaller and in the muted secondary
+  // tone — like the date line — then the surname at full size in the primary
+  // text colour, so the rank reads as a subtle qualifier rather than competing
+  // with the name. Unranked (empty / undefined rank) renders the surname alone.
+  if (rank) addText(row, `${rank} `, Font.caption1(), TEXT_SECONDARY);
   addText(row, name, Font.subheadline(), TEXT_PRIMARY);
 }
 
