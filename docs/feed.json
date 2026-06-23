@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-23T16:40:53.683635Z",
-  "generated_at_ist": "2026-06-23T22:10:53.683638+05:30",
+  "generated_at_utc": "2026-06-23T18:31:03.164386Z",
+  "generated_at_ist": "2026-06-24T00:01:03.164388+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
@@ -398,6 +398,34 @@
             "title_fight": false
           },
           {
+            "red": "Tommy McMillen",
+            "blue": "Alberto Montes",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "Venezuela",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/MCMILLEN_TOMMY_L_04-04.png?itok=LKYlKJpP",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/MONTES_ALBERTO_R_03-07.png?itok=syNyK6q2",
+            "weight_class": "Featherweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Austin Bashi",
+            "blue": "Jose Miguel Delgado",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "Mexico",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/BASHI_AUSTIN_L_08-02.png?itok=6m9E0eYN",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/DELGADO_JOSE_R_10-25.png?itok=CcuvDrpz",
+            "weight_class": "Featherweight Bout",
+            "title_fight": false
+          },
+          {
             "red": "Kevin Holland",
             "blue": "Jacobe Smith",
             "red_rank": "",
@@ -409,34 +437,6 @@
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/HOLLAND_KEVIN_L_04-11.png?itok=RoYDfjn8",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-06/SMITH_JACOBE_R_06-28.png?itok=HgB-mohB",
             "weight_class": "Welterweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Amanda Ribas",
-            "blue": "Fatima Kline",
-            "red_rank": "#10",
-            "blue_rank": "#11",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Brazil",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/RIBAS_AMANDA_L_07-26.png?itok=Fqdv8m5k",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/KLINE_FATIMA_R_11-15.png?itok=BxIV4m7p",
-            "weight_class": "Women's Strawweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Alden Coria",
-            "blue": "Stewart Nicoll",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "United States",
-            "blue_country": "Australia",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/CORIA_ALDEN_L_02-21.png?itok=6E34scCo",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/NICOLL_STEWART_R_04-04.png?itok=4dnJt6tg",
-            "weight_class": "Flyweight Bout",
             "title_fight": false
           }
         ],
