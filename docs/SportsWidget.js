@@ -90,6 +90,11 @@ function stripBout(wc) {
   return (wc || "").replace(/\s*Bout$/i, "").trim();
 }
 
+function rankPrefix(rank) {
+  // Divisional rank prefix: "#2" -> "#2 ", "C" -> "C ", "" / undefined -> "".
+  return rank ? `${rank} ` : "";
+}
+
 // --- F1 Small -------------------------------------------------------------
 const F1_KEEP_SMALL = new Set(["Sprint", "Qualifying", "Race"]);
 
@@ -166,7 +171,7 @@ function renderUFCLarge(widget, feed) {
     const row = widget.addStack();
     row.layoutHorizontally();
     row.centerAlignContent();
-    const names = `${lastName(f.red)} vs ${lastName(f.blue)}${f.title_fight ? "  ★" : ""}`;
+    const names = `${rankPrefix(f.red_rank)}${lastName(f.red)} vs ${rankPrefix(f.blue_rank)}${lastName(f.blue)}${f.title_fight ? "  ★" : ""}`;
     addText(row, names, Font.subheadline(), TEXT_PRIMARY);
     row.addSpacer();
     addText(row, stripBout(f.weight_class), Font.caption1(), TEXT_SECONDARY);

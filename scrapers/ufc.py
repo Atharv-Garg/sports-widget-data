@@ -244,12 +244,29 @@ def _parse_main_card(soup: BeautifulSoup) -> list[dict]:
         if not red or not blue:
             continue
 
+        # Divisional rank per corner. The ranks-row holds exactly two
+        # `c-listing-fight__corner-rank` divs in document order (red, blue);
+        # each span is "#1".."#15", "C" for the champion, or empty if unranked.
+        # This reflects ufc.com's current default ranking system (the Meta
+        # rankings as of June 2026, which replaced the old media-panel vote) —
+        # by reading the page verbatim, the field auto-follows whatever UFC
+        # chooses to display, no separate /rankings fetch needed.
+        red_rank = blue_rank = ""
+        ranks_row = fight.select_one(".c-listing-fight__ranks-row")
+        if ranks_row:
+            rank_divs = ranks_row.select(".c-listing-fight__corner-rank")
+            if len(rank_divs) >= 2:
+                red_rank = rank_divs[0].get_text(strip=True)
+                blue_rank = rank_divs[1].get_text(strip=True)
+
         text = fight.get_text(" ", strip=True).lower()
         title_fight = "title bout" in text or "championship" in text
 
         fights.append({
             "red": red,
             "blue": blue,
+            "red_rank": red_rank,
+            "blue_rank": blue_rank,
             "weight_class": weight or "TBD",
             "title_fight": title_fight,
         })

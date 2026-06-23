@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-23T08:21:21.672177Z",
-  "generated_at_ist": "2026-06-23T13:51:21.672180+05:30",
+  "generated_at_utc": "2026-06-23T08:45:43.096803Z",
+  "generated_at_ist": "2026-06-23T14:15:43.096805+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
@@ -205,30 +205,40 @@
         {
           "red": "Rafael Fiziev",
           "blue": "Manuel Torres",
+          "red_rank": "#11",
+          "blue_rank": "#15",
           "weight_class": "Lightweight Bout",
           "title_fight": false
         },
         {
           "red": "Shara Magomedov",
           "blue": "Michel Pereira",
+          "red_rank": "",
+          "blue_rank": "",
           "weight_class": "Middleweight Bout",
           "title_fight": false
         },
         {
           "red": "Nazim Sadykhov",
           "blue": "Matheus Camilo",
+          "red_rank": "",
+          "blue_rank": "",
           "weight_class": "Lightweight Bout",
           "title_fight": false
         },
         {
           "red": "Asu Almabayev",
           "blue": "Charles Johnson",
+          "red_rank": "#9",
+          "blue_rank": "#14",
           "weight_class": "Flyweight Bout",
           "title_fight": false
         },
         {
           "red": "Ikram Aliskerov",
           "blue": "Brunno Ferreira",
+          "red_rank": "",
+          "blue_rank": "",
           "weight_class": "Middleweight Bout",
           "title_fight": false
         }
@@ -249,30 +259,40 @@
           {
             "red": "Conor McGregor",
             "blue": "Max Holloway",
+            "red_rank": "",
+            "blue_rank": "#4",
             "weight_class": "Welterweight Bout",
             "title_fight": false
           },
           {
             "red": "Benoît Saint Denis",
             "blue": "Paddy Pimblett",
+            "red_rank": "#5",
+            "blue_rank": "#6",
             "weight_class": "Lightweight Bout",
             "title_fight": false
           },
           {
             "red": "Cory Sandhagen",
             "blue": "Mario Bautista",
+            "red_rank": "#4",
+            "blue_rank": "#7",
             "weight_class": "Bantamweight Bout",
             "title_fight": false
           },
           {
             "red": "Brandon Royval",
             "blue": "Lone’er Kavanagh",
+            "red_rank": "#4",
+            "blue_rank": "#6",
             "weight_class": "Flyweight Bout",
             "title_fight": false
           },
           {
             "red": "Robert Whittaker",
             "blue": "Nikita Krylov",
+            "red_rank": "#10",
+            "blue_rank": "#12",
             "weight_class": "Light Heavyweight Bout",
             "title_fight": false
           }
@@ -292,30 +312,40 @@
           {
             "red": "Dricus Du Plessis",
             "blue": "Kamaru Usman",
+            "red_rank": "#2",
+            "blue_rank": "#9",
             "weight_class": "Middleweight Bout",
             "title_fight": false
           },
           {
             "red": "Jared Cannonier",
             "blue": "Christian Leroy Duncan",
+            "red_rank": "#11",
+            "blue_rank": "#13",
             "weight_class": "Middleweight Bout",
             "title_fight": false
           },
           {
             "red": "Kevin Holland",
             "blue": "Jacobe Smith",
+            "red_rank": "",
+            "blue_rank": "",
             "weight_class": "Welterweight Bout",
             "title_fight": false
           },
           {
             "red": "Amanda Ribas",
             "blue": "Fatima Kline",
+            "red_rank": "#10",
+            "blue_rank": "#11",
             "weight_class": "Women's Strawweight Bout",
             "title_fight": false
           },
           {
             "red": "Alden Coria",
             "blue": "Stewart Nicoll",
+            "red_rank": "",
+            "blue_rank": "",
             "weight_class": "Flyweight Bout",
             "title_fight": false
           }
@@ -335,30 +365,40 @@
           {
             "red": "Magomed Ankalaev",
             "blue": "Khalil Rountree Jr.",
+            "red_rank": "#1",
+            "blue_rank": "#5",
             "weight_class": "Light Heavyweight Bout",
             "title_fight": false
           },
           {
             "red": "Umar Nurmagomedov",
             "blue": "David Martinez",
+            "red_rank": "#3",
+            "blue_rank": "#8",
             "weight_class": "Bantamweight Bout",
             "title_fight": false
           },
           {
             "red": "Rizvan Kuniev",
             "blue": "Tyrell Fortune",
+            "red_rank": "#8",
+            "blue_rank": "#9",
             "weight_class": "Heavyweight Bout",
             "title_fight": false
           },
           {
             "red": "Valter Walker",
             "blue": "Thomas Petersen",
+            "red_rank": "#14",
+            "blue_rank": "",
             "weight_class": "Heavyweight Bout",
             "title_fight": false
           },
           {
             "red": "Magomed Tuchalov",
             "blue": "Brendson Ribeiro",
+            "red_rank": "",
+            "blue_rank": "",
             "weight_class": "Light Heavyweight Bout",
             "title_fight": false
           }
@@ -378,30 +418,40 @@
           {
             "red": "Uroš Medić",
             "blue": "Daniel Rodriguez",
+            "red_rank": "#14",
+            "blue_rank": "#15",
             "weight_class": "Welterweight Bout",
             "title_fight": false
           },
           {
             "red": "Jan Błachowicz",
             "blue": "Bogdan Guskov",
+            "red_rank": "#4",
+            "blue_rank": "#10",
             "weight_class": "Light Heavyweight Bout",
             "title_fight": false
           },
           {
             "red": "Aleksandar Rakić",
             "blue": "Marcin Tybura",
+            "red_rank": "#14",
+            "blue_rank": "#12",
             "weight_class": "Heavyweight Bout",
             "title_fight": false
           },
           {
             "red": "Oban Elliott",
             "blue": "Michael Oliveira",
+            "red_rank": "",
+            "blue_rank": "",
             "weight_class": "Welterweight Bout",
             "title_fight": false
           },
           {
             "red": "Ludovit Klein",
             "blue": "Tofiq Musayev",
+            "red_rank": "",
+            "blue_rank": "",
             "weight_class": "Lightweight Bout",
             "title_fight": false
           }
@@ -421,24 +471,32 @@
           {
             "red": "Islam Makhachev",
             "blue": "Ian Machado Garry",
+            "red_rank": "C",
+            "blue_rank": "#1",
             "weight_class": "Welterweight Title Bout",
             "title_fight": true
           },
           {
             "red": "Mackenzie Dern",
             "blue": "Gillian Robertson",
+            "red_rank": "C",
+            "blue_rank": "#5",
             "weight_class": "Women's Strawweight Title Bout",
             "title_fight": true
           },
           {
             "red": "Edson Barboza",
             "blue": "Esteban Ribovics",
+            "red_rank": "",
+            "blue_rank": "",
             "weight_class": "Lightweight Bout",
             "title_fight": false
           },
           {
             "red": "Erin Blanchfield",
             "blue": "Jasmine Jasudavicius",
+            "red_rank": "#4",
+            "blue_rank": "#7",
             "weight_class": "Women's Flyweight Bout",
             "title_fight": false
           }
