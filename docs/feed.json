@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-23T11:44:12.473081Z",
-  "generated_at_ist": "2026-06-23T17:14:12.473085+05:30",
+  "generated_at_utc": "2026-06-23T14:06:16.641460Z",
+  "generated_at_ist": "2026-06-23T19:36:16.641463+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
@@ -247,7 +247,7 @@
         {
           "red": "Asu Almabayev",
           "blue": "Charles Johnson",
-          "red_rank": "#8",
+          "red_rank": "#9",
           "blue_rank": "#14",
           "red_odds": "-245",
           "blue_odds": "+200",
