@@ -180,7 +180,7 @@ function addPhoto(stack, img, targetH) {
 // A fixed-width weight-class "chip" so fighter names line up in a column.
 function chip(row, text) {
   const c = row.addStack();
-  c.size = new Size(40, 15);
+  c.size = new Size(36, 15);
   c.cornerRadius = 4;
   c.backgroundColor = Color.dynamic(new Color("#000000", 0.06), new Color("#FFFFFF", 0.13));
   c.centerAlignContent();
@@ -189,20 +189,20 @@ function chip(row, text) {
   c.addSpacer();
 }
 
-// One fighter's centered label column for the hero: flag · rank · surname,
-// with odds beneath.
+// One fighter's label column for the hero: flag · rank · surname, odds beneath.
+// The column is intrinsic-width (no internal flexible spacers) so the caller's
+// spacers absorb slack and the surname never gets squeezed/truncated.
 function heroFighter(parent, flag, rank, name, odds) {
   const col = parent.addStack();
   col.layoutVertically();
   const l1 = col.addStack();
   l1.layoutHorizontally();
   l1.centerAlignContent();
-  l1.addSpacer();
-  if (flag) addText(l1, `${flag} `, Font.systemFont(12), TEXT_PRIMARY);
+  if (flag) addText(l1, `${flag} `, Font.systemFont(13), TEXT_PRIMARY);
   if (rank) addText(l1, `${rank} `, Font.caption2(), TEXT_SECONDARY);
   addText(l1, name, Font.semiboldSystemFont(15), TEXT_PRIMARY);
-  l1.addSpacer();
   if (odds) {
+    // Centre the odds under the name (column width == line-1 width).
     const l2 = col.addStack();
     l2.layoutHorizontally();
     l2.addSpacer();
@@ -212,25 +212,27 @@ function heroFighter(parent, flag, rank, name, odds) {
   return col;
 }
 
-// One "REST OF CARD" row: [chip] flag rank name vs flag rank name … odds.
+// One "REST OF CARD" row: [chip] flag rank name v flag rank name … odds.
+// Sized tight so flags + ranks + surnames + odds all fit one line at the Large
+// tile's ~310pt content width without truncation.
 function cardRow(widget, f) {
   const row = widget.addStack();
   row.layoutHorizontally();
   row.centerAlignContent();
   chip(row, abbrevWeight(f.weight_class));
-  row.addSpacer(9);
+  row.addSpacer(8);
   const rf = flagEmoji(f.red_country), bf = flagEmoji(f.blue_country);
-  if (rf) addText(row, `${rf} `, Font.systemFont(12), TEXT_PRIMARY);
+  if (rf) addText(row, `${rf} `, Font.systemFont(11), TEXT_PRIMARY);
   if (f.red_rank) addText(row, `${f.red_rank} `, Font.caption2(), TEXT_SECONDARY);
-  addText(row, lastName(f.red), Font.subheadline(), TEXT_PRIMARY);
-  addText(row, " vs ", Font.caption1(), TEXT_TERTIARY);
-  if (bf) addText(row, `${bf} `, Font.systemFont(12), TEXT_PRIMARY);
+  addText(row, lastName(f.red), Font.mediumSystemFont(13), TEXT_PRIMARY);
+  addText(row, " v ", Font.caption2(), TEXT_TERTIARY);
+  if (bf) addText(row, `${bf} `, Font.systemFont(11), TEXT_PRIMARY);
   if (f.blue_rank) addText(row, `${f.blue_rank} `, Font.caption2(), TEXT_SECONDARY);
-  addText(row, lastName(f.blue), Font.subheadline(), TEXT_PRIMARY);
-  if (f.title_fight) addText(row, " ★", Font.caption1(), ACCENT_UFC);
+  addText(row, lastName(f.blue), Font.mediumSystemFont(13), TEXT_PRIMARY);
+  if (f.title_fight) addText(row, " ★", Font.caption2(), ACCENT_UFC);
   row.addSpacer();
-  const odds = [f.red_odds, f.blue_odds].filter(Boolean).join(" / ");
-  if (odds) addText(row, odds, Font.caption1(), TEXT_SECONDARY);
+  const odds = [f.red_odds, f.blue_odds].filter(Boolean).join("/");
+  if (odds) addText(row, odds, Font.caption2(), TEXT_SECONDARY);
 }
 
 // --- F1 Small -------------------------------------------------------------
@@ -310,23 +312,26 @@ async function renderUFCLarge(widget, feed) {
     photos.addSpacer();
     widget.addSpacer(5);
 
+    // Two fighters side by side (each intrinsic-width, flexible spacers absorb
+    // slack so surnames never truncate)…
     const labels = widget.addStack();
     labels.layoutHorizontally();
     labels.topAlignContent();
     labels.addSpacer();
     heroFighter(labels, flagEmoji(main.red_country), main.red_rank, lastName(main.red), main.red_odds);
-    labels.addSpacer(10);
-    const mid = labels.addStack();
-    mid.layoutVertically();
-    const m1 = mid.addStack(); m1.layoutHorizontally(); m1.addSpacer();
-    addText(m1, `VS${main.title_fight ? " ★" : ""}`, Font.boldSystemFont(11), ACCENT_UFC);
-    m1.addSpacer();
-    const m2 = mid.addStack(); m2.layoutHorizontally(); m2.addSpacer();
-    addText(m2, stripBout(main.weight_class), Font.caption2(), TEXT_SECONDARY);
-    m2.addSpacer();
-    labels.addSpacer(10);
+    labels.addSpacer();
     heroFighter(labels, flagEmoji(main.blue_country), main.blue_rank, lastName(main.blue), main.blue_odds);
     labels.addSpacer();
+
+    // …with VS ★ · weight class on a centred line beneath.
+    widget.addSpacer(3);
+    const meta = widget.addStack();
+    meta.layoutHorizontally();
+    meta.centerAlignContent();
+    meta.addSpacer();
+    addText(meta, `VS${main.title_fight ? " ★" : ""}`, Font.boldSystemFont(11), ACCENT_UFC);
+    addText(meta, ` · ${stripBout(main.weight_class)}`, Font.caption2(), TEXT_SECONDARY);
+    meta.addSpacer();
   } else {
     // Text fallback: keep the headliner visible without photos.
     addText(widget, eventHeadline(ev.name), Font.headline(), TEXT_PRIMARY, 2);
