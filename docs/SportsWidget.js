@@ -90,9 +90,13 @@ function stripBout(wc) {
   return (wc || "").replace(/\s*Bout$/i, "").trim();
 }
 
-function rankPrefix(rank) {
-  // Divisional rank prefix: "#2" -> "#2 ", "C" -> "C ", "" / undefined -> "".
-  return rank ? `${rank} ` : "";
+function addFighter(row, rank, name) {
+  // Render the divisional rank ("#2", "C") in the muted secondary tone — same
+  // weight as the date line — then the surname in the primary text colour, so
+  // the rank reads as a subtle qualifier rather than competing with the name.
+  // Unranked (empty / undefined rank) renders the surname alone.
+  if (rank) addText(row, `${rank} `, Font.subheadline(), TEXT_SECONDARY);
+  addText(row, name, Font.subheadline(), TEXT_PRIMARY);
 }
 
 // --- F1 Small -------------------------------------------------------------
@@ -171,8 +175,10 @@ function renderUFCLarge(widget, feed) {
     const row = widget.addStack();
     row.layoutHorizontally();
     row.centerAlignContent();
-    const names = `${rankPrefix(f.red_rank)}${lastName(f.red)} vs ${rankPrefix(f.blue_rank)}${lastName(f.blue)}${f.title_fight ? "  ★" : ""}`;
-    addText(row, names, Font.subheadline(), TEXT_PRIMARY);
+    addFighter(row, f.red_rank, lastName(f.red));
+    addText(row, " vs ", Font.subheadline(), TEXT_PRIMARY);
+    addFighter(row, f.blue_rank, lastName(f.blue));
+    if (f.title_fight) addText(row, "  ★", Font.subheadline(), TEXT_PRIMARY);
     row.addSpacer();
     addText(row, stripBout(f.weight_class), Font.caption1(), TEXT_SECONDARY);
   }
