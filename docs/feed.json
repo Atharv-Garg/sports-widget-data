@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-24T19:17:55.087577Z",
-  "generated_at_ist": "2026-06-25T00:47:55.087580+05:30",
+  "generated_at_utc": "2026-06-24T19:27:10.510904Z",
+  "generated_at_ist": "2026-06-25T00:57:10.510907+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
@@ -233,6 +233,46 @@
           "points": 73,
           "team": "McLaren",
           "color": "#FF8000"
+        },
+        {
+          "position": 6,
+          "code": "PIA",
+          "name": "Piastri",
+          "points": 68,
+          "team": "McLaren",
+          "color": "#FF8000"
+        },
+        {
+          "position": 7,
+          "code": "VER",
+          "name": "Verstappen",
+          "points": 55,
+          "team": "Red Bull",
+          "color": "#3671C6"
+        },
+        {
+          "position": 8,
+          "code": "GAS",
+          "name": "Gasly",
+          "points": 41,
+          "team": "Alpine F1 Team",
+          "color": "#0093CC"
+        },
+        {
+          "position": 9,
+          "code": "HAD",
+          "name": "Hadjar",
+          "points": 34,
+          "team": "Red Bull",
+          "color": "#3671C6"
+        },
+        {
+          "position": 10,
+          "code": "LAW",
+          "name": "Lawson",
+          "points": 28,
+          "team": "RB F1 Team",
+          "color": "#6692FF"
         }
       ],
       "constructors": [
@@ -265,6 +305,36 @@
           "name": "Alpine F1 Team",
           "points": 57,
           "color": "#0093CC"
+        },
+        {
+          "position": 6,
+          "name": "RB F1 Team",
+          "points": 41,
+          "color": "#6692FF"
+        },
+        {
+          "position": 7,
+          "name": "Haas F1 Team",
+          "points": 21,
+          "color": "#B6BABD"
+        },
+        {
+          "position": 8,
+          "name": "Williams",
+          "points": 11,
+          "color": "#64C4FF"
+        },
+        {
+          "position": 9,
+          "name": "Audi",
+          "points": 2,
+          "color": "#009982"
+        },
+        {
+          "position": 10,
+          "name": "Aston Martin",
+          "points": 1,
+          "color": "#229971"
         }
       ]
     }
