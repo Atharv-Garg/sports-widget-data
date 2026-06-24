@@ -1,0 +1,49 @@
+# XcodeGen spec. Optional shortcut: `brew install xcodegen` then run `xcodegen`
+# in this folder to generate SportsWidget.xcodeproj automatically.
+# (You can also build the project by hand in Xcode — see README.md.)
+name: SportsWidget
+options:
+  bundleIdPrefix: com.atharvgarg.sportswidget
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    CODE_SIGN_STYLE: Automatic
+    # Set your free Apple ID team here (or pick it in Xcode → Signing & Capabilities).
+    # DEVELOPMENT_TEAM: XXXXXXXXXX
+
+targets:
+  SportsWidget:
+    type: application
+    platform: macOS
+    sources:
+      - App
+      - Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.atharvgarg.sportswidget
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Sports Widget
+        INFOPLIST_KEY_LSUIElement: NO
+        ENABLE_HARDENED_RUNTIME: YES
+    dependencies:
+      - target: SportsWidgetExtension
+        embed: true
+
+  SportsWidgetExtension:
+    type: app-extension
+    platform: macOS
+    sources:
+      - Widget
+      - Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.atharvgarg.sportswidget.widget
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: Widget/Info.plist
+        ENABLE_HARDENED_RUNTIME: YES
