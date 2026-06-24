@@ -12,6 +12,27 @@ from datetime import datetime, timezone
 from typing import Any
 
 OPENF1 = "https://api.openf1.org/v1"
+# Jolpica — free, keyless, Ergast-compatible. Used for championship standings.
+JOLPICA = "https://api.jolpi.ca/ergast/f1"
+
+# Constructor name -> team livery colour (for the widget's standings colour bars).
+# Keys match Ergast/Jolpica constructor names; fallback handled at call site.
+TEAM_COLOR = {
+    "McLaren": "#FF8000",
+    "Red Bull": "#3671C6",
+    "Ferrari": "#E8002D",
+    "Mercedes": "#27F4D2",
+    "Aston Martin": "#229971",
+    "Alpine F1 Team": "#0093CC",
+    "Williams": "#64C4FF",
+    "RB F1 Team": "#6692FF",
+    "Racing Bulls": "#6692FF",
+    "Sauber": "#52E252",
+    "Kick Sauber": "#52E252",
+    "Haas F1 Team": "#B6BABD",
+    "Audi": "#009982",
+    "Cadillac": "#C8A45C",
+}
 
 # OpenF1 uses internal session_name values. We map to clean display names.
 SESSION_DISPLAY = {
@@ -108,5 +129,60 @@ def fetch() -> list[dict]:
     return out[:4]
 
 
+def _get_json(url: str) -> dict:
+    with urllib.request.urlopen(url, timeout=20) as r:
+        return json.loads(r.read())
+
+
+def fetch_standings(top: int = 5) -> dict:
+    """Return current-season championship standings: top-N drivers and constructors.
+
+    Source: Jolpica (Ergast-compatible). Shape:
+      {"drivers": [{"position", "code", "name", "points", "team", "color"}],
+       "constructors": [{"position", "name", "points", "color"}]}
+    Raises on network/parse failure so the caller can decide to omit standings.
+    """
+    d = _get_json(f"{JOLPICA}/current/driverstandings/?limit={top}")
+    dlists = d["MRData"]["StandingsTable"]["StandingsLists"]
+    drivers: list[dict] = []
+    if dlists:
+        for row in dlists[0].get("DriverStandings", [])[:top]:
+            drv = row.get("Driver", {})
+            cons = (row.get("Constructors") or [{}])[-1]
+            team = cons.get("name", "")
+            drivers.append({
+                "position": int(row.get("position", 0)),
+                "code": drv.get("code") or (drv.get("familyName", "")[:3].upper()),
+                "name": drv.get("familyName", ""),
+                "points": _as_num(row.get("points")),
+                "team": team,
+                "color": TEAM_COLOR.get(team, "#9b9b9f"),
+            })
+
+    c = _get_json(f"{JOLPICA}/current/constructorstandings/?limit={top}")
+    clists = c["MRData"]["StandingsTable"]["StandingsLists"]
+    constructors: list[dict] = []
+    if clists:
+        for row in clists[0].get("ConstructorStandings", [])[:top]:
+            cons = row.get("Constructor", {})
+            name = cons.get("name", "")
+            constructors.append({
+                "position": int(row.get("position", 0)),
+                "name": name,
+                "points": _as_num(row.get("points")),
+                "color": TEAM_COLOR.get(name, "#9b9b9f"),
+            })
+
+    return {"drivers": drivers, "constructors": constructors}
+
+
+def _as_num(v: Any) -> float | int:
+    try:
+        f = float(v)
+        return int(f) if f.is_integer() else f
+    except (TypeError, ValueError):
+        return 0
+
+
 if __name__ == "__main__":
-    print(json.dumps(fetch(), indent=2))
+    print(json.dumps({"meetings": fetch(), "standings": fetch_standings()}, indent=2))

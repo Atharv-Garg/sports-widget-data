@@ -161,6 +161,14 @@ def main() -> int:
         warnings.append(msg)
         f1_events = []
 
+    try:
+        f1_standings = f1.fetch_standings()
+    except Exception as e:
+        msg = f"F1 standings fetch failed: {e}"
+        print(f"[warn] {msg}", file=sys.stderr)
+        warnings.append(msg)
+        f1_standings = None
+
     ufc_events = _enrich_ufc(_fetch_ufc(warnings))
 
     payload = {
@@ -169,6 +177,7 @@ def main() -> int:
         "f1": {
             "next": f1_events[0] if f1_events else None,
             "upcoming": f1_events[1:],
+            "standings": f1_standings,
         },
         "ufc": {
             "next": ufc_events[0] if ufc_events else None,

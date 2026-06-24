@@ -1,0 +1,11 @@
+# Xcode / Swift build artifacts
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+xcuserdata/
+*.xcuserstate
+.DS_Store
+
+# XcodeGen output (regenerate with `xcodegen`). Comment out to commit the project.
+SportsWidget.xcodeproj/
