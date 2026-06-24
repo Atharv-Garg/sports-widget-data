@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-24T17:31:45.334013Z",
-  "generated_at_ist": "2026-06-24T23:01:45.334016+05:30",
+  "generated_at_utc": "2026-06-24T17:35:43.483343Z",
+  "generated_at_ist": "2026-06-24T23:05:43.483347+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
@@ -191,7 +191,83 @@
           }
         ]
       }
-    ]
+    ],
+    "standings": {
+      "drivers": [
+        {
+          "position": 1,
+          "code": "ANT",
+          "name": "Antonelli",
+          "points": 156,
+          "team": "Mercedes",
+          "color": "#27F4D2"
+        },
+        {
+          "position": 2,
+          "code": "HAM",
+          "name": "Hamilton",
+          "points": 115,
+          "team": "Ferrari",
+          "color": "#E8002D"
+        },
+        {
+          "position": 3,
+          "code": "RUS",
+          "name": "Russell",
+          "points": 106,
+          "team": "Mercedes",
+          "color": "#27F4D2"
+        },
+        {
+          "position": 4,
+          "code": "LEC",
+          "name": "Leclerc",
+          "points": 75,
+          "team": "Ferrari",
+          "color": "#E8002D"
+        },
+        {
+          "position": 5,
+          "code": "NOR",
+          "name": "Norris",
+          "points": 73,
+          "team": "McLaren",
+          "color": "#FF8000"
+        }
+      ],
+      "constructors": [
+        {
+          "position": 1,
+          "name": "Mercedes",
+          "points": 262,
+          "color": "#27F4D2"
+        },
+        {
+          "position": 2,
+          "name": "Ferrari",
+          "points": 190,
+          "color": "#E8002D"
+        },
+        {
+          "position": 3,
+          "name": "McLaren",
+          "points": 141,
+          "color": "#FF8000"
+        },
+        {
+          "position": 4,
+          "name": "Red Bull",
+          "points": 89,
+          "color": "#3671C6"
+        },
+        {
+          "position": 5,
+          "name": "Alpine F1 Team",
+          "points": 57,
+          "color": "#0093CC"
+        }
+      ]
+    }
   },
   "ufc": {
     "next": {
