@@ -134,7 +134,7 @@ def _get_json(url: str) -> dict:
         return json.loads(r.read())
 
 
-def fetch_standings(top: int = 5) -> dict:
+def fetch_standings(top: int = 10) -> dict:
     """Return current-season championship standings: top-N drivers and constructors.
 
     Source: Jolpica (Ergast-compatible). Shape:
