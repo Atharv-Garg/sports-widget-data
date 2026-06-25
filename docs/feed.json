@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-25T18:24:55.085297Z",
-  "generated_at_ist": "2026-06-25T23:54:55.085300+05:30",
+  "generated_at_utc": "2026-06-25T20:35:16.501231Z",
+  "generated_at_ist": "2026-06-26T02:05:16.501234+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
@@ -357,8 +357,8 @@
           "blue_odds": "-105",
           "red_country": "Azerbaijan",
           "blue_country": "Mexico",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/FIZIEV_RAFAEL_L_01-31.png?itok=qu1yfga4",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/TORRES_MANUEL_R_12-06.png?itok=Rlnshf6X",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/FIZIEV_RAFAEL_L_06-27.png?itok=QlFaTocy",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/TORRES_MANUEL_R_06-27.png?itok=_86svRgw",
           "weight_class": "Lightweight Bout",
           "title_fight": false
         },
@@ -371,7 +371,7 @@
           "blue_odds": "+265",
           "red_country": "Russia",
           "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/MAGOMEDOV_SHARA_L_07-26.png?itok=7PTdUEqD",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/MAGOMEDOV_SHARA_L_06-27.png?itok=-b4RnG87",
           "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/PEREIRA_MICHEL_R_02-21.png?itok=AOK5OPqS",
           "weight_class": "Middleweight Bout",
           "title_fight": false
@@ -386,7 +386,7 @@
           "red_country": "Azerbaijan",
           "blue_country": "Brazil",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/SADYKHOV_NAZIM_L_12-06.png?itok=MAI4pwNU",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/CAMILO_MATHEUS_R_11-15.png?itok=XDt4eug5",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/CAMILO_MATHEUS_R_06-27.png?itok=RWGNZNPn",
           "weight_class": "Lightweight Bout",
           "title_fight": false
         },
@@ -399,7 +399,7 @@
           "blue_odds": "+200",
           "red_country": "Kazakhstan",
           "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/ALMABAYEV_ASU_L_07-26.png?itok=nzsSzK6H",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/ALMABAYEV_ASU_L_06-27.png?itok=p-DHISwL",
           "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/JOHNSON_CHARLES_R_01-24.png?itok=lctx4p36",
           "weight_class": "Flyweight Bout",
           "title_fight": false
@@ -413,8 +413,8 @@
           "blue_odds": "+225",
           "red_country": "Russia",
           "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/ALISKEROV_IKRAM_L_10-25.png?itok=XvYVbhJa",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/FERREIRA_BRUNNO_R_03-07.png?itok=vvU3SMaD",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/ALISKEROV_IKRAM_L_06-27.png?itok=BP2szxCc",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/FERREIRA_BRUNNO_R_06-27.png?itok=CudkD89g",
           "weight_class": "Middleweight Bout",
           "title_fight": false
         }
