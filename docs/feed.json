@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-26T20:54:52.996674Z",
-  "generated_at_ist": "2026-06-27T02:24:52.996678+05:30",
+  "generated_at_utc": "2026-06-26T22:35:51.620969Z",
+  "generated_at_ist": "2026-06-27T04:05:51.620973+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
@@ -655,17 +655,17 @@
             "title_fight": false
           },
           {
-            "red": "Magomed Tuchalov",
-            "blue": "Brendson Ribeiro",
-            "red_rank": "",
+            "red": "Steve Erceg",
+            "blue": "Ramazan Temirov",
+            "red_rank": "#10",
             "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
-            "red_country": "",
-            "blue_country": "Brazil",
-            "red_img": "/themes/custom/ufc/assets/img/standing-stance-right-silhouette.png",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/RIBEIRO_BRENDSON_R_04-04.png?itok=GoR5ioPT",
-            "weight_class": "Light Heavyweight Bout",
+            "red_country": "Australia",
+            "blue_country": "Uzbekistan",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/ERCEG_STEVE_L_08-09.png?itok=WiNWnSNN",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-02/TEMIROV_RAMAZAN_R_03-01.png?itok=SWjghK_S",
+            "weight_class": "Flyweight Bout",
             "title_fight": false
           }
         ],
