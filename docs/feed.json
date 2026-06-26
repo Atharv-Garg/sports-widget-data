@@ -1,9 +1,197 @@
 {
-  "generated_at_utc": "2026-06-26T15:16:20.966620Z",
-  "generated_at_ist": "2026-06-26T20:46:20.966623+05:30",
+  "generated_at_utc": "2026-06-26T17:11:06.822651Z",
+  "generated_at_ist": "2026-06-26T22:41:06.822654+05:30",
   "f1": {
-    "next": null,
-    "upcoming": [],
+    "next": {
+      "name": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
+      "short_name": "Austrian Grand Prix",
+      "round": 1288,
+      "circuit": "Spielberg",
+      "location": "Spielberg",
+      "country": "Austria",
+      "flag_emoji": "🇦🇹",
+      "external_url": "https://www.formula1.com/en/racing/2026.html",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start_utc": "2026-06-26T11:30:00+00:00",
+          "end_utc": "2026-06-26T12:30:00+00:00",
+          "start_ist": "2026-06-26T17:00:00+05:30",
+          "end_ist": "2026-06-26T18:00:00+05:30"
+        },
+        {
+          "type": "FP2",
+          "start_utc": "2026-06-26T15:00:00+00:00",
+          "end_utc": "2026-06-26T16:00:00+00:00",
+          "start_ist": "2026-06-26T20:30:00+05:30",
+          "end_ist": "2026-06-26T21:30:00+05:30"
+        },
+        {
+          "type": "FP3",
+          "start_utc": "2026-06-27T10:30:00+00:00",
+          "end_utc": "2026-06-27T11:30:00+00:00",
+          "start_ist": "2026-06-27T16:00:00+05:30",
+          "end_ist": "2026-06-27T17:00:00+05:30"
+        },
+        {
+          "type": "Qualifying",
+          "start_utc": "2026-06-27T14:00:00+00:00",
+          "end_utc": "2026-06-27T15:00:00+00:00",
+          "start_ist": "2026-06-27T19:30:00+05:30",
+          "end_ist": "2026-06-27T20:30:00+05:30"
+        },
+        {
+          "type": "Race",
+          "start_utc": "2026-06-28T13:00:00+00:00",
+          "end_utc": "2026-06-28T15:00:00+00:00",
+          "start_ist": "2026-06-28T18:30:00+05:30",
+          "end_ist": "2026-06-28T20:30:00+05:30"
+        }
+      ]
+    },
+    "upcoming": [
+      {
+        "name": "FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026",
+        "short_name": "British Grand Prix",
+        "round": 1289,
+        "circuit": "Silverstone",
+        "location": "Silverstone",
+        "country": "United Kingdom",
+        "flag_emoji": "🇬🇧",
+        "external_url": "https://www.formula1.com/en/racing/2026.html",
+        "sessions": [
+          {
+            "type": "FP1",
+            "start_utc": "2026-07-03T11:30:00+00:00",
+            "end_utc": "2026-07-03T12:30:00+00:00",
+            "start_ist": "2026-07-03T17:00:00+05:30",
+            "end_ist": "2026-07-03T18:00:00+05:30"
+          },
+          {
+            "type": "Sprint Quali",
+            "start_utc": "2026-07-03T15:30:00+00:00",
+            "end_utc": "2026-07-03T16:14:00+00:00",
+            "start_ist": "2026-07-03T21:00:00+05:30",
+            "end_ist": "2026-07-03T21:44:00+05:30"
+          },
+          {
+            "type": "Sprint",
+            "start_utc": "2026-07-04T11:00:00+00:00",
+            "end_utc": "2026-07-04T12:00:00+00:00",
+            "start_ist": "2026-07-04T16:30:00+05:30",
+            "end_ist": "2026-07-04T17:30:00+05:30"
+          },
+          {
+            "type": "Qualifying",
+            "start_utc": "2026-07-04T15:00:00+00:00",
+            "end_utc": "2026-07-04T16:00:00+00:00",
+            "start_ist": "2026-07-04T20:30:00+05:30",
+            "end_ist": "2026-07-04T21:30:00+05:30"
+          },
+          {
+            "type": "Race",
+            "start_utc": "2026-07-05T14:00:00+00:00",
+            "end_utc": "2026-07-05T16:00:00+00:00",
+            "start_ist": "2026-07-05T19:30:00+05:30",
+            "end_ist": "2026-07-05T21:30:00+05:30"
+          }
+        ]
+      },
+      {
+        "name": "FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026",
+        "short_name": "Belgian Grand Prix",
+        "round": 1290,
+        "circuit": "Spa-Francorchamps",
+        "location": "Spa-Francorchamps",
+        "country": "Belgium",
+        "flag_emoji": "🇧🇪",
+        "external_url": "https://www.formula1.com/en/racing/2026.html",
+        "sessions": [
+          {
+            "type": "FP1",
+            "start_utc": "2026-07-17T11:30:00+00:00",
+            "end_utc": "2026-07-17T12:30:00+00:00",
+            "start_ist": "2026-07-17T17:00:00+05:30",
+            "end_ist": "2026-07-17T18:00:00+05:30"
+          },
+          {
+            "type": "FP2",
+            "start_utc": "2026-07-17T15:00:00+00:00",
+            "end_utc": "2026-07-17T16:00:00+00:00",
+            "start_ist": "2026-07-17T20:30:00+05:30",
+            "end_ist": "2026-07-17T21:30:00+05:30"
+          },
+          {
+            "type": "FP3",
+            "start_utc": "2026-07-18T10:30:00+00:00",
+            "end_utc": "2026-07-18T11:30:00+00:00",
+            "start_ist": "2026-07-18T16:00:00+05:30",
+            "end_ist": "2026-07-18T17:00:00+05:30"
+          },
+          {
+            "type": "Qualifying",
+            "start_utc": "2026-07-18T14:00:00+00:00",
+            "end_utc": "2026-07-18T15:00:00+00:00",
+            "start_ist": "2026-07-18T19:30:00+05:30",
+            "end_ist": "2026-07-18T20:30:00+05:30"
+          },
+          {
+            "type": "Race",
+            "start_utc": "2026-07-19T13:00:00+00:00",
+            "end_utc": "2026-07-19T15:00:00+00:00",
+            "start_ist": "2026-07-19T18:30:00+05:30",
+            "end_ist": "2026-07-19T20:30:00+05:30"
+          }
+        ]
+      },
+      {
+        "name": "FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026",
+        "short_name": "Hungarian Grand Prix",
+        "round": 1291,
+        "circuit": "Hungaroring",
+        "location": "Budapest",
+        "country": "Hungary",
+        "flag_emoji": "🇭🇺",
+        "external_url": "https://www.formula1.com/en/racing/2026.html",
+        "sessions": [
+          {
+            "type": "FP1",
+            "start_utc": "2026-07-24T11:30:00+00:00",
+            "end_utc": "2026-07-24T12:30:00+00:00",
+            "start_ist": "2026-07-24T17:00:00+05:30",
+            "end_ist": "2026-07-24T18:00:00+05:30"
+          },
+          {
+            "type": "FP2",
+            "start_utc": "2026-07-24T15:00:00+00:00",
+            "end_utc": "2026-07-24T16:00:00+00:00",
+            "start_ist": "2026-07-24T20:30:00+05:30",
+            "end_ist": "2026-07-24T21:30:00+05:30"
+          },
+          {
+            "type": "FP3",
+            "start_utc": "2026-07-25T10:30:00+00:00",
+            "end_utc": "2026-07-25T11:30:00+00:00",
+            "start_ist": "2026-07-25T16:00:00+05:30",
+            "end_ist": "2026-07-25T17:00:00+05:30"
+          },
+          {
+            "type": "Qualifying",
+            "start_utc": "2026-07-25T14:00:00+00:00",
+            "end_utc": "2026-07-25T15:00:00+00:00",
+            "start_ist": "2026-07-25T19:30:00+05:30",
+            "end_ist": "2026-07-25T20:30:00+05:30"
+          },
+          {
+            "type": "Race",
+            "start_utc": "2026-07-26T13:00:00+00:00",
+            "end_utc": "2026-07-26T15:00:00+00:00",
+            "start_ist": "2026-07-26T18:30:00+05:30",
+            "end_ist": "2026-07-26T20:30:00+05:30"
+          }
+        ]
+      }
+    ],
     "standings": {
       "drivers": [
         {
@@ -356,34 +544,6 @@
             "title_fight": false
           },
           {
-            "red": "Tommy McMillen",
-            "blue": "Alberto Montes",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "United States",
-            "blue_country": "Venezuela",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/MCMILLEN_TOMMY_L_04-04.png?itok=LKYlKJpP",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/MONTES_ALBERTO_R_03-07.png?itok=syNyK6q2",
-            "weight_class": "Featherweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Austin Bashi",
-            "blue": "Jose Miguel Delgado",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "United States",
-            "blue_country": "Mexico",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/BASHI_AUSTIN_L_08-02.png?itok=6m9E0eYN",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/DELGADO_JOSE_R_10-25.png?itok=CcuvDrpz",
-            "weight_class": "Featherweight Bout",
-            "title_fight": false
-          },
-          {
             "red": "Kevin Holland",
             "blue": "Jacobe Smith",
             "red_rank": "",
@@ -395,6 +555,34 @@
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/HOLLAND_KEVIN_L_04-11.png?itok=RoYDfjn8",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-06/SMITH_JACOBE_R_06-28.png?itok=HgB-mohB",
             "weight_class": "Welterweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Chase Hooper",
+            "blue": "Mitch Ramirez",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/HOOPER_CHASE_L_03-28.png?itok=HkkNS7w1",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-03/RAMIREZ_MITCH_R_03-16.png?itok=01K70HpL",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Tabatha Ricci",
+            "blue": "Fatima Kline",
+            "red_rank": "#8",
+            "blue_rank": "#11",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Brazil",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/RICCI_TABATHA_L_08-24.png?itok=uyx-zUe0",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/KLINE_FATIMA_R_11-15.png?itok=BxIV4m7p",
+            "weight_class": "Women's Strawweight Bout",
             "title_fight": false
           }
         ],
@@ -415,8 +603,8 @@
             "blue": "Khalil Rountree Jr.",
             "red_rank": "#1",
             "blue_rank": "#5",
-            "red_odds": "-",
-            "blue_odds": "-",
+            "red_odds": "-325",
+            "blue_odds": "+260",
             "red_country": "Russia",
             "blue_country": "United States",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-10/ANKALAEV_MAGOMED_L_10-26.png?itok=AoZpHQul",
@@ -663,7 +851,5 @@
       }
     ]
   },
-  "_warnings": [
-    "F1 fetch failed: HTTP Error 401: Unauthorized"
-  ]
+  "_warnings": []
 }
