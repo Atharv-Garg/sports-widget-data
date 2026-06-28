@@ -18,10 +18,48 @@ const DIVIDER        = Color.dynamic(new Color("#3C3C43", 0.18), new Color("#EBE
 
 // --- Data -----------------------------------------------------------------
 async function loadFeed() {
-  // Minute-resolution cache-buster defeats stale CDN / URLSession caches.
-  const req = new Request(`${FEED_URL}?t=${Math.floor(Date.now() / 60000)}`);
-  req.timeoutInterval = 10;
-  return await req.loadJSON();
+  const fm = FileManager.local();
+  const cachePath = fm.joinPath(fm.cacheDirectory(), "sportswidget_feed.json");
+  try {
+    // Minute-resolution cache-buster defeats stale CDN / URLSession caches.
+    const req = new Request(`${FEED_URL}?t=${Math.floor(Date.now() / 60000)}`);
+    req.timeoutInterval = 10;
+    const feed = await req.loadJSON();
+    // Save last-known-good (overwrites previous) + drop photos no longer needed.
+    try {
+      fm.writeString(cachePath, JSON.stringify(feed));
+      pruneImgCache(fm, heroImgUrls(feed));
+    } catch (e) {}
+    return feed;
+  } catch (e) {
+    // Offline: fall back to the last cached feed instead of showing nothing.
+    if (fm.fileExists(cachePath)) {
+      try { return JSON.parse(fm.readString(cachePath)); } catch (e2) {}
+    }
+    throw e;  // no cache yet (first run) -> nothing to show
+  }
+}
+
+// Stable filename for a photo URL; only the 2 main-event photos are cached.
+function imgKey(url) {
+  let h = 5381;
+  for (let i = 0; i < url.length; i++) h = ((h * 33) ^ url.charCodeAt(i)) >>> 0;
+  return "sw_img_" + h.toString(16) + ".png";
+}
+function heroImgUrls(feed) {
+  const m = (feed.ufc?.next?.main_card || [])[0];
+  return m ? [m.red_img, m.blue_img].filter(Boolean) : [];
+}
+function pruneImgCache(fm, keepUrls) {
+  try {
+    const dir = fm.cacheDirectory();
+    const keep = new Set(keepUrls.map(imgKey));
+    for (const name of fm.listContents(dir)) {
+      if (name.startsWith("sw_img_") && !keep.has(name)) {
+        try { fm.remove(fm.joinPath(dir, name)); } catch (e) {}
+      }
+    }
+  } catch (e) {}
 }
 
 function pickSport(feed, requested) {
@@ -162,12 +200,19 @@ function cropTop(img, frac) {
 
 async function loadImg(url) {
   if (!url) return null;
+  const fm = FileManager.local();
+  const path = fm.joinPath(fm.cacheDirectory(), imgKey(url));
   try {
     const r = new Request(url);
     r.timeoutInterval = 8;
-    return await r.loadImage();
+    const img = await r.loadImage();
+    try { fm.writeImage(path, img); } catch (e) {}   // cache on success
+    return img;
   } catch (e) {
-    return null;  // network/timeout -> caller falls back to text
+    if (fm.fileExists(path)) {                         // offline -> cached photo
+      try { return fm.readImage(path); } catch (e2) {}
+    }
+    return null;  // no cache -> caller falls back to text
   }
 }
 
