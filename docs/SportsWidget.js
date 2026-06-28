@@ -294,6 +294,11 @@ async function renderUFCLarge(widget, feed) {
   head.addSpacer();
   addText(head, `${fmtFullDate(ev.main_card_start_ist)} · ${fmtTime(ev.main_card_start_ist)} IST`,
           Font.caption1(), TEXT_SECONDARY);
+  // Card name (e.g. "UFC 329: McGregor vs Holloway 2"). Location is intentionally not shown.
+  if (ev.name) {
+    widget.addSpacer(2);
+    addText(widget, ev.name, Font.semiboldSystemFont(13), TEXT_PRIMARY, 1);
+  }
   widget.addSpacer(4);
 
   // Hero: main-event cutout photos (head & torso) + flag·rank·name·odds beneath.
