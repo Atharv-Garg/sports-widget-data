@@ -32,7 +32,7 @@ struct Provider: TimelineProvider {
             let images = await prefetchImages(feed)
             let entry = SportsEntry(date: .now, feed: feed, images: images)
             // Fixed 6-hour refresh — catches newly announced events same-day; negligible load.
-            let next = Calendar.current.date(byAdding: .hour, value: 6, to: .now) ?? .now.addingTimeInterval(21_600)
+            let next = Calendar.current.date(byAdding: .hour, value: 1, to: .now) ?? .now.addingTimeInterval(21_600)
             completion(Timeline(entries: [entry], policy: .after(next)))
         }
     }
