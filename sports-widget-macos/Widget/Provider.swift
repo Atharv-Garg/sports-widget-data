@@ -28,7 +28,7 @@ struct Provider: TimelineProvider {
 
     func getTimeline(in context: Context, completion: @escaping (Timeline<SportsEntry>) -> Void) {
         Task {
-            let feed = (try? await FeedLoader.load()) ?? FeedLoader.sample()
+            let feed = (try? await FeedLoader.load()) ?? FeedLoader.cached() ?? FeedLoader.sample()
             let images = await prefetchImages(feed)
             let entry = SportsEntry(date: .now, feed: feed, images: images)
             // Fixed 6-hour refresh — catches newly announced events same-day; negligible load.
@@ -46,13 +46,18 @@ struct Provider: TimelineProvider {
         }
         var out: [String: Data] = [:]
         for u in urls where out[u] == nil {
-            guard let url = URL(string: u) else { continue }
-            var req = URLRequest(url: url)
-            req.timeoutInterval = 8
-            if let (data, _) = try? await URLSession.shared.data(for: req) {
-                out[u] = data
+            if let url = URL(string: u) {
+                var req = URLRequest(url: url)
+                req.timeoutInterval = 8
+                if let (data, _) = try? await URLSession.shared.data(for: req) {
+                    out[u] = data
+                    ImageStore.write(u, data)   // cache on success
+                    continue
+                }
             }
+            if let cached = ImageStore.read(u) { out[u] = cached }   // offline fallback
         }
+        ImageStore.prune(keeping: urls)
         return out
     }
 }
