@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-06-30T19:24:06.806580Z",
-  "generated_at_ist": "2026-07-01T00:54:06.806583+05:30",
+  "generated_at_utc": "2026-06-30T21:19:02.545263Z",
+  "generated_at_ist": "2026-07-01T02:49:02.545266+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026",
@@ -437,8 +437,8 @@
             "blue": "Kamaru Usman",
             "red_rank": "#2",
             "blue_rank": "#9",
-            "red_odds": "-360",
-            "blue_odds": "+280",
+            "red_odds": "-320",
+            "blue_odds": "+255",
             "red_country": "South Africa",
             "blue_country": "Nigeria",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/DU_PLESSIS_DRICUS_L_01-20.png?itok=s-3Yx3V-",
@@ -743,16 +743,31 @@
         "main_card_start_ist": "2026-08-16T06:30:00+05:30"
       },
       {
-        "name": "UFC Sacramento: Main event TBA",
-        "kind": "Event",
+        "name": "UFC Fight Night: Hernandez vs Rodrigues",
+        "kind": "Fight Night",
         "venue": "Golden 1 Center",
         "city": "Sacramento United States",
         "country": "",
-        "main_card_start_utc": "2026-08-22T22:00:00Z",
-        "main_card": [],
+        "main_card_start_utc": "2026-08-23T00:00:00Z",
+        "main_card": [
+          {
+            "red": "Anthony Hernandez",
+            "blue": "Gregory Rodrigues",
+            "red_rank": "#6",
+            "blue_rank": "#12",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "Brazil",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/HERNANDEZ_ANTHONY_L_10-19.png?itok=2VtXaJuU",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/RODRIGUES_GREGORY_R_11-15.png?itok=Gl1SSe1L",
+            "weight_class": "Middleweight Bout",
+            "title_fight": false
+          }
+        ],
         "url": "https://www.ufc.com/event/ufc-fight-night-august-22-2026",
         "_source": "ufc.com",
-        "main_card_start_ist": "2026-08-23T03:30:00+05:30"
+        "main_card_start_ist": "2026-08-23T05:30:00+05:30"
       },
       {
         "name": "UFC Fight Night: Main event TBA",
