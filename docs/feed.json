@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-01T12:16:57.273700Z",
-  "generated_at_ist": "2026-07-01T17:46:57.273704+05:30",
+  "generated_at_utc": "2026-07-01T15:18:00.661630Z",
+  "generated_at_ist": "2026-07-01T20:48:00.661633+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026",
@@ -341,89 +341,115 @@
   },
   "ufc": {
     "next": {
-      "name": "UFC 329: McGregor vs Holloway 2",
-      "kind": "PPV",
-      "venue": "T-Mobile Arena",
-      "city": "Las Vegas United States",
+      "name": "UFC Fight Night: Song vs Figueiredo",
+      "kind": "Fight Night",
+      "venue": "",
+      "city": "",
       "country": "",
-      "main_card_start_utc": "2026-07-12T01:00:00Z",
-      "main_card": [
-        {
-          "red": "Conor McGregor",
-          "blue": "Max Holloway",
-          "red_rank": "",
-          "blue_rank": "#4",
-          "red_odds": "-",
-          "blue_odds": "-",
-          "red_country": "Ireland",
-          "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2021-07/MCGREGOR_CONOR_L_07-10.png?itok=AeRNVasI",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-04/HOLLOWAY_MAX_R_04-13.png?itok=ObYNLZoC",
-          "weight_class": "Welterweight Bout",
-          "title_fight": false
-        },
-        {
-          "red": "Benoît Saint Denis",
-          "blue": "Paddy Pimblett",
-          "red_rank": "#5",
-          "blue_rank": "#6",
-          "red_odds": "-145",
-          "blue_odds": "+120",
-          "red_country": "France",
-          "blue_country": "England",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-09/SAINT_DENIS_BENOIT_L_09-06.png?itok=jJrV9e1x",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/PIMBLETT_PADDY_R_01-24.png?itok=jWXElKK7",
-          "weight_class": "Lightweight Bout",
-          "title_fight": false
-        },
-        {
-          "red": "Cory Sandhagen",
-          "blue": "Mario Bautista",
-          "red_rank": "#4",
-          "blue_rank": "#7",
-          "red_odds": "-150",
-          "blue_odds": "+125",
-          "red_country": "United States",
-          "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/SANDHAGEN_CORY_L_05-03.png?itok=qWMzf5uF",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/BAUTISTA_MARIO_R_10-25.png?itok=GGtQ8jXs",
-          "weight_class": "Bantamweight Bout",
-          "title_fight": false
-        },
-        {
-          "red": "Brandon Royval",
-          "blue": "Lone’er Kavanagh",
-          "red_rank": "#4",
-          "blue_rank": "#6",
-          "red_odds": "+170",
-          "blue_odds": "-205",
-          "red_country": "United States",
-          "blue_country": "England",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/ROYVAL_BRANDON_L_12-13.png?itok=b1XHUl35",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/KAVANAGH_LONEER_R_02-28.png?itok=CnRFQ0ix",
-          "weight_class": "Flyweight Bout",
-          "title_fight": false
-        },
-        {
-          "red": "King Green",
-          "blue": "Terrance McKinney",
-          "red_rank": "",
-          "blue_rank": "",
-          "red_odds": "+135",
-          "blue_odds": "-165",
-          "red_country": "United States",
-          "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/GREEN_KING_L_05-09.png?itok=yT3TPnQ5",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/MCKINNEY_TERRANCE_R_05-11.png?itok=0cKrYOhW",
-          "weight_class": "Lightweight Bout",
-          "title_fight": false
-        }
-      ],
-      "url": "https://www.ufc.com/event/ufc-329",
-      "_source": "ufc.com",
-      "main_card_start_ist": "2026-07-12T06:30:00+05:30"
+      "main_card_start_utc": "2026-05-30T11:00:00Z",
+      "main_card": [],
+      "url": "https://www.ufc.com/event/ufc-fight-night-may-30-2026",
+      "_source": "ufc.com-listing",
+      "_degraded": "per-event fetch failed: TimeoutError",
+      "main_card_start_ist": "2026-05-30T16:30:00+05:30"
     },
     "upcoming": [
+      {
+        "name": "UFC Fight Night: Kape vs Horiguchi",
+        "kind": "Fight Night",
+        "venue": "",
+        "city": "",
+        "country": "",
+        "main_card_start_utc": "2026-06-21T00:00:00Z",
+        "main_card": [],
+        "url": "https://www.ufc.com/event/ufc-fight-night-june-20-2026",
+        "_source": "ufc.com-listing",
+        "_degraded": "per-event fetch failed: TimeoutError",
+        "main_card_start_ist": "2026-06-21T05:30:00+05:30"
+      },
+      {
+        "name": "UFC 329: McGregor vs Holloway 2",
+        "kind": "PPV",
+        "venue": "T-Mobile Arena",
+        "city": "Las Vegas United States",
+        "country": "",
+        "main_card_start_utc": "2026-07-12T01:00:00Z",
+        "main_card": [
+          {
+            "red": "Conor McGregor",
+            "blue": "Max Holloway",
+            "red_rank": "",
+            "blue_rank": "#4",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Ireland",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2021-07/MCGREGOR_CONOR_L_07-10.png?itok=AeRNVasI",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-04/HOLLOWAY_MAX_R_04-13.png?itok=ObYNLZoC",
+            "weight_class": "Welterweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Benoît Saint Denis",
+            "blue": "Paddy Pimblett",
+            "red_rank": "#5",
+            "blue_rank": "#6",
+            "red_odds": "-145",
+            "blue_odds": "+120",
+            "red_country": "France",
+            "blue_country": "England",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-09/SAINT_DENIS_BENOIT_L_09-06.png?itok=jJrV9e1x",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/PIMBLETT_PADDY_R_01-24.png?itok=jWXElKK7",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Cory Sandhagen",
+            "blue": "Mario Bautista",
+            "red_rank": "#4",
+            "blue_rank": "#7",
+            "red_odds": "-150",
+            "blue_odds": "+125",
+            "red_country": "United States",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/SANDHAGEN_CORY_L_05-03.png?itok=qWMzf5uF",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/BAUTISTA_MARIO_R_10-25.png?itok=GGtQ8jXs",
+            "weight_class": "Bantamweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Brandon Royval",
+            "blue": "Lone’er Kavanagh",
+            "red_rank": "#4",
+            "blue_rank": "#6",
+            "red_odds": "+170",
+            "blue_odds": "-205",
+            "red_country": "United States",
+            "blue_country": "England",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/ROYVAL_BRANDON_L_12-13.png?itok=b1XHUl35",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/KAVANAGH_LONEER_R_02-28.png?itok=CnRFQ0ix",
+            "weight_class": "Flyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "King Green",
+            "blue": "Terrance McKinney",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "+135",
+            "blue_odds": "-165",
+            "red_country": "United States",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/GREEN_KING_L_05-09.png?itok=yT3TPnQ5",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/MCKINNEY_TERRANCE_R_05-11.png?itok=0cKrYOhW",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
+          }
+        ],
+        "url": "https://www.ufc.com/event/ufc-329",
+        "_source": "ufc.com",
+        "main_card_start_ist": "2026-07-12T06:30:00+05:30"
+      },
       {
         "name": "UFC Fight Night: Du Plessis vs Usman",
         "kind": "Fight Night",
@@ -710,31 +736,45 @@
             "title_fight": true
           },
           {
-            "red": "Edson Barboza",
-            "blue": "Esteban Ribovics",
+            "red": "Geoff Neal",
+            "blue": "Chidi Njokuani",
             "red_rank": "",
             "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
-            "red_country": "Brazil",
-            "blue_country": "Argentina",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/BARBOZA_EDSON_L_12-06.png?itok=IIpsCpEb",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/RIBOVICS_ESTEBAN_R_04-11.png?itok=9OElHjOx",
-            "weight_class": "Lightweight Bout",
+            "red_country": "United States",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/NEAL_GEOFF_L_02-21.png?itok=897uHteu",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2023-04/NJOKUANI_CHIDI_R_03-25.png?itok=xerm6P3h",
+            "weight_class": "Welterweight Bout",
             "title_fight": false
           },
           {
-            "red": "Erin Blanchfield",
-            "blue": "Jasmine Jasudavicius",
-            "red_rank": "#4",
-            "blue_rank": "#7",
+            "red": "Mansur Abdul-Malik",
+            "blue": "Dustin Stoltzfus",
+            "red_rank": "",
+            "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "United States",
-            "blue_country": "Canada",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/BLANCHFIELD_ERIN_L_11-15.png?itok=LkUgYA81",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/JASUDAVICIUS_JASMINE_R_10-18.png?itok=fdL4lA_B",
-            "weight_class": "Women's Flyweight Bout",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/ABDUL-MALIK_MANSUR_L_03-28.png?itok=IuCs2VJ4",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-09/STOLTZFUS_DUSTIN_R_09-13.png?itok=Za8pSWZu",
+            "weight_class": "Middleweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Jeremiah Wells",
+            "blue": "Myktybek Orolbai",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "Kyrgyzstan",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/WELLS_JEREMIAH_L_11-01.png?itok=lbqGI3T6",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/OROLBAI_MYKTYBEK_R_03-14.png?itok=U-AhD6zC",
+            "weight_class": "Welterweight Bout",
             "title_fight": false
           }
         ],
@@ -768,32 +808,11 @@
         "url": "https://www.ufc.com/event/ufc-fight-night-august-22-2026",
         "_source": "ufc.com",
         "main_card_start_ist": "2026-08-23T05:30:00+05:30"
-      },
-      {
-        "name": "UFC Fight Night: Main event TBA",
-        "kind": "Fight Night",
-        "venue": "Oriental Sports Center",
-        "city": "Pudong District China",
-        "country": "",
-        "main_card_start_utc": "2026-08-29T22:00:00Z",
-        "main_card": [],
-        "url": "https://www.ufc.com/event/ufc-fight-night-august-29-2026",
-        "_source": "ufc.com",
-        "main_card_start_ist": "2026-08-30T03:30:00+05:30"
-      },
-      {
-        "name": "UFC Paris: Main event TBA",
-        "kind": "Event",
-        "venue": "Accor Arena",
-        "city": "Paris France",
-        "country": "",
-        "main_card_start_utc": "2026-09-05T22:00:00Z",
-        "main_card": [],
-        "url": "https://www.ufc.com/event/ufc-fight-night-september-05-2026",
-        "_source": "ufc.com",
-        "main_card_start_ist": "2026-09-06T03:30:00+05:30"
       }
     ]
   },
-  "_warnings": []
+  "_warnings": [
+    "ufc.com per-event fetch failed for UFC Fight Night: Song vs Figueiredo (per-event fetch failed: TimeoutError); attempting ESPN recovery",
+    "ufc.com per-event fetch failed for UFC Fight Night: Kape vs Horiguchi (per-event fetch failed: TimeoutError); attempting ESPN recovery"
+  ]
 }
