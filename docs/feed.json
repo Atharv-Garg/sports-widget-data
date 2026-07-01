@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-01T19:23:35.683003Z",
-  "generated_at_ist": "2026-07-02T00:53:35.683007+05:30",
+  "generated_at_utc": "2026-07-01T21:11:52.637280Z",
+  "generated_at_ist": "2026-07-02T02:41:52.637284+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026",
@@ -710,6 +710,34 @@
             "title_fight": true
           },
           {
+            "red": "Neil Magny",
+            "blue": "Ramiz Brahimaj",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/MAGNY_NEIL_L_12-13.png?itok=RovU0GRe",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/BRAHIMAJ_RAMIZ_R_05-31.png?itok=0GoqJIWj",
+            "weight_class": "Welterweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Jalin Turner",
+            "blue": "Kauê Fernandes",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "Brazil",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/TURNER_JALIN_L_03-08.png?itok=ED_YaT71",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-09/FERNANDES_KAUE_R_09-06.png?itok=bT7fLN2C",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
+          },
+          {
             "red": "Geoff Neal",
             "blue": "Chidi Njokuani",
             "red_rank": "",
@@ -720,34 +748,6 @@
             "blue_country": "United States",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/NEAL_GEOFF_L_02-21.png?itok=897uHteu",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2023-04/NJOKUANI_CHIDI_R_03-25.png?itok=xerm6P3h",
-            "weight_class": "Welterweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Mansur Abdul-Malik",
-            "blue": "Dustin Stoltzfus",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "United States",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/ABDUL-MALIK_MANSUR_L_03-28.png?itok=IuCs2VJ4",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-09/STOLTZFUS_DUSTIN_R_09-13.png?itok=Za8pSWZu",
-            "weight_class": "Middleweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Jeremiah Wells",
-            "blue": "Myktybek Orolbai",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "United States",
-            "blue_country": "Kyrgyzstan",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/WELLS_JEREMIAH_L_11-01.png?itok=lbqGI3T6",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/OROLBAI_MYKTYBEK_R_03-14.png?itok=U-AhD6zC",
             "weight_class": "Welterweight Bout",
             "title_fight": false
           }
