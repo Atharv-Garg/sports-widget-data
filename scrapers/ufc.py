@@ -50,7 +50,7 @@ def _http(url: str, *, retries: int = 3) -> str:
     for attempt in range(retries):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA})
-            with urllib.request.urlopen(req, timeout=20) as r:
+            with urllib.request.urlopen(req, timeout=30) as r:
                 return r.read().decode("utf-8", errors="replace")
         except Exception as e:
             last_err = e

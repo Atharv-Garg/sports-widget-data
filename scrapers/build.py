@@ -147,6 +147,33 @@ def _fetch_ufc(warnings: list[str]) -> list[dict]:
     return cleaned
 
 
+def _ufc_start(ev: dict):
+    raw = ev.get("main_card_start_utc") or ""
+    try:
+        dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt
+
+
+def _future_ufc(events: list[dict]) -> list[dict]:
+    """Keep only events that haven't finished (start >= now - 12h), soonest first.
+
+    Guards against past events and degraded ufc.com listing stubs (which bypass
+    per-event validation) ever becoming 'next'.
+    """
+    now = datetime.now(timezone.utc)
+    dated = [
+        (dt, ev)
+        for ev in events
+        if (dt := _ufc_start(ev)) is not None and dt >= now - timedelta(hours=12)
+    ]
+    dated.sort(key=lambda x: x[0])
+    return [ev for _, ev in dated]
+
+
 def main() -> int:
     sys.path.insert(0, str(ROOT / "scrapers"))
     import f1  # noqa: E402
@@ -169,7 +196,7 @@ def main() -> int:
         warnings.append(msg)
         f1_standings = None
 
-    ufc_events = _enrich_ufc(_fetch_ufc(warnings))
+    ufc_events = _future_ufc(_enrich_ufc(_fetch_ufc(warnings)))
 
     payload = {
         "generated_at_utc": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
