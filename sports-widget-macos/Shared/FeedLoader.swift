@@ -3,6 +3,8 @@ import Foundation
 // Fetches the public feed. On every success it writes a last-known-good copy to
 // the Caches directory; if a later fetch fails (offline), callers fall back to
 // that cache instead of bundled placeholder data.
+enum FeedError: Error { case badData }
+
 enum FeedLoader {
     static let feedURL = "https://atharv-garg.github.io/sports-widget-data/feed.json"
 
@@ -28,8 +30,21 @@ enum FeedLoader {
         let dec = JSONDecoder()
         dec.keyDecodingStrategy = .convertFromSnakeCase
         let feed = try dec.decode(Feed.self, from: data)
+        guard isSane(feed) else { throw FeedError.badData }   // don't trust/cache bad data
         try? data.write(to: feedCacheURL)   // last-known-good, overwrites previous
         return feed
+    }
+
+    // Rejects a feed whose "next" event is already in the past — the class of bug
+    // where a stale/stub event leaks into next. On failure the caller falls back to
+    // the last good cache, and the bad feed is never written over it.
+    static func isSane(_ feed: Feed) -> Bool {
+        let now = Date()
+        if let s = DateUtils.parse(feed.ufc?.next?.mainCardStartUtc),
+           s < now.addingTimeInterval(-12 * 3600) { return false }
+        if let s = DateUtils.parse(feed.f1?.next?.sessions?.first?.startUtc),
+           s < now.addingTimeInterval(-24 * 3600) { return false }
+        return true
     }
 
     // Last successfully fetched feed, if any (used when offline).

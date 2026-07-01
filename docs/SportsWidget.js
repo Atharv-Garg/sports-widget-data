@@ -25,6 +25,14 @@ async function loadFeed() {
     const req = new Request(`${FEED_URL}?t=${Math.floor(Date.now() / 60000)}`);
     req.timeoutInterval = 10;
     const feed = await req.loadJSON();
+    if (!isSane(feed)) {
+      // Bad data (e.g. a past event as "next"): keep the last good feed and do
+      // NOT overwrite the cache with it.
+      if (fm.fileExists(cachePath)) {
+        try { return JSON.parse(fm.readString(cachePath)); } catch (e2) {}
+      }
+      return feed;  // no cache yet -> last resort
+    }
     // Save last-known-good (overwrites previous) + drop photos no longer needed.
     try {
       fm.writeString(cachePath, JSON.stringify(feed));
@@ -38,6 +46,16 @@ async function loadFeed() {
     }
     throw e;  // no cache yet (first run) -> nothing to show
   }
+}
+
+// Reject a feed whose "next" event is already in the past (stale/stub data).
+function isSane(feed) {
+  const now = Date.now();
+  const u = feed && feed.ufc && feed.ufc.next && feed.ufc.next.main_card_start_utc;
+  if (u) { const t = Date.parse(u); if (!isNaN(t) && t < now - 12 * 3600 * 1000) return false; }
+  const f = feed && feed.f1 && feed.f1.next && feed.f1.next.sessions && feed.f1.next.sessions[0] && feed.f1.next.sessions[0].start_utc;
+  if (f) { const t = Date.parse(f); if (!isNaN(t) && t < now - 24 * 3600 * 1000) return false; }
+  return true;
 }
 
 // Stable filename for a photo URL; only the 2 main-event photos are cached.
