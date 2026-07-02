@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-02T21:49:07.170437Z",
-  "generated_at_ist": "2026-07-03T03:19:07.170440+05:30",
+  "generated_at_utc": "2026-07-02T23:21:02.545504Z",
+  "generated_at_ist": "2026-07-03T04:51:02.545507+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026",
@@ -674,6 +674,18 @@
         "main_card_start_ist": "2026-08-01T22:30:00+05:30"
       },
       {
+        "name": "UFC Fight Night: Main event TBA",
+        "kind": "Fight Night",
+        "venue": "Meta APEX",
+        "city": "Las Vegas United States",
+        "country": "",
+        "main_card_start_utc": "2026-08-08T22:00:00Z",
+        "main_card": [],
+        "url": "https://www.ufc.com/event/ufc-fight-night-august-08-2026",
+        "_source": "ufc.com",
+        "main_card_start_ist": "2026-08-09T03:30:00+05:30"
+      },
+      {
         "name": "UFC 330: Makhachev vs Machado Garry",
         "kind": "PPV",
         "venue": "Xfinity Mobile Arena",
@@ -794,18 +806,6 @@
         "url": "https://www.ufc.com/event/ufc-fight-night-august-29-2026",
         "_source": "ufc.com",
         "main_card_start_ist": "2026-08-30T03:30:00+05:30"
-      },
-      {
-        "name": "UFC Paris: Main event TBA",
-        "kind": "Event",
-        "venue": "Accor Arena",
-        "city": "Paris France",
-        "country": "",
-        "main_card_start_utc": "2026-09-05T22:00:00Z",
-        "main_card": [],
-        "url": "https://www.ufc.com/event/ufc-fight-night-september-05-2026",
-        "_source": "ufc.com",
-        "main_card_start_ist": "2026-09-06T03:30:00+05:30"
       }
     ]
   },
