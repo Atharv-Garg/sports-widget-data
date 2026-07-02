@@ -317,12 +317,12 @@ function renderF1Small(widget, ev) {
     const s = rows[i];
     const dayKey = (s.start_ist || "").slice(0, 10);
     if (dayKey !== lastDay) {
-      if (lastDay !== null) widget.addSpacer(2);
-      addText(widget, fmtFullDate(s.start_ist), Font.caption2(), TEXT_TERTIARY);
-      widget.addSpacer(1);
+      if (lastDay !== null) widget.addSpacer(4);
+      addText(widget, fmtFullDate(s.start_ist), Font.mediumSystemFont(12), TEXT_SECONDARY);
+      widget.addSpacer(2);
       lastDay = dayKey;
     } else {
-      widget.addSpacer(1);
+      widget.addSpacer(2);
     }
 
     const isRace = s.type === "Race";
