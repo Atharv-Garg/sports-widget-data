@@ -281,7 +281,9 @@ function cardRow(widget, f) {
 }
 
 // --- F1 Small -------------------------------------------------------------
-const F1_KEEP_SMALL = new Set(["Sprint", "Qualifying", "Race"]);
+const F1_KEEP_SMALL = new Set(["Sprint Quali", "Sprint", "Qualifying", "Race"]);
+// Short labels so [name] + [date] fit on one row at the Small widget's width.
+const F1_SESSION_LABEL = { "Sprint Quali": "Sprint Q", "Qualifying": "Quali" };
 
 function renderF1Small(widget, ev) {
   if (!ev) {
@@ -297,25 +299,26 @@ function renderF1Small(widget, ev) {
 
   widget.addSpacer(2);
   // GP name on a single line so the session block below has a predictable
-  // vertical budget; lineLimit:1 lets WidgetKit ellipsise long names like
-  // "Saudi Arabian Grand Prix" instead of wrapping and clipping the schedule.
-  addText(widget, ev.short_name || ev.name || "Grand Prix",
-          Font.headline(), TEXT_PRIMARY, 1);
+  // vertical budget. Shorten "Grand Prix" to "GP" (e.g. "British GP") so it
+  // fits the Small widget without WidgetKit having to ellipsise it.
+  const gpName = (ev.short_name || ev.name || "Grand Prix")
+    .replace(/\bGrand Prix\b/i, "GP");
+  addText(widget, gpName, Font.headline(), TEXT_PRIMARY, 1);
 
   widget.addSpacer(4);
 
   const rows = (ev.sessions || []).filter(s => F1_KEEP_SMALL.has(s.type));
-  // Sprint weekends list 3 sessions; tighten inter-row spacing so the third
-  // row never gets clipped off the bottom of a Small tile.
-  const tight = rows.length >= 3;
-
   for (let i = 0; i < rows.length; i++) {
     const s = rows[i];
-    addText(widget, s.type === "Qualifying" ? "Quali" : s.type,
-            Font.subheadline(), TEXT_PRIMARY);
-    addText(widget, fmtDateTime(s.start_ist),
-            Font.caption1(), TEXT_SECONDARY);
-    if (i < rows.length - 1) widget.addSpacer(tight ? 2 : 5);
+    const isRace = s.type === "Race";
+    const row = widget.addStack();
+    row.centerAlignContent();
+    addText(row, F1_SESSION_LABEL[s.type] || s.type,
+            isRace ? Font.semiboldSystemFont(13) : Font.subheadline(), isRace ? ACCENT_F1 : TEXT_PRIMARY);
+    row.addSpacer();
+    addText(row, fmtDateTime(s.start_ist),
+            Font.caption1(), isRace ? ACCENT_F1 : TEXT_SECONDARY);
+    if (i < rows.length - 1) widget.addSpacer(3);
   }
 }
 
@@ -330,20 +333,21 @@ async function renderUFCLarge(widget, feed) {
   const card = ev.main_card || [];
   const main = card[0];
 
-  // Header: brand tag (left) + date·time (right) on one row.
+  // Header: "UFC <number|kind>" (e.g. "UFC 329", "UFC Fight Night") with the
+  // suffix in accent color — no separate "PPV"/"FIGHT NIGHT" tag and no
+  // fighter names, since those already appear under the hero photos below.
+  // Same font/spacer budget as the old two-row header so total height is
+  // unchanged.
   const head = widget.addStack();
-  head.layoutHorizontally();
   head.centerAlignContent();
-  addText(head, `UFC · ${(ev.kind || "Event").toUpperCase()}`,
-          Font.semiboldRoundedSystemFont(11), ACCENT_UFC);
-  head.addSpacer();
-  addText(head, `${fmtFullDate(ev.main_card_start_ist)} · ${fmtTime(ev.main_card_start_ist)} IST`,
+  addText(head, "UFC ", Font.semiboldSystemFont(13), TEXT_PRIMARY);
+  const nameMatch = /^UFC\s+(.+?):/.exec(ev.name || "");
+  addText(head, nameMatch ? nameMatch[1] : (ev.kind || "Event"),
+          Font.semiboldSystemFont(13), ACCENT_UFC, 1);
+
+  widget.addSpacer(2);
+  addText(widget, `${fmtFullDate(ev.main_card_start_ist)} · ${fmtTime(ev.main_card_start_ist)} IST`,
           Font.caption1(), TEXT_SECONDARY);
-  // Card name (e.g. "UFC 329: McGregor vs Holloway 2"). Location is intentionally not shown.
-  if (ev.name) {
-    widget.addSpacer(2);
-    addText(widget, ev.name, Font.semiboldSystemFont(13), TEXT_PRIMARY, 1);
-  }
   widget.addSpacer(4);
 
   // Hero: main-event cutout photos (head & torso) + flag·rank·name·odds beneath.
