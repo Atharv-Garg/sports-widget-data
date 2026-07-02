@@ -79,6 +79,7 @@ function fmt(iso, pattern) {
   return df.string(new Date(iso));
 }
 const fmtDateTime = iso => iso ? fmt(iso, "EEE d MMM · h:mm a") : "—";  // "Sat 27 Jun · 7:30 PM"
+const fmtDayDateTime = iso => iso ? fmt(iso, "d MMM · h:mm a")  : "—";  // "27 Jun · 7:30 PM" (no weekday, fits one row)
 const fmtFullDate = iso => iso ? fmt(iso, "EEE d MMM")          : "—";  // "Sat 20 Jun"
 const fmtTime     = iso => iso ? fmt(iso, "h:mm a")             : "—";  // "5:30 AM"
 const fmtShortDay = iso => iso ? fmt(iso, "d MMM")              : "—";  // "27 Jun"
@@ -307,32 +308,21 @@ function renderF1Small(widget, ev) {
 
   widget.addSpacer(3);
 
-  // Sessions grouped by calendar day: a small day header ("Fri 3 Jul") once
-  // per day, then each session on its own row showing only the time — the
-  // full "day + date + time" string doesn't fit next to a label on one line
-  // at the Small widget's width, so the date lives on the header instead.
+  // Single line per session: label + "date · time" (no weekday — dropped so
+  // the full string fits next to the label at a still-readable font size
+  // without WidgetKit truncating it).
   const rows = (ev.sessions || []).filter(s => F1_KEEP_SMALL.has(s.type));
-  let lastDay = null;
   for (let i = 0; i < rows.length; i++) {
     const s = rows[i];
-    const dayKey = (s.start_ist || "").slice(0, 10);
-    if (dayKey !== lastDay) {
-      if (lastDay !== null) widget.addSpacer(4);
-      addText(widget, fmtFullDate(s.start_ist), Font.mediumSystemFont(12), TEXT_SECONDARY);
-      widget.addSpacer(2);
-      lastDay = dayKey;
-    } else {
-      widget.addSpacer(2);
-    }
-
     const isRace = s.type === "Race";
     const row = widget.addStack();
     row.centerAlignContent();
     addText(row, F1_SESSION_LABEL[s.type] || s.type,
-            isRace ? Font.semiboldSystemFont(13) : Font.subheadline(), isRace ? ACCENT_F1 : TEXT_PRIMARY);
+            isRace ? Font.semiboldSystemFont(12) : Font.caption1(), isRace ? ACCENT_F1 : TEXT_PRIMARY);
     row.addSpacer();
-    addText(row, fmtTime(s.start_ist),
-            Font.caption1(), isRace ? ACCENT_F1 : TEXT_SECONDARY);
+    addText(row, fmtDayDateTime(s.start_ist),
+            Font.systemFont(9), isRace ? ACCENT_F1 : TEXT_SECONDARY);
+    if (i < rows.length - 1) widget.addSpacer(3);
   }
 }
 
