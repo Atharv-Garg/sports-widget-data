@@ -150,43 +150,6 @@ function abbrevWeight(wc) {
   return women ? `W${a}` : a;
 }
 
-// Nationality name -> ISO-3166 alpha-2, then -> flag emoji (real flags on iOS).
-const COUNTRY_ISO = {
-  "United States": "US", "USA": "US", "Brazil": "BR", "Russia": "RU",
-  "Mexico": "MX", "Kazakhstan": "KZ", "Azerbaijan": "AZ", "Canada": "CA",
-  "United Kingdom": "GB", "England": "GB", "Scotland": "GB", "Wales": "GB",
-  "Northern Ireland": "GB", "Ireland": "IE", "Australia": "AU",
-  "New Zealand": "NZ", "China": "CN", "Japan": "JP", "South Korea": "KR",
-  "Korea": "KR", "Georgia": "GE", "Armenia": "AM", "Poland": "PL",
-  "Sweden": "SE", "Norway": "NO", "Denmark": "DK", "Finland": "FI",
-  "Netherlands": "NL", "France": "FR", "Germany": "DE", "Spain": "ES",
-  "Italy": "IT", "Portugal": "PT", "Switzerland": "CH", "Austria": "AT",
-  "Belgium": "BE", "Czechia": "CZ", "Czech Republic": "CZ", "Slovakia": "SK",
-  "Croatia": "HR", "Serbia": "RS", "Ukraine": "UA", "Belarus": "BY",
-  "Romania": "RO", "Bulgaria": "BG", "Greece": "GR", "Iceland": "IS",
-  "Kyrgyzstan": "KG", "Uzbekistan": "UZ", "Tajikistan": "TJ",
-  "Turkmenistan": "TM", "Turkey": "TR", "Iran": "IR", "Iraq": "IQ",
-  "Israel": "IL", "Jordan": "JO", "Lebanon": "LB", "Bahrain": "BH",
-  "United Arab Emirates": "AE", "Saudi Arabia": "SA", "Morocco": "MA",
-  "Tunisia": "TN", "Algeria": "DZ", "Egypt": "EG", "Nigeria": "NG",
-  "Cameroon": "CM", "Ghana": "GH", "South Africa": "ZA", "Angola": "AO",
-  "Congo": "CG", "DR Congo": "CD", "Democratic Republic of the Congo": "CD",
-  "Suriname": "SR", "Argentina": "AR", "Chile": "CL", "Peru": "PE",
-  "Ecuador": "EC", "Colombia": "CO", "Venezuela": "VE", "Uruguay": "UY",
-  "Paraguay": "PY", "Bolivia": "BO", "Cuba": "CU", "Panama": "PA",
-  "Dominican Republic": "DO", "Jamaica": "JM", "Philippines": "PH",
-  "Thailand": "TH", "Vietnam": "VN", "Indonesia": "ID", "Singapore": "SG",
-  "Malaysia": "MY", "India": "IN", "Mongolia": "MN", "Moldova": "MD",
-  "Lithuania": "LT", "Latvia": "LV", "Estonia": "EE", "Slovenia": "SI",
-  "Hungary": "HU", "Albania": "AL", "Cape Verde": "CV", "Guam": "GU",
-};
-
-function flagEmoji(country) {
-  const cc = COUNTRY_ISO[(country || "").trim()];
-  if (!cc) return "";
-  return cc.replace(/./g, c => String.fromCodePoint(127397 + c.charCodeAt(0)));
-}
-
 // Crop a tall fighter cutout to its top fraction (head & torso) so the hero
 // reads big without the lower-body whitespace eating vertical budget.
 function cropTop(img, frac) {
@@ -223,16 +186,14 @@ function addPhoto(stack, img, targetH) {
   wi.imageSize = new Size(img.size.width * s, targetH);
 }
 
-// A fixed-width weight-class "chip" so fighter names line up in a column.
-function chip(row, text) {
+// Fixed-width, borderless weight-class label (accent color, no chip/pill
+// background) so fighter names still line up in a column without the boxy
+// look a filled pill gives at this size.
+function weightLabel(row, text) {
   const c = row.addStack();
-  c.size = new Size(36, 15);
-  c.cornerRadius = 4;
-  c.backgroundColor = Color.dynamic(new Color("#000000", 0.06), new Color("#FFFFFF", 0.13));
+  c.size = new Size(34, 15);
   c.centerAlignContent();
-  c.addSpacer();
-  addText(c, text, Font.mediumSystemFont(9), TEXT_SECONDARY);
-  c.addSpacer();
+  addText(c, text.toUpperCase(), Font.boldSystemFont(10), ACCENT_UFC);
 }
 
 // A fixed-width photo cell for the hero row, matching the width of its
@@ -266,8 +227,7 @@ function heroFighter(parent, width, flag, rank, name, odds) {
   const l1 = col.addStack();
   l1.layoutHorizontally();
   l1.centerAlignContent();
-  if (flag) addText(l1, `${flag} `, Font.systemFont(13), TEXT_PRIMARY);
-  if (rank) addText(l1, `${rank} `, Font.caption2(), TEXT_SECONDARY);
+  if (rank) addText(l1, `${rank} `, Font.boldSystemFont(12), ACCENT_UFC);
   addText(l1, name, Font.semiboldSystemFont(15), TEXT_PRIMARY);
   if (odds && odds !== "-") {
     col.addSpacer(2);
@@ -276,22 +236,20 @@ function heroFighter(parent, width, flag, rank, name, odds) {
   return col;
 }
 
-// One "REST OF CARD" row: [chip] flag rank name v flag rank name … odds.
-// Sized tight so flags + ranks + surnames + odds all fit one line at the Large
-// tile's ~310pt content width without truncation.
+// One "REST OF CARD" row: [weight] rank name v rank name … odds. Sized tight
+// so ranks + surnames + odds all fit one line at the Large tile's ~310pt
+// content width without truncation. Ranks are set in the accent color as a
+// highlight, matching the hero treatment above.
 function cardRow(widget, f) {
   const row = widget.addStack();
   row.layoutHorizontally();
   row.centerAlignContent();
-  chip(row, abbrevWeight(f.weight_class));
+  weightLabel(row, abbrevWeight(f.weight_class));
   row.addSpacer(8);
-  const rf = flagEmoji(f.red_country), bf = flagEmoji(f.blue_country);
-  if (rf) addText(row, `${rf} `, Font.systemFont(11), TEXT_PRIMARY);
-  if (f.red_rank) addText(row, `${f.red_rank} `, Font.caption2(), TEXT_SECONDARY);
+  if (f.red_rank) addText(row, `${f.red_rank} `, Font.boldSystemFont(11), ACCENT_UFC);
   addText(row, lastName(f.red), Font.mediumSystemFont(13), TEXT_PRIMARY);
   addText(row, " v ", Font.caption2(), TEXT_TERTIARY);
-  if (bf) addText(row, `${bf} `, Font.systemFont(11), TEXT_PRIMARY);
-  if (f.blue_rank) addText(row, `${f.blue_rank} `, Font.caption2(), TEXT_SECONDARY);
+  if (f.blue_rank) addText(row, `${f.blue_rank} `, Font.boldSystemFont(11), ACCENT_UFC);
   addText(row, lastName(f.blue), Font.mediumSystemFont(13), TEXT_PRIMARY);
   if (f.title_fight) addText(row, " ★", Font.caption2(), ACCENT_UFC);
   row.addSpacer();
@@ -372,7 +330,7 @@ async function renderUFCLarge(widget, feed) {
           Font.caption1(), TEXT_SECONDARY);
   widget.addSpacer(4);
 
-  // Hero: main-event cutout photos (head & torso) + flag·rank·name·odds beneath.
+  // Hero: main-event cutout photos (head & torso) + rank·name·odds beneath.
   // Falls back to a text headline when photos are missing (TBA / ESPN events).
   const redImg = main ? await loadImg(main.red_img) : null;
   const blueImg = main ? await loadImg(main.blue_img) : null;
@@ -402,9 +360,9 @@ async function renderUFCLarge(widget, feed) {
     labels.layoutHorizontally();
     labels.topAlignContent();
     labels.addSpacer();
-    heroFighter(labels, colW, flagEmoji(main.red_country), main.red_rank, lastName(main.red), main.red_odds);
+    heroFighter(labels, colW, main.red_rank, lastName(main.red), main.red_odds);
     labels.addStack().size = new Size(vsW, 0);
-    heroFighter(labels, colW, flagEmoji(main.blue_country), main.blue_rank, lastName(main.blue), main.blue_odds);
+    heroFighter(labels, colW, main.blue_rank, lastName(main.blue), main.blue_odds);
     labels.addSpacer();
 
     // …with weight class alone on a centred line beneath (VS now sits between
@@ -414,7 +372,7 @@ async function renderUFCLarge(widget, feed) {
     meta.layoutHorizontally();
     meta.centerAlignContent();
     meta.addSpacer();
-    addText(meta, stripBout(main.weight_class), Font.caption2(), TEXT_SECONDARY);
+    addText(meta, stripBout(main.weight_class).toUpperCase(), Font.boldSystemFont(10), ACCENT_UFC);
     meta.addSpacer();
   } else {
     // Text fallback: keep the headliner visible without photos.
