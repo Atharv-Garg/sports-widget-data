@@ -235,25 +235,43 @@ function chip(row, text) {
   c.addSpacer();
 }
 
-// One fighter's label column for the hero: flag · rank · surname, odds beneath.
-// The column is intrinsic-width (no internal flexible spacers) so the caller's
-// spacers absorb slack and the surname never gets squeezed/truncated.
-function heroFighter(parent, flag, rank, name, odds) {
+// A fixed-width photo cell for the hero row, matching the width of its
+// corresponding heroFighter() name column so photo and name always align.
+function photoCol(parent, width, img) {
+  const col = parent.addStack();
+  col.size = new Size(width, 92);
+  col.centerAlignContent();
+  addPhoto(col, img, 92);
+}
+
+// The "VS" badge cell between the two hero photo columns.
+function vsCol(parent, width, titleFight) {
+  const col = parent.addStack();
+  col.size = new Size(width, 92);
+  col.centerAlignContent();
+  addText(col, `VS${titleFight ? " ★" : ""}`, Font.boldSystemFont(13), ACCENT_UFC);
+}
+
+// One fighter's label column for the hero: flag · rank · surname, odds
+// beneath. Fixed-width (matches the photo column above it) and centred, so
+// the name is always under its own photo regardless of name/odds length.
+// Odds only render when a real value is available — a bare "-" (no
+// sportsbook line posted yet) is treated the same as missing, and this same
+// spot is where a real value will show up once one is published.
+function heroFighter(parent, width, flag, rank, name, odds) {
   const col = parent.addStack();
   col.layoutVertically();
+  col.centerAlignContent();
+  col.size = new Size(width, 0);
   const l1 = col.addStack();
   l1.layoutHorizontally();
   l1.centerAlignContent();
   if (flag) addText(l1, `${flag} `, Font.systemFont(13), TEXT_PRIMARY);
   if (rank) addText(l1, `${rank} `, Font.caption2(), TEXT_SECONDARY);
   addText(l1, name, Font.semiboldSystemFont(15), TEXT_PRIMARY);
-  if (odds) {
-    // Centre the odds under the name (column width == line-1 width).
-    const l2 = col.addStack();
-    l2.layoutHorizontally();
-    l2.addSpacer();
-    addText(l2, odds, Font.caption1(), TEXT_SECONDARY);
-    l2.addSpacer();
+  if (odds && odds !== "-") {
+    col.addSpacer(2);
+    addText(col, odds, Font.caption1(), TEXT_SECONDARY);
   }
   return col;
 }
@@ -360,35 +378,43 @@ async function renderUFCLarge(widget, feed) {
   const blueImg = main ? await loadImg(main.blue_img) : null;
 
   if (main && redImg && blueImg) {
+    // Fixed-width columns (one per fighter, one for the VS badge) shared by
+    // both the photo row and the name row below, so a fighter's name is
+    // always centred under their own photo regardless of name/odds length —
+    // no independent centring math between the two rows to drift apart.
+    const colW = 130, vsW = 34;
+
     const photos = widget.addStack();
     photos.layoutHorizontally();
     photos.bottomAlignContent();
     photos.addSpacer();
-    addPhoto(photos, cropTop(redImg, 0.58), 92);
-    photos.addSpacer(8);
-    addPhoto(photos, cropTop(blueImg, 0.58), 92);
+    photoCol(photos, colW, cropTop(redImg, 0.58));
+    vsCol(photos, vsW, main.title_fight);
+    photoCol(photos, colW, cropTop(blueImg, 0.58));
     photos.addSpacer();
-    widget.addSpacer(5);
+    widget.addSpacer(4);
 
-    // Two fighters side by side (each intrinsic-width, flexible spacers absorb
-    // slack so surnames never truncate)…
+    // Two fighters side by side, columns matching the photo row exactly so
+    // alignment holds regardless of content. Odds render under the name only
+    // when a real value is available (never a bare "-"); if ufc.com starts
+    // publishing odds for this fight later, they'll appear here automatically.
     const labels = widget.addStack();
     labels.layoutHorizontally();
     labels.topAlignContent();
     labels.addSpacer();
-    heroFighter(labels, flagEmoji(main.red_country), main.red_rank, lastName(main.red), main.red_odds);
-    labels.addSpacer();
-    heroFighter(labels, flagEmoji(main.blue_country), main.blue_rank, lastName(main.blue), main.blue_odds);
+    heroFighter(labels, colW, flagEmoji(main.red_country), main.red_rank, lastName(main.red), main.red_odds);
+    labels.addStack().size = new Size(vsW, 0);
+    heroFighter(labels, colW, flagEmoji(main.blue_country), main.blue_rank, lastName(main.blue), main.blue_odds);
     labels.addSpacer();
 
-    // …with VS ★ · weight class on a centred line beneath.
+    // …with weight class alone on a centred line beneath (VS now sits between
+    // the photo columns above, not glued to this line).
     widget.addSpacer(3);
     const meta = widget.addStack();
     meta.layoutHorizontally();
     meta.centerAlignContent();
     meta.addSpacer();
-    addText(meta, `VS${main.title_fight ? " ★" : ""}`, Font.boldSystemFont(11), ACCENT_UFC);
-    addText(meta, ` · ${stripBout(main.weight_class)}`, Font.caption2(), TEXT_SECONDARY);
+    addText(meta, stripBout(main.weight_class), Font.caption2(), TEXT_SECONDARY);
     meta.addSpacer();
   } else {
     // Text fallback: keep the headliner visible without photos.
