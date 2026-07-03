@@ -1,197 +1,9 @@
 {
-  "generated_at_utc": "2026-07-03T08:26:57.146269Z",
-  "generated_at_ist": "2026-07-03T13:56:57.146272+05:30",
+  "generated_at_utc": "2026-07-03T11:16:30.114007Z",
+  "generated_at_ist": "2026-07-03T16:46:30.114009+05:30",
   "f1": {
-    "next": {
-      "name": "FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026",
-      "short_name": "British Grand Prix",
-      "round": 1289,
-      "circuit": "Silverstone",
-      "location": "Silverstone",
-      "country": "United Kingdom",
-      "flag_emoji": "🇬🇧",
-      "external_url": "https://www.formula1.com/en/racing/2026.html",
-      "sessions": [
-        {
-          "type": "FP1",
-          "start_utc": "2026-07-03T11:30:00+00:00",
-          "end_utc": "2026-07-03T12:30:00+00:00",
-          "start_ist": "2026-07-03T17:00:00+05:30",
-          "end_ist": "2026-07-03T18:00:00+05:30"
-        },
-        {
-          "type": "Sprint Quali",
-          "start_utc": "2026-07-03T15:30:00+00:00",
-          "end_utc": "2026-07-03T16:14:00+00:00",
-          "start_ist": "2026-07-03T21:00:00+05:30",
-          "end_ist": "2026-07-03T21:44:00+05:30"
-        },
-        {
-          "type": "Sprint",
-          "start_utc": "2026-07-04T11:00:00+00:00",
-          "end_utc": "2026-07-04T12:00:00+00:00",
-          "start_ist": "2026-07-04T16:30:00+05:30",
-          "end_ist": "2026-07-04T17:30:00+05:30"
-        },
-        {
-          "type": "Qualifying",
-          "start_utc": "2026-07-04T15:00:00+00:00",
-          "end_utc": "2026-07-04T16:00:00+00:00",
-          "start_ist": "2026-07-04T20:30:00+05:30",
-          "end_ist": "2026-07-04T21:30:00+05:30"
-        },
-        {
-          "type": "Race",
-          "start_utc": "2026-07-05T14:00:00+00:00",
-          "end_utc": "2026-07-05T16:00:00+00:00",
-          "start_ist": "2026-07-05T19:30:00+05:30",
-          "end_ist": "2026-07-05T21:30:00+05:30"
-        }
-      ]
-    },
-    "upcoming": [
-      {
-        "name": "FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026",
-        "short_name": "Belgian Grand Prix",
-        "round": 1290,
-        "circuit": "Spa-Francorchamps",
-        "location": "Spa-Francorchamps",
-        "country": "Belgium",
-        "flag_emoji": "🇧🇪",
-        "external_url": "https://www.formula1.com/en/racing/2026.html",
-        "sessions": [
-          {
-            "type": "FP1",
-            "start_utc": "2026-07-17T11:30:00+00:00",
-            "end_utc": "2026-07-17T12:30:00+00:00",
-            "start_ist": "2026-07-17T17:00:00+05:30",
-            "end_ist": "2026-07-17T18:00:00+05:30"
-          },
-          {
-            "type": "FP2",
-            "start_utc": "2026-07-17T15:00:00+00:00",
-            "end_utc": "2026-07-17T16:00:00+00:00",
-            "start_ist": "2026-07-17T20:30:00+05:30",
-            "end_ist": "2026-07-17T21:30:00+05:30"
-          },
-          {
-            "type": "FP3",
-            "start_utc": "2026-07-18T10:30:00+00:00",
-            "end_utc": "2026-07-18T11:30:00+00:00",
-            "start_ist": "2026-07-18T16:00:00+05:30",
-            "end_ist": "2026-07-18T17:00:00+05:30"
-          },
-          {
-            "type": "Qualifying",
-            "start_utc": "2026-07-18T14:00:00+00:00",
-            "end_utc": "2026-07-18T15:00:00+00:00",
-            "start_ist": "2026-07-18T19:30:00+05:30",
-            "end_ist": "2026-07-18T20:30:00+05:30"
-          },
-          {
-            "type": "Race",
-            "start_utc": "2026-07-19T13:00:00+00:00",
-            "end_utc": "2026-07-19T15:00:00+00:00",
-            "start_ist": "2026-07-19T18:30:00+05:30",
-            "end_ist": "2026-07-19T20:30:00+05:30"
-          }
-        ]
-      },
-      {
-        "name": "FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026",
-        "short_name": "Hungarian Grand Prix",
-        "round": 1291,
-        "circuit": "Hungaroring",
-        "location": "Budapest",
-        "country": "Hungary",
-        "flag_emoji": "🇭🇺",
-        "external_url": "https://www.formula1.com/en/racing/2026.html",
-        "sessions": [
-          {
-            "type": "FP1",
-            "start_utc": "2026-07-24T11:30:00+00:00",
-            "end_utc": "2026-07-24T12:30:00+00:00",
-            "start_ist": "2026-07-24T17:00:00+05:30",
-            "end_ist": "2026-07-24T18:00:00+05:30"
-          },
-          {
-            "type": "FP2",
-            "start_utc": "2026-07-24T15:00:00+00:00",
-            "end_utc": "2026-07-24T16:00:00+00:00",
-            "start_ist": "2026-07-24T20:30:00+05:30",
-            "end_ist": "2026-07-24T21:30:00+05:30"
-          },
-          {
-            "type": "FP3",
-            "start_utc": "2026-07-25T10:30:00+00:00",
-            "end_utc": "2026-07-25T11:30:00+00:00",
-            "start_ist": "2026-07-25T16:00:00+05:30",
-            "end_ist": "2026-07-25T17:00:00+05:30"
-          },
-          {
-            "type": "Qualifying",
-            "start_utc": "2026-07-25T14:00:00+00:00",
-            "end_utc": "2026-07-25T15:00:00+00:00",
-            "start_ist": "2026-07-25T19:30:00+05:30",
-            "end_ist": "2026-07-25T20:30:00+05:30"
-          },
-          {
-            "type": "Race",
-            "start_utc": "2026-07-26T13:00:00+00:00",
-            "end_utc": "2026-07-26T15:00:00+00:00",
-            "start_ist": "2026-07-26T18:30:00+05:30",
-            "end_ist": "2026-07-26T20:30:00+05:30"
-          }
-        ]
-      },
-      {
-        "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
-        "short_name": "Dutch Grand Prix",
-        "round": 1292,
-        "circuit": "Zandvoort",
-        "location": "Zandvoort",
-        "country": "Netherlands",
-        "flag_emoji": "🇳🇱",
-        "external_url": "https://www.formula1.com/en/racing/2026.html",
-        "sessions": [
-          {
-            "type": "FP1",
-            "start_utc": "2026-08-21T10:30:00+00:00",
-            "end_utc": "2026-08-21T11:30:00+00:00",
-            "start_ist": "2026-08-21T16:00:00+05:30",
-            "end_ist": "2026-08-21T17:00:00+05:30"
-          },
-          {
-            "type": "Sprint Quali",
-            "start_utc": "2026-08-21T14:30:00+00:00",
-            "end_utc": "2026-08-21T15:14:00+00:00",
-            "start_ist": "2026-08-21T20:00:00+05:30",
-            "end_ist": "2026-08-21T20:44:00+05:30"
-          },
-          {
-            "type": "Sprint",
-            "start_utc": "2026-08-22T10:00:00+00:00",
-            "end_utc": "2026-08-22T11:00:00+00:00",
-            "start_ist": "2026-08-22T15:30:00+05:30",
-            "end_ist": "2026-08-22T16:30:00+05:30"
-          },
-          {
-            "type": "Qualifying",
-            "start_utc": "2026-08-22T14:00:00+00:00",
-            "end_utc": "2026-08-22T15:00:00+00:00",
-            "start_ist": "2026-08-22T19:30:00+05:30",
-            "end_ist": "2026-08-22T20:30:00+05:30"
-          },
-          {
-            "type": "Race",
-            "start_utc": "2026-08-23T13:00:00+00:00",
-            "end_utc": "2026-08-23T15:00:00+00:00",
-            "start_ist": "2026-08-23T18:30:00+05:30",
-            "end_ist": "2026-08-23T20:30:00+05:30"
-          }
-        ]
-      }
-    ],
+    "next": null,
+    "upcoming": [],
     "standings": {
       "drivers": [
         {
@@ -674,13 +486,28 @@
         "main_card_start_ist": "2026-08-01T22:30:00+05:30"
       },
       {
-        "name": "UFC Fight Night: Main event TBA",
+        "name": "UFC Fight Night: Gamrot vs Salkilld",
         "kind": "Fight Night",
         "venue": "Meta APEX",
         "city": "Las Vegas United States",
         "country": "",
         "main_card_start_utc": "2026-08-08T22:00:00Z",
-        "main_card": [],
+        "main_card": [
+          {
+            "red": "Mateusz Gamrot",
+            "blue": "Quillan Salkilld",
+            "red_rank": "#8",
+            "blue_rank": "#12",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Poland",
+            "blue_country": "Australia",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/GAMROT_MATEUSZ_L_04-11.png?itok=6zp9jfGV",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/SALKILLD_QUILLAN_R_05-02.png?itok=RarJXbX_",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
+          }
+        ],
         "url": "https://www.ufc.com/event/ufc-fight-night-august-08-2026",
         "_source": "ufc.com",
         "main_card_start_ist": "2026-08-09T03:30:00+05:30"
@@ -809,5 +636,7 @@
       }
     ]
   },
-  "_warnings": []
+  "_warnings": [
+    "F1 fetch failed: HTTP Error 401: Unauthorized"
+  ]
 }
