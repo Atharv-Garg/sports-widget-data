@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-06T14:36:33.575508Z",
-  "generated_at_ist": "2026-07-06T20:06:33.575511+05:30",
+  "generated_at_utc": "2026-07-06T17:28:05.087323Z",
+  "generated_at_ist": "2026-07-06T22:58:05.087326+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026",
@@ -352,7 +352,7 @@
           "red": "Conor McGregor",
           "blue": "Max Holloway",
           "red_rank": "",
-          "blue_rank": "#4",
+          "blue_rank": "",
           "red_odds": "-",
           "blue_odds": "-",
           "red_country": "Ireland",
