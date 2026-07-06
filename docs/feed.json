@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-06T21:14:12.333433Z",
-  "generated_at_ist": "2026-07-07T02:44:12.333436+05:30",
+  "generated_at_utc": "2026-07-06T22:38:54.227477Z",
+  "generated_at_ist": "2026-07-07T04:08:54.227481+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026",
@@ -405,17 +405,17 @@
           "title_fight": false
         },
         {
-          "red": "Robert Whittaker",
-          "blue": "Nikita Krylov",
+          "red": "King Green",
+          "blue": "Terrance McKinney",
           "red_rank": "",
-          "blue_rank": "#12",
-          "red_odds": "-",
-          "blue_odds": "-",
-          "red_country": "Australia",
-          "blue_country": "Russia",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/WHITTAKER_ROBERT_L_07-26.png?itok=fF-D_SvA",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/KRYLOV_NIKITA_R_02-25.png?itok=xtB7RQKB",
-          "weight_class": "Light Heavyweight Bout",
+          "blue_rank": "",
+          "red_odds": "+130",
+          "blue_odds": "-160",
+          "red_country": "United States",
+          "blue_country": "United States",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/GREEN_KING_L_05-09.png?itok=yT3TPnQ5",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/MCKINNEY_TERRANCE_R_05-11.png?itok=0cKrYOhW",
+          "weight_class": "Lightweight Bout",
           "title_fight": false
         }
       ],
