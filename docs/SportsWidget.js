@@ -213,39 +213,27 @@ function vsCol(parent, width, titleFight) {
   addText(col, `VS${titleFight ? " ★" : ""}`, Font.boldSystemFont(13), ACCENT_UFC);
 }
 
-// One fighter's label column for the hero: rank (own line, when present),
-// then the surname directly beneath the photo, then odds. Fixed-width
-// (matches the photo column above it) and centred, so the name's own line is
-// always centred under its own photo — putting the rank on a separate line
-// (rather than inline with the name) means an unranked opponent's name never
-// gets pushed off-centre by the other fighter's rank text.
+// One fighter's label column for the hero: flag · rank · surname, odds
+// beneath. Fixed-width (matches the photo column above it) and centred, so
+// the name is always under its own photo regardless of name/odds length.
 // Odds only render when a real value is available — a bare "-" (no
 // sportsbook line posted yet) is treated the same as missing, and this same
 // spot is where a real value will show up once one is published.
-function heroFighter(parent, width, rank, name, odds) {
+function heroFighter(parent, width, flag, rank, name, odds) {
   const col = parent.addStack();
   col.layoutVertically();
   col.centerAlignContent();
   col.size = new Size(width, 0);
-  if (rank) {
-    addText(col, rank, Font.boldSystemFont(11), ACCENT_UFC);
-    col.addSpacer(1);
-  }
-  addText(col, name, Font.semiboldSystemFont(15), TEXT_PRIMARY);
+  const l1 = col.addStack();
+  l1.layoutHorizontally();
+  l1.centerAlignContent();
+  if (rank) addText(l1, `${rank} `, Font.boldSystemFont(12), ACCENT_UFC);
+  addText(l1, name, Font.semiboldSystemFont(15), TEXT_PRIMARY);
   if (odds && odds !== "-") {
     col.addSpacer(2);
     addText(col, odds, Font.caption1(), TEXT_SECONDARY);
   }
   return col;
-}
-
-// Fixed-width rank slot (blank when a fighter is unranked) so a name always
-// starts at the same x position across rows, whether or not the fighter —
-// or their opponent on the row above/below — happens to be ranked.
-function rankSlot(row, rank) {
-  const c = row.addStack();
-  c.size = new Size(20, 13);
-  if (rank) addText(c, rank, Font.boldSystemFont(11), ACCENT_UFC);
 }
 
 // One "REST OF CARD" row: [weight] rank name v rank name … odds. Sized tight
@@ -258,10 +246,10 @@ function cardRow(widget, f) {
   row.centerAlignContent();
   weightLabel(row, abbrevWeight(f.weight_class));
   row.addSpacer(8);
-  rankSlot(row, f.red_rank);
+  if (f.red_rank) addText(row, `${f.red_rank} `, Font.boldSystemFont(11), ACCENT_UFC);
   addText(row, lastName(f.red), Font.mediumSystemFont(13), TEXT_PRIMARY);
   addText(row, " v ", Font.caption2(), TEXT_TERTIARY);
-  rankSlot(row, f.blue_rank);
+  if (f.blue_rank) addText(row, `${f.blue_rank} `, Font.boldSystemFont(11), ACCENT_UFC);
   addText(row, lastName(f.blue), Font.mediumSystemFont(13), TEXT_PRIMARY);
   if (f.title_fight) addText(row, " ★", Font.caption2(), ACCENT_UFC);
   row.addSpacer();
