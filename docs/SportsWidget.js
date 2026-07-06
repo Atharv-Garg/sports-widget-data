@@ -213,13 +213,13 @@ function vsCol(parent, width, titleFight) {
   addText(col, `VS${titleFight ? " ★" : ""}`, Font.boldSystemFont(13), ACCENT_UFC);
 }
 
-// One fighter's label column for the hero: flag · rank · surname, odds
-// beneath. Fixed-width (matches the photo column above it) and centred, so
+// One fighter's label column for the hero: rank · surname, odds beneath.
+// Fixed-width (matches the photo column above it) and centred, so
 // the name is always under its own photo regardless of name/odds length.
 // Odds only render when a real value is available — a bare "-" (no
 // sportsbook line posted yet) is treated the same as missing, and this same
 // spot is where a real value will show up once one is published.
-function heroFighter(parent, width, flag, rank, name, odds) {
+function heroFighter(parent, width, rank, name, odds) {
   const col = parent.addStack();
   col.layoutVertically();
   col.centerAlignContent();
