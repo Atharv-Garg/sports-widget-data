@@ -174,11 +174,58 @@ def _future_ufc(events: list[dict]) -> list[dict]:
     return [ev for _, ev in dated]
 
 
+def _f1_first_start(ev: dict):
+    ss = ev.get("sessions") or []
+    if not ss:
+        return None
+    raw = ss[0].get("start_utc") or ""
+    try:
+        dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt
+
+
+def _future_f1(events: list[dict]) -> list[dict]:
+    """Keep race weekends that haven't finished (last session end >= now - 12h),
+    soonest first. Used when reusing a previous feed after a transient F1 failure."""
+    now = datetime.now(timezone.utc)
+    out = []
+    for ev in events:
+        ss = ev.get("sessions") or []
+        if not ss:
+            continue
+        raw = ss[-1].get("end_utc") or ss[-1].get("start_utc") or ""
+        try:
+            last = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        except ValueError:
+            continue
+        if last.tzinfo is None:
+            last = last.replace(tzinfo=timezone.utc)
+        if last >= now - timedelta(hours=12):
+            out.append((_f1_first_start(ev) or last, ev))
+    out.sort(key=lambda x: x[0])
+    return [ev for _, ev in out]
+
+
+def _load_prev() -> dict:
+    """Previous feed.json, for last-known-good fallback on transient upstream failures."""
+    try:
+        return json.loads(OUT.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
 def main() -> int:
     sys.path.insert(0, str(ROOT / "scrapers"))
     import f1  # noqa: E402
 
     warnings: list[str] = []
+    prev = _load_prev()
+    prev_f1 = prev.get("f1") or {}
+    prev_ufc = prev.get("ufc") or {}
 
     try:
         f1_events = _enrich_f1(f1.fetch())
@@ -187,16 +234,30 @@ def main() -> int:
         print(f"[warn] {msg}", file=sys.stderr)
         warnings.append(msg)
         f1_events = []
+    if not f1_events:
+        reuse = _future_f1(
+            ([prev_f1["next"]] if prev_f1.get("next") else []) + (prev_f1.get("upcoming") or [])
+        )
+        if reuse:
+            f1_events = reuse
+            warnings.append("F1 empty; reused previous feed's races (last-known-good)")
 
     try:
         f1_standings = f1.fetch_standings()
     except Exception as e:
-        msg = f"F1 standings fetch failed: {e}"
+        msg = f"F1 standings fetch failed: {e}; reusing previous"
         print(f"[warn] {msg}", file=sys.stderr)
         warnings.append(msg)
-        f1_standings = None
+        f1_standings = prev_f1.get("standings")
 
     ufc_events = _future_ufc(_enrich_ufc(_fetch_ufc(warnings)))
+    if not ufc_events:
+        reuse = _future_ufc(
+            ([prev_ufc["next"]] if prev_ufc.get("next") else []) + (prev_ufc.get("upcoming") or [])
+        )
+        if reuse:
+            ufc_events = reuse
+            warnings.append("UFC empty; reused previous feed's events (last-known-good)")
 
     payload = {
         "generated_at_utc": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
