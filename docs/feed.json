@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-09T16:42:41.060234Z",
-  "generated_at_ist": "2026-07-09T22:12:41.060238+05:30",
+  "generated_at_utc": "2026-07-09T18:26:22.798772Z",
+  "generated_at_ist": "2026-07-09T23:56:22.798775+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026",
@@ -566,8 +566,8 @@
             "blue_odds": "-",
             "red_country": "Russia",
             "blue_country": "",
-            "red_img": "/themes/custom/ufc/assets/img/standing-stance-right-silhouette.png",
-            "blue_img": "/themes/custom/ufc/assets/img/standing-stance-left-silhouette.png",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/ZAYNUKOV_MAGOMED_R_10-07.png?itok=2Dxo6_Gj",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/image/fighter_images/SHADOW_Fighter_fullLength_BLUE.png?VersionId=1Jeml9w1QwZqmMUJDg8qTrTk7fFhqUra&itok=BgqHA24D",
             "weight_class": "Lightweight Bout",
             "title_fight": false
           },
@@ -641,31 +641,31 @@
             "title_fight": false
           },
           {
-            "red": "Oban Elliott",
-            "blue": "Michael Oliveira",
+            "red": "Duško Todorović",
+            "blue": "Robert Valentin",
             "red_rank": "",
             "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
-            "red_country": "Wales",
-            "blue_country": "Brazil",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/ELLIOTT_OBAN_L_01-31.png?itok=Vi_Zhh5F",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/OLIVEIRA_MICHAEL_L.png?itok=oCkagqMy",
-            "weight_class": "Welterweight Bout",
+            "red_country": "Serbia",
+            "blue_country": "Switzerland",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2022-08/4526cb41-c0d2-423a-ad18-d8efe88477f3%252FTODOROVIC_DUSKO_L_05-21.png?itok=X_i1JCsW",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/VALENTIN_ROBERT_R_04-18.png?itok=nW_3T2ql",
+            "weight_class": "Middleweight Bout",
             "title_fight": false
           },
           {
-            "red": "Ludovit Klein",
-            "blue": "Tofiq Musayev",
+            "red": "Vlasto Cepo",
+            "blue": "Gilbert Urbina",
             "red_rank": "",
             "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
-            "red_country": "Slovakia",
-            "blue_country": "Azerbaijan",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/KLEIN_LUDOVIT_L_10-25.png?itok=ZfDcpZTn",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/MUSAYEV_TOFIQ_R_03-28.png?itok=a48E7pEb",
-            "weight_class": "Lightweight Bout",
+            "red_country": "",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/image/fighter_images/SHADOW_Fighter_fullLength_RED.png?VersionId=0NwYm4ow5ym9PWjgcpd05ObDBIC5pBtX&itok=CFBkG7gS",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/URBINA_GILBERT_R_08-09.png?itok=LK2Qt52r",
+            "weight_class": "Middleweight Bout",
             "title_fight": false
           }
         ],
