@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-10T18:00:56.365225Z",
-  "generated_at_ist": "2026-07-10T23:30:56.365229+05:30",
+  "generated_at_utc": "2026-07-10T19:50:23.075672Z",
+  "generated_at_ist": "2026-07-11T01:20:23.075676+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026",
@@ -848,17 +848,17 @@
             "title_fight": false
           },
           {
-            "red": "Carli Judice",
-            "blue": "Jeisla Chaves",
+            "red": "Kody Steele",
+            "blue": "Gauge Young",
             "red_rank": "",
             "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "United States",
-            "blue_country": "Brazil",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/JUDICE_CARLI_L_07-19.png?itok=_sbMF-Pb",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/CHAVES_JEISLA_L_06-06.png?itok=l4X_-5QD",
-            "weight_class": "Women's Strawweight Bout",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-02/STEELE_KODY_R_02-08.png?itok=VaUZ3prR",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/YOUNG_GAUGE_R_08-23.png?itok=bs8W9DCO",
+            "weight_class": "Lightweight Bout",
             "title_fight": false
           }
         ],
