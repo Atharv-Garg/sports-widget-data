@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-13T22:08:33.015033Z",
-  "generated_at_ist": "2026-07-14T03:38:33.015037+05:30",
+  "generated_at_utc": "2026-07-13T23:11:53.044776Z",
+  "generated_at_ist": "2026-07-14T04:41:53.044780+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026",
@@ -434,15 +434,15 @@
         "main_card": [
           {
             "red": "Magomed Ankalaev",
-            "blue": "Khalil Rountree Jr.",
+            "blue": "Bogdan Guskov",
             "red_rank": "#1",
-            "blue_rank": "#5",
-            "red_odds": "-325",
-            "blue_odds": "+260",
+            "blue_rank": "#10",
+            "red_odds": "-315",
+            "blue_odds": "+250",
             "red_country": "Russia",
-            "blue_country": "United States",
+            "blue_country": "Uzbekistan",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-10/ANKALAEV_MAGOMED_L_10-26.png?itok=AoZpHQul",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/ROUNTREE_KHALIL_R_10-04.png?itok=otloTzn0",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/GUSKOV_BOGDAN_R_12-06.png?itok=3X0UiSUD",
             "weight_class": "Light Heavyweight Bout",
             "title_fight": false
           },
