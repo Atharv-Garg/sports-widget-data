@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-14T18:15:52.088859Z",
-  "generated_at_ist": "2026-07-14T23:45:52.088863+05:30",
+  "generated_at_utc": "2026-07-14T19:45:04.879911Z",
+  "generated_at_ist": "2026-07-15T01:15:04.879914+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026",
@@ -391,20 +391,6 @@
           "title_fight": false
         },
         {
-          "red": "Tommy McMillen",
-          "blue": "Alberto Montes",
-          "red_rank": "",
-          "blue_rank": "",
-          "red_odds": "-120",
-          "blue_odds": "+100",
-          "red_country": "United States",
-          "blue_country": "Venezuela",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/MCMILLEN_TOMMY_L_04-04.png?itok=LKYlKJpP",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/MONTES_ALBERTO_R_03-07.png?itok=syNyK6q2",
-          "weight_class": "Featherweight Bout",
-          "title_fight": false
-        },
-        {
           "red": "Tabatha Ricci",
           "blue": "Fatima Kline",
           "red_rank": "#8",
@@ -416,6 +402,20 @@
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/RICCI_TABATHA_L_08-24.png?itok=uyx-zUe0",
           "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/KLINE_FATIMA_R_11-15.png?itok=BxIV4m7p",
           "weight_class": "Women's Strawweight Bout",
+          "title_fight": false
+        },
+        {
+          "red": "Tommy McMillen",
+          "blue": "Alberto Montes",
+          "red_rank": "",
+          "blue_rank": "",
+          "red_odds": "-120",
+          "blue_odds": "+100",
+          "red_country": "United States",
+          "blue_country": "Venezuela",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/MCMILLEN_TOMMY_L_04-04.png?itok=LKYlKJpP",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/MONTES_ALBERTO_R_03-07.png?itok=syNyK6q2",
+          "weight_class": "Featherweight Bout",
           "title_fight": false
         }
       ],
