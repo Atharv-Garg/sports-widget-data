@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-15T17:37:47.397929Z",
-  "generated_at_ist": "2026-07-15T23:07:47.397932+05:30",
+  "generated_at_utc": "2026-07-15T18:45:13.629970Z",
+  "generated_at_ist": "2026-07-16T00:15:13.629973+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026",
@@ -867,13 +867,56 @@
         "main_card_start_ist": "2026-08-29T15:30:00+05:30"
       },
       {
-        "name": "UFC Paris: Main event TBA",
+        "name": "UFC Paris: Page vs Ruziboev",
         "kind": "Event",
         "venue": "Accor Arena",
         "city": "Paris France",
         "country": "",
         "main_card_start_utc": "2026-09-05T19:00:00Z",
-        "main_card": [],
+        "main_card": [
+          {
+            "red": "Michael Venom Page",
+            "blue": "Nursulton Ruziboev",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "",
+            "blue_country": "Uzbekistan",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/PAGE_MICHAEL_L_03-21.png?itok=KaBIKspC",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/RUZIBOEV_NURSULTON_R_08-16.png?itok=s6uyY65s",
+            "weight_class": "Middleweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Kurtis Campbell",
+            "blue": "Trevor Peek",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "England",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/CAMPBELL_KURTIS_L_03-21.png?itok=1z13pd6j",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-09/PEEK_TREVOR_R_04-06.png?itok=qG2VxiB9",
+            "weight_class": "Featherweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Mario Pinto",
+            "blue": "Ryan Spann",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Portugal",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/PINTO_MARIO_L_03-21.png?itok=CvvKJCrb",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/SPANN_RYAN_R_04-25.png?itok=BZVAxi7T",
+            "weight_class": "Heavyweight Bout",
+            "title_fight": false
+          }
+        ],
         "url": "https://www.ufc.com/event/ufc-fight-night-september-05-2026",
         "_source": "ufc.com",
         "main_card_start_ist": "2026-09-06T00:30:00+05:30"
