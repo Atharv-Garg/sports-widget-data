@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-17T15:38:11.037915Z",
-  "generated_at_ist": "2026-07-17T21:08:11.037917+05:30",
+  "generated_at_utc": "2026-07-17T16:45:44.762163Z",
+  "generated_at_ist": "2026-07-17T22:15:44.762166+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026",
@@ -367,8 +367,8 @@
           "blue": "Christian Leroy Duncan",
           "red_rank": "#10",
           "blue_rank": "#12",
-          "red_odds": "+290",
-          "blue_odds": "-370",
+          "red_odds": "+275",
+          "blue_odds": "-350",
           "red_country": "United States",
           "blue_country": "England",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/CANNONIER_JARED_L_07-18.png?itok=yBmEEtM9",
@@ -409,8 +409,8 @@
           "blue": "Alberto Montes",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-155",
-          "blue_odds": "+130",
+          "red_odds": "-165",
+          "blue_odds": "+140",
           "red_country": "United States",
           "blue_country": "Venezuela",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/MCMILLEN_TOMMY_L_07-18.png?itok=E22yZFTR",
@@ -923,8 +923,5 @@
       }
     ]
   },
-  "_warnings": [
-    "F1 fetch failed: HTTP Error 401: Unauthorized",
-    "F1 empty; reused previous feed's races (last-known-good)"
-  ]
+  "_warnings": []
 }
