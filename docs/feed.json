@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-17T14:01:18.461175Z",
-  "generated_at_ist": "2026-07-17T19:31:18.461178+05:30",
+  "generated_at_utc": "2026-07-17T15:38:11.037915Z",
+  "generated_at_ist": "2026-07-17T21:08:11.037917+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026",
@@ -531,15 +531,15 @@
           },
           {
             "red": "Jan Błachowicz",
-            "blue": "Bogdan Guskov",
+            "blue": "Navajo Stirling",
             "red_rank": "#4",
             "blue_rank": "#9",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "Poland",
-            "blue_country": "Uzbekistan",
+            "blue_country": "New Zealand",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/BLACHOWICZ_JAN_L_12-06.png?itok=a4qtC1H4",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/GUSKOV_BOGDAN_R_12-06.png?itok=3X0UiSUD",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/STIRLING_NAVAJO_R_06-20.png?itok=ywLXLCuc",
             "weight_class": "Light Heavyweight Bout",
             "title_fight": false
           },
@@ -923,5 +923,8 @@
       }
     ]
   },
-  "_warnings": []
+  "_warnings": [
+    "F1 fetch failed: HTTP Error 401: Unauthorized",
+    "F1 empty; reused previous feed's races (last-known-good)"
+  ]
 }
