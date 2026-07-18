@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-18T10:03:22.805159Z",
-  "generated_at_ist": "2026-07-18T15:33:22.805163+05:30",
+  "generated_at_utc": "2026-07-18T11:17:37.545012Z",
+  "generated_at_ist": "2026-07-18T16:47:37.545015+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MOËT & CHANDON BELGIAN GRAND PRIX 2026",
@@ -610,6 +610,62 @@
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/GAMROT_MATEUSZ_L_04-11.png?itok=6zp9jfGV",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/SALKILLD_QUILLAN_R_05-02.png?itok=RarJXbX_",
             "weight_class": "Lightweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Diyar Nurgozhay",
+            "blue": "Bruno Lopes",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Kazakhstan",
+            "blue_country": "Brazil",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/NURGOZHAY_DIYAR_L_03-15.png?itok=VOFZ_UQQ",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/LOPES_BRUNO_R_03-28.png?itok=pyLB3kwB",
+            "weight_class": "Light Heavyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Diego Ferreira",
+            "blue": "Billy Quarantillo",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Brazil",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/FERREIRA_DIEGO_L_01-18.png?itok=cbqI_nYf",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-12/QUARANTILLO_BILLY_R_12-14.png?itok=D6yCYJSx",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Louie Sutherland",
+            "blue": "Jose Montanha da Silva",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "England",
+            "blue_country": "",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/SUTHERLAND_LOUIE_L_03-21.png?itok=CFywUMnf",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/image/fighter_images/SHADOW_Fighter_fullLength_BLUE.png?VersionId=1Jeml9w1QwZqmMUJDg8qTrTk7fFhqUra&itok=BgqHA24D",
+            "weight_class": "Heavyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Steven Asplund",
+            "blue": "Guilherme Pat",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "Brazil",
+            "red_img": "/themes/custom/ufc/assets/img/standing-stance-right-silhouette.png",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/PAT_GUILHERME_R_12-13.png?itok=MWnJZ49U",
+            "weight_class": "Heavyweight Bout",
             "title_fight": false
           }
         ],
