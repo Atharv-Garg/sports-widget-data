@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-19T21:33:48.728549Z",
-  "generated_at_ist": "2026-07-20T03:03:48.728553+05:30",
+  "generated_at_utc": "2026-07-19T22:33:42.672006Z",
+  "generated_at_ist": "2026-07-20T04:03:42.672010+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026",
@@ -603,8 +603,8 @@
             "blue": "Ian Machado Garry",
             "red_rank": "C",
             "blue_rank": "#1",
-            "red_odds": "-360",
-            "blue_odds": "+280",
+            "red_odds": "-320",
+            "blue_odds": "+250",
             "red_country": "Russia",
             "blue_country": "Ireland",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/7/MAKHACHEV_ISLAM_L_BELT_01-18.png?itok=3HwhAwpT",
