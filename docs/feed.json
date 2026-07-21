@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-21T08:47:07.478041Z",
-  "generated_at_ist": "2026-07-21T14:17:07.478044+05:30",
+  "generated_at_utc": "2026-07-21T10:51:33.301289Z",
+  "generated_at_ist": "2026-07-21T16:21:33.301292+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026",
@@ -367,8 +367,8 @@
           "blue": "Ramazan Temirov",
           "red_rank": "#10",
           "blue_rank": "",
-          "red_odds": "-110",
-          "blue_odds": "-110",
+          "red_odds": "-115",
+          "blue_odds": "-105",
           "red_country": "Australia",
           "blue_country": "Uzbekistan",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/ERCEG_STEVE_L_08-09.png?itok=WiNWnSNN",
@@ -395,8 +395,8 @@
           "blue": "Damian Rzepecki",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-350",
-          "blue_odds": "+270",
+          "red_odds": "-330",
+          "blue_odds": "+260",
           "red_country": "Russia",
           "blue_country": "Poland",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/ZAYNUKOV_MAGOMED_R_10-07.png?itok=2Dxo6_Gj",
