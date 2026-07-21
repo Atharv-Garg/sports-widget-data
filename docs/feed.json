@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-21T14:47:59.561745Z",
-  "generated_at_ist": "2026-07-21T20:17:59.561748+05:30",
+  "generated_at_utc": "2026-07-21T16:40:34.275326Z",
+  "generated_at_ist": "2026-07-21T22:10:34.275330+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026",
@@ -450,7 +450,7 @@
             "red": "Jan Błachowicz",
             "blue": "Navajo Stirling",
             "red_rank": "#4",
-            "blue_rank": "#9",
+            "blue_rank": "#15",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "Poland",
