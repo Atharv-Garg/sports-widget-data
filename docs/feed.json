@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-21T16:40:34.275326Z",
-  "generated_at_ist": "2026-07-21T22:10:34.275330+05:30",
+  "generated_at_utc": "2026-07-21T17:58:44.376361Z",
+  "generated_at_ist": "2026-07-21T23:28:44.376364+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026",
@@ -895,13 +895,84 @@
         "main_card_start_ist": "2026-09-06T00:30:00+05:30"
       },
       {
-        "name": "Search results: Main event TBA",
+        "name": "Noche UFC: Acosta vs Blaydes",
         "kind": "Event",
-        "venue": "",
-        "city": "",
+        "venue": "Desert Diamond Arena",
+        "city": "Glendale United States",
         "country": "",
         "main_card_start_utc": "2026-09-12T21:00:00Z",
-        "main_card": [],
+        "main_card": [
+          {
+            "red": "Waldo Cortes Acosta",
+            "blue": "Curtis Blaydes",
+            "red_rank": "#5",
+            "blue_rank": "#7",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Dominican Republic",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/CORTES_ACOSTA_WALDO_L.png?itok=seL9kGfA",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/BLAYDES_CURTIS_R_07-27.png?itok=sfwZ4WuI",
+            "weight_class": "Heavyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Manon Fiorot",
+            "blue": "Alexa Grasso",
+            "red_rank": "#2",
+            "blue_rank": "#3",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "France",
+            "blue_country": "Mexico",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/FIOROT_MANON_L_10-18.png?itok=-9Q4kKR7",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/GRASSO_ALEXA_R_03-05.png?itok=4Ogxzo0H",
+            "weight_class": "Women's Flyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Brandon Moreno",
+            "blue": "Joseph Morales",
+            "red_rank": "#9",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Mexico",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/MORENO_BRANDON_L_02-28.png?itok=f3JNyVM4",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/MORALES_JOSEPH_R_11-08.png?itok=hIWO7Ui5",
+            "weight_class": "Flyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Tim Elliott",
+            "blue": "Edgar Chairez",
+            "red_rank": "#12",
+            "blue_rank": "#15",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "Mexico",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/ELLIOTT_TIM_L_05-02.png?itok=dqZMlAfk",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/CHAIREZ_EDGAR_R_06-06.png?itok=zcaLO2fc",
+            "weight_class": "Flyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Kelvin Gastelum",
+            "blue": "Yousri Belgaroui",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "Netherlands",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/GASTELUM_KELVIN_L_04-11.png?itok=OAmoAf19",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/BELGAROUI_YOUSRI_R_10-18.png?itok=5rCwOx9W",
+            "weight_class": "Middleweight Bout",
+            "title_fight": false
+          }
+        ],
         "url": "https://www.ufc.com/event/ufc-fight-night-september-12-2026",
         "_source": "ufc.com",
         "main_card_start_ist": "2026-09-13T02:30:00+05:30"
