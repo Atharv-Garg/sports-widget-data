@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-21T00:08:46.392505Z",
-  "generated_at_ist": "2026-07-21T05:38:46.392509+05:30",
+  "generated_at_utc": "2026-07-21T03:43:26.334926Z",
+  "generated_at_ist": "2026-07-21T09:13:26.334929+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026",
@@ -381,8 +381,8 @@
           "blue": "Wellington Turman",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-750",
-          "blue_odds": "+525",
+          "red_odds": "-900",
+          "blue_odds": "+600",
           "red_country": "Germany",
           "blue_country": "Brazil",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/DULATOV_ISLAM_R_07-19.png?itok=-KhE0UjR",
@@ -409,8 +409,8 @@
           "blue": "Tyrell Fortune",
           "red_rank": "#8",
           "blue_rank": "#9",
-          "red_odds": "-270",
-          "blue_odds": "+220",
+          "red_odds": "-290",
+          "blue_odds": "+235",
           "red_country": "Russia",
           "blue_country": "United States",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-06/KUNIEV_RIZVAN_R_06-21.png?itok=aSj1SbWM",
