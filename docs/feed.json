@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-22T01:06:29.757898Z",
-  "generated_at_ist": "2026-07-22T06:36:29.757901+05:30",
+  "generated_at_utc": "2026-07-22T04:33:03.083264Z",
+  "generated_at_ist": "2026-07-22T10:03:03.083267+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026",
@@ -617,8 +617,8 @@
             "blue": "Gillian Robertson",
             "red_rank": "C",
             "blue_rank": "#5",
-            "red_odds": "-205",
-            "blue_odds": "+170",
+            "red_odds": "-225",
+            "blue_odds": "+185",
             "red_country": "Brazil",
             "blue_country": "Canada",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/DERN_MACKENZIE_L_BELT.png?itok=dBuU2Hxm",
