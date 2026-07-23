@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-22T23:40:10.897786Z",
-  "generated_at_ist": "2026-07-23T05:10:10.897790+05:30",
+  "generated_at_utc": "2026-07-23T01:12:15.692700Z",
+  "generated_at_ist": "2026-07-23T06:42:15.692704+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026",
@@ -603,8 +603,8 @@
             "blue": "Ian Machado Garry",
             "red_rank": "C",
             "blue_rank": "#1",
-            "red_odds": "-320",
-            "blue_odds": "+250",
+            "red_odds": "-340",
+            "blue_odds": "+265",
             "red_country": "Russia",
             "blue_country": "Ireland",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/7/MAKHACHEV_ISLAM_L_BELT_01-18.png?itok=3HwhAwpT",
@@ -617,8 +617,8 @@
             "blue": "Gillian Robertson",
             "red_rank": "C",
             "blue_rank": "#5",
-            "red_odds": "-225",
-            "blue_odds": "+185",
+            "red_odds": "-240",
+            "blue_odds": "+195",
             "red_country": "Brazil",
             "blue_country": "Canada",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/DERN_MACKENZIE_L_BELT.png?itok=dBuU2Hxm",
