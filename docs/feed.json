@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-23T18:50:05.253390Z",
-  "generated_at_ist": "2026-07-24T00:20:05.253393+05:30",
+  "generated_at_utc": "2026-07-23T20:19:21.832381Z",
+  "generated_at_ist": "2026-07-24T01:49:21.832383+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026",
@@ -357,7 +357,7 @@
           "blue_odds": "+400",
           "red_country": "Russia",
           "blue_country": "Uzbekistan",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-10/ANKALAEV_MAGOMED_L_10-26.png?itok=AoZpHQul",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/ANKALAEV_MAGOMED_L_07-25.png?itok=q5y2MMAv",
           "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/GUSKOV_BOGDAN_R_12-06.png?itok=3X0UiSUD",
           "weight_class": "Light Heavyweight Bout",
           "title_fight": false
@@ -371,8 +371,8 @@
           "blue_odds": "-105",
           "red_country": "Australia",
           "blue_country": "Uzbekistan",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/ERCEG_STEVE_L_08-09.png?itok=WiNWnSNN",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-02/TEMIROV_RAMAZAN_R_03-01.png?itok=SWjghK_S",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/ERCEG_STEVE_L_07-25.png?itok=cpVJwroy",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/TEMIROV_RAMAZAN_R_07-25.png?itok=mTV8xLSo",
           "weight_class": "Flyweight Bout",
           "title_fight": false
         },
@@ -385,8 +385,8 @@
           "blue_odds": "+600",
           "red_country": "Türkiye",
           "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/DULATOV_ISLAM_R_07-19.png?itok=-KhE0UjR",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2023-06/TURMAN_WELLINGTON_R_06-24.png?itok=bbn4Ou2u",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/DULATOV_ISLAM_L_07-25.png?itok=kFwwVeAI",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/TURMAN_WELLINGTON_R_07-25.png?itok=edl-tevT",
           "weight_class": "Welterweight Bout",
           "title_fight": false
         },
@@ -399,8 +399,8 @@
           "blue_odds": "+260",
           "red_country": "Russia",
           "blue_country": "Poland",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/ZAYNUKOV_MAGOMED_R_10-07.png?itok=2Dxo6_Gj",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/image/fighter_images/SHADOW_Fighter_fullLength_BLUE.png?VersionId=1Jeml9w1QwZqmMUJDg8qTrTk7fFhqUra&itok=BgqHA24D",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/ZAYNUKOV_MAGOMED_L_07-25.png?itok=jpaCrWn8",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/RZEPECKI_DAMIAN_R_07-25.png?itok=WG17pnCh",
           "weight_class": "Lightweight Bout",
           "title_fight": false
         },
@@ -414,7 +414,7 @@
           "red_country": "Russia",
           "blue_country": "United States",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-06/KUNIEV_RIZVAN_R_06-21.png?itok=aSj1SbWM",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/FORTUNE_TYRELL_R_03-28.png?itok=L-21StEu",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/FORTUNE_TYRELL_R_07-25.png?itok=KQxOynQi",
           "weight_class": "Heavyweight Bout",
           "title_fight": false
         }
@@ -530,6 +530,20 @@
             "title_fight": false
           },
           {
+            "red": "Ty Miller",
+            "blue": "Billy Ray Goff",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/MILLER_TY_R_01-24.png?itok=O7wIIK-q",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-05/GOFF_BILLY_R_08-26.png?itok=SIkC8Ao-",
+            "weight_class": "Welterweight Bout",
+            "title_fight": false
+          },
+          {
             "red": "Diyar Nurgozhay",
             "blue": "Bruno Lopes",
             "red_rank": "",
@@ -568,20 +582,6 @@
             "blue_country": "",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/SUTHERLAND_LOUIE_L_03-21.png?itok=CFywUMnf",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/image/fighter_images/SHADOW_Fighter_fullLength_BLUE.png?VersionId=1Jeml9w1QwZqmMUJDg8qTrTk7fFhqUra&itok=BgqHA24D",
-            "weight_class": "Heavyweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Steven Asplund",
-            "blue": "Guilherme Pat",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "United States",
-            "blue_country": "Brazil",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/ASPLUND_STEVE_R_03-14.png?itok=UneDVg5y",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/PAT_GUILHERME_R_12-13.png?itok=MWnJZ49U",
             "weight_class": "Heavyweight Bout",
             "title_fight": false
           }
