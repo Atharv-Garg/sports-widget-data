@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-24T01:07:27.117940Z",
-  "generated_at_ist": "2026-07-24T06:37:27.117943+05:30",
+  "generated_at_utc": "2026-07-24T04:30:48.496548Z",
+  "generated_at_ist": "2026-07-24T10:00:48.496552+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026",
@@ -603,8 +603,8 @@
             "blue": "Ian Machado Garry",
             "red_rank": "C",
             "blue_rank": "#1",
-            "red_odds": "-340",
-            "blue_odds": "+265",
+            "red_odds": "-320",
+            "blue_odds": "+255",
             "red_country": "Russia",
             "blue_country": "Ireland",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/7/MAKHACHEV_ISLAM_L_BELT_01-18.png?itok=3HwhAwpT",
@@ -627,6 +627,20 @@
             "title_fight": true
           },
           {
+            "red": "Mansur Abdul-Malik",
+            "blue": "Dustin Stoltzfus",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/ABDUL-MALIK_MANSUR_L_03-28.png?itok=IuCs2VJ4",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-09/STOLTZFUS_DUSTIN_R_09-13.png?itok=Za8pSWZu",
+            "weight_class": "Middleweight Bout",
+            "title_fight": false
+          },
+          {
             "red": "Jeremiah Wells",
             "blue": "Myktybek Orolbai",
             "red_rank": "",
@@ -638,20 +652,6 @@
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/WELLS_JEREMIAH_L_11-01.png?itok=lbqGI3T6",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/OROLBAI_MYKTYBEK_R_03-14.png?itok=U-AhD6zC",
             "weight_class": "Welterweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Erin Blanchfield",
-            "blue": "Jasmine Jasudavicius",
-            "red_rank": "#4",
-            "blue_rank": "#7",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "United States",
-            "blue_country": "Canada",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/BLANCHFIELD_ERIN_L_11-15.png?itok=LkUgYA81",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/JASUDAVICIUS_JASMINE_R_10-18.png?itok=fdL4lA_B",
-            "weight_class": "Women's Flyweight Bout",
             "title_fight": false
           },
           {
@@ -776,20 +776,6 @@
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/NURMAGOMEDOV_UMAR_L_01-24.png?itok=ocmMEtOy",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/YADONG_SONG_R_01-24.png?itok=rnWbnYLM",
             "weight_class": "Bantamweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Yan Xiaonan",
-            "blue": "Denise Gomes",
-            "red_rank": "#4",
-            "blue_rank": "#13",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "China",
-            "blue_country": "Brazil",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-04/XIAONAN_YAN_L_04-12.png?itok=ZGYs1enK",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/GOMES_DENISE_R_05-17.png?itok=MldpJ--F",
-            "weight_class": "Women's Strawweight Bout",
             "title_fight": false
           },
           {
