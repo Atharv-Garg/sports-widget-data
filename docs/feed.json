@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-25T09:11:38.013506Z",
-  "generated_at_ist": "2026-07-25T14:41:38.013509+05:30",
+  "generated_at_utc": "2026-07-25T10:43:20.214876Z",
+  "generated_at_ist": "2026-07-25T16:13:20.214878+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026",
@@ -377,20 +377,6 @@
           "title_fight": false
         },
         {
-          "red": "Islam Dulatov",
-          "blue": "Wellington Turman",
-          "red_rank": "",
-          "blue_rank": "",
-          "red_odds": "-900",
-          "blue_odds": "+600",
-          "red_country": "Türkiye",
-          "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/DULATOV_ISLAM_L_07-25.png?itok=kFwwVeAI",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/TURMAN_WELLINGTON_R_07-25.png?itok=edl-tevT",
-          "weight_class": "Welterweight Bout",
-          "title_fight": false
-        },
-        {
           "red": "Magomed Zaynukov",
           "blue": "Damian Rzepecki",
           "red_rank": "",
@@ -416,6 +402,20 @@
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-06/KUNIEV_RIZVAN_R_06-21.png?itok=aSj1SbWM",
           "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/FORTUNE_TYRELL_R_07-25.png?itok=KQxOynQi",
           "weight_class": "Heavyweight Bout",
+          "title_fight": false
+        },
+        {
+          "red": "Abubakar Vagaev",
+          "blue": "Saygid Izagakhmaev",
+          "red_rank": "",
+          "blue_rank": "",
+          "red_odds": "-",
+          "blue_odds": "-",
+          "red_country": "Russia",
+          "blue_country": "Russia",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/VAGAEV_ABUBAKAR_L_07-25.png?itok=zGrbs9xS",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/IZAGAKHMAEV_SAYGID_R_11-22.png?itok=px3Vp5AN",
+          "weight_class": "Welterweight Bout",
           "title_fight": false
         }
       ],
@@ -979,5 +979,8 @@
       }
     ]
   },
-  "_warnings": []
+  "_warnings": [
+    "F1 fetch failed: HTTP Error 401: Unauthorized",
+    "F1 empty; reused previous feed's races (last-known-good)"
+  ]
 }
