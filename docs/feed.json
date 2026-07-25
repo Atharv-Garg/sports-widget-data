@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-25T11:48:01.852203Z",
-  "generated_at_ist": "2026-07-25T17:18:01.852207+05:30",
+  "generated_at_utc": "2026-07-25T14:00:34.679895Z",
+  "generated_at_ist": "2026-07-25T19:30:34.679899+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026",
@@ -399,7 +399,7 @@
           "blue_odds": "+235",
           "red_country": "Russia",
           "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-06/KUNIEV_RIZVAN_R_06-21.png?itok=aSj1SbWM",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/KUNIEV_RIZVAN_L_07-25.png?itok=TTfM7m2b",
           "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/FORTUNE_TYRELL_R_07-25.png?itok=KQxOynQi",
           "weight_class": "Heavyweight Bout",
           "title_fight": false
