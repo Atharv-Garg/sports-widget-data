@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-26T12:16:14.951652Z",
-  "generated_at_ist": "2026-07-26T17:46:14.951656+05:30",
+  "generated_at_utc": "2026-07-26T13:58:20.929634Z",
+  "generated_at_ist": "2026-07-26T19:28:20.929638+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026",
@@ -908,5 +908,8 @@
       }
     ]
   },
-  "_warnings": []
+  "_warnings": [
+    "F1 fetch failed: HTTP Error 401: Unauthorized",
+    "F1 empty; reused previous feed's races (last-known-good)"
+  ]
 }
