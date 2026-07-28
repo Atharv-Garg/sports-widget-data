@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-28T18:03:00.286154Z",
-  "generated_at_ist": "2026-07-28T23:33:00.286157+05:30",
+  "generated_at_utc": "2026-07-28T19:51:38.602274Z",
+  "generated_at_ist": "2026-07-29T01:21:38.602278+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -405,7 +405,7 @@
           "title_fight": false
         },
         {
-          "red": "Vlasto Cepo",
+          "red": "Vlasto Čepo",
           "blue": "Gilbert Urbina",
           "red_rank": "",
           "blue_rank": "",
@@ -772,9 +772,9 @@
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "New Zealand",
-            "blue_country": "",
+            "blue_country": "France",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/HOOKER_DAN_L_01-31.png?itok=bsWjjIC3",
-            "blue_img": "/themes/custom/ufc/assets/img/standing-stance-left-silhouette.png",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/image/fighter_images/SHADOW_Fighter_fullLength_BLUE.png?VersionId=1Jeml9w1QwZqmMUJDg8qTrTk7fFhqUra&itok=BgqHA24D",
             "weight_class": "Lightweight Bout",
             "title_fight": false
           },
