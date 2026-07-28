@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-28T07:23:40.956462Z",
-  "generated_at_ist": "2026-07-28T12:53:40.956465+05:30",
+  "generated_at_utc": "2026-07-28T10:14:33.529393Z",
+  "generated_at_ist": "2026-07-28T15:44:33.529396+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -354,7 +354,7 @@
           "red_rank": "#14",
           "blue_rank": "#15",
           "red_odds": "-380",
-          "blue_odds": "+290",
+          "blue_odds": "+300",
           "red_country": "Serbia",
           "blue_country": "United States",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/MEDIC_UROS_L_08-09.png?itok=NhjxzwwA",
@@ -395,7 +395,7 @@
           "blue": "Robert Valentin",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "+145",
+          "red_odds": "+140",
           "blue_odds": "-170",
           "red_country": "Serbia",
           "blue_country": "Switzerland",
@@ -757,13 +757,27 @@
         "main_card_start_ist": "2026-08-29T15:30:00+05:30"
       },
       {
-        "name": "UFC Paris: Page vs Ruziboev",
+        "name": "UFC Paris: Hooker vs Parnasse",
         "kind": "Event",
         "venue": "Accor Arena",
         "city": "Paris France",
         "country": "",
         "main_card_start_utc": "2026-09-05T19:00:00Z",
         "main_card": [
+          {
+            "red": "Dan Hooker",
+            "blue": "Salahdine Parnasse",
+            "red_rank": "#9",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "New Zealand",
+            "blue_country": "",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/HOOKER_DAN_L_01-31.png?itok=bsWjjIC3",
+            "blue_img": "/themes/custom/ufc/assets/img/standing-stance-left-silhouette.png",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
+          },
           {
             "red": "Michael Venom Page",
             "blue": "Nursulton Ruziboev",
