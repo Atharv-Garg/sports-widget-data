@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-29T16:38:40.288918Z",
-  "generated_at_ist": "2026-07-29T22:08:40.288922+05:30",
+  "generated_at_utc": "2026-07-29T17:54:30.707741Z",
+  "generated_at_ist": "2026-07-29T23:24:30.707745+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -710,6 +710,20 @@
             "title_fight": false
           },
           {
+            "red": "Aoriqileng",
+            "blue": "Kai Asakura",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "China",
+            "blue_country": "Japan",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/AORIQILENG_L_05-30.png?itok=bvk4HZd5",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/ASAKURA_KAI_R_08-16.png?itok=awJG87Hq",
+            "weight_class": "Bantamweight Bout",
+            "title_fight": false
+          },
+          {
             "red": "Sumudaerji",
             "blue": "Alex Perez",
             "red_rank": "",
@@ -735,20 +749,6 @@
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/TSURUYA_REI_L_05-30.png?itok=GMdTky0f",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/BORJAS_KEVIN_R_06-20.png?itok=NYdKteJc",
             "weight_class": "Flyweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Ce Liu",
-            "blue": "Junior Tafa",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "",
-            "blue_country": "Australia",
-            "red_img": "/themes/custom/ufc/assets/img/standing-stance-right-silhouette.png",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/TAFA_JUNIOR_R_06-06.png?itok=O41jc27J",
-            "weight_class": "Light Heavyweight Bout",
             "title_fight": false
           }
         ],
