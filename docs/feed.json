@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-30T17:48:41.930781Z",
-  "generated_at_ist": "2026-07-30T23:18:41.930785+05:30",
+  "generated_at_utc": "2026-07-30T19:50:25.196178Z",
+  "generated_at_ist": "2026-07-31T01:20:25.196182+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -357,8 +357,8 @@
           "blue_odds": "+325",
           "red_country": "Serbia",
           "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/MEDIC_UROS_L_08-09.png?itok=NhjxzwwA",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/RODRIGUEZ_DANIEL_R_07-19.png?itok=ZvAdoA3Y",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/MEDIC_UROS_L_08-01.png?itok=zwilKCqc",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/RODRIGUEZ_DANIEL_R_08-01.png?itok=Apo-1Jrn",
           "weight_class": "Welterweight Bout",
           "title_fight": false
         },
@@ -371,8 +371,8 @@
           "blue_odds": "-320",
           "red_country": "Poland",
           "blue_country": "New Zealand",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/BLACHOWICZ_JAN_L_12-06.png?itok=a4qtC1H4",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/STIRLING_NAVAJO_R_06-20.png?itok=ywLXLCuc",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/BLACHOWICZ_JAN_L_08-01.png?itok=ZnaI_r9a",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/STIRLING_NAVAJO_R_08-01.png?itok=aL1Vfoli",
           "weight_class": "Light Heavyweight Bout",
           "title_fight": false
         },
@@ -385,8 +385,8 @@
           "blue_odds": "-",
           "red_country": "Serbia",
           "blue_country": "Poland",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/RAKIC_ALEKSANDAR_L_10-25.png?itok=pNB4of98",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/TYBURA_MARCIN_R_08-10.png?itok=rmAIMOk1",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/RAKIC_ALEKSANDAR_L_08-01.png?itok=325bcNCf",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/TYBURA_MARCIN_R_08-01.png?itok=QNxq0o8I",
           "weight_class": "Heavyweight Bout",
           "title_fight": false
         },
@@ -399,8 +399,8 @@
           "blue_odds": "-170",
           "red_country": "Serbia",
           "blue_country": "Switzerland",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2022-08/4526cb41-c0d2-423a-ad18-d8efe88477f3%252FTODOROVIC_DUSKO_L_05-21.png?itok=X_i1JCsW",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/VALENTIN_ROBERT_R_04-18.png?itok=nW_3T2ql",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/TODOROVIC_DUSKO_L_08-01.png?itok=yPYeDtaw",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/VALENTIN_ROBERT_R_08-01.png?itok=-0xSNlnc",
           "weight_class": "Middleweight Bout",
           "title_fight": false
         },
@@ -413,8 +413,8 @@
           "blue_odds": "+270",
           "red_country": "Slovakia",
           "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/image/fighter_images/SHADOW_Fighter_fullLength_RED.png?VersionId=0NwYm4ow5ym9PWjgcpd05ObDBIC5pBtX&itok=CFBkG7gS",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/URBINA_GILBERT_R_08-09.png?itok=LK2Qt52r",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/CEPO_VLASTO_L_08-01.png?itok=SVeLdmXO",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/URBINA_GILBERT_R_08-01.png?itok=qOYQl3r-",
           "weight_class": "Middleweight Bout",
           "title_fight": false
         }
