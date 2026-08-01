@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-07-31T23:40:46.472916Z",
-  "generated_at_ist": "2026-08-01T05:10:46.472919+05:30",
+  "generated_at_utc": "2026-08-01T01:13:38.079328Z",
+  "generated_at_ist": "2026-08-01T06:43:38.079331+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -341,172 +341,89 @@
   },
   "ufc": {
     "next": {
-      "name": "UFC Fight Night: Medić vs Rodriguez",
+      "name": "UFC Fight Night: Gamrot vs Salkilld",
       "kind": "Fight Night",
-      "venue": "Belgrade Arena",
-      "city": "BG Serbia",
+      "venue": "Meta APEX",
+      "city": "Las Vegas United States",
       "country": "",
-      "main_card_start_utc": "2026-08-01T17:00:00Z",
+      "main_card_start_utc": "2026-08-09T00:00:00Z",
       "main_card": [
         {
-          "red": "Uroš Medić",
-          "blue": "Daniel Rodriguez",
-          "red_rank": "#14",
-          "blue_rank": "#15",
-          "red_odds": "-400",
-          "blue_odds": "+310",
-          "red_country": "Serbia",
+          "red": "Mateusz Gamrot",
+          "blue": "Quillan Salkilld",
+          "red_rank": "#8",
+          "blue_rank": "#12",
+          "red_odds": "-",
+          "blue_odds": "-",
+          "red_country": "Poland",
+          "blue_country": "Australia",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/GAMROT_MATEUSZ_L_04-11.png?itok=6zp9jfGV",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/SALKILLD_QUILLAN_R_05-02.png?itok=RarJXbX_",
+          "weight_class": "Lightweight Bout",
+          "title_fight": false
+        },
+        {
+          "red": "Ty Miller",
+          "blue": "Billy Ray Goff",
+          "red_rank": "",
+          "blue_rank": "",
+          "red_odds": "-",
+          "blue_odds": "-",
+          "red_country": "United States",
           "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/MEDIC_UROS_L_08-01.png?itok=zwilKCqc",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/RODRIGUEZ_DANIEL_R_08-01.png?itok=Apo-1Jrn",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/MILLER_TY_R_01-24.png?itok=O7wIIK-q",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-05/GOFF_BILLY_R_08-26.png?itok=SIkC8Ao-",
           "weight_class": "Welterweight Bout",
           "title_fight": false
         },
         {
-          "red": "Jan Błachowicz",
-          "blue": "Navajo Stirling",
-          "red_rank": "#4",
-          "blue_rank": "#15",
-          "red_odds": "+240",
-          "blue_odds": "-300",
-          "red_country": "Poland",
-          "blue_country": "New Zealand",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/BLACHOWICZ_JAN_L_08-01.png?itok=ZnaI_r9a",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/STIRLING_NAVAJO_R_08-01.png?itok=aL1Vfoli",
+          "red": "Diyar Nurgozhay",
+          "blue": "Bruno Lopes",
+          "red_rank": "",
+          "blue_rank": "",
+          "red_odds": "-",
+          "blue_odds": "-",
+          "red_country": "Kazakhstan",
+          "blue_country": "Brazil",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/NURGOZHAY_DIYAR_L_03-15.png?itok=VOFZ_UQQ",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/LOPES_BRUNO_R_03-28.png?itok=pyLB3kwB",
           "weight_class": "Light Heavyweight Bout",
           "title_fight": false
         },
         {
-          "red": "Aleksandar Rakić",
-          "blue": "Marcin Tybura",
+          "red": "Diego Ferreira",
+          "blue": "Billy Quarantillo",
           "red_rank": "",
-          "blue_rank": "#12",
+          "blue_rank": "",
           "red_odds": "-",
           "blue_odds": "-",
-          "red_country": "Serbia",
-          "blue_country": "Poland",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/RAKIC_ALEKSANDAR_L_08-01.png?itok=325bcNCf",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/TYBURA_MARCIN_R_08-01.png?itok=QNxq0o8I",
-          "weight_class": "Heavyweight Bout",
-          "title_fight": false
-        },
-        {
-          "red": "Duško Todorović",
-          "blue": "Robert Valentin",
-          "red_rank": "",
-          "blue_rank": "",
-          "red_odds": "+135",
-          "blue_odds": "-160",
-          "red_country": "Serbia",
-          "blue_country": "Switzerland",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/TODOROVIC_DUSKO_L_08-01.png?itok=yPYeDtaw",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/VALENTIN_ROBERT_R_08-01.png?itok=-0xSNlnc",
-          "weight_class": "Middleweight Bout",
-          "title_fight": false
-        },
-        {
-          "red": "Vlasto Čepo",
-          "blue": "Gilbert Urbina",
-          "red_rank": "",
-          "blue_rank": "",
-          "red_odds": "-340",
-          "blue_odds": "+270",
-          "red_country": "Slovakia",
+          "red_country": "Brazil",
           "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/CEPO_VLASTO_L_08-01.png?itok=SVeLdmXO",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/URBINA_GILBERT_R_08-01.png?itok=qOYQl3r-",
-          "weight_class": "Middleweight Bout",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/FERREIRA_DIEGO_L_01-18.png?itok=cbqI_nYf",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-12/QUARANTILLO_BILLY_R_12-14.png?itok=D6yCYJSx",
+          "weight_class": "Lightweight Bout",
+          "title_fight": false
+        },
+        {
+          "red": "Louie Sutherland",
+          "blue": "Jose Montanha da Silva",
+          "red_rank": "",
+          "blue_rank": "",
+          "red_odds": "-",
+          "blue_odds": "-",
+          "red_country": "England",
+          "blue_country": "",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/SUTHERLAND_LOUIE_L_03-21.png?itok=CFywUMnf",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/image/fighter_images/SHADOW_Fighter_fullLength_BLUE.png?VersionId=1Jeml9w1QwZqmMUJDg8qTrTk7fFhqUra&itok=BgqHA24D",
+          "weight_class": "Heavyweight Bout",
           "title_fight": false
         }
       ],
-      "url": "https://www.ufc.com/event/ufc-fight-night-august-01-2026",
+      "url": "https://www.ufc.com/event/ufc-fight-night-august-08-2026",
       "_source": "ufc.com",
-      "main_card_start_ist": "2026-08-01T22:30:00+05:30"
+      "main_card_start_ist": "2026-08-09T05:30:00+05:30"
     },
     "upcoming": [
-      {
-        "name": "UFC Fight Night: Gamrot vs Salkilld",
-        "kind": "Fight Night",
-        "venue": "Meta APEX",
-        "city": "Las Vegas United States",
-        "country": "",
-        "main_card_start_utc": "2026-08-09T00:00:00Z",
-        "main_card": [
-          {
-            "red": "Mateusz Gamrot",
-            "blue": "Quillan Salkilld",
-            "red_rank": "#8",
-            "blue_rank": "#12",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Poland",
-            "blue_country": "Australia",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/GAMROT_MATEUSZ_L_04-11.png?itok=6zp9jfGV",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/SALKILLD_QUILLAN_R_05-02.png?itok=RarJXbX_",
-            "weight_class": "Lightweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Ty Miller",
-            "blue": "Billy Ray Goff",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "United States",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/MILLER_TY_R_01-24.png?itok=O7wIIK-q",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-05/GOFF_BILLY_R_08-26.png?itok=SIkC8Ao-",
-            "weight_class": "Welterweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Diyar Nurgozhay",
-            "blue": "Bruno Lopes",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Kazakhstan",
-            "blue_country": "Brazil",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/NURGOZHAY_DIYAR_L_03-15.png?itok=VOFZ_UQQ",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/LOPES_BRUNO_R_03-28.png?itok=pyLB3kwB",
-            "weight_class": "Light Heavyweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Diego Ferreira",
-            "blue": "Billy Quarantillo",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Brazil",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/FERREIRA_DIEGO_L_01-18.png?itok=cbqI_nYf",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-12/QUARANTILLO_BILLY_R_12-14.png?itok=D6yCYJSx",
-            "weight_class": "Lightweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Louie Sutherland",
-            "blue": "Jose Montanha da Silva",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "England",
-            "blue_country": "",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/SUTHERLAND_LOUIE_L_03-21.png?itok=CFywUMnf",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/image/fighter_images/SHADOW_Fighter_fullLength_BLUE.png?VersionId=1Jeml9w1QwZqmMUJDg8qTrTk7fFhqUra&itok=BgqHA24D",
-            "weight_class": "Heavyweight Bout",
-            "title_fight": false
-          }
-        ],
-        "url": "https://www.ufc.com/event/ufc-fight-night-august-08-2026",
-        "_source": "ufc.com",
-        "main_card_start_ist": "2026-08-09T05:30:00+05:30"
-      },
       {
         "name": "UFC 330: Makhachev vs Machado Garry",
         "kind": "PPV",
@@ -589,33 +506,6 @@
         "url": "https://www.ufc.com/event/ufc-330",
         "_source": "ufc.com",
         "main_card_start_ist": "2026-08-16T06:30:00+05:30"
-      },
-      {
-        "name": "UFC Fight Night: Hernandez vs Rodrigues",
-        "kind": "Fight Night",
-        "venue": "Golden 1 Center",
-        "city": "Sacramento",
-        "country": "USA",
-        "main_card_start_utc": "2026-08-22T21:00:00Z",
-        "main_card": [
-          {
-            "red": "Anthony Hernandez",
-            "blue": "Gregory Rodrigues",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "",
-            "blue_odds": "",
-            "red_country": "",
-            "blue_country": "",
-            "red_img": "",
-            "blue_img": "",
-            "weight_class": "Middleweight Bout",
-            "title_fight": false
-          }
-        ],
-        "url": "https://www.espn.com/mma/fightcenter/_/id/600060493/league/ufc",
-        "_source": "espn",
-        "main_card_start_ist": "2026-08-23T02:30:00+05:30"
       },
       {
         "name": "UFC Fight Night: Nurmagomedov vs Song",
@@ -881,7 +771,5 @@
       }
     ]
   },
-  "_warnings": [
-    "ufc.com per-event fetch failed for UFC Fight Night: Hernandez vs Rodrigues (per-event fetch failed: HTTPError); attempting ESPN recovery"
-  ]
+  "_warnings": []
 }
