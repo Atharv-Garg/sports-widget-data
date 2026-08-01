@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-01T13:53:01.103991Z",
-  "generated_at_ist": "2026-08-01T19:23:01.103994+05:30",
+  "generated_at_utc": "2026-08-01T15:17:33.501248Z",
+  "generated_at_ist": "2026-08-01T20:47:33.501252+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -447,34 +447,6 @@
             "title_fight": false
           },
           {
-            "red": "Ty Miller",
-            "blue": "Billy Ray Goff",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "United States",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/MILLER_TY_R_01-24.png?itok=O7wIIK-q",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-05/GOFF_BILLY_R_08-26.png?itok=SIkC8Ao-",
-            "weight_class": "Welterweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Diyar Nurgozhay",
-            "blue": "Bruno Lopes",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Kazakhstan",
-            "blue_country": "Brazil",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/NURGOZHAY_DIYAR_L_03-15.png?itok=VOFZ_UQQ",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/LOPES_BRUNO_R_03-28.png?itok=pyLB3kwB",
-            "weight_class": "Light Heavyweight Bout",
-            "title_fight": false
-          },
-          {
             "red": "Diego Ferreira",
             "blue": "Billy Quarantillo",
             "red_rank": "",
@@ -489,6 +461,34 @@
             "title_fight": false
           },
           {
+            "red": "Darren Elkins",
+            "blue": "Yadier del Valle",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "Cuba",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-04/ELKINS_DARREN_L_04-12.png?itok=I0giHzCr",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/DEL_VALLE_YADIER_R_02-21.png?itok=M3qIMnRe",
+            "weight_class": "Featherweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Miles Johns",
+            "blue": "Jessie Rosas",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "Mexico",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/JOHNS_MILES_L_11-08.png?itok=9Ktv93x9",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/image/fighter_images/SHADOW_Fighter_fullLength_BLUE.png?VersionId=1Jeml9w1QwZqmMUJDg8qTrTk7fFhqUra&itok=BgqHA24D",
+            "weight_class": "Featherweight Bout",
+            "title_fight": false
+          },
+          {
             "red": "Louie Sutherland",
             "blue": "Jose Montanha da Silva",
             "red_rank": "",
@@ -496,7 +496,7 @@
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "England",
-            "blue_country": "",
+            "blue_country": "Brazil",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/SUTHERLAND_LOUIE_L_03-21.png?itok=CFywUMnf",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/image/fighter_images/SHADOW_Fighter_fullLength_BLUE.png?VersionId=1Jeml9w1QwZqmMUJDg8qTrTk7fFhqUra&itok=BgqHA24D",
             "weight_class": "Heavyweight Bout",
