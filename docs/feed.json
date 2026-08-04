@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-04T15:09:19.334027Z",
-  "generated_at_ist": "2026-08-04T20:39:19.334031+05:30",
+  "generated_at_utc": "2026-08-04T17:03:05.203620Z",
+  "generated_at_ist": "2026-08-04T22:33:05.203623+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -391,31 +391,31 @@
           "title_fight": false
         },
         {
-          "red": "Miles Johns",
-          "blue": "Jessie Rosas",
+          "red": "Amanda Lemos",
+          "blue": "Alexia Thainara",
+          "red_rank": "#8",
+          "blue_rank": "#12",
+          "red_odds": "-",
+          "blue_odds": "-",
+          "red_country": "Brazil",
+          "blue_country": "Brazil",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/LEMOS_AMANDA_L_03-14.png?itok=1K3ICQYI",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-09/THAINARA_ALEXIA_R_09-27.png?itok=MRMpoOC9",
+          "weight_class": "Women's Strawweight Bout",
+          "title_fight": false
+        },
+        {
+          "red": "Ty Miller",
+          "blue": "Billy Ray Goff",
           "red_rank": "",
           "blue_rank": "",
           "red_odds": "-",
           "blue_odds": "-",
           "red_country": "United States",
-          "blue_country": "Mexico",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/JOHNS_MILES_L_11-08.png?itok=9Ktv93x9",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/image/fighter_images/SHADOW_Fighter_fullLength_BLUE.png?VersionId=1Jeml9w1QwZqmMUJDg8qTrTk7fFhqUra&itok=BgqHA24D",
-          "weight_class": "Featherweight Bout",
-          "title_fight": false
-        },
-        {
-          "red": "Louie Sutherland",
-          "blue": "Jose Montanha da Silva",
-          "red_rank": "",
-          "blue_rank": "",
-          "red_odds": "-",
-          "blue_odds": "-",
-          "red_country": "England",
-          "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/SUTHERLAND_LOUIE_L_03-21.png?itok=CFywUMnf",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/image/fighter_images/SHADOW_Fighter_fullLength_BLUE.png?VersionId=1Jeml9w1QwZqmMUJDg8qTrTk7fFhqUra&itok=BgqHA24D",
-          "weight_class": "Heavyweight Bout",
+          "blue_country": "United States",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/MILLER_TY_R_01-24.png?itok=O7wIIK-q",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-05/GOFF_BILLY_R_08-26.png?itok=SIkC8Ao-",
+          "weight_class": "Welterweight Bout",
           "title_fight": false
         }
       ],
@@ -461,6 +461,20 @@
             "title_fight": true
           },
           {
+            "red": "Edson Barboza",
+            "blue": "Esteban Ribovics",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Brazil",
+            "blue_country": "Argentina",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/BARBOZA_EDSON_L_12-06.png?itok=IIpsCpEb",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/RIBOVICS_ESTEBAN_R_04-11.png?itok=9OElHjOx",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
+          },
+          {
             "red": "Mansur Abdul-Malik",
             "blue": "Dustin Stoltzfus",
             "red_rank": "",
@@ -475,31 +489,17 @@
             "title_fight": false
           },
           {
-            "red": "Jeremiah Wells",
-            "blue": "Myktybek Orolbai",
+            "red": "Geoff Neal",
+            "blue": "Chidi Njokuani",
             "red_rank": "",
             "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "United States",
-            "blue_country": "Kyrgyzstan",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/WELLS_JEREMIAH_L_11-01.png?itok=lbqGI3T6",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/OROLBAI_MYKTYBEK_R_03-14.png?itok=U-AhD6zC",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/NEAL_GEOFF_L_02-21.png?itok=897uHteu",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2023-04/NJOKUANI_CHIDI_R_03-25.png?itok=xerm6P3h",
             "weight_class": "Welterweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Jalin Turner",
-            "blue": "Kauê Fernandes",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "United States",
-            "blue_country": "Brazil",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/TURNER_JALIN_L_03-08.png?itok=ED_YaT71",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-09/FERNANDES_KAUE_R_09-06.png?itok=bT7fLN2C",
-            "weight_class": "Lightweight Bout",
             "title_fight": false
           }
         ],
@@ -558,20 +558,6 @@
             "title_fight": false
           },
           {
-            "red": "Kennedy Nzechukwu",
-            "blue": "Shamil Gaziev",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Nigeria",
-            "blue_country": "Bahrain",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/NZECHUKWU_KENNEDY_L_12-13.png?itok=t4fUjxtK",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/GAZIEV_SHAMIL_R_11-22.png?itok=8shokFdY",
-            "weight_class": "Heavyweight Bout",
-            "title_fight": false
-          },
-          {
             "red": "Kody Steele",
             "blue": "Gauge Young",
             "red_rank": "",
@@ -583,6 +569,20 @@
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-02/STEELE_KODY_R_02-08.png?itok=VaUZ3prR",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/YOUNG_GAUGE_R_08-23.png?itok=bs8W9DCO",
             "weight_class": "Lightweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Kennedy Nzechukwu",
+            "blue": "Shamil Gaziev",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Nigeria",
+            "blue_country": "Bahrain",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/NZECHUKWU_KENNEDY_L_12-13.png?itok=t4fUjxtK",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/GAZIEV_SHAMIL_R_11-22.png?itok=8shokFdY",
+            "weight_class": "Heavyweight Bout",
             "title_fight": false
           }
         ],
@@ -644,7 +644,7 @@
             "red": "Sumudaerji",
             "blue": "Alex Perez",
             "red_rank": "",
-            "blue_rank": "#10",
+            "blue_rank": "#11",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "China",
@@ -781,7 +781,7 @@
           {
             "red": "Brandon Moreno",
             "blue": "Joseph Morales",
-            "red_rank": "#9",
+            "red_rank": "#8",
             "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
@@ -795,7 +795,7 @@
           {
             "red": "Tim Elliott",
             "blue": "Edgar Chairez",
-            "red_rank": "#12",
+            "red_rank": "#13",
             "blue_rank": "#15",
             "red_odds": "-",
             "blue_odds": "-",
@@ -849,7 +849,7 @@
             "red": "Joaquin Buckley",
             "blue": "Mike Malott",
             "red_rank": "#10",
-            "blue_rank": "#12",
+            "blue_rank": "#13",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "United States",
