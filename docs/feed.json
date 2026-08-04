@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-04T18:51:05.977948Z",
-  "generated_at_ist": "2026-08-05T00:21:05.977952+05:30",
+  "generated_at_utc": "2026-08-04T20:42:25.993651Z",
+  "generated_at_ist": "2026-08-05T02:12:25.993654+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -405,16 +405,16 @@
           "title_fight": false
         },
         {
-          "red": "Ty Miller",
-          "blue": "Billy Ray Goff",
+          "red": "Billy Ray Goff",
+          "blue": "Ty Miller",
           "red_rank": "",
           "blue_rank": "",
           "red_odds": "-",
           "blue_odds": "-",
           "red_country": "United States",
           "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/MILLER_TY_R_01-24.png?itok=O7wIIK-q",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-05/GOFF_BILLY_R_08-26.png?itok=SIkC8Ao-",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/GOFF_BILLY_L_05-31.png?itok=rrHSIsJ-",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/MILLER_TY_R_01-24.png?itok=O7wIIK-q",
           "weight_class": "Welterweight Bout",
           "title_fight": false
         }
@@ -461,31 +461,31 @@
             "title_fight": true
           },
           {
-            "red": "Edson Barboza",
-            "blue": "Esteban Ribovics",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Brazil",
-            "blue_country": "Argentina",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/BARBOZA_EDSON_L_12-06.png?itok=IIpsCpEb",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/RIBOVICS_ESTEBAN_R_04-11.png?itok=9OElHjOx",
-            "weight_class": "Lightweight Bout",
-            "title_fight": false
-          },
-          {
             "red": "Mansur Abdul-Malik",
             "blue": "Dustin Stoltzfus",
             "red_rank": "",
             "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
+            "red_odds": "-550",
+            "blue_odds": "+400",
             "red_country": "United States",
             "blue_country": "United States",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/ABDUL-MALIK_MANSUR_L_03-28.png?itok=IuCs2VJ4",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-09/STOLTZFUS_DUSTIN_R_09-13.png?itok=Za8pSWZu",
             "weight_class": "Middleweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Edson Barboza",
+            "blue": "Esteban Ribovics",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "+310",
+            "blue_odds": "-400",
+            "red_country": "Brazil",
+            "blue_country": "Argentina",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/BARBOZA_EDSON_L_12-06.png?itok=IIpsCpEb",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/RIBOVICS_ESTEBAN_R_04-11.png?itok=9OElHjOx",
+            "weight_class": "Lightweight Bout",
             "title_fight": false
           },
           {
@@ -530,20 +530,6 @@
             "title_fight": false
           },
           {
-            "red": "Roman Dolidze",
-            "blue": "Reinier de Ridder",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Georgia",
-            "blue_country": "Netherlands",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/DOLIDZE_ROMAN_L_03-21.png?itok=zoSMbLty",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/DE-RIDDER_REINIER_R_03-07.png?itok=IyC4hS_6",
-            "weight_class": "Light Heavyweight Bout",
-            "title_fight": false
-          },
-          {
             "red": "Serghei Spivac",
             "blue": "Vitor Petrino",
             "red_rank": "#6",
@@ -558,17 +544,31 @@
             "title_fight": false
           },
           {
-            "red": "Kody Steele",
-            "blue": "Gauge Young",
+            "red": "Reinier de Ridder",
+            "blue": "Roman Dolidze",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Netherlands",
+            "blue_country": "Georgia",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/DE-RIDDER_REINIER_L_10-18.png?itok=SFV30e0x",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/DOLIDZE_ROMAN_R_03-15.png?itok=_aZZPJwu",
+            "weight_class": "Light Heavyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Carli Judice",
+            "blue": "Jeisla Chaves",
             "red_rank": "",
             "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "United States",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-02/STEELE_KODY_R_02-08.png?itok=VaUZ3prR",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/YOUNG_GAUGE_R_08-23.png?itok=bs8W9DCO",
-            "weight_class": "Lightweight Bout",
+            "blue_country": "Brazil",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/JUDICE_CARLI_L_07-19.png?itok=_sbMF-Pb",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/CHAVES_JEISLA_L_06-06.png?itok=l4X_-5QD",
+            "weight_class": "Women's Strawweight Bout",
             "title_fight": false
           },
           {
@@ -674,8 +674,8 @@
         "main_card_start_ist": "2026-08-29T15:30:00+05:30"
       },
       {
-        "name": "UFC Paris: Hooker vs Parnasse",
-        "kind": "Event",
+        "name": "UFC Fight Night: Hooker vs Parnasse",
+        "kind": "Fight Night",
         "venue": "Accor Arena",
         "city": "Paris France",
         "country": "",
@@ -696,6 +696,20 @@
             "title_fight": false
           },
           {
+            "red": "Nathaniel Wood",
+            "blue": "Mairon Santos",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "England",
+            "blue_country": "Brazil",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/WOOD_NATHANIEL_L_10-25.png?itok=IxjIQdGP",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/SANTOS_MAIRON_R_12-06.png?itok=4gX50t2A",
+            "weight_class": "Featherweight Bout",
+            "title_fight": false
+          },
+          {
             "red": "Michael Venom Page",
             "blue": "Nursulton Ruziboev",
             "red_rank": "",
@@ -710,6 +724,20 @@
             "title_fight": false
           },
           {
+            "red": "Morgan Charriere",
+            "blue": "Felipe Lima",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "France",
+            "blue_country": "Brazil",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-09/CHARRIERE_MORGAN_L_09-28.png?itok=bBIY8iTi",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-06/LIMA_FELIPE_R_06-28.png?itok=0aDDkOVY",
+            "weight_class": "Featherweight Bout",
+            "title_fight": false
+          },
+          {
             "red": "Kurtis Campbell",
             "blue": "Trevor Peek",
             "red_rank": "",
@@ -721,20 +749,6 @@
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/CAMPBELL_KURTIS_L_03-21.png?itok=1z13pd6j",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-09/PEEK_TREVOR_R_04-06.png?itok=qG2VxiB9",
             "weight_class": "Featherweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Mario Pinto",
-            "blue": "Ryan Spann",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Portugal",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/PINTO_MARIO_L_03-21.png?itok=CvvKJCrb",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/SPANN_RYAN_R_04-25.png?itok=BZVAxi7T",
-            "weight_class": "Heavyweight Bout",
             "title_fight": false
           }
         ],
