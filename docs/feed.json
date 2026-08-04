@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-04T17:03:05.203620Z",
-  "generated_at_ist": "2026-08-04T22:33:05.203623+05:30",
+  "generated_at_utc": "2026-08-04T18:51:05.977948Z",
+  "generated_at_ist": "2026-08-05T00:21:05.977952+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -743,13 +743,27 @@
         "main_card_start_ist": "2026-09-06T00:30:00+05:30"
       },
       {
-        "name": "Noche UFC: Acosta vs Blaydes",
+        "name": "Noche UFC: Rodriguez vs Silva",
         "kind": "Event",
         "venue": "Desert Diamond Arena",
         "city": "Glendale United States",
         "country": "",
         "main_card_start_utc": "2026-09-12T21:00:00Z",
         "main_card": [
+          {
+            "red": "Yair Rodriguez",
+            "blue": "Jean Silva",
+            "red_rank": "#5",
+            "blue_rank": "#6",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Mexico",
+            "blue_country": "Brazil",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-04/RODRIGUEZ_YAIR_L_04-12.png?itok=JqQb9kBd",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/SILVA_JEAN_R_01-24.png?itok=Ry5DcPV7",
+            "weight_class": "Featherweight Bout",
+            "title_fight": false
+          },
           {
             "red": "Waldo Cortes Acosta",
             "blue": "Curtis Blaydes",
@@ -793,31 +807,17 @@
             "title_fight": false
           },
           {
-            "red": "Tim Elliott",
-            "blue": "Edgar Chairez",
-            "red_rank": "#13",
-            "blue_rank": "#15",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "United States",
-            "blue_country": "Mexico",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/ELLIOTT_TIM_L_05-02.png?itok=dqZMlAfk",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/CHAIREZ_EDGAR_R_06-06.png?itok=zcaLO2fc",
-            "weight_class": "Flyweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Kelvin Gastelum",
-            "blue": "Yousri Belgaroui",
-            "red_rank": "",
+            "red": "David Martinez",
+            "blue": "Dan Ige",
+            "red_rank": "#8",
             "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
-            "red_country": "United States",
-            "blue_country": "Netherlands",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/GASTELUM_KELVIN_L_04-11.png?itok=OAmoAf19",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/BELGAROUI_YOUSRI_R_10-18.png?itok=5rCwOx9W",
-            "weight_class": "Middleweight Bout",
+            "red_country": "Mexico",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/MARTINEZ_DAVID_L_03-29.png?itok=T0Q8QJI-",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/IGE_DAN_R_10-26.png?itok=zLjglCVv",
+            "weight_class": "Bantamweight Bout",
             "title_fight": false
           }
         ],
