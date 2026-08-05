@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-05T12:17:36.671936Z",
-  "generated_at_ist": "2026-08-05T17:47:36.671939+05:30",
+  "generated_at_utc": "2026-08-05T15:01:39.676095Z",
+  "generated_at_ist": "2026-08-05T20:31:39.676112+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -880,5 +880,9 @@
       }
     ]
   },
-  "_warnings": []
+  "_warnings": [
+    "ufc.com whole-listing fetch failed (The read operation timed out); using ESPN fallback",
+    "ESPN whole-listing fallback also failed: HTTP Error 403: Forbidden",
+    "UFC empty; reused previous feed's events (last-known-good)"
+  ]
 }
