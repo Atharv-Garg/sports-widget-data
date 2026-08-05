@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-05T15:01:39.676095Z",
-  "generated_at_ist": "2026-08-05T20:31:39.676112+05:30",
+  "generated_at_utc": "2026-08-05T16:52:12.283887Z",
+  "generated_at_ist": "2026-08-05T22:22:12.283891+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -489,16 +489,16 @@
             "title_fight": false
           },
           {
-            "red": "Geoff Neal",
-            "blue": "Chidi Njokuani",
+            "red": "Chidi Njokuani",
+            "blue": "Joel Álvarez",
             "red_rank": "",
             "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "United States",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/NEAL_GEOFF_L_02-21.png?itok=897uHteu",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2023-04/NJOKUANI_CHIDI_R_03-25.png?itok=xerm6P3h",
+            "blue_country": "Spain",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2023-08/NJOKUANI_CHIDI_L.png?itok=2VYakjT2",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/ALVAREZ_JOEL_R_10-11.png?itok=NDA-C6oy",
             "weight_class": "Welterweight Bout",
             "title_fight": false
           }
@@ -872,6 +872,20 @@
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/MALOTT_MIKE_R_04-18.png?itok=GoMs8zVq",
             "weight_class": "Welterweight Bout",
             "title_fight": false
+          },
+          {
+            "red": "Mandel Nallo",
+            "blue": "Nate Landwehr",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Canada",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/NALLO_MANDEL_L_04-18.png?itok=3tfqsJM2",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/LANDWEHR_NATE_R_04-11.png?itok=6tYHw-sB",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
           }
         ],
         "url": "https://www.ufc.com/event/ufc-fight-night-october-17-2026",
@@ -880,9 +894,5 @@
       }
     ]
   },
-  "_warnings": [
-    "ufc.com whole-listing fetch failed (The read operation timed out); using ESPN fallback",
-    "ESPN whole-listing fallback also failed: HTTP Error 403: Forbidden",
-    "UFC empty; reused previous feed's events (last-known-good)"
-  ]
+  "_warnings": []
 }
