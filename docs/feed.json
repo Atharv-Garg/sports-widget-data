@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-05T21:54:35.319431Z",
-  "generated_at_ist": "2026-08-06T03:24:35.319434+05:30",
+  "generated_at_utc": "2026-08-05T23:19:06.839167Z",
+  "generated_at_ist": "2026-08-06T04:49:06.839171+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -627,6 +627,20 @@
             "title_fight": false
           },
           {
+            "red": "Jack Jenkins",
+            "blue": "Sean Woodson",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Australia",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-09/JENKINS_JACK_L_09-27.png?itok=NVAK6ypJ",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-04/WOODSON_SEAN_R_04-12.png?itok=fc6DEWXp",
+            "weight_class": "Featherweight Bout",
+            "title_fight": false
+          },
+          {
             "red": "Aoriqileng",
             "blue": "Kai Asakura",
             "red_rank": "",
@@ -651,20 +665,6 @@
             "blue_country": "United States",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/SUMUDAERJI_L_03-07.png?itok=M4jIMLcp",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/PEREZ_ALEX_R_04-27.png?itok=33f_sFDd",
-            "weight_class": "Flyweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Rei Tsuruya",
-            "blue": "Kevin Borjas",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Japan",
-            "blue_country": "Peru",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/TSURUYA_REI_L_05-30.png?itok=GMdTky0f",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/BORJAS_KEVIN_R_06-20.png?itok=NYdKteJc",
             "weight_class": "Flyweight Bout",
             "title_fight": false
           }
@@ -840,14 +840,85 @@
         "main_card_start_ist": "2026-09-13T02:30:00+05:30"
       },
       {
-        "name": "Crypto.com UFC 331: Main event TBA",
+        "name": "Crypto.com UFC 331: Van vs Pantoja 2",
         "kind": "PPV",
         "venue": "Crypto.com Arena",
         "city": "Los Angeles United States",
         "country": "",
         "main_card_start_utc": "2026-09-20T01:00:00Z",
-        "main_card": [],
-        "url": "https://www.ufc.com/event/cryptocom-ufc-331",
+        "main_card": [
+          {
+            "red": "Joshua Van",
+            "blue": "Alexandre Pantoja",
+            "red_rank": "C",
+            "blue_rank": "#1",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Myanmar",
+            "blue_country": "Brazil",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/VAN_JOSHUA_L_BELT_05-09.png?itok=WS-OTlne",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2023-07/PANTOJA_ALEXANDRE_R_07-08.png?itok=Zje0cPYV",
+            "weight_class": "Flyweight Title Bout",
+            "title_fight": true
+          },
+          {
+            "red": "Arman Tsarukyan",
+            "blue": "Mauricio Ruffy",
+            "red_rank": "#2",
+            "blue_rank": "#7",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Armenia",
+            "blue_country": "Brazil",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/TSARUKYAN_ARMAN_L_11-22.png?itok=rkovoseh",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/RUFFY_MAURICIO_R_01-31.png?itok=QAWm9rTP",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Gable Steveson",
+            "blue": "Sean Sharaf",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/STEVESON_GABLE_L_07-11.png?itok=eh09qXrC",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-10/SHERAF_SEAN_R_10-12.png?itok=SmbohjIz",
+            "weight_class": "Heavyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Tai Tuivasa",
+            "blue": "Robelis Despaigne",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Australia",
+            "blue_country": "Cuba",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/TUIVASA_TAI_L_05-02.png?itok=3ekvdGCe",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-10/5/DESPAIGNE_ROBELIS_R_05-11.png?itok=FgXOmyqc",
+            "weight_class": "Heavyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Ryan Gandra",
+            "blue": "Ozzy Diaz",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Brazil",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/GANDRA_RYAN_L_07-11.png?itok=xoxQFG0M",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/DIAZ_OZZY_R_03-08.png?itok=g7iPOGWX",
+            "weight_class": "Middleweight Bout",
+            "title_fight": false
+          }
+        ],
+        "url": "https://www.ufc.com/event/ufc-331",
         "_source": "ufc.com",
         "main_card_start_ist": "2026-09-20T06:30:00+05:30"
       },
