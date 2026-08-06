@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-06T13:18:59.010264Z",
-  "generated_at_ist": "2026-08-06T18:48:59.010267+05:30",
+  "generated_at_utc": "2026-08-06T16:11:24.564004Z",
+  "generated_at_ist": "2026-08-06T21:41:24.564008+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -343,84 +343,14 @@
     "next": {
       "name": "UFC Fight Night: Gamrot vs Salkilld",
       "kind": "Fight Night",
-      "venue": "Meta APEX",
-      "city": "Las Vegas United States",
+      "venue": "",
+      "city": "",
       "country": "",
       "main_card_start_utc": "2026-08-09T00:00:00Z",
-      "main_card": [
-        {
-          "red": "Mateusz Gamrot",
-          "blue": "Quillan Salkilld",
-          "red_rank": "#8",
-          "blue_rank": "#12",
-          "red_odds": "+125",
-          "blue_odds": "-150",
-          "red_country": "Poland",
-          "blue_country": "Australia",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/GAMROT_MATEUSZ_L_04-11.png?itok=6zp9jfGV",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/SALKILLD_QUILLAN_R_05-02.png?itok=RarJXbX_",
-          "weight_class": "Lightweight Bout",
-          "title_fight": false
-        },
-        {
-          "red": "Diego Ferreira",
-          "blue": "Billy Quarantillo",
-          "red_rank": "",
-          "blue_rank": "",
-          "red_odds": "-175",
-          "blue_odds": "+145",
-          "red_country": "Brazil",
-          "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/FERREIRA_DIEGO_L_01-18.png?itok=cbqI_nYf",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-12/QUARANTILLO_BILLY_R_12-14.png?itok=D6yCYJSx",
-          "weight_class": "Lightweight Bout",
-          "title_fight": false
-        },
-        {
-          "red": "Darren Elkins",
-          "blue": "Yadier del Valle",
-          "red_rank": "",
-          "blue_rank": "",
-          "red_odds": "+550",
-          "blue_odds": "-800",
-          "red_country": "United States",
-          "blue_country": "Cuba",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-04/ELKINS_DARREN_L_04-12.png?itok=I0giHzCr",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/DEL_VALLE_YADIER_R_02-21.png?itok=M3qIMnRe",
-          "weight_class": "Featherweight Bout",
-          "title_fight": false
-        },
-        {
-          "red": "Amanda Lemos",
-          "blue": "Alexia Thainara",
-          "red_rank": "#8",
-          "blue_rank": "#12",
-          "red_odds": "+205",
-          "blue_odds": "-250",
-          "red_country": "Brazil",
-          "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/LEMOS_AMANDA_L_03-14.png?itok=1K3ICQYI",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-09/THAINARA_ALEXIA_R_09-27.png?itok=MRMpoOC9",
-          "weight_class": "Women's Strawweight Bout",
-          "title_fight": false
-        },
-        {
-          "red": "Billy Ray Goff",
-          "blue": "Ty Miller",
-          "red_rank": "",
-          "blue_rank": "",
-          "red_odds": "+310",
-          "blue_odds": "-400",
-          "red_country": "United States",
-          "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/GOFF_BILLY_L_05-31.png?itok=rrHSIsJ-",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/MILLER_TY_R_01-24.png?itok=O7wIIK-q",
-          "weight_class": "Welterweight Bout",
-          "title_fight": false
-        }
-      ],
+      "main_card": [],
       "url": "https://www.ufc.com/event/ufc-fight-night-august-08-2026",
-      "_source": "ufc.com",
+      "_source": "ufc.com-listing",
+      "_degraded": "per-event fetch failed: TimeoutError",
       "main_card_start_ist": "2026-08-09T05:30:00+05:30"
     },
     "upcoming": [
@@ -493,8 +423,8 @@
             "blue": "Joel Álvarez",
             "red_rank": "",
             "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
+            "red_odds": "+205",
+            "blue_odds": "-250",
             "red_country": "United States",
             "blue_country": "Spain",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2023-08/NJOKUANI_CHIDI_L.png?itok=2VYakjT2",
@@ -965,5 +895,7 @@
       }
     ]
   },
-  "_warnings": []
+  "_warnings": [
+    "ufc.com per-event fetch failed for UFC Fight Night: Gamrot vs Salkilld (per-event fetch failed: TimeoutError); attempting ESPN recovery"
+  ]
 }
