@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-06T16:11:24.564004Z",
-  "generated_at_ist": "2026-08-06T21:41:24.564008+05:30",
+  "generated_at_utc": "2026-08-07T00:13:57.808903Z",
+  "generated_at_ist": "2026-08-07T05:43:57.808907+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -343,14 +343,84 @@
     "next": {
       "name": "UFC Fight Night: Gamrot vs Salkilld",
       "kind": "Fight Night",
-      "venue": "",
-      "city": "",
+      "venue": "Meta APEX",
+      "city": "Las Vegas United States",
       "country": "",
       "main_card_start_utc": "2026-08-09T00:00:00Z",
-      "main_card": [],
+      "main_card": [
+        {
+          "red": "Mateusz Gamrot",
+          "blue": "Quillan Salkilld",
+          "red_rank": "#8",
+          "blue_rank": "#12",
+          "red_odds": "+120",
+          "blue_odds": "-145",
+          "red_country": "Poland",
+          "blue_country": "Australia",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/GAMROT_MATEUSZ_L_08-08.png?itok=lpCsKoCU",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/SALKILLD_QUILLAN_R_08-08.png?itok=R8qsiDx9",
+          "weight_class": "Lightweight Bout",
+          "title_fight": false
+        },
+        {
+          "red": "Diego Ferreira",
+          "blue": "Billy Quarantillo",
+          "red_rank": "",
+          "blue_rank": "",
+          "red_odds": "-175",
+          "blue_odds": "+145",
+          "red_country": "Brazil",
+          "blue_country": "United States",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/FERREIRA_DIEGO_L_08-08.png?itok=VaC_3lFI",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/QUARANTILLO_BILLY_R_08-08.png?itok=XgyzU_wo",
+          "weight_class": "Lightweight Bout",
+          "title_fight": false
+        },
+        {
+          "red": "Darren Elkins",
+          "blue": "Yadier del Valle",
+          "red_rank": "",
+          "blue_rank": "",
+          "red_odds": "+550",
+          "blue_odds": "-800",
+          "red_country": "United States",
+          "blue_country": "Cuba",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/ELKINS_DARREN_L_08-08.png?itok=wP896uGl",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/DEL_VALLE_YADIER_R_08-08.png?itok=WSC_Fp-a",
+          "weight_class": "Featherweight Bout",
+          "title_fight": false
+        },
+        {
+          "red": "Amanda Lemos",
+          "blue": "Alexia Thainara",
+          "red_rank": "#8",
+          "blue_rank": "#12",
+          "red_odds": "+210",
+          "blue_odds": "-260",
+          "red_country": "Brazil",
+          "blue_country": "Brazil",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/LEMOS_AMANDA_L_08-08.png?itok=DZUqZ51f",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/THAINARA_ALEXIA_R_08-08.png?itok=4a7Raend",
+          "weight_class": "Women's Strawweight Bout",
+          "title_fight": false
+        },
+        {
+          "red": "Billy Ray Goff",
+          "blue": "Ty Miller",
+          "red_rank": "",
+          "blue_rank": "",
+          "red_odds": "+310",
+          "blue_odds": "-400",
+          "red_country": "United States",
+          "blue_country": "United States",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/GOFF_BILLY_L_08-08.png?itok=1Lbwb1l7",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/MILLER_TY_R_01-24.png?itok=O7wIIK-q",
+          "weight_class": "Welterweight Bout",
+          "title_fight": false
+        }
+      ],
       "url": "https://www.ufc.com/event/ufc-fight-night-august-08-2026",
-      "_source": "ufc.com-listing",
-      "_degraded": "per-event fetch failed: TimeoutError",
+      "_source": "ufc.com",
       "main_card_start_ist": "2026-08-09T05:30:00+05:30"
     },
     "upcoming": [
@@ -533,8 +603,8 @@
             "blue": "Song Yadong",
             "red_rank": "#3",
             "blue_rank": "#6",
-            "red_odds": "-470",
-            "blue_odds": "+360",
+            "red_odds": "-450",
+            "blue_odds": "+350",
             "red_country": "Russia",
             "blue_country": "China",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/NURMAGOMEDOV_UMAR_L_01-24.png?itok=ocmMEtOy",
@@ -554,20 +624,6 @@
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-04/XIAONAN_YAN_L_04-12.png?itok=ZGYs1enK",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/GOMES_DENISE_R_05-17.png?itok=MldpJ--F",
             "weight_class": "Women's Strawweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Jack Jenkins",
-            "blue": "Sean Woodson",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Australia",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-09/JENKINS_JACK_L_09-27.png?itok=NVAK6ypJ",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-04/WOODSON_SEAN_R_04-12.png?itok=fc6DEWXp",
-            "weight_class": "Featherweight Bout",
             "title_fight": false
           },
           {
@@ -597,6 +653,20 @@
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/PEREZ_ALEX_R_04-27.png?itok=33f_sFDd",
             "weight_class": "Flyweight Bout",
             "title_fight": false
+          },
+          {
+            "red": "Ce Liu",
+            "blue": "Junior Tafa",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "",
+            "blue_country": "Australia",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/image/fighter_images/SHADOW_Fighter_fullLength_RED.png?VersionId=0NwYm4ow5ym9PWjgcpd05ObDBIC5pBtX&itok=CFBkG7gS",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/TAFA_JUNIOR_R_06-06.png?itok=O41jc27J",
+            "weight_class": "Light Heavyweight Bout",
+            "title_fight": false
           }
         ],
         "url": "https://www.ufc.com/event/ufc-fight-night-august-29-2026",
@@ -616,27 +686,13 @@
             "blue": "Salahdine Parnasse",
             "red_rank": "#9",
             "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
+            "red_odds": "+275",
+            "blue_odds": "-350",
             "red_country": "New Zealand",
             "blue_country": "France",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/HOOKER_DAN_L_01-31.png?itok=bsWjjIC3",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/image/fighter_images/SHADOW_Fighter_fullLength_BLUE.png?VersionId=1Jeml9w1QwZqmMUJDg8qTrTk7fFhqUra&itok=BgqHA24D",
             "weight_class": "Lightweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Nathaniel Wood",
-            "blue": "Mairon Santos",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "England",
-            "blue_country": "Brazil",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/WOOD_NATHANIEL_L_10-25.png?itok=IxjIQdGP",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/SANTOS_MAIRON_R_12-06.png?itok=4gX50t2A",
-            "weight_class": "Featherweight Bout",
             "title_fight": false
           },
           {
@@ -665,6 +721,20 @@
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-09/CHARRIERE_MORGAN_L_09-28.png?itok=bBIY8iTi",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-06/LIMA_FELIPE_R_06-28.png?itok=0aDDkOVY",
             "weight_class": "Featherweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Mario Pinto",
+            "blue": "Ryan Spann",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Portugal",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/PINTO_MARIO_L_03-21.png?itok=CvvKJCrb",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/SPANN_RYAN_R_04-25.png?itok=BZVAxi7T",
+            "weight_class": "Heavyweight Bout",
             "title_fight": false
           },
           {
@@ -699,8 +769,8 @@
             "blue": "Jean Silva",
             "red_rank": "#5",
             "blue_rank": "#6",
-            "red_odds": "-",
-            "blue_odds": "-",
+            "red_odds": "+250",
+            "blue_odds": "-310",
             "red_country": "Mexico",
             "blue_country": "Brazil",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-04/RODRIGUEZ_YAIR_L_04-12.png?itok=JqQb9kBd",
@@ -709,17 +779,17 @@
             "title_fight": false
           },
           {
-            "red": "Waldo Cortes Acosta",
-            "blue": "Curtis Blaydes",
-            "red_rank": "#5",
-            "blue_rank": "#7",
+            "red": "Brandon Moreno",
+            "blue": "Joseph Morales",
+            "red_rank": "#8",
+            "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
-            "red_country": "Dominican Republic",
+            "red_country": "Mexico",
             "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/CORTES_ACOSTA_WALDO_L.png?itok=GOHSSrr7",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/BLAYDES_CURTIS_R_07-27.png?itok=sfwZ4WuI",
-            "weight_class": "Heavyweight Bout",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/MORENO_BRANDON_L_02-28.png?itok=f3JNyVM4",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/MORALES_JOSEPH_R_11-08.png?itok=hIWO7Ui5",
+            "weight_class": "Flyweight Bout",
             "title_fight": false
           },
           {
@@ -737,17 +807,17 @@
             "title_fight": false
           },
           {
-            "red": "Brandon Moreno",
-            "blue": "Joseph Morales",
-            "red_rank": "#8",
-            "blue_rank": "",
+            "red": "Waldo Cortes Acosta",
+            "blue": "Curtis Blaydes",
+            "red_rank": "#5",
+            "blue_rank": "#7",
             "red_odds": "-",
             "blue_odds": "-",
-            "red_country": "Mexico",
+            "red_country": "Dominican Republic",
             "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/MORENO_BRANDON_L_02-28.png?itok=f3JNyVM4",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/MORALES_JOSEPH_R_11-08.png?itok=hIWO7Ui5",
-            "weight_class": "Flyweight Bout",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/CORTES_ACOSTA_WALDO_L.png?itok=GOHSSrr7",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/BLAYDES_CURTIS_R_07-27.png?itok=sfwZ4WuI",
+            "weight_class": "Heavyweight Bout",
             "title_fight": false
           },
           {
@@ -806,45 +876,45 @@
             "title_fight": false
           },
           {
-            "red": "Gable Steveson",
-            "blue": "Sean Sharaf",
-            "red_rank": "",
+            "red": "Patricio Pitbull",
+            "blue": "Dooho Choi",
+            "red_rank": "#15",
             "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
-            "red_country": "United States",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/STEVESON_GABLE_L_07-11.png?itok=eh09qXrC",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-10/SHERAF_SEAN_R_10-12.png?itok=SmbohjIz",
-            "weight_class": "Heavyweight Bout",
+            "red_country": "Brazil",
+            "blue_country": "South Korea",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/PITBULL_PATRICIO_L_04-11.png?itok=XjZvtIWm",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-12/CHOI_DOOHO_R_12-07.png?itok=lhbxz1pq",
+            "weight_class": "Featherweight Bout",
             "title_fight": false
           },
           {
-            "red": "Tai Tuivasa",
-            "blue": "Robelis Despaigne",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Australia",
-            "blue_country": "Cuba",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/TUIVASA_TAI_L_05-02.png?itok=3ekvdGCe",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-10/5/DESPAIGNE_ROBELIS_R_05-11.png?itok=FgXOmyqc",
-            "weight_class": "Heavyweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Ryan Gandra",
-            "blue": "Ozzy Diaz",
-            "red_rank": "",
+            "red": "Renato Moicano",
+            "blue": "Brian Ortega",
+            "red_rank": "#10",
             "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "Brazil",
             "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/GANDRA_RYAN_L_07-11.png?itok=xoxQFG0M",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/DIAZ_OZZY_R_03-08.png?itok=g7iPOGWX",
-            "weight_class": "Middleweight Bout",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/MOICANO_RENATO_L_04-04.png?itok=k1Tac0wx",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/ORTEGA_BRIAN_R_09-14.png?itok=c5IyAJv6",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Alonzo Menifield",
+            "blue": "Iwo Baraniewski",
+            "red_rank": "#14",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "Poland",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-06/MENIFIELD_ALONZO_L_06-14.png?itok=8h__B8G_",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/BARANIEWSKI_IWO_L_06-06.png?itok=IiThUhLf",
+            "weight_class": "Light Heavyweight Bout",
             "title_fight": false
           }
         ],
@@ -853,49 +923,18 @@
         "main_card_start_ist": "2026-09-20T06:30:00+05:30"
       },
       {
-        "name": "UFC Fight Night: Buckley vs Malott",
+        "name": "UFC Fight Night: Main event TBA",
         "kind": "Fight Night",
-        "venue": "Rogers Place",
-        "city": "Edmonton Canada",
+        "venue": "Meta APEX",
+        "city": "Las Vegas United States",
         "country": "",
-        "main_card_start_utc": "2026-10-18T00:00:00Z",
-        "main_card": [
-          {
-            "red": "Joaquin Buckley",
-            "blue": "Mike Malott",
-            "red_rank": "#10",
-            "blue_rank": "#13",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "United States",
-            "blue_country": "Canada",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/BUCKLEY_JOAQUIN_L_05-11.png?itok=bprERCvC",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/MALOTT_MIKE_R_04-18.png?itok=GoMs8zVq",
-            "weight_class": "Welterweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Mandel Nallo",
-            "blue": "Nate Landwehr",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Canada",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/NALLO_MANDEL_L_04-18.png?itok=3tfqsJM2",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/LANDWEHR_NATE_R_04-11.png?itok=6tYHw-sB",
-            "weight_class": "Lightweight Bout",
-            "title_fight": false
-          }
-        ],
-        "url": "https://www.ufc.com/event/ufc-fight-night-october-17-2026",
+        "main_card_start_utc": "2026-09-26T22:00:00Z",
+        "main_card": [],
+        "url": "https://www.ufc.com/event/ufc-fight-night-september-26-2026",
         "_source": "ufc.com",
-        "main_card_start_ist": "2026-10-18T05:30:00+05:30"
+        "main_card_start_ist": "2026-09-27T03:30:00+05:30"
       }
     ]
   },
-  "_warnings": [
-    "ufc.com per-event fetch failed for UFC Fight Night: Gamrot vs Salkilld (per-event fetch failed: TimeoutError); attempting ESPN recovery"
-  ]
+  "_warnings": []
 }
