@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-09T18:14:57.208807Z",
-  "generated_at_ist": "2026-08-09T23:44:57.208811+05:30",
+  "generated_at_utc": "2026-08-09T19:01:17.964868Z",
+  "generated_at_ist": "2026-08-10T00:31:17.964871+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -679,7 +679,7 @@
         "venue": "Desert Diamond Arena",
         "city": "Glendale United States",
         "country": "",
-        "main_card_start_utc": "2026-09-12T21:00:00Z",
+        "main_card_start_utc": "2026-09-13T00:00:00Z",
         "main_card": [
           {
             "red": "Yair Rodriguez",
@@ -710,6 +710,20 @@
             "title_fight": false
           },
           {
+            "red": "Tommy McMillen",
+            "blue": "Marwan Rahiki",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "Morocco",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/MCMILLEN_TOMMY_L_07-18.png?itok=E22yZFTR",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/RAHIKI_MARWAN_L_05-02.png?itok=ZCvYmcq7",
+            "weight_class": "Featherweight Bout",
+            "title_fight": false
+          },
+          {
             "red": "Manon Fiorot",
             "blue": "Alexa Grasso",
             "red_rank": "#2",
@@ -736,25 +750,11 @@
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/BLAYDES_CURTIS_R_07-27.png?itok=sfwZ4WuI",
             "weight_class": "Heavyweight Bout",
             "title_fight": false
-          },
-          {
-            "red": "David Martinez",
-            "blue": "Dan Ige",
-            "red_rank": "#8",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Mexico",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/MARTINEZ_DAVID_L_03-29.png?itok=T0Q8QJI-",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/IGE_DAN_R_10-26.png?itok=zLjglCVv",
-            "weight_class": "Bantamweight Bout",
-            "title_fight": false
           }
         ],
         "url": "https://www.ufc.com/event/ufc-fight-night-september-12-2026",
         "_source": "ufc.com",
-        "main_card_start_ist": "2026-09-13T02:30:00+05:30"
+        "main_card_start_ist": "2026-09-13T05:30:00+05:30"
       },
       {
         "name": "Crypto.com UFC 331: Van vs Pantoja 2",
