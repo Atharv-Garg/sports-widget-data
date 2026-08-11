@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-11T14:43:23.776960Z",
-  "generated_at_ist": "2026-08-11T20:13:23.776962+05:30",
+  "generated_at_utc": "2026-08-11T15:38:33.500115Z",
+  "generated_at_ist": "2026-08-11T21:08:33.500119+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -533,7 +533,7 @@
             "red": "Yan Xiaonan",
             "blue": "Denise Gomes",
             "red_rank": "#4",
-            "blue_rank": "#13",
+            "blue_rank": "#14",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "China",
@@ -601,7 +601,7 @@
           {
             "red": "Dan Hooker",
             "blue": "Salahdine Parnasse",
-            "red_rank": "#9",
+            "red_rank": "#10",
             "blue_rank": "",
             "red_odds": "+275",
             "blue_odds": "-350",
@@ -809,7 +809,7 @@
           {
             "red": "Renato Moicano",
             "blue": "Brian Ortega",
-            "red_rank": "#10",
+            "red_rank": "#11",
             "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
