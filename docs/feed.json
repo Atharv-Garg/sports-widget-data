@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-11T18:35:07.605693Z",
-  "generated_at_ist": "2026-08-12T00:05:07.605697+05:30",
+  "generated_at_utc": "2026-08-11T19:45:11.179013Z",
+  "generated_at_ist": "2026-08-12T01:15:11.179017+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -353,8 +353,8 @@
           "blue": "Ian Machado Garry",
           "red_rank": "C",
           "blue_rank": "#1",
-          "red_odds": "-370",
-          "blue_odds": "+290",
+          "red_odds": "-350",
+          "blue_odds": "+275",
           "red_country": "Russia",
           "blue_country": "Ireland",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/7/MAKHACHEV_ISLAM_L_BELT_01-18.png?itok=3HwhAwpT",
@@ -367,7 +367,7 @@
           "blue": "Gillian Robertson",
           "red_rank": "C",
           "blue_rank": "#5",
-          "red_odds": "-225",
+          "red_odds": "-220",
           "blue_odds": "+180",
           "red_country": "Brazil",
           "blue_country": "Canada",
@@ -381,8 +381,8 @@
           "blue": "Dustin Stoltzfus",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-550",
-          "blue_odds": "+400",
+          "red_odds": "-600",
+          "blue_odds": "+450",
           "red_country": "United States",
           "blue_country": "United States",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/ABDUL-MALIK_MANSUR_L_03-28.png?itok=IuCs2VJ4",
@@ -395,8 +395,8 @@
           "blue": "Esteban Ribovics",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "+375",
-          "blue_odds": "-500",
+          "red_odds": "+400",
+          "blue_odds": "-550",
           "red_country": "Brazil",
           "blue_country": "Argentina",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/BARBOZA_EDSON_L_12-06.png?itok=IIpsCpEb",
@@ -558,21 +558,21 @@
             "title_fight": false
           },
           {
-            "red": "Sumudaerji",
-            "blue": "Alex Perez",
-            "red_rank": "",
+            "red": "Alex Perez",
+            "blue": "Sumudaerji",
+            "red_rank": "#11",
             "blue_rank": "#11",
             "red_odds": "-",
             "blue_odds": "-",
-            "red_country": "China",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/SUMUDAERJI_L_03-07.png?itok=M4jIMLcp",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/PEREZ_ALEX_R_04-27.png?itok=33f_sFDd",
+            "red_country": "United States",
+            "blue_country": "China",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/PEREZ_ALEX_L_05-30.png?itok=Y2J0PajP",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/SUMUDAERJI_R_05-30.png?itok=-qDD_STb",
             "weight_class": "Flyweight Bout",
             "title_fight": false
           },
           {
-            "red": "Ce Liu",
+            "red": "Liu Ce",
             "blue": "Junior Tafa",
             "red_rank": "",
             "blue_rank": "",
@@ -679,7 +679,7 @@
         "venue": "Desert Diamond Arena",
         "city": "Glendale United States",
         "country": "",
-        "main_card_start_utc": "2026-09-13T00:00:00Z",
+        "main_card_start_utc": "2026-09-12T21:00:00Z",
         "main_card": [
           {
             "red": "Yair Rodriguez",
@@ -754,7 +754,7 @@
         ],
         "url": "https://www.ufc.com/event/ufc-fight-night-september-12-2026",
         "_source": "ufc.com",
-        "main_card_start_ist": "2026-09-13T05:30:00+05:30"
+        "main_card_start_ist": "2026-09-13T02:30:00+05:30"
       },
       {
         "name": "Crypto.com UFC 331: Van vs Pantoja 2",
@@ -852,10 +852,10 @@
         "main_card_start_ist": "2026-09-27T03:30:00+05:30"
       },
       {
-        "name": "UFC 332: Main event TBA",
-        "kind": "PPV",
-        "venue": "Delta Center",
-        "city": "Salt Lake City United States",
+        "name": "Search results: Main event TBA",
+        "kind": "Event",
+        "venue": "",
+        "city": "",
         "country": "",
         "main_card_start_utc": "2026-10-04T01:00:00Z",
         "main_card": [],
