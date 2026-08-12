@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-12T16:08:30.876949Z",
-  "generated_at_ist": "2026-08-12T21:38:30.876953+05:30",
+  "generated_at_utc": "2026-08-12T17:10:38.718786Z",
+  "generated_at_ist": "2026-08-12T22:40:38.718790+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -377,6 +377,20 @@
           "title_fight": true
         },
         {
+          "red": "Charles Johnson",
+          "blue": "Eduardo Chapolin",
+          "red_rank": "",
+          "blue_rank": "",
+          "red_odds": "-",
+          "blue_odds": "-",
+          "red_country": "United States",
+          "blue_country": "Brazil",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/JOHNSON_CHARLES_L_03-14.png?itok=fd8GnY5z",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/CHAPOLIN_EDUARDO_R.png?itok=2qLk_BNF",
+          "weight_class": "Catchweight Bout",
+          "title_fight": false
+        },
+        {
           "red": "Mansur Abdul-Malik",
           "blue": "Dustin Stoltzfus",
           "red_rank": "",
@@ -402,20 +416,6 @@
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/BARBOZA_EDSON_L_12-06.png?itok=IIpsCpEb",
           "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/RIBOVICS_ESTEBAN_R_04-11.png?itok=9OElHjOx",
           "weight_class": "Lightweight Bout",
-          "title_fight": false
-        },
-        {
-          "red": "Chidi Njokuani",
-          "blue": "Joel Álvarez",
-          "red_rank": "",
-          "blue_rank": "",
-          "red_odds": "+220",
-          "blue_odds": "-270",
-          "red_country": "United States",
-          "blue_country": "Spain",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2023-08/NJOKUANI_CHIDI_L.png?itok=2VYakjT2",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/ALVAREZ_JOEL_R_10-11.png?itok=NDA-C6oy",
-          "weight_class": "Welterweight Bout",
           "title_fight": false
         }
       ],
@@ -852,10 +852,10 @@
         "main_card_start_ist": "2026-09-27T03:30:00+05:30"
       },
       {
-        "name": "UFC 332: Main event TBA",
-        "kind": "PPV",
-        "venue": "Delta Center",
-        "city": "Salt Lake City United States",
+        "name": "Search results: Main event TBA",
+        "kind": "Event",
+        "venue": "",
+        "city": "",
         "country": "",
         "main_card_start_utc": "2026-10-04T01:00:00Z",
         "main_card": [],
