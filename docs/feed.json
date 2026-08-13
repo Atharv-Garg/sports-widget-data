@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-13T22:23:50.223304Z",
-  "generated_at_ist": "2026-08-14T03:53:50.223308+05:30",
+  "generated_at_utc": "2026-08-13T23:23:44.017415Z",
+  "generated_at_ist": "2026-08-14T04:53:44.017418+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -381,8 +381,8 @@
           "blue": "Kauê Fernandes",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-160",
-          "blue_odds": "+135",
+          "red_odds": "-150",
+          "blue_odds": "+125",
           "red_country": "United States",
           "blue_country": "Brazil",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/TURNER_JALIN_L_08-15.png?itok=k_0o6oMo",
@@ -409,8 +409,8 @@
           "blue": "Esteban Ribovics",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "+425",
-          "blue_odds": "-575",
+          "red_odds": "+450",
+          "blue_odds": "-600",
           "red_country": "Brazil",
           "blue_country": "Argentina",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/BARBOZA_EDSON_L_08-15.png?itok=s-VmFH2G",
@@ -852,10 +852,10 @@
         "main_card_start_ist": "2026-09-27T03:30:00+05:30"
       },
       {
-        "name": "Search results: Main event TBA",
-        "kind": "Event",
-        "venue": "",
-        "city": "",
+        "name": "UFC 332: Main event TBA",
+        "kind": "PPV",
+        "venue": "Delta Center",
+        "city": "Salt Lake City United States",
         "country": "",
         "main_card_start_utc": "2026-10-04T01:00:00Z",
         "main_card": [],
