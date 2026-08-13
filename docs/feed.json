@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-13T00:43:37.112629Z",
-  "generated_at_ist": "2026-08-13T06:13:37.112633+05:30",
+  "generated_at_utc": "2026-08-13T03:13:37.125792Z",
+  "generated_at_ist": "2026-08-13T08:43:37.125795+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -381,8 +381,8 @@
           "blue": "Kauê Fernandes",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-165",
-          "blue_odds": "+140",
+          "red_odds": "-160",
+          "blue_odds": "+135",
           "red_country": "United States",
           "blue_country": "Brazil",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/TURNER_JALIN_L_03-08.png?itok=ED_YaT71",
@@ -485,7 +485,7 @@
             "blue_country": "Brazil",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/JUDICE_CARLI_L_07-19.png?itok=_sbMF-Pb",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/CHAVES_JEISLA_L_06-06.png?itok=l4X_-5QD",
-            "weight_class": "Women's Strawweight Bout",
+            "weight_class": "Women's Flyweight Bout",
             "title_fight": false
           },
           {
@@ -852,10 +852,10 @@
         "main_card_start_ist": "2026-09-27T03:30:00+05:30"
       },
       {
-        "name": "UFC 332: Main event TBA",
-        "kind": "PPV",
-        "venue": "Delta Center",
-        "city": "Salt Lake City United States",
+        "name": "Search results: Main event TBA",
+        "kind": "Event",
+        "venue": "",
+        "city": "",
         "country": "",
         "main_card_start_utc": "2026-10-04T01:00:00Z",
         "main_card": [],
