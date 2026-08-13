@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-13T08:05:20.026055Z",
-  "generated_at_ist": "2026-08-13T13:35:20.026058+05:30",
+  "generated_at_utc": "2026-08-13T09:32:11.728445Z",
+  "generated_at_ist": "2026-08-13T15:02:11.728448+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -852,10 +852,10 @@
         "main_card_start_ist": "2026-09-27T03:30:00+05:30"
       },
       {
-        "name": "UFC 332: Main event TBA",
-        "kind": "PPV",
-        "venue": "Delta Center",
-        "city": "Salt Lake City United States",
+        "name": "Search results: Main event TBA",
+        "kind": "Event",
+        "venue": "",
+        "city": "",
         "country": "",
         "main_card_start_utc": "2026-10-04T01:00:00Z",
         "main_card": [],
