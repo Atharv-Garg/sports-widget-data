@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-13T14:07:14.382103Z",
-  "generated_at_ist": "2026-08-13T19:37:14.382105+05:30",
+  "generated_at_utc": "2026-08-13T15:13:59.717505Z",
+  "generated_at_ist": "2026-08-13T20:43:59.717508+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -613,6 +613,20 @@
             "title_fight": false
           },
           {
+            "red": "Farès Ziam",
+            "blue": "Axel Sola",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "France",
+            "blue_country": "France",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/ZIAM_FARES_L_06-06.png?itok=tf2Ah716",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/SOLA_AXEL_R_07-25.png?itok=oHaeNIVN",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
+          },
+          {
             "red": "Michael Venom Page",
             "blue": "Nursulton Ruziboev",
             "red_rank": "",
@@ -641,30 +655,16 @@
             "title_fight": false
           },
           {
-            "red": "Mario Pinto",
-            "blue": "Ryan Spann",
+            "red": "Losene Keita",
+            "blue": "Muhammad Naimov",
             "red_rank": "",
             "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
-            "red_country": "Portugal",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/PINTO_MARIO_L_03-21.png?itok=CvvKJCrb",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/SPANN_RYAN_R_04-25.png?itok=BZVAxi7T",
-            "weight_class": "Heavyweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Kurtis Campbell",
-            "blue": "Trevor Peek",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "England",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/CAMPBELL_KURTIS_L_03-21.png?itok=1z13pd6j",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-09/PEEK_TREVOR_R_04-06.png?itok=qG2VxiB9",
+            "red_country": "Belgium",
+            "blue_country": "Tajikistan",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/KEITA_LOSENE_R_03-21.png?itok=FsuKPcwQ",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/NAIMOV_MUHAMMAD_R_06-22.png?itok=n2jBXgOR",
             "weight_class": "Featherweight Bout",
             "title_fight": false
           }
