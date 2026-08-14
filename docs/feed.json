@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-14T00:42:28.414263Z",
-  "generated_at_ist": "2026-08-14T06:12:28.414267+05:30",
+  "generated_at_utc": "2026-08-14T03:11:33.791897Z",
+  "generated_at_ist": "2026-08-14T08:41:33.791901+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -769,8 +769,8 @@
             "blue": "Alexandre Pantoja",
             "red_rank": "C",
             "blue_rank": "#1",
-            "red_odds": "-110",
-            "blue_odds": "-110",
+            "red_odds": "-120",
+            "blue_odds": "+100",
             "red_country": "Myanmar",
             "blue_country": "Brazil",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/VAN_JOSHUA_L_BELT_05-09.png?itok=WS-OTlne",
@@ -783,8 +783,8 @@
             "blue": "Mauricio Ruffy",
             "red_rank": "#2",
             "blue_rank": "#7",
-            "red_odds": "-",
-            "blue_odds": "-",
+            "red_odds": "-380",
+            "blue_odds": "+300",
             "red_country": "Armenia",
             "blue_country": "Brazil",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/TSARUKYAN_ARMAN_L_11-22.png?itok=rkovoseh",
