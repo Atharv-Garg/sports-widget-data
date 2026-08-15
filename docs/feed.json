@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-15T21:33:58.206541Z",
-  "generated_at_ist": "2026-08-16T03:03:58.206544+05:30",
+  "generated_at_utc": "2026-08-15T21:56:34.133014Z",
+  "generated_at_ist": "2026-08-16T03:26:34.133017+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -437,8 +437,8 @@
             "blue": "Gregory Rodrigues",
             "red_rank": "#6",
             "blue_rank": "#11",
-            "red_odds": "-155",
-            "blue_odds": "+130",
+            "red_odds": "-175",
+            "blue_odds": "+145",
             "red_country": "United States",
             "blue_country": "Brazil",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/HERNANDEZ_ANTHONY_L_10-19.png?itok=2VtXaJuU",
@@ -451,8 +451,8 @@
             "blue": "Vitor Petrino",
             "red_rank": "#6",
             "blue_rank": "",
-            "red_odds": "+135",
-            "blue_odds": "-160",
+            "red_odds": "+136",
+            "blue_odds": "-162",
             "red_country": "Moldova",
             "blue_country": "Brazil",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/SPIVAC_SERGHEI_L_02-21.png?itok=HFMrh8LQ",
@@ -465,13 +465,27 @@
             "blue": "Roman Dolidze",
             "red_rank": "",
             "blue_rank": "",
-            "red_odds": "+270",
-            "blue_odds": "-340",
+            "red_odds": "-340",
+            "blue_odds": "+270",
             "red_country": "Netherlands",
             "blue_country": "Georgia",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/DE-RIDDER_REINIER_L_10-18.png?itok=SFV30e0x",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/DOLIDZE_ROMAN_R_03-15.png?itok=_aZZPJwu",
             "weight_class": "Light Heavyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "MarQuel Mederos",
+            "blue": "Mason Jones",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "Wales",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-06/MEDEROS_MARQUEL_L_06-07.png?itok=4tuBmlV5",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-09/JONES_MASON_R_09-06.png?itok=kkBRhHQ0",
+            "weight_class": "Lightweight Bout",
             "title_fight": false
           },
           {
@@ -486,20 +500,6 @@
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/JUDICE_CARLI_L_07-19.png?itok=_sbMF-Pb",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/CHAVES_JEISLA_L_06-06.png?itok=l4X_-5QD",
             "weight_class": "Women's Flyweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Kennedy Nzechukwu",
-            "blue": "Shamil Gaziev",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "+105",
-            "blue_odds": "-125",
-            "red_country": "Nigeria",
-            "blue_country": "Bahrain",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/NZECHUKWU_KENNEDY_L_12-13.png?itok=t4fUjxtK",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/GAZIEV_SHAMIL_R_11-22.png?itok=8shokFdY",
-            "weight_class": "Heavyweight Bout",
             "title_fight": false
           }
         ],
