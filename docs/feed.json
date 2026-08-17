@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-17T21:58:38.306991Z",
-  "generated_at_ist": "2026-08-18T03:28:38.306994+05:30",
+  "generated_at_utc": "2026-08-17T22:39:00.168528Z",
+  "generated_at_ist": "2026-08-18T04:09:00.168531+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -603,8 +603,8 @@
             "blue": "Jean Silva",
             "red_rank": "#5",
             "blue_rank": "#6",
-            "red_odds": "+250",
-            "blue_odds": "-310",
+            "red_odds": "+275",
+            "blue_odds": "-350",
             "red_country": "Mexico",
             "blue_country": "Brazil",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-04/RODRIGUEZ_YAIR_L_04-12.png?itok=JqQb9kBd",
