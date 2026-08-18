@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-18T19:56:36.208498Z",
-  "generated_at_ist": "2026-08-19T01:26:36.208501+05:30",
+  "generated_at_utc": "2026-08-18T20:39:20.703531Z",
+  "generated_at_ist": "2026-08-19T02:09:20.703535+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -769,13 +769,84 @@
         "main_card_start_ist": "2026-09-27T03:30:00+05:30"
       },
       {
-        "name": "UFC 332: Main event TBA",
+        "name": "UFC 332: Figueiredo vs Talbott",
         "kind": "PPV",
         "venue": "Delta Center",
         "city": "Salt Lake City United States",
         "country": "",
         "main_card_start_utc": "2026-10-04T01:00:00Z",
-        "main_card": [],
+        "main_card": [
+          {
+            "red": "Deiveson Figueiredo",
+            "blue": "Payton Talbott",
+            "red_rank": "#9",
+            "blue_rank": "#11",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Brazil",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/FIGUEIREDO_DEIVESON_L_10-11.png?itok=mPs2s2ip",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/TALBOTT_PAYTON_R_12-06.png?itok=s5Il5DRf",
+            "weight_class": "Bantamweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Johnny Walker",
+            "blue": "Mick Parkin",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Brazil",
+            "blue_country": "England",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/WALKER_JOHNNY_L_08-23.png?itok=McJFYr4n",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/PARKIN_MICK_R_03-22.png?itok=hGjuVIVW",
+            "weight_class": "Heavyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Marvin Vettori",
+            "blue": "Ismail Naurdiev",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Italy",
+            "blue_country": "Morocco",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/VETTORI_MARVIN_L_12-06.png?itok=PW8ISl7u",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-11/NAURDIEV_ISMAIL_R_10-26.png?itok=Z3iuHwEd",
+            "weight_class": "Middleweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Ateba Gautier",
+            "blue": "Roman Kopylov",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Cameroon",
+            "blue_country": "Russia",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/GAUTIER_ATEBA_L_05-09.png?itok=LsHVwg8j",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/KOPYLOV_ROMAN_R_07-19.png?itok=ayOFildI",
+            "weight_class": "Middleweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Imanol Rodriguez",
+            "blue": "Alden Coria",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Mexico",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/RODRIGUEZ_IMANOL_L_02-28.png?itok=9Q0EjUWH",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-09/CORIA_ALDEN_R_09-13.png?itok=2NPk0xA_",
+            "weight_class": "Flyweight Bout",
+            "title_fight": false
+          }
+        ],
         "url": "https://www.ufc.com/event/ufc-332",
         "_source": "ufc.com",
         "main_card_start_ist": "2026-10-04T06:30:00+05:30"
