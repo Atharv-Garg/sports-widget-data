@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-19T13:07:10.626879Z",
-  "generated_at_ist": "2026-08-19T18:37:10.626882+05:30",
+  "generated_at_utc": "2026-08-19T14:01:41.361609Z",
+  "generated_at_ist": "2026-08-19T19:31:41.361612+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -343,84 +343,14 @@
     "next": {
       "name": "UFC Fight Night: Hernandez vs Rodrigues",
       "kind": "Fight Night",
-      "venue": "Golden 1 Center",
-      "city": "Sacramento United States",
+      "venue": "",
+      "city": "",
       "country": "",
       "main_card_start_utc": "2026-08-23T00:00:00Z",
-      "main_card": [
-        {
-          "red": "Anthony Hernandez",
-          "blue": "Gregory Rodrigues",
-          "red_rank": "#6",
-          "blue_rank": "#11",
-          "red_odds": "-165",
-          "blue_odds": "+140",
-          "red_country": "United States",
-          "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/HERNANDEZ_ANTHONY_L_10-19.png?itok=2VtXaJuU",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/RODRIGUES_GREGORY_R_11-15.png?itok=Gl1SSe1L",
-          "weight_class": "Middleweight Bout",
-          "title_fight": false
-        },
-        {
-          "red": "Serghei Spivac",
-          "blue": "Vitor Petrino",
-          "red_rank": "#6",
-          "blue_rank": "",
-          "red_odds": "+130",
-          "blue_odds": "-155",
-          "red_country": "Moldova",
-          "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/SPIVAC_SERGHEI_L_02-21.png?itok=HFMrh8LQ",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-05/PETRINO_VITOR_R_05-04.png?itok=6hayH1Vr",
-          "weight_class": "Heavyweight Bout",
-          "title_fight": false
-        },
-        {
-          "red": "Reinier de Ridder",
-          "blue": "Roman Dolidze",
-          "red_rank": "",
-          "blue_rank": "",
-          "red_odds": "-395",
-          "blue_odds": "+310",
-          "red_country": "Netherlands",
-          "blue_country": "Georgia",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/DE-RIDDER_REINIER_L_10-18.png?itok=SFV30e0x",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/DOLIDZE_ROMAN_R_03-15.png?itok=_aZZPJwu",
-          "weight_class": "Light Heavyweight Bout",
-          "title_fight": false
-        },
-        {
-          "red": "MarQuel Mederos",
-          "blue": "Mason Jones",
-          "red_rank": "",
-          "blue_rank": "",
-          "red_odds": "+225",
-          "blue_odds": "-278",
-          "red_country": "United States",
-          "blue_country": "Wales",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-06/MEDEROS_MARQUEL_L_06-07.png?itok=4tuBmlV5",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-09/JONES_MASON_R_09-06.png?itok=kkBRhHQ0",
-          "weight_class": "Lightweight Bout",
-          "title_fight": false
-        },
-        {
-          "red": "Carli Judice",
-          "blue": "Jeisla Chaves",
-          "red_rank": "",
-          "blue_rank": "",
-          "red_odds": "-550",
-          "blue_odds": "+400",
-          "red_country": "United States",
-          "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/JUDICE_CARLI_L_07-19.png?itok=_sbMF-Pb",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/CHAVES_JEISLA_L_06-06.png?itok=l4X_-5QD",
-          "weight_class": "Women's Flyweight Bout",
-          "title_fight": false
-        }
-      ],
+      "main_card": [],
       "url": "https://www.ufc.com/event/ufc-fight-night-august-22-2026",
-      "_source": "ufc.com",
+      "_source": "ufc.com-listing",
+      "_degraded": "per-event fetch failed: TimeoutError",
       "main_card_start_ist": "2026-08-23T05:30:00+05:30"
     },
     "upcoming": [
@@ -951,5 +881,7 @@
       }
     ]
   },
-  "_warnings": []
+  "_warnings": [
+    "ufc.com per-event fetch failed for UFC Fight Night: Hernandez vs Rodrigues (per-event fetch failed: TimeoutError); attempting ESPN recovery"
+  ]
 }
