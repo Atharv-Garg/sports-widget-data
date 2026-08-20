@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-20T22:00:15.844271Z",
-  "generated_at_ist": "2026-08-21T03:30:15.844274+05:30",
+  "generated_at_utc": "2026-08-20T22:43:57.541540Z",
+  "generated_at_ist": "2026-08-21T04:13:57.541543+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -357,8 +357,8 @@
           "blue_odds": "+140",
           "red_country": "United States",
           "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/HERNANDEZ_ANTHONY_L_10-19.png?itok=2VtXaJuU",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/RODRIGUES_GREGORY_R_11-15.png?itok=Gl1SSe1L",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/HERNANDEZ_ANTHONY_L_08-22.png?itok=fVO3QnPN",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/RODRIGUES_GREGORY_R_08-22.png?itok=oL9tMWFp",
           "weight_class": "Middleweight Bout",
           "title_fight": false
         },
@@ -371,8 +371,8 @@
           "blue_odds": "-155",
           "red_country": "Moldova",
           "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/SPIVAC_SERGHEI_L_02-21.png?itok=HFMrh8LQ",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-05/PETRINO_VITOR_R_05-04.png?itok=6hayH1Vr",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/SPIVAC_SERGHEI_L_08-22.png?itok=4zTw1bbp",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/PETRINO_VITOR_R_08-22.png?itok=UeZQfElg",
           "weight_class": "Heavyweight Bout",
           "title_fight": false
         },
@@ -385,8 +385,8 @@
           "blue_odds": "+310",
           "red_country": "Netherlands",
           "blue_country": "Georgia",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/DE-RIDDER_REINIER_L_10-18.png?itok=SFV30e0x",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/DOLIDZE_ROMAN_R_03-15.png?itok=_aZZPJwu",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/DE-RIDDER_REINIER_L_08-22.png?itok=8TBH2BT9",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/DOLIDZE_ROMAN_R_08-22.png?itok=KA6lXsfA",
           "weight_class": "Light Heavyweight Bout",
           "title_fight": false
         },
@@ -399,8 +399,8 @@
           "blue_odds": "-278",
           "red_country": "United States",
           "blue_country": "Wales",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-06/MEDEROS_MARQUEL_L_06-07.png?itok=4tuBmlV5",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-09/JONES_MASON_R_09-06.png?itok=kkBRhHQ0",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/MEDEROS_MARQUEL_L_08-22.png?itok=iSKfvW82",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/JONES_MASON_R_08-22.png?itok=8xoGslGB",
           "weight_class": "Lightweight Bout",
           "title_fight": false
         },
@@ -413,8 +413,8 @@
           "blue_odds": "+400",
           "red_country": "United States",
           "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/JUDICE_CARLI_L_07-19.png?itok=_sbMF-Pb",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/CHAVES_JEISLA_L_06-06.png?itok=l4X_-5QD",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/JUDICE_CARLI_L_08-22.png?itok=veaWhwu8",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/CHAVES_JEISLA_R_08-22.png?itok=c2LY0yGz",
           "weight_class": "Women's Flyweight Bout",
           "title_fight": false
         }
