@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-21T11:40:09.883666Z",
-  "generated_at_ist": "2026-08-21T17:10:09.883669+05:30",
+  "generated_at_utc": "2026-08-21T12:00:59.881025Z",
+  "generated_at_ist": "2026-08-21T17:30:59.881028+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
@@ -951,8 +951,5 @@
       }
     ]
   },
-  "_warnings": [
-    "F1 fetch failed: HTTP Error 401: Unauthorized",
-    "F1 empty; reused previous feed's races (last-known-good)"
-  ]
+  "_warnings": []
 }
