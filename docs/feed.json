@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-24T14:58:39.958635Z",
-  "generated_at_ist": "2026-08-24T20:28:39.958639+05:30",
+  "generated_at_utc": "2026-08-24T15:54:31.627392Z",
+  "generated_at_ist": "2026-08-24T21:24:31.627405+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026",
@@ -951,5 +951,9 @@
       }
     ]
   },
-  "_warnings": []
+  "_warnings": [
+    "ufc.com whole-listing fetch failed (HTTP Error 403: Forbidden); using ESPN fallback",
+    "ESPN whole-listing fallback also failed: HTTP Error 403: Forbidden",
+    "UFC empty; reused previous feed's events (last-known-good)"
+  ]
 }
