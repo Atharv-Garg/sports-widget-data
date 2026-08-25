@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-25T18:03:59.837168Z",
-  "generated_at_ist": "2026-08-25T23:33:59.837172+05:30",
+  "generated_at_utc": "2026-08-25T18:55:33.018468Z",
+  "generated_at_ist": "2026-08-26T00:25:33.018472+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026",
@@ -377,7 +377,7 @@
           "title_fight": false
         }
       ],
-      "url": "https://www.ufc.com/event/road-ufc",
+      "url": "https://www.ufc.com/event/road-to-ufc-season-5-semifinals",
       "_source": "ufc.com",
       "main_card_start_ist": "2026-08-28T14:30:00+05:30"
     },
