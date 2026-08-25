@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-25T08:58:47.962784Z",
-  "generated_at_ist": "2026-08-25T14:28:47.962787+05:30",
+  "generated_at_utc": "2026-08-25T09:49:57.552882Z",
+  "generated_at_ist": "2026-08-25T15:19:57.552886+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026",
@@ -508,7 +508,7 @@
         "main_card_start_ist": "2026-09-06T00:30:00+05:30"
       },
       {
-        "name": "Noche UFC: Rodriguez vs Silva",
+        "name": "Noche UFC: Silva vs Delgado",
         "kind": "Event",
         "venue": "Desert Diamond Arena",
         "city": "Glendale United States",
