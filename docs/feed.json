@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-25T17:44:39.770346Z",
-  "generated_at_ist": "2026-08-25T23:14:39.770349+05:30",
+  "generated_at_utc": "2026-08-25T18:03:59.837168Z",
+  "generated_at_ist": "2026-08-25T23:33:59.837172+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026",
@@ -359,6 +359,20 @@
           "blue_country": "United States",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/MAHESHATE_L_08-23.png?itok=mQ65hp0A",
           "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/FLOWERS_DARRIUS_R_04-04.png?itok=CxEE0_gG",
+          "weight_class": "TBD",
+          "title_fight": false
+        },
+        {
+          "red": "Yilizhati Maimaitijiang",
+          "blue": "Tre’ston Vines",
+          "red_rank": "",
+          "blue_rank": "",
+          "red_odds": "-",
+          "blue_odds": "-",
+          "red_country": "",
+          "blue_country": "United States",
+          "red_img": "/themes/custom/ufc/assets/img/standing-stance-right-silhouette.png",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/VINES_TRESTON_R_10-04.png?itok=z9KYaKLu",
           "weight_class": "TBD",
           "title_fight": false
         }
