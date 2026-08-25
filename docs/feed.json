@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-25T15:58:21.831910Z",
-  "generated_at_ist": "2026-08-25T21:28:21.831913+05:30",
+  "generated_at_utc": "2026-08-25T16:54:00.640679Z",
+  "generated_at_ist": "2026-08-25T22:24:00.640683+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026",
@@ -463,7 +463,7 @@
           {
             "red": "Michael Venom Page",
             "blue": "Nursulton Ruziboev",
-            "red_rank": "",
+            "red_rank": "#15",
             "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
@@ -575,7 +575,7 @@
             "red": "Waldo Cortes Acosta",
             "blue": "Curtis Blaydes",
             "red_rank": "#5",
-            "blue_rank": "#7",
+            "blue_rank": "#6",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "Dominican Republic",
