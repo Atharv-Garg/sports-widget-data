@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-08-31T15:04:29.899203Z",
-  "generated_at_ist": "2026-08-31T20:34:29.899207+05:30",
+  "generated_at_utc": "2026-08-31T20:49:31.602006Z",
+  "generated_at_ist": "2026-09-01T02:19:31.602010+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026",
@@ -757,6 +757,18 @@
         "main_card_start_ist": "2026-10-04T06:30:00+05:30"
       },
       {
+        "name": "Search results: Main event TBA",
+        "kind": "Event",
+        "venue": "",
+        "city": "",
+        "country": "",
+        "main_card_start_utc": "2026-10-11T00:00:00Z",
+        "main_card": [],
+        "url": "https://www.ufc.com/event/ufc-fight-night-october-10-2026",
+        "_source": "ufc.com",
+        "main_card_start_ist": "2026-10-11T05:30:00+05:30"
+      },
+      {
         "name": "UFC Fight Night: Buckley vs Malott",
         "kind": "Fight Night",
         "venue": "Rogers Place",
@@ -921,33 +933,6 @@
         "url": "https://www.ufc.com/event/ufc-333",
         "_source": "ufc.com",
         "main_card_start_ist": "2026-10-24T23:30:00+05:30"
-      },
-      {
-        "name": "UFC Fight Night: Bonfim vs Brady",
-        "kind": "Fight Night",
-        "venue": "Meta APEX",
-        "city": "Las Vegas United States",
-        "country": "",
-        "main_card_start_utc": "2026-11-07T22:00:00Z",
-        "main_card": [
-          {
-            "red": "Gabriel Bonfim",
-            "blue": "Sean Brady",
-            "red_rank": "#5",
-            "blue_rank": "#6",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Brazil",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/BONFIM_GABRIEL_L_11-08.png?itok=BeSZUr8a",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/BRADY_SEAN_R_03-22.png?itok=zU8ITEU5",
-            "weight_class": "Welterweight Bout",
-            "title_fight": false
-          }
-        ],
-        "url": "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
-        "_source": "ufc.com",
-        "main_card_start_ist": "2026-11-08T03:30:00+05:30"
       }
     ]
   },
