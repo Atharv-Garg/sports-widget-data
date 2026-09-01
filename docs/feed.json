@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-01T15:11:13.681050Z",
-  "generated_at_ist": "2026-09-01T20:41:13.681053+05:30",
+  "generated_at_utc": "2026-09-01T18:29:05.125134Z",
+  "generated_at_ist": "2026-09-01T23:59:05.125138+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026",
@@ -367,7 +367,7 @@
           "blue": "Axel Sola",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-150",
+          "red_odds": "-145",
           "blue_odds": "+125",
           "red_country": "France",
           "blue_country": "France",
@@ -381,8 +381,8 @@
           "blue": "Nursulton Ruziboev",
           "red_rank": "#15",
           "blue_rank": "",
-          "red_odds": "-170",
-          "blue_odds": "+140",
+          "red_odds": "-175",
+          "blue_odds": "+145",
           "red_country": "",
           "blue_country": "Uzbekistan",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/PAGE_MICHAEL_L_03-21.png?itok=KaBIKspC",
@@ -395,8 +395,8 @@
           "blue": "Punahele Soriano",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-225",
-          "blue_odds": "+185",
+          "red_odds": "-245",
+          "blue_odds": "+200",
           "red_country": "Ukraine",
           "blue_country": "United States",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/DONCHENKO_DANIIL_L_06-27.png?itok=Feabe1MP",
@@ -757,13 +757,28 @@
         "main_card_start_ist": "2026-10-04T06:30:00+05:30"
       },
       {
-        "name": "Search results: Main event TBA",
-        "kind": "Event",
-        "venue": "",
-        "city": "",
+        "name": "UFC Fight Night: Allen vs Duncan",
+        "kind": "Fight Night",
+        "venue": "Meta APEX",
+        "city": "Las Vegas United States",
         "country": "",
         "main_card_start_utc": "2026-10-11T00:00:00Z",
-        "main_card": [],
+        "main_card": [
+          {
+            "red": "Brendan Allen",
+            "blue": "Christian Leroy Duncan",
+            "red_rank": "#4",
+            "blue_rank": "#10",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Brazil",
+            "blue_country": "England",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/ALLEN_BRENDAN_L_06-06.png?itok=cjSneQ6n",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/DUNCAN_CHRISTIAN_LEROY_R_07-18.png?itok=-Qt73IKv",
+            "weight_class": "Middleweight Bout",
+            "title_fight": false
+          }
+        ],
         "url": "https://www.ufc.com/event/ufc-fight-night-october-10-2026",
         "_source": "ufc.com",
         "main_card_start_ist": "2026-10-11T05:30:00+05:30"
