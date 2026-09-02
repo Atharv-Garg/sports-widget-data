@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-02T15:18:05.787958Z",
-  "generated_at_ist": "2026-09-02T20:48:05.787962+05:30",
+  "generated_at_utc": "2026-09-02T18:56:44.465079Z",
+  "generated_at_ist": "2026-09-03T00:26:44.465082+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026",
@@ -405,16 +405,16 @@
           "title_fight": false
         },
         {
-          "red": "Losene Keita",
-          "blue": "Muhammad Naimov",
+          "red": "Kurtis Campbell",
+          "blue": "Trevor Peek",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-360",
-          "blue_odds": "+280",
-          "red_country": "Belgium",
-          "blue_country": "Tajikistan",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/KEITA_LOSENE_R_03-21.png?itok=FsuKPcwQ",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/NAIMOV_MUHAMMAD_R_06-22.png?itok=n2jBXgOR",
+          "red_odds": "-390",
+          "blue_odds": "+310",
+          "red_country": "England",
+          "blue_country": "United States",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/CAMPBELL_KURTIS_L_03-21.png?itok=1z13pd6j",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-09/PEEK_TREVOR_R_04-06.png?itok=qG2VxiB9",
           "weight_class": "Featherweight Bout",
           "title_fight": false
         }
