@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-03T17:14:15.848678Z",
-  "generated_at_ist": "2026-09-03T22:44:15.848681+05:30",
+  "generated_at_utc": "2026-09-03T19:50:23.120215Z",
+  "generated_at_ist": "2026-09-04T01:20:23.120218+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026",
@@ -357,8 +357,8 @@
           "blue_odds": "-550",
           "red_country": "New Zealand",
           "blue_country": "France",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/HOOKER_DAN_L_01-31.png?itok=bsWjjIC3",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/PARNASSE_SALAHDINE_R.png?itok=5wqPKJKU",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/HOOKER_DAN_L_09-05.png?itok=qdXNbzqk",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/PARNASSE_SALAHDINE_R_09-05.png?itok=Gkl2iW_J",
           "weight_class": "Lightweight Bout",
           "title_fight": false
         },
@@ -367,12 +367,12 @@
           "blue": "Axel Sola",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-145",
+          "red_odds": "-150",
           "blue_odds": "+125",
           "red_country": "France",
           "blue_country": "France",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/ZIAM_FARES_L_06-06.png?itok=tf2Ah716",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/SOLA_AXEL_R_07-25.png?itok=oHaeNIVN",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/ZIAM_FARES_L_09-05.png?itok=NAptLOxm",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/SOLA_AXEL_R_09-05.png?itok=H3trXthD",
           "weight_class": "Lightweight Bout",
           "title_fight": false
         },
@@ -381,12 +381,12 @@
           "blue": "Nursulton Ruziboev",
           "red_rank": "#15",
           "blue_rank": "",
-          "red_odds": "-175",
-          "blue_odds": "+145",
+          "red_odds": "-160",
+          "blue_odds": "+130",
           "red_country": "",
           "blue_country": "Uzbekistan",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/PAGE_MICHAEL_L_03-21.png?itok=KaBIKspC",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/RUZIBOEV_NURSULTON_R_08-16.png?itok=s6uyY65s",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/RUZIBOEV_NURSULTON_R_09-05.png?itok=KI3HPM3j",
           "weight_class": "Middleweight Bout",
           "title_fight": false
         },
@@ -399,8 +399,8 @@
           "blue_odds": "+200",
           "red_country": "Ukraine",
           "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/DONCHENKO_DANIIL_L_06-27.png?itok=Feabe1MP",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/SORIANO_PUNAHELE_R_02-21.png?itok=9JGXMpKD",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/DONCHENKO_DANIIL_L_09-05.png?itok=B_HaG5gP",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/SORIANO_PUNAHELE_R_09-05.png?itok=1XXCsbxy",
           "weight_class": "Welterweight Bout",
           "title_fight": false
         },
@@ -413,8 +413,8 @@
           "blue_odds": "+310",
           "red_country": "England",
           "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/CAMPBELL_KURTIS_L_03-21.png?itok=1z13pd6j",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-09/PEEK_TREVOR_R_04-06.png?itok=qG2VxiB9",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/CAMPBELL_KURTIS_L_09-05.png?itok=IfVIpxw_",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/PEEK_TREVOR_R_09-05.png?itok=0vfMOxPN",
           "weight_class": "Featherweight Bout",
           "title_fight": false
         }
