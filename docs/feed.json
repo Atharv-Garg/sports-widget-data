@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-04T13:46:34.196223Z",
-  "generated_at_ist": "2026-09-04T19:16:34.196226+05:30",
+  "generated_at_utc": "2026-09-04T17:07:25.334874Z",
+  "generated_at_ist": "2026-09-04T22:37:25.334877+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026",
@@ -451,8 +451,8 @@
             "blue": "Joseph Morales",
             "red_rank": "#8",
             "blue_rank": "",
-            "red_odds": "+100",
-            "blue_odds": "-120",
+            "red_odds": "+110",
+            "blue_odds": "-130",
             "red_country": "Mexico",
             "blue_country": "United States",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/MORENO_BRANDON_L_02-28.png?itok=f3JNyVM4",
@@ -493,8 +493,8 @@
             "blue": "Curtis Blaydes",
             "red_rank": "#5",
             "blue_rank": "#6",
-            "red_odds": "-210",
-            "blue_odds": "+170",
+            "red_odds": "-200",
+            "blue_odds": "+165",
             "red_country": "Dominican Republic",
             "blue_country": "United States",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/CORTES_ACOSTA_WALDO_L.png?itok=GOHSSrr7",
@@ -581,7 +581,7 @@
             "red_country": "United States",
             "blue_country": "Poland",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-06/MENIFIELD_ALONZO_L_06-14.png?itok=8h__B8G_",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-09/BARANIEWSKI_IWO_R_09-16.png?itok=QH5LRY30",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/BARANIEWSKI_IWO_L_06-06.png?itok=IiThUhLf",
             "weight_class": "Light Heavyweight Bout",
             "title_fight": false
           }
@@ -951,8 +951,5 @@
       }
     ]
   },
-  "_warnings": [
-    "F1 fetch failed: HTTP Error 401: Unauthorized",
-    "F1 empty; reused previous feed's races (last-known-good)"
-  ]
+  "_warnings": []
 }
