@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-05T21:42:14.218655Z",
-  "generated_at_ist": "2026-09-06T03:12:14.218658+05:30",
+  "generated_at_utc": "2026-09-05T23:18:47.698565Z",
+  "generated_at_ist": "2026-09-06T04:48:47.698569+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026",
@@ -674,7 +674,7 @@
         "main_card_start_ist": "2026-09-27T03:30:00+05:30"
       },
       {
-        "name": "UFC 332: Silva vs Cong",
+        "name": "UFC 332: Silva vs Wang",
         "kind": "PPV",
         "venue": "Delta Center",
         "city": "Salt Lake City United States",
@@ -682,12 +682,26 @@
         "main_card_start_utc": "2026-10-04T00:00:00Z",
         "main_card": [
           {
+            "red": "Natalia Silva",
+            "blue": "Wang Cong",
+            "red_rank": "#1",
+            "blue_rank": "#8",
+            "red_odds": "-250",
+            "blue_odds": "+205",
+            "red_country": "Brazil",
+            "blue_country": "China",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/SILVA_NATALIA_L_01-24.png?itok=Qy3gFmB9",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/CONG_WANG_R_07-11.png?itok=Vg-5jO1x",
+            "weight_class": "Women's Flyweight Title Bout",
+            "title_fight": true
+          },
+          {
             "red": "Deiveson Figueiredo",
             "blue": "Payton Talbott",
             "red_rank": "#9",
             "blue_rank": "#11",
-            "red_odds": "-",
-            "blue_odds": "-",
+            "red_odds": "+410",
+            "blue_odds": "-550",
             "red_country": "Brazil",
             "blue_country": "United States",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/FIGUEIREDO_DEIVESON_L_10-11.png?itok=mPs2s2ip",
@@ -696,31 +710,17 @@
             "title_fight": false
           },
           {
-            "red": "Johnny Walker",
-            "blue": "Mick Parkin",
+            "red": "Khaos Williams",
+            "blue": "Roberto Soldic",
             "red_rank": "",
             "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
-            "red_country": "Brazil",
-            "blue_country": "England",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/WALKER_JOHNNY_L_08-23.png?itok=McJFYr4n",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/PARKIN_MICK_R_03-22.png?itok=hGjuVIVW",
-            "weight_class": "Heavyweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Marvin Vettori",
-            "blue": "Ismail Naurdiev",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Italy",
-            "blue_country": "Morocco",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/VETTORI_MARVIN_L_12-06.png?itok=PW8ISl7u",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-11/NAURDIEV_ISMAIL_R_10-26.png?itok=Z3iuHwEd",
-            "weight_class": "Middleweight Bout",
+            "red_country": "United States",
+            "blue_country": "Croatia",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-06/WILLIAMS_KHAOS_L_06-07.png?itok=ntuEtaDZ",
+            "blue_img": "/themes/custom/ufc/assets/img/standing-stance-left-silhouette.png",
+            "weight_class": "Welterweight Bout",
             "title_fight": false
           },
           {
