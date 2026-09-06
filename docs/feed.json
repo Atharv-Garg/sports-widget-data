@@ -1,102 +1,55 @@
 {
-  "generated_at_utc": "2026-09-06T14:23:48.888398Z",
-  "generated_at_ist": "2026-09-06T19:53:48.888400+05:30",
+  "generated_at_utc": "2026-09-06T17:20:45.370869Z",
+  "generated_at_ist": "2026-09-06T22:50:45.370873+05:30",
   "f1": {
     "next": {
-      "name": "FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026",
-      "short_name": "Italian Grand Prix",
-      "round": 1293,
-      "circuit": "Monza",
-      "location": "Monza",
-      "country": "Italy",
-      "flag_emoji": "🇮🇹",
+      "name": "FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026",
+      "short_name": "Spanish Grand Prix",
+      "round": 1294,
+      "circuit": "Madring",
+      "location": "Madrid",
+      "country": "Spain",
+      "flag_emoji": "🇪🇸",
       "external_url": "https://www.formula1.com/en/racing/2026.html",
       "sessions": [
         {
           "type": "FP1",
-          "start_utc": "2026-09-04T10:30:00+00:00",
-          "end_utc": "2026-09-04T11:30:00+00:00",
-          "start_ist": "2026-09-04T16:00:00+05:30",
-          "end_ist": "2026-09-04T17:00:00+05:30"
+          "start_utc": "2026-09-11T11:30:00+00:00",
+          "end_utc": "2026-09-11T12:30:00+00:00",
+          "start_ist": "2026-09-11T17:00:00+05:30",
+          "end_ist": "2026-09-11T18:00:00+05:30"
         },
         {
           "type": "FP2",
-          "start_utc": "2026-09-04T14:00:00+00:00",
-          "end_utc": "2026-09-04T15:00:00+00:00",
-          "start_ist": "2026-09-04T19:30:00+05:30",
-          "end_ist": "2026-09-04T20:30:00+05:30"
+          "start_utc": "2026-09-11T15:00:00+00:00",
+          "end_utc": "2026-09-11T16:00:00+00:00",
+          "start_ist": "2026-09-11T20:30:00+05:30",
+          "end_ist": "2026-09-11T21:30:00+05:30"
         },
         {
           "type": "FP3",
-          "start_utc": "2026-09-05T10:30:00+00:00",
-          "end_utc": "2026-09-05T11:30:00+00:00",
-          "start_ist": "2026-09-05T16:00:00+05:30",
-          "end_ist": "2026-09-05T17:00:00+05:30"
+          "start_utc": "2026-09-12T10:30:00+00:00",
+          "end_utc": "2026-09-12T11:30:00+00:00",
+          "start_ist": "2026-09-12T16:00:00+05:30",
+          "end_ist": "2026-09-12T17:00:00+05:30"
         },
         {
           "type": "Qualifying",
-          "start_utc": "2026-09-05T14:00:00+00:00",
-          "end_utc": "2026-09-05T15:00:00+00:00",
-          "start_ist": "2026-09-05T19:30:00+05:30",
-          "end_ist": "2026-09-05T20:30:00+05:30"
+          "start_utc": "2026-09-12T14:00:00+00:00",
+          "end_utc": "2026-09-12T15:00:00+00:00",
+          "start_ist": "2026-09-12T19:30:00+05:30",
+          "end_ist": "2026-09-12T20:30:00+05:30"
         },
         {
           "type": "Race",
-          "start_utc": "2026-09-06T13:00:00+00:00",
-          "end_utc": "2026-09-06T15:00:00+00:00",
-          "start_ist": "2026-09-06T18:30:00+05:30",
-          "end_ist": "2026-09-06T20:30:00+05:30"
+          "start_utc": "2026-09-13T13:00:00+00:00",
+          "end_utc": "2026-09-13T15:00:00+00:00",
+          "start_ist": "2026-09-13T18:30:00+05:30",
+          "end_ist": "2026-09-13T20:30:00+05:30"
         }
       ]
     },
     "upcoming": [
-      {
-        "name": "FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026",
-        "short_name": "Spanish Grand Prix",
-        "round": 1294,
-        "circuit": "Madring",
-        "location": "Madrid",
-        "country": "Spain",
-        "flag_emoji": "🇪🇸",
-        "external_url": "https://www.formula1.com/en/racing/2026.html",
-        "sessions": [
-          {
-            "type": "FP1",
-            "start_utc": "2026-09-11T11:30:00+00:00",
-            "end_utc": "2026-09-11T12:30:00+00:00",
-            "start_ist": "2026-09-11T17:00:00+05:30",
-            "end_ist": "2026-09-11T18:00:00+05:30"
-          },
-          {
-            "type": "FP2",
-            "start_utc": "2026-09-11T15:00:00+00:00",
-            "end_utc": "2026-09-11T16:00:00+00:00",
-            "start_ist": "2026-09-11T20:30:00+05:30",
-            "end_ist": "2026-09-11T21:30:00+05:30"
-          },
-          {
-            "type": "FP3",
-            "start_utc": "2026-09-12T10:30:00+00:00",
-            "end_utc": "2026-09-12T11:30:00+00:00",
-            "start_ist": "2026-09-12T16:00:00+05:30",
-            "end_ist": "2026-09-12T17:00:00+05:30"
-          },
-          {
-            "type": "Qualifying",
-            "start_utc": "2026-09-12T14:00:00+00:00",
-            "end_utc": "2026-09-12T15:00:00+00:00",
-            "start_ist": "2026-09-12T19:30:00+05:30",
-            "end_ist": "2026-09-12T20:30:00+05:30"
-          },
-          {
-            "type": "Race",
-            "start_utc": "2026-09-13T13:00:00+00:00",
-            "end_utc": "2026-09-13T15:00:00+00:00",
-            "start_ist": "2026-09-13T18:30:00+05:30",
-            "end_ist": "2026-09-13T20:30:00+05:30"
-          }
-        ]
-      },
       {
         "name": "FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
         "short_name": "Azerbaijan Grand Prix",
@@ -188,6 +141,53 @@
             "end_utc": "2026-10-04T09:00:00+00:00",
             "start_ist": "2026-10-04T12:30:00+05:30",
             "end_ist": "2026-10-04T14:30:00+05:30"
+          }
+        ]
+      },
+      {
+        "name": "FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2026",
+        "short_name": "Singapore Grand Prix",
+        "round": 1296,
+        "circuit": "Singapore",
+        "location": "Marina Bay",
+        "country": "Singapore",
+        "flag_emoji": "🇸🇬",
+        "external_url": "https://www.formula1.com/en/racing/2026.html",
+        "sessions": [
+          {
+            "type": "FP1",
+            "start_utc": "2026-10-09T08:30:00+00:00",
+            "end_utc": "2026-10-09T09:30:00+00:00",
+            "start_ist": "2026-10-09T14:00:00+05:30",
+            "end_ist": "2026-10-09T15:00:00+05:30"
+          },
+          {
+            "type": "Sprint Quali",
+            "start_utc": "2026-10-09T12:30:00+00:00",
+            "end_utc": "2026-10-09T13:14:00+00:00",
+            "start_ist": "2026-10-09T18:00:00+05:30",
+            "end_ist": "2026-10-09T18:44:00+05:30"
+          },
+          {
+            "type": "Sprint",
+            "start_utc": "2026-10-10T09:00:00+00:00",
+            "end_utc": "2026-10-10T10:00:00+00:00",
+            "start_ist": "2026-10-10T14:30:00+05:30",
+            "end_ist": "2026-10-10T15:30:00+05:30"
+          },
+          {
+            "type": "Qualifying",
+            "start_utc": "2026-10-10T13:00:00+00:00",
+            "end_utc": "2026-10-10T14:00:00+00:00",
+            "start_ist": "2026-10-10T18:30:00+05:30",
+            "end_ist": "2026-10-10T19:30:00+05:30"
+          },
+          {
+            "type": "Race",
+            "start_utc": "2026-10-11T12:00:00+00:00",
+            "end_utc": "2026-10-11T14:00:00+00:00",
+            "start_ist": "2026-10-11T17:30:00+05:30",
+            "end_ist": "2026-10-11T19:30:00+05:30"
           }
         ]
       }
@@ -909,8 +909,5 @@
       }
     ]
   },
-  "_warnings": [
-    "F1 fetch failed: HTTP Error 401: Unauthorized",
-    "F1 empty; reused previous feed's races (last-known-good)"
-  ]
+  "_warnings": []
 }
