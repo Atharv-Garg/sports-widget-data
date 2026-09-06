@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-06T11:20:57.584377Z",
-  "generated_at_ist": "2026-09-06T16:50:57.584380+05:30",
+  "generated_at_utc": "2026-09-06T14:23:48.888398Z",
+  "generated_at_ist": "2026-09-06T19:53:48.888400+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026",
@@ -909,5 +909,8 @@
       }
     ]
   },
-  "_warnings": []
+  "_warnings": [
+    "F1 fetch failed: HTTP Error 401: Unauthorized",
+    "F1 empty; reused previous feed's races (last-known-good)"
+  ]
 }
