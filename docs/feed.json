@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-08T11:44:16.188303Z",
-  "generated_at_ist": "2026-09-08T17:14:16.188307+05:30",
+  "generated_at_utc": "2026-09-08T15:19:12.210880Z",
+  "generated_at_ist": "2026-09-08T20:49:12.210884+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026",
@@ -352,7 +352,7 @@
           "red": "Jean Silva",
           "blue": "Jose Miguel Delgado",
           "red_rank": "#6",
-          "blue_rank": "#6",
+          "blue_rank": "",
           "red_odds": "-400",
           "blue_odds": "+310",
           "red_country": "Brazil",
