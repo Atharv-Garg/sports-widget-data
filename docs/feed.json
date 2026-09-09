@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-09T13:42:01.815778Z",
-  "generated_at_ist": "2026-09-09T19:12:01.815782+05:30",
+  "generated_at_utc": "2026-09-09T17:17:07.484295Z",
+  "generated_at_ist": "2026-09-09T22:47:07.484298+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026",
@@ -737,6 +737,34 @@
             "title_fight": false
           },
           {
+            "red": "Javad Mahjoub",
+            "blue": "Louie Sutherland",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "",
+            "blue_country": "England",
+            "red_img": "/themes/custom/ufc/assets/img/standing-stance-right-silhouette.png",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/SUTHERLAND_LOUIE_R_05-02.png?itok=2WrWN3D0",
+            "weight_class": "Heavyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Chad Anheliger",
+            "blue": "Steven Koslow",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Canada",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-10/ANHELIGER_CHAD_L_11-02.png?itok=CEmb3R3i",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2022-12/KOSLOW_STEVEN_R_12-10.png?itok=-gp2j8-T",
+            "weight_class": "Bantamweight Bout",
+            "title_fight": false
+          },
+          {
             "red": "Marc-Andre Barriault",
             "blue": "Kyle Daukaus",
             "red_rank": "",
@@ -748,34 +776,6 @@
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/BARRIAULT_MARC-ANDRE_L_05-10.png?itok=LWKJCRt8",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/DAUKAUS_KYLE_R_06-14.png?itok=MOoTqloy",
             "weight_class": "Middleweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Jamey-Lyn Horth",
-            "blue": "Katlyn Cerminara",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Canada",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/HORTH_JAMEY-LYN_L_12-13.png?itok=QwsWKF06",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/CERMINARA_KATLYN_R_03-09.png?itok=MJNXKnqH",
-            "weight_class": "Women's Flyweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Tanner Boser",
-            "blue": "Jhonata Diniz",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Canada",
-            "blue_country": "Brazil",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/BOSER_TANNER_L_04-18.png?itok=2Dns5rQn",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-11/DINIZ_JHONATA_R_11-16.png?itok=N5Goppom",
-            "weight_class": "Heavyweight Bout",
             "title_fight": false
           }
         ],
