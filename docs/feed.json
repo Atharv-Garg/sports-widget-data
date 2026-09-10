@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-10T17:52:30.443777Z",
-  "generated_at_ist": "2026-09-10T23:22:30.443780+05:30",
+  "generated_at_utc": "2026-09-10T20:50:20.040868Z",
+  "generated_at_ist": "2026-09-11T02:20:20.040871+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026",
@@ -356,9 +356,9 @@
           "red_odds": "-425",
           "blue_odds": "+325",
           "red_country": "Brazil",
-          "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-02/SILVA_JEAN_L_02-22.png?itok=RNE_5mbS",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/DELGADO_JOSE_R_07-18.png?itok=RrIgjn4f",
+          "blue_country": "Mexico",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/SILVA_JEAN_L_09-12.png?itok=T3yvZbWY",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/DELGADO_JOSE_MIGUEL_R_09-12.png?itok=2fFHrBCS",
           "weight_class": "Featherweight Bout",
           "title_fight": false
         },
@@ -371,8 +371,8 @@
           "blue_odds": "-120",
           "red_country": "Mexico",
           "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/MORENO_BRANDON_L_02-28.png?itok=f3JNyVM4",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/MORALES_JOSEPH_R_11-08.png?itok=hIWO7Ui5",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/MORENO_BRANDON_L_09-12.png?itok=ot9Qm8dd",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/MORALES_JOSEPH_R_09-12.png?itok=HTvvpCnT",
           "weight_class": "Flyweight Bout",
           "title_fight": false
         },
@@ -385,8 +385,8 @@
           "blue_odds": "+140",
           "red_country": "United States",
           "blue_country": "Morocco",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/MCMILLEN_TOMMY_L_07-18.png?itok=E22yZFTR",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/RAHIKI_MARWAN_L_05-02.png?itok=ZCvYmcq7",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/MCMILLEN_TOMMY_L_09-12.png?itok=XZAHh6Lg",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/RAHIKI_MARWAN_R_09-12.png?itok=MInwzBE7",
           "weight_class": "Featherweight Bout",
           "title_fight": false
         },
@@ -399,8 +399,8 @@
           "blue_odds": "+195",
           "red_country": "France",
           "blue_country": "Mexico",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/FIOROT_MANON_L_10-18.png?itok=-9Q4kKR7",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/GRASSO_ALEXA_R_03-05.png?itok=4Ogxzo0H",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/FIOROT_MANON_L_09-12.png?itok=VG4Yzh6j",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/GRASSO_ALEXA_R_09-12.png?itok=WnfP9KIB",
           "weight_class": "Women's Flyweight Bout",
           "title_fight": false
         },
@@ -413,8 +413,8 @@
           "blue_odds": "+170",
           "red_country": "Dominican Republic",
           "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/CORTES_ACOSTA_WALDO_L.png?itok=GOHSSrr7",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/BLAYDES_CURTIS_R_07-27.png?itok=sfwZ4WuI",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/CORTES_ACOSTA_WALDO_L_09-12.png?itok=xe7OyefZ",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/BLAYDES_CURTIS_R_09-12.png?itok=hrU5rCtK",
           "weight_class": "Heavyweight Bout",
           "title_fight": false
         }
