@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-11T15:12:14.699065Z",
-  "generated_at_ist": "2026-09-11T20:42:14.699068+05:30",
+  "generated_at_utc": "2026-09-11T18:31:03.958229Z",
+  "generated_at_ist": "2026-09-12T00:01:03.958232+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026",
@@ -723,6 +723,20 @@
             "title_fight": false
           },
           {
+            "red": "Cody Chovancek",
+            "blue": "SuYoung You",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Canada",
+            "blue_country": "South Korea",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-09/CHOVANCEK_CODY_R_09-16.png?itok=CLtJdZyQ",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/YOU_SUYOUNG_R_03-14.png?itok=KKgXVzSZ",
+            "weight_class": "Bantamweight Bout",
+            "title_fight": false
+          },
+          {
             "red": "Erin Blanchfield",
             "blue": "Jasmine Jasudavicius",
             "red_rank": "#4",
@@ -745,7 +759,7 @@
             "blue_odds": "-",
             "red_country": "",
             "blue_country": "England",
-            "red_img": "/themes/custom/ufc/assets/img/standing-stance-right-silhouette.png",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/image/fighter_images/SHADOW_Fighter_fullLength_RED.png?VersionId=0NwYm4ow5ym9PWjgcpd05ObDBIC5pBtX&itok=CFBkG7gS",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/SUTHERLAND_LOUIE_R_05-02.png?itok=2WrWN3D0",
             "weight_class": "Heavyweight Bout",
             "title_fight": false
@@ -762,20 +776,6 @@
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-10/ANHELIGER_CHAD_L_11-02.png?itok=CEmb3R3i",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2022-12/KOSLOW_STEVEN_R_12-10.png?itok=-gp2j8-T",
             "weight_class": "Bantamweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Marc-Andre Barriault",
-            "blue": "Kyle Daukaus",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Canada",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/BARRIAULT_MARC-ANDRE_L_05-10.png?itok=LWKJCRt8",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/DAUKAUS_KYLE_R_06-14.png?itok=MOoTqloy",
-            "weight_class": "Middleweight Bout",
             "title_fight": false
           }
         ],
@@ -909,8 +909,5 @@
       }
     ]
   },
-  "_warnings": [
-    "F1 fetch failed: HTTP Error 401: Unauthorized",
-    "F1 empty; reused previous feed's races (last-known-good)"
-  ]
+  "_warnings": []
 }
