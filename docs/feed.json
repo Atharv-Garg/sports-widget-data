@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-11T01:03:42.712186Z",
-  "generated_at_ist": "2026-09-11T06:33:42.712190+05:30",
+  "generated_at_utc": "2026-09-11T05:57:22.177573Z",
+  "generated_at_ist": "2026-09-11T11:27:22.177577+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026",
@@ -391,20 +391,6 @@
           "title_fight": false
         },
         {
-          "red": "Manon Fiorot",
-          "blue": "Alexa Grasso",
-          "red_rank": "#2",
-          "blue_rank": "#3",
-          "red_odds": "-240",
-          "blue_odds": "+195",
-          "red_country": "France",
-          "blue_country": "Mexico",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/FIOROT_MANON_L_09-12.png?itok=VG4Yzh6j",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/GRASSO_ALEXA_R_09-12.png?itok=WnfP9KIB",
-          "weight_class": "Women's Flyweight Bout",
-          "title_fight": false
-        },
-        {
           "red": "Waldo Cortes Acosta",
           "blue": "Curtis Blaydes",
           "red_rank": "#5",
@@ -416,6 +402,20 @@
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/CORTES_ACOSTA_WALDO_L_09-12.png?itok=xe7OyefZ",
           "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/BLAYDES_CURTIS_R_09-12.png?itok=hrU5rCtK",
           "weight_class": "Heavyweight Bout",
+          "title_fight": false
+        },
+        {
+          "red": "David Martinez",
+          "blue": "Dan Ige",
+          "red_rank": "#8",
+          "blue_rank": "",
+          "red_odds": "-380",
+          "blue_odds": "+300",
+          "red_country": "Mexico",
+          "blue_country": "United States",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/MARTINEZ_DAVID_L_09-12.png?itok=dp_d0HOf",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/IGE_DAN_R_10-26.png?itok=zLjglCVv",
+          "weight_class": "Bantamweight Bout",
           "title_fight": false
         }
       ],
