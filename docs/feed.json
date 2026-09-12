@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-12T06:30:29.256306Z",
-  "generated_at_ist": "2026-09-12T12:00:29.256310+05:30",
+  "generated_at_utc": "2026-09-12T11:15:16.629663Z",
+  "generated_at_ist": "2026-09-12T16:45:16.629666+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026",
@@ -909,5 +909,8 @@
       }
     ]
   },
-  "_warnings": []
+  "_warnings": [
+    "F1 fetch failed: HTTP Error 401: Unauthorized",
+    "F1 empty; reused previous feed's races (last-known-good)"
+  ]
 }
