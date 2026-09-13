@@ -1,102 +1,55 @@
 {
-  "generated_at_utc": "2026-09-13T12:19:41.941259Z",
-  "generated_at_ist": "2026-09-13T17:49:41.941263+05:30",
+  "generated_at_utc": "2026-09-13T16:37:25.234546Z",
+  "generated_at_ist": "2026-09-13T22:07:25.234548+05:30",
   "f1": {
     "next": {
-      "name": "FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026",
-      "short_name": "Spanish Grand Prix",
-      "round": 1294,
-      "circuit": "Madring",
-      "location": "Madrid",
-      "country": "Spain",
-      "flag_emoji": "🇪🇸",
+      "name": "FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
+      "short_name": "Azerbaijan Grand Prix",
+      "round": 1295,
+      "circuit": "Baku",
+      "location": "Baku",
+      "country": "Azerbaijan",
+      "flag_emoji": "🇦🇿",
       "external_url": "https://www.formula1.com/en/racing/2026.html",
       "sessions": [
         {
           "type": "FP1",
-          "start_utc": "2026-09-11T11:30:00+00:00",
-          "end_utc": "2026-09-11T12:30:00+00:00",
-          "start_ist": "2026-09-11T17:00:00+05:30",
-          "end_ist": "2026-09-11T18:00:00+05:30"
+          "start_utc": "2026-09-24T08:30:00+00:00",
+          "end_utc": "2026-09-24T09:30:00+00:00",
+          "start_ist": "2026-09-24T14:00:00+05:30",
+          "end_ist": "2026-09-24T15:00:00+05:30"
         },
         {
           "type": "FP2",
-          "start_utc": "2026-09-11T15:00:00+00:00",
-          "end_utc": "2026-09-11T16:00:00+00:00",
-          "start_ist": "2026-09-11T20:30:00+05:30",
-          "end_ist": "2026-09-11T21:30:00+05:30"
+          "start_utc": "2026-09-24T12:00:00+00:00",
+          "end_utc": "2026-09-24T13:00:00+00:00",
+          "start_ist": "2026-09-24T17:30:00+05:30",
+          "end_ist": "2026-09-24T18:30:00+05:30"
         },
         {
           "type": "FP3",
-          "start_utc": "2026-09-12T10:30:00+00:00",
-          "end_utc": "2026-09-12T11:30:00+00:00",
-          "start_ist": "2026-09-12T16:00:00+05:30",
-          "end_ist": "2026-09-12T17:00:00+05:30"
+          "start_utc": "2026-09-25T08:30:00+00:00",
+          "end_utc": "2026-09-25T09:30:00+00:00",
+          "start_ist": "2026-09-25T14:00:00+05:30",
+          "end_ist": "2026-09-25T15:00:00+05:30"
         },
         {
           "type": "Qualifying",
-          "start_utc": "2026-09-12T14:00:00+00:00",
-          "end_utc": "2026-09-12T15:00:00+00:00",
-          "start_ist": "2026-09-12T19:30:00+05:30",
-          "end_ist": "2026-09-12T20:30:00+05:30"
+          "start_utc": "2026-09-25T12:00:00+00:00",
+          "end_utc": "2026-09-25T13:00:00+00:00",
+          "start_ist": "2026-09-25T17:30:00+05:30",
+          "end_ist": "2026-09-25T18:30:00+05:30"
         },
         {
           "type": "Race",
-          "start_utc": "2026-09-13T13:00:00+00:00",
-          "end_utc": "2026-09-13T15:00:00+00:00",
-          "start_ist": "2026-09-13T18:30:00+05:30",
-          "end_ist": "2026-09-13T20:30:00+05:30"
+          "start_utc": "2026-09-26T11:00:00+00:00",
+          "end_utc": "2026-09-26T13:00:00+00:00",
+          "start_ist": "2026-09-26T16:30:00+05:30",
+          "end_ist": "2026-09-26T18:30:00+05:30"
         }
       ]
     },
     "upcoming": [
-      {
-        "name": "FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
-        "short_name": "Azerbaijan Grand Prix",
-        "round": 1295,
-        "circuit": "Baku",
-        "location": "Baku",
-        "country": "Azerbaijan",
-        "flag_emoji": "🇦🇿",
-        "external_url": "https://www.formula1.com/en/racing/2026.html",
-        "sessions": [
-          {
-            "type": "FP1",
-            "start_utc": "2026-09-24T08:30:00+00:00",
-            "end_utc": "2026-09-24T09:30:00+00:00",
-            "start_ist": "2026-09-24T14:00:00+05:30",
-            "end_ist": "2026-09-24T15:00:00+05:30"
-          },
-          {
-            "type": "FP2",
-            "start_utc": "2026-09-24T12:00:00+00:00",
-            "end_utc": "2026-09-24T13:00:00+00:00",
-            "start_ist": "2026-09-24T17:30:00+05:30",
-            "end_ist": "2026-09-24T18:30:00+05:30"
-          },
-          {
-            "type": "FP3",
-            "start_utc": "2026-09-25T08:30:00+00:00",
-            "end_utc": "2026-09-25T09:30:00+00:00",
-            "start_ist": "2026-09-25T14:00:00+05:30",
-            "end_ist": "2026-09-25T15:00:00+05:30"
-          },
-          {
-            "type": "Qualifying",
-            "start_utc": "2026-09-25T12:00:00+00:00",
-            "end_utc": "2026-09-25T13:00:00+00:00",
-            "start_ist": "2026-09-25T17:30:00+05:30",
-            "end_ist": "2026-09-25T18:30:00+05:30"
-          },
-          {
-            "type": "Race",
-            "start_utc": "2026-09-26T11:00:00+00:00",
-            "end_utc": "2026-09-26T13:00:00+00:00",
-            "start_ist": "2026-09-26T16:30:00+05:30",
-            "end_ist": "2026-09-26T18:30:00+05:30"
-          }
-        ]
-      },
       {
         "name": "FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026",
         "short_name": "Bahrain Grand Prix",
@@ -188,6 +141,53 @@
             "end_utc": "2026-10-11T14:00:00+00:00",
             "start_ist": "2026-10-11T17:30:00+05:30",
             "end_ist": "2026-10-11T19:30:00+05:30"
+          }
+        ]
+      },
+      {
+        "name": "FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026",
+        "short_name": "United States Grand Prix",
+        "round": 1297,
+        "circuit": "Austin",
+        "location": "Austin",
+        "country": "United States",
+        "flag_emoji": "🇺🇸",
+        "external_url": "https://www.formula1.com/en/racing/2026.html",
+        "sessions": [
+          {
+            "type": "FP1",
+            "start_utc": "2026-10-23T17:30:00+00:00",
+            "end_utc": "2026-10-23T18:30:00+00:00",
+            "start_ist": "2026-10-23T23:00:00+05:30",
+            "end_ist": "2026-10-24T00:00:00+05:30"
+          },
+          {
+            "type": "FP2",
+            "start_utc": "2026-10-23T21:00:00+00:00",
+            "end_utc": "2026-10-23T22:00:00+00:00",
+            "start_ist": "2026-10-24T02:30:00+05:30",
+            "end_ist": "2026-10-24T03:30:00+05:30"
+          },
+          {
+            "type": "FP3",
+            "start_utc": "2026-10-24T17:30:00+00:00",
+            "end_utc": "2026-10-24T18:30:00+00:00",
+            "start_ist": "2026-10-24T23:00:00+05:30",
+            "end_ist": "2026-10-25T00:00:00+05:30"
+          },
+          {
+            "type": "Qualifying",
+            "start_utc": "2026-10-24T21:00:00+00:00",
+            "end_utc": "2026-10-24T22:00:00+00:00",
+            "start_ist": "2026-10-25T02:30:00+05:30",
+            "end_ist": "2026-10-25T03:30:00+05:30"
+          },
+          {
+            "type": "Race",
+            "start_utc": "2026-10-25T20:00:00+00:00",
+            "end_utc": "2026-10-25T22:00:00+00:00",
+            "start_ist": "2026-10-26T01:30:00+05:30",
+            "end_ist": "2026-10-26T03:30:00+05:30"
           }
         ]
       }
@@ -823,6 +823,33 @@
         "url": "https://www.ufc.com/event/ufc-fight-night-october-31-2026",
         "_source": "ufc.com",
         "main_card_start_ist": "2026-11-01T05:30:00+05:30"
+      },
+      {
+        "name": "UFC Fight Night: Bonfim vs Brady",
+        "kind": "Fight Night",
+        "venue": "Meta APEX",
+        "city": "Las Vegas United States",
+        "country": "",
+        "main_card_start_utc": "2026-11-07T22:00:00Z",
+        "main_card": [
+          {
+            "red": "Gabriel Bonfim",
+            "blue": "Sean Brady",
+            "red_rank": "#5",
+            "blue_rank": "#6",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Brazil",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/BONFIM_GABRIEL_L_11-08.png?itok=BeSZUr8a",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/BRADY_SEAN_R_03-22.png?itok=zU8ITEU5",
+            "weight_class": "Welterweight Bout",
+            "title_fight": false
+          }
+        ],
+        "url": "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
+        "_source": "ufc.com",
+        "main_card_start_ist": "2026-11-08T03:30:00+05:30"
       }
     ]
   },
