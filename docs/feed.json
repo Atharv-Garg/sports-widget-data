@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-13T18:56:59.939160Z",
-  "generated_at_ist": "2026-09-14T00:26:59.939163+05:30",
+  "generated_at_utc": "2026-09-13T21:25:20.172834Z",
+  "generated_at_ist": "2026-09-14T02:55:20.172836+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
@@ -198,7 +198,7 @@
           "position": 1,
           "code": "ANT",
           "name": "Antonelli",
-          "points": 267,
+          "points": 292,
           "team": "Mercedes",
           "color": "#27F4D2"
         },
@@ -206,7 +206,7 @@
           "position": 2,
           "code": "RUS",
           "name": "Russell",
-          "points": 201,
+          "points": 211,
           "team": "Mercedes",
           "color": "#27F4D2"
         },
@@ -222,7 +222,7 @@
           "position": 4,
           "code": "NOR",
           "name": "Norris",
-          "points": 171,
+          "points": 186,
           "team": "McLaren",
           "color": "#FF8000"
         },
@@ -230,7 +230,7 @@
           "position": 5,
           "code": "LEC",
           "name": "Leclerc",
-          "points": 155,
+          "points": 167,
           "team": "Ferrari",
           "color": "#E8002D"
         },
@@ -238,7 +238,7 @@
           "position": 6,
           "code": "VER",
           "name": "Verstappen",
-          "points": 127,
+          "points": 145,
           "team": "Red Bull",
           "color": "#3671C6"
         },
@@ -246,7 +246,7 @@
           "position": 7,
           "code": "PIA",
           "name": "Piastri",
-          "points": 116,
+          "points": 120,
           "team": "McLaren",
           "color": "#FF8000"
         },
@@ -262,7 +262,7 @@
           "position": 9,
           "code": "LAW",
           "name": "Lawson",
-          "points": 51,
+          "points": 59,
           "team": "Red Bull",
           "color": "#3671C6"
         },
@@ -279,37 +279,37 @@
         {
           "position": 1,
           "name": "Mercedes",
-          "points": 468,
+          "points": 503,
           "color": "#27F4D2"
         },
         {
           "position": 2,
           "name": "Ferrari",
-          "points": 346,
+          "points": 358,
           "color": "#E8002D"
         },
         {
           "position": 3,
           "name": "McLaren",
-          "points": 287,
+          "points": 306,
           "color": "#FF8000"
         },
         {
           "position": 4,
           "name": "Red Bull",
-          "points": 204,
+          "points": 230,
           "color": "#3671C6"
         },
         {
           "position": 5,
           "name": "RB F1 Team",
-          "points": 75,
+          "points": 77,
           "color": "#6692FF"
         },
         {
           "position": 6,
           "name": "Alpine F1 Team",
-          "points": 62,
+          "points": 68,
           "color": "#0093CC"
         },
         {
@@ -321,7 +321,7 @@
         {
           "position": 8,
           "name": "Audi",
-          "points": 16,
+          "points": 17,
           "color": "#009982"
         },
         {
