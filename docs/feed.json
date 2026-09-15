@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-15T11:42:09.536624Z",
-  "generated_at_ist": "2026-09-15T17:12:09.536627+05:30",
+  "generated_at_utc": "2026-09-15T15:41:28.592177Z",
+  "generated_at_ist": "2026-09-15T21:11:28.592179+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
@@ -784,13 +784,27 @@
         "main_card_start_ist": "2026-10-24T23:30:00+05:30"
       },
       {
-        "name": "UFC Fight Night: Szabova vs Lisboa",
+        "name": "UFC Fight Night: Moicano vs Nolan",
         "kind": "Fight Night",
         "venue": "Meta APEX",
         "city": "Las Vegas United States",
         "country": "",
         "main_card_start_utc": "2026-11-01T00:00:00Z",
         "main_card": [
+          {
+            "red": "Renato Moicano",
+            "blue": "Tom Nolan",
+            "red_rank": "#11",
+            "blue_rank": "#14",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Brazil",
+            "blue_country": "Australia",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/MOICANO_RENATO_L_04-04.png?itok=k1Tac0wx",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/NOLAN_TOM_R_06-06.png?itok=SXg4FKfb",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
+          },
           {
             "red": "Lucia Szabova",
             "blue": "Tainara Lisboa",
