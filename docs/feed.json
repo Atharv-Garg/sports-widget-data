@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-17T19:15:58.633363Z",
-  "generated_at_ist": "2026-09-18T00:45:58.633367+05:30",
+  "generated_at_utc": "2026-09-17T22:12:05.168095Z",
+  "generated_at_ist": "2026-09-18T03:42:05.168099+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
@@ -357,7 +357,7 @@
           "blue_odds": "+110",
           "red_country": "Myanmar",
           "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/VAN_JOSHUA_L_BELT_05-09.png?itok=WS-OTlne",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/VAN_JOSHUA_L_BELT_09-19.png?itok=bbecsBBL",
           "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/PANTOJA_ALEXANDRE_L_09-19.png?itok=qV89LIVr",
           "weight_class": "Flyweight Title Bout",
           "title_fight": true
@@ -371,8 +371,8 @@
           "blue_odds": "+240",
           "red_country": "Armenia",
           "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/TSARUKYAN_ARMAN_L_11-22.png?itok=rkovoseh",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/RUFFY_MAURICIO_R_01-31.png?itok=QAWm9rTP",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/TSARUKYAN_ARMAN_L_09-19.png?itok=zxxkB5tp",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/RUFFY_MAURICIO_R_09-19.png?itok=wIF8KATT",
           "weight_class": "Lightweight Bout",
           "title_fight": false
         },
@@ -385,8 +385,8 @@
           "blue_odds": "-270",
           "red_country": "Brazil",
           "blue_country": "South Korea",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/PITBULL_PATRICIO_L_04-11.png?itok=XjZvtIWm",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-12/CHOI_DOOHO_R_12-07.png?itok=lhbxz1pq",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/PITBULL_PATRICIO_L_09-19.png?itok=1Sbm3QD0",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/CHOI_DOOHO_R_09-19.png?itok=4mhM81Kv",
           "weight_class": "Featherweight Bout",
           "title_fight": false
         },
@@ -399,8 +399,8 @@
           "blue_odds": "+900",
           "red_country": "United States",
           "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/STEVESON_GABLE_L_07-11.png?itok=eh09qXrC",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-10/SHERAF_SEAN_R_10-12.png?itok=SmbohjIz",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/STEVESON_GABLE_L_09-19.png?itok=RyrTYpzb",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/SHARAF_SEAN_R_09-19.png?itok=o50RNicx",
           "weight_class": "Heavyweight Bout",
           "title_fight": false
         },
@@ -413,7 +413,7 @@
           "blue_odds": "-245",
           "red_country": "United States",
           "blue_country": "Poland",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-06/MENIFIELD_ALONZO_L_06-14.png?itok=8h__B8G_",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/MENIFIELD_ALONZO_L_09-19.png?itok=CZngrX6g",
           "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/BARANIEWSKI_IWO_L_06-06.png?itok=IiThUhLf",
           "weight_class": "Light Heavyweight Bout",
           "title_fight": false
