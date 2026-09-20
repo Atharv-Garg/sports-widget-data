@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-20T07:01:43.555799Z",
-  "generated_at_ist": "2026-09-20T12:31:43.555803+05:30",
+  "generated_at_utc": "2026-09-20T12:20:39.693542Z",
+  "generated_at_ist": "2026-09-20T17:50:39.693545+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
@@ -405,17 +405,17 @@
           "title_fight": false
         },
         {
-          "red": "Marlon Vera",
-          "blue": "Charles Jourdain",
-          "red_rank": "#10",
+          "red": "Alonzo Menifield",
+          "blue": "Iwo Baraniewski",
+          "red_rank": "#14",
           "blue_rank": "",
-          "red_odds": "+185",
-          "blue_odds": "-225",
-          "red_country": "Ecuador",
-          "blue_country": "Canada",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/VERA_MARLON_L_09-19.png?itok=P-28TNDe",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/JOURDAIN_CHARLES_R_09-19.png?itok=wb_8N-Kb",
-          "weight_class": "Bantamweight Bout",
+          "red_odds": "+200",
+          "blue_odds": "-245",
+          "red_country": "United States",
+          "blue_country": "Poland",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/MENIFIELD_ALONZO_L_09-19.png?itok=CZngrX6g",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/BARANIEWSKI_IWO_L_06-06.png?itok=IiThUhLf",
+          "weight_class": "Light Heavyweight Bout",
           "title_fight": false
         }
       ],
