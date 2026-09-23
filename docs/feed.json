@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-23T06:39:21.969074Z",
-  "generated_at_ist": "2026-09-23T12:09:21.969077+05:30",
+  "generated_at_utc": "2026-09-23T12:11:00.474470Z",
+  "generated_at_ist": "2026-09-23T17:41:00.474473+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
@@ -433,20 +433,6 @@
         "main_card_start_utc": "2026-10-04T00:00:00Z",
         "main_card": [
           {
-            "red": "Natalia Silva",
-            "blue": "Wang Cong",
-            "red_rank": "#1",
-            "blue_rank": "#8",
-            "red_odds": "-210",
-            "blue_odds": "+170",
-            "red_country": "Brazil",
-            "blue_country": "China",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/SILVA_NATALIA_L_01-24.png?itok=Qy3gFmB9",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/CONG_WANG_R_07-11.png?itok=Vg-5jO1x",
-            "weight_class": "Women's Flyweight Title Bout",
-            "title_fight": true
-          },
-          {
             "red": "Deiveson Figueiredo",
             "blue": "Payton Talbott",
             "red_rank": "#9",
@@ -500,6 +486,20 @@
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/GAUTIER_ATEBA_L_05-09.png?itok=LsHVwg8j",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/KOPYLOV_ROMAN_R_07-19.png?itok=ayOFildI",
             "weight_class": "Middleweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Imanol Rodriguez",
+            "blue": "Alden Coria",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Mexico",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/RODRIGUEZ_IMANOL_L_02-28.png?itok=9Q0EjUWH",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-09/CORIA_ALDEN_R_09-13.png?itok=2NPk0xA_",
+            "weight_class": "Flyweight Bout",
             "title_fight": false
           }
         ],
