@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-23T23:09:14.495259Z",
-  "generated_at_ist": "2026-09-24T04:39:14.495263+05:30",
+  "generated_at_utc": "2026-09-24T01:23:13.813950Z",
+  "generated_at_ist": "2026-09-24T06:53:13.813953+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
@@ -654,34 +654,6 @@
             "title_fight": true
           },
           {
-            "red": "Arnold Allen",
-            "blue": "Aaron Pico",
-            "red_rank": "#7",
-            "blue_rank": "#12",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "England",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/ALLEN_ARNOLD_L_05-16.png?itok=ZSXY9vo0",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/PICO_AARON_R_08-16.png?itok=c4FjhSRf",
-            "weight_class": "Featherweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Azamat Murzakanov",
-            "blue": "Dominick Reyes",
-            "red_rank": "#8",
-            "blue_rank": "#10",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Russia",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/MURZAKANOV_AZAMAT_L_04-11.png?itok=Ivep7_PI",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-09/REYES_DOMINICK_R_09-27.png?itok=Svdf4K4D",
-            "weight_class": "Light Heavyweight Bout",
-            "title_fight": false
-          },
-          {
             "red": "Lone’er Kavanagh",
             "blue": "Ramazan Temirov",
             "red_rank": "#6",
@@ -693,6 +665,34 @@
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/KAVANAGH_LONEER_L_03-22.png?itok=_veRL6Og",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/TEMIROV_RAMAZAN_R_07-25.png?itok=mTV8xLSo",
             "weight_class": "Flyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Alexander Volkov",
+            "blue": "Rizvan Kuniev",
+            "red_rank": "#2",
+            "blue_rank": "#7",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Russia",
+            "blue_country": "Russia",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/VOLKOV_ALEXANDER_L_05-09.png?itok=kdHGCtDI",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/KUNIEV_RIZVAN_R_02-07.png?itok=qMQIRmwO",
+            "weight_class": "Heavyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Arnold Allen",
+            "blue": "Aaron Pico",
+            "red_rank": "#7",
+            "blue_rank": "#12",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "England",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/ALLEN_ARNOLD_L_05-16.png?itok=ZSXY9vo0",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/PICO_AARON_R_08-16.png?itok=c4FjhSRf",
+            "weight_class": "Featherweight Bout",
             "title_fight": false
           }
         ],
