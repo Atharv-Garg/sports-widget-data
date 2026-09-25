@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-24T23:27:18.949284Z",
-  "generated_at_ist": "2026-09-25T04:57:18.949287+05:30",
+  "generated_at_utc": "2026-09-25T01:54:37.639609Z",
+  "generated_at_ist": "2026-09-25T07:24:37.639612+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
@@ -377,20 +377,6 @@
           "title_fight": false
         },
         {
-          "red": "Luis Hernandez",
-          "blue": "Sedriques Dumas",
-          "red_rank": "",
-          "blue_rank": "",
-          "red_odds": "-145",
-          "blue_odds": "+120",
-          "red_country": "United States",
-          "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/HERNANDEZ_LUIS_L_09-15.png?itok=5XJcIQr7",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/DUMAS_SEDRIQUES_R_09-26.png?itok=ItzICapN",
-          "weight_class": "Light Heavyweight Bout",
-          "title_fight": false
-        },
-        {
           "red": "Mahammadali Osmanli",
           "blue": "Ilimbek Akylbek",
           "red_rank": "",
@@ -417,6 +403,20 @@
           "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/BLACK_TINA_R_09-26.png?itok=wvO0TOYp",
           "weight_class": "Women's Strawweight Bout",
           "title_fight": false
+        },
+        {
+          "red": "Brady Hiestand",
+          "blue": "Rinya Nakamura",
+          "red_rank": "",
+          "blue_rank": "",
+          "red_odds": "+290",
+          "blue_odds": "-375",
+          "red_country": "United States",
+          "blue_country": "Japan",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/HIESTAND_BRADY_L_09-26.png?itok=7UIWayke",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/NAKAMURA_RINYA_R_09-26.png?itok=92hE39Nu",
+          "weight_class": "Bantamweight Bout",
+          "title_fight": false
         }
       ],
       "url": "https://www.ufc.com/event/ufc-fight-night-september-26-2026",
@@ -437,7 +437,7 @@
             "blue": "Wang Cong",
             "red_rank": "#1",
             "blue_rank": "#8",
-            "red_odds": "-210",
+            "red_odds": "-205",
             "blue_odds": "+170",
             "red_country": "Brazil",
             "blue_country": "China",
