@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-25T13:00:26.769515Z",
-  "generated_at_ist": "2026-09-25T18:30:26.769518+05:30",
+  "generated_at_utc": "2026-09-25T17:57:42.767059Z",
+  "generated_at_ist": "2026-09-25T23:27:42.767063+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
@@ -867,8 +867,5 @@
       }
     ]
   },
-  "_warnings": [
-    "F1 fetch failed: HTTP Error 401: Unauthorized",
-    "F1 empty; reused previous feed's races (last-known-good)"
-  ]
+  "_warnings": []
 }
