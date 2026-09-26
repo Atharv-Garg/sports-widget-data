@@ -1,102 +1,55 @@
 {
-  "generated_at_utc": "2026-09-26T09:51:28.282234Z",
-  "generated_at_ist": "2026-09-26T15:21:28.282236+05:30",
+  "generated_at_utc": "2026-09-26T14:28:25.461070Z",
+  "generated_at_ist": "2026-09-26T19:58:25.461073+05:30",
   "f1": {
     "next": {
-      "name": "FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
-      "short_name": "Azerbaijan Grand Prix",
-      "round": 1295,
-      "circuit": "Baku",
-      "location": "Baku",
-      "country": "Azerbaijan",
-      "flag_emoji": "🇦🇿",
+      "name": "FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026",
+      "short_name": "Bahrain Grand Prix",
+      "round": 1308,
+      "circuit": "Kuala Lumpur",
+      "location": "Kuala Lumpur",
+      "country": "Bahrain",
+      "flag_emoji": "🇧🇭",
       "external_url": "https://www.formula1.com/en/racing/2026.html",
       "sessions": [
         {
           "type": "FP1",
-          "start_utc": "2026-09-24T08:30:00+00:00",
-          "end_utc": "2026-09-24T09:30:00+00:00",
-          "start_ist": "2026-09-24T14:00:00+05:30",
-          "end_ist": "2026-09-24T15:00:00+05:30"
+          "start_utc": "2026-10-02T04:30:00+00:00",
+          "end_utc": "2026-10-02T05:30:00+00:00",
+          "start_ist": "2026-10-02T10:00:00+05:30",
+          "end_ist": "2026-10-02T11:00:00+05:30"
         },
         {
           "type": "FP2",
-          "start_utc": "2026-09-24T12:00:00+00:00",
-          "end_utc": "2026-09-24T13:00:00+00:00",
-          "start_ist": "2026-09-24T17:30:00+05:30",
-          "end_ist": "2026-09-24T18:30:00+05:30"
+          "start_utc": "2026-10-02T08:00:00+00:00",
+          "end_utc": "2026-10-02T09:00:00+00:00",
+          "start_ist": "2026-10-02T13:30:00+05:30",
+          "end_ist": "2026-10-02T14:30:00+05:30"
         },
         {
           "type": "FP3",
-          "start_utc": "2026-09-25T08:30:00+00:00",
-          "end_utc": "2026-09-25T09:30:00+00:00",
-          "start_ist": "2026-09-25T14:00:00+05:30",
-          "end_ist": "2026-09-25T15:00:00+05:30"
+          "start_utc": "2026-10-03T04:30:00+00:00",
+          "end_utc": "2026-10-03T05:30:00+00:00",
+          "start_ist": "2026-10-03T10:00:00+05:30",
+          "end_ist": "2026-10-03T11:00:00+05:30"
         },
         {
           "type": "Qualifying",
-          "start_utc": "2026-09-25T12:00:00+00:00",
-          "end_utc": "2026-09-25T13:00:00+00:00",
-          "start_ist": "2026-09-25T17:30:00+05:30",
-          "end_ist": "2026-09-25T18:30:00+05:30"
+          "start_utc": "2026-10-03T08:00:00+00:00",
+          "end_utc": "2026-10-03T09:00:00+00:00",
+          "start_ist": "2026-10-03T13:30:00+05:30",
+          "end_ist": "2026-10-03T14:30:00+05:30"
         },
         {
           "type": "Race",
-          "start_utc": "2026-09-26T11:00:00+00:00",
-          "end_utc": "2026-09-26T13:00:00+00:00",
-          "start_ist": "2026-09-26T16:30:00+05:30",
-          "end_ist": "2026-09-26T18:30:00+05:30"
+          "start_utc": "2026-10-04T07:00:00+00:00",
+          "end_utc": "2026-10-04T09:00:00+00:00",
+          "start_ist": "2026-10-04T12:30:00+05:30",
+          "end_ist": "2026-10-04T14:30:00+05:30"
         }
       ]
     },
     "upcoming": [
-      {
-        "name": "FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026",
-        "short_name": "Bahrain Grand Prix",
-        "round": 1308,
-        "circuit": "Kuala Lumpur",
-        "location": "Kuala Lumpur",
-        "country": "Bahrain",
-        "flag_emoji": "🇧🇭",
-        "external_url": "https://www.formula1.com/en/racing/2026.html",
-        "sessions": [
-          {
-            "type": "FP1",
-            "start_utc": "2026-10-02T04:30:00+00:00",
-            "end_utc": "2026-10-02T05:30:00+00:00",
-            "start_ist": "2026-10-02T10:00:00+05:30",
-            "end_ist": "2026-10-02T11:00:00+05:30"
-          },
-          {
-            "type": "FP2",
-            "start_utc": "2026-10-02T08:00:00+00:00",
-            "end_utc": "2026-10-02T09:00:00+00:00",
-            "start_ist": "2026-10-02T13:30:00+05:30",
-            "end_ist": "2026-10-02T14:30:00+05:30"
-          },
-          {
-            "type": "FP3",
-            "start_utc": "2026-10-03T04:30:00+00:00",
-            "end_utc": "2026-10-03T05:30:00+00:00",
-            "start_ist": "2026-10-03T10:00:00+05:30",
-            "end_ist": "2026-10-03T11:00:00+05:30"
-          },
-          {
-            "type": "Qualifying",
-            "start_utc": "2026-10-03T08:00:00+00:00",
-            "end_utc": "2026-10-03T09:00:00+00:00",
-            "start_ist": "2026-10-03T13:30:00+05:30",
-            "end_ist": "2026-10-03T14:30:00+05:30"
-          },
-          {
-            "type": "Race",
-            "start_utc": "2026-10-04T07:00:00+00:00",
-            "end_utc": "2026-10-04T09:00:00+00:00",
-            "start_ist": "2026-10-04T12:30:00+05:30",
-            "end_ist": "2026-10-04T14:30:00+05:30"
-          }
-        ]
-      },
       {
         "name": "FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2026",
         "short_name": "Singapore Grand Prix",
@@ -190,6 +143,53 @@
             "end_ist": "2026-10-26T03:30:00+05:30"
           }
         ]
+      },
+      {
+        "name": "FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2026",
+        "short_name": "Mexico City Grand Prix",
+        "round": 1298,
+        "circuit": "Mexico City",
+        "location": "Mexico City",
+        "country": "Mexico",
+        "flag_emoji": "🇲🇽",
+        "external_url": "https://www.formula1.com/en/racing/2026.html",
+        "sessions": [
+          {
+            "type": "FP1",
+            "start_utc": "2026-10-30T18:30:00+00:00",
+            "end_utc": "2026-10-30T19:30:00+00:00",
+            "start_ist": "2026-10-31T00:00:00+05:30",
+            "end_ist": "2026-10-31T01:00:00+05:30"
+          },
+          {
+            "type": "FP2",
+            "start_utc": "2026-10-30T22:00:00+00:00",
+            "end_utc": "2026-10-30T23:00:00+00:00",
+            "start_ist": "2026-10-31T03:30:00+05:30",
+            "end_ist": "2026-10-31T04:30:00+05:30"
+          },
+          {
+            "type": "FP3",
+            "start_utc": "2026-10-31T17:30:00+00:00",
+            "end_utc": "2026-10-31T18:30:00+00:00",
+            "start_ist": "2026-10-31T23:00:00+05:30",
+            "end_ist": "2026-11-01T00:00:00+05:30"
+          },
+          {
+            "type": "Qualifying",
+            "start_utc": "2026-10-31T21:00:00+00:00",
+            "end_utc": "2026-10-31T22:00:00+00:00",
+            "start_ist": "2026-11-01T02:30:00+05:30",
+            "end_ist": "2026-11-01T03:30:00+05:30"
+          },
+          {
+            "type": "Race",
+            "start_utc": "2026-11-01T20:00:00+00:00",
+            "end_utc": "2026-11-01T22:00:00+00:00",
+            "start_ist": "2026-11-02T01:30:00+05:30",
+            "end_ist": "2026-11-02T03:30:00+05:30"
+          }
+        ]
       }
     ],
     "standings": {
@@ -198,7 +198,7 @@
           "position": 1,
           "code": "ANT",
           "name": "Antonelli",
-          "points": 292,
+          "points": 302,
           "team": "Mercedes",
           "color": "#27F4D2"
         },
@@ -206,7 +206,7 @@
           "position": 2,
           "code": "RUS",
           "name": "Russell",
-          "points": 211,
+          "points": 236,
           "team": "Mercedes",
           "color": "#27F4D2"
         },
@@ -214,7 +214,7 @@
           "position": 3,
           "code": "HAM",
           "name": "Hamilton",
-          "points": 191,
+          "points": 199,
           "team": "Ferrari",
           "color": "#E8002D"
         },
@@ -230,7 +230,7 @@
           "position": 5,
           "code": "LEC",
           "name": "Leclerc",
-          "points": 167,
+          "points": 179,
           "team": "Ferrari",
           "color": "#E8002D"
         },
@@ -238,7 +238,7 @@
           "position": 6,
           "code": "VER",
           "name": "Verstappen",
-          "points": 145,
+          "points": 163,
           "team": "Red Bull",
           "color": "#3671C6"
         },
@@ -254,7 +254,7 @@
           "position": 8,
           "code": "HAD",
           "name": "Hadjar",
-          "points": 71,
+          "points": 86,
           "team": "Red Bull",
           "color": "#3671C6"
         },
@@ -279,13 +279,13 @@
         {
           "position": 1,
           "name": "Mercedes",
-          "points": 503,
+          "points": 538,
           "color": "#27F4D2"
         },
         {
           "position": 2,
           "name": "Ferrari",
-          "points": 358,
+          "points": 378,
           "color": "#E8002D"
         },
         {
@@ -297,13 +297,13 @@
         {
           "position": 4,
           "name": "Red Bull",
-          "points": 230,
+          "points": 263,
           "color": "#3671C6"
         },
         {
           "position": 5,
           "name": "RB F1 Team",
-          "points": 77,
+          "points": 83,
           "color": "#6692FF"
         },
         {
@@ -315,7 +315,7 @@
         {
           "position": 7,
           "name": "Haas F1 Team",
-          "points": 21,
+          "points": 27,
           "color": "#B6BABD"
         },
         {
@@ -327,7 +327,7 @@
         {
           "position": 9,
           "name": "Williams",
-          "points": 11,
+          "points": 12,
           "color": "#64C4FF"
         },
         {
