@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-28T11:59:16.317941Z",
-  "generated_at_ist": "2026-09-28T17:29:16.317944+05:30",
+  "generated_at_utc": "2026-09-28T19:39:45.854640Z",
+  "generated_at_ist": "2026-09-29T01:09:45.854643+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026",
@@ -391,7 +391,7 @@
           "title_fight": false
         },
         {
-          "red": "Roberto Soldic",
+          "red": "Roberto Soldić",
           "blue": "Khaos Williams",
           "red_rank": "",
           "blue_rank": "",
@@ -781,6 +781,18 @@
         "url": "https://www.ufc.com/event/ufc-334",
         "_source": "ufc.com",
         "main_card_start_ist": "2026-11-15T07:30:00+05:30"
+      },
+      {
+        "name": "UFC Qatar: Main event TBA",
+        "kind": "Event",
+        "venue": "ABHA Arena",
+        "city": "Doha Qatar",
+        "country": "",
+        "main_card_start_utc": "2026-11-21T22:00:00Z",
+        "main_card": [],
+        "url": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
+        "_source": "ufc.com",
+        "main_card_start_ist": "2026-11-22T03:30:00+05:30"
       }
     ]
   },
