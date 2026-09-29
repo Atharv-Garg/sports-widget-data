@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-29T11:34:33.797556Z",
-  "generated_at_ist": "2026-09-29T17:04:33.797560+05:30",
+  "generated_at_utc": "2026-09-29T17:01:20.618803Z",
+  "generated_at_ist": "2026-09-29T22:31:20.618807+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026",
@@ -547,8 +547,8 @@
             "blue": "Movsar Evloev",
             "red_rank": "C",
             "blue_rank": "#1",
-            "red_odds": "-115",
-            "blue_odds": "-105",
+            "red_odds": "-105",
+            "blue_odds": "-115",
             "red_country": "Australia",
             "blue_country": "Russia",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/VOLKANOVSKI_ALEXANDER_L_BELT_01-31.png?itok=3qNxrgq4",
@@ -783,13 +783,84 @@
         "main_card_start_ist": "2026-11-15T07:30:00+05:30"
       },
       {
-        "name": "UFC Qatar: Main event TBA",
+        "name": "UFC Qatar: Aliskerov vs Cannonier",
         "kind": "Event",
         "venue": "ABHA Arena",
         "city": "Doha Qatar",
         "country": "",
         "main_card_start_utc": "2026-11-21T22:00:00Z",
-        "main_card": [],
+        "main_card": [
+          {
+            "red": "Ikram Aliskerov",
+            "blue": "Jared Cannonier",
+            "red_rank": "#13",
+            "blue_rank": "#11",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Russia",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/ALISKEROV_IKRAM_L_06-27.png?itok=BP2szxCc",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/CANNONIER_JARED_R_06-17.png?itok=O3fjkuOC",
+            "weight_class": "Middleweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Jake Matthews",
+            "blue": "Tahir Abdullayev",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Australia",
+            "blue_country": "Azerbaijan",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/MATTHEWS_JAKE_L_05-30.png?itok=8ws1GMM2",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/ABDULLAYEV_TAHIR_L_06-27.png?itok=pP3Pz-tL",
+            "weight_class": "Welterweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Aleksandre Topuria",
+            "blue": "Santiago Luna",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Georgia",
+            "blue_country": "Mexico",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-02/TOPURIA_ALEKSANDRE_R_02-08.png?itok=sMeoyjlO",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/LUNA_SANTIAGO_R_06-06.png?itok=7JsNf2Fo",
+            "weight_class": "Bantamweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Asu Almabayev",
+            "blue": "Kyoji Horiguchi",
+            "red_rank": "#7",
+            "blue_rank": "#5",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Kazakhstan",
+            "blue_country": "Japan",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/ALMABAYEV_ASU_L_06-27.png?itok=p-DHISwL",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/HORIGUCHI_KYOJI_R_11-22.png?itok=qRrP_oHZ",
+            "weight_class": "Flyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Amir Albazi",
+            "blue": "Alessandro Costa",
+            "red_rank": "#9",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Iraq",
+            "blue_country": "Brazil",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/ALBAZI_AMIR_L_02-07.png?itok=b_68JWFE",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/COSTA_ALESSANDRO_R_06-06.png?itok=QGdlFSjx",
+            "weight_class": "Flyweight Bout",
+            "title_fight": false
+          }
+        ],
         "url": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
         "_source": "ufc.com",
         "main_card_start_ist": "2026-11-22T03:30:00+05:30"
