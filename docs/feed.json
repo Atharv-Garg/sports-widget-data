@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-29T21:23:27.821593Z",
-  "generated_at_ist": "2026-09-30T02:53:27.821596+05:30",
+  "generated_at_utc": "2026-09-30T00:45:42.096558Z",
+  "generated_at_ist": "2026-09-30T06:15:42.096562+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026",
@@ -366,7 +366,7 @@
           "red": "Deiveson Figueiredo",
           "blue": "Payton Talbott",
           "red_rank": "#9",
-          "blue_rank": "#12",
+          "blue_rank": "#11",
           "red_odds": "+450",
           "blue_odds": "-600",
           "red_country": "Brazil",
