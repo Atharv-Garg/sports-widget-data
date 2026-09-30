@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-09-30T00:45:42.096558Z",
-  "generated_at_ist": "2026-09-30T06:15:42.096562+05:30",
+  "generated_at_utc": "2026-09-30T06:00:24.222722Z",
+  "generated_at_ist": "2026-09-30T11:30:24.222725+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026",
@@ -923,13 +923,55 @@
         "main_card_start_ist": "2026-11-15T07:30:00+05:30"
       },
       {
-        "name": "UFC Qatar: Cannonier vs Aliskerov",
+        "name": "UFC Qatar: Prochazka vs Stirling",
         "kind": "Event",
         "venue": "ABHA Arena",
         "city": "Doha Qatar",
         "country": "",
         "main_card_start_utc": "2026-11-21T18:00:00Z",
         "main_card": [
+          {
+            "red": "Jiří Procházka",
+            "blue": "Navajo Stirling",
+            "red_rank": "#2",
+            "blue_rank": "#5",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Czechia",
+            "blue_country": "New Zealand",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/PROCHAZKA_JIRI_L_04-11.png?itok=vr41IWZw",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/STIRLING_NAVAJO_R_08-01.png?itok=aL1Vfoli",
+            "weight_class": "Light Heavyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Aljamain Sterling",
+            "blue": "Kevin Vallejos",
+            "red_rank": "#4",
+            "blue_rank": "#9",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "Argentina",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/STERLING_ALJAMAIN_L_04-25.png?itok=_fjxJkU-",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/VALLEJOS_KEVIN_R_12-13.png?itok=tMlJto6d",
+            "weight_class": "Featherweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Dan Hooker",
+            "blue": "Brian Ortega",
+            "red_rank": "#13",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "New Zealand",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/HOOKER_DAN_L_09-05.png?itok=qdXNbzqk",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/ORTEGA_BRIAN_R_09-14.png?itok=c5IyAJv6",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
+          },
           {
             "red": "Jared Cannonier",
             "blue": "Ikram Aliskerov",
@@ -945,59 +987,17 @@
             "title_fight": false
           },
           {
-            "red": "Jake Matthews",
-            "blue": "Tahir Abdullayev",
+            "red": "Shamil Gaziev",
+            "blue": "Tallison Teixeira",
             "red_rank": "",
             "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
-            "red_country": "Australia",
-            "blue_country": "Azerbaijan",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/MATTHEWS_JAKE_L_05-30.png?itok=8ws1GMM2",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/ABDULLAYEV_TAHIR_L_06-27.png?itok=pP3Pz-tL",
-            "weight_class": "Welterweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Aleksandre Topuria",
-            "blue": "Santiago Luna",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Georgia",
-            "blue_country": "Mexico",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-02/TOPURIA_ALEKSANDRE_R_02-08.png?itok=sMeoyjlO",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/LUNA_SANTIAGO_R_06-06.png?itok=7JsNf2Fo",
-            "weight_class": "Bantamweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Asu Almabayev",
-            "blue": "Kyoji Horiguchi",
-            "red_rank": "#7",
-            "blue_rank": "#5",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Kazakhstan",
-            "blue_country": "Japan",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/ALMABAYEV_ASU_L_06-27.png?itok=p-DHISwL",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/HORIGUCHI_KYOJI_R_11-22.png?itok=qRrP_oHZ",
-            "weight_class": "Flyweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Amir Albazi",
-            "blue": "Alessandro Costa",
-            "red_rank": "#9",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Iraq",
+            "red_country": "Bahrain",
             "blue_country": "Brazil",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/ALBAZI_AMIR_L_02-07.png?itok=b_68JWFE",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/COSTA_ALESSANDRO_R_06-06.png?itok=QGdlFSjx",
-            "weight_class": "Flyweight Bout",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/GAZIEV_SHAMIL_L_05-02.png?itok=__SWao2O",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/TEIXEIRA_TALLISON_R_07-12.png?itok=OkqxReP6",
+            "weight_class": "Heavyweight Bout",
             "title_fight": false
           }
         ],
