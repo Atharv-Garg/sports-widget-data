@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-01T15:26:00.178868Z",
-  "generated_at_ist": "2026-10-01T20:56:00.178872+05:30",
+  "generated_at_utc": "2026-10-01T20:30:06.156085Z",
+  "generated_at_ist": "2026-10-02T02:00:06.156088+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026",
@@ -357,8 +357,8 @@
           "blue_odds": "+170",
           "red_country": "Brazil",
           "blue_country": "China",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/SILVA_NATALIA_L_01-24.png?itok=Qy3gFmB9",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/CONG_WANG_R_07-11.png?itok=Vg-5jO1x",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/SILVA_NATALIA_L_10-03.png?itok=IJcMhmU4",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/CONG_WANG_R_10-03.png?itok=ftE3XRFx",
           "weight_class": "Women's Flyweight Title Bout",
           "title_fight": true
         },
@@ -371,8 +371,8 @@
           "blue_odds": "-750",
           "red_country": "Brazil",
           "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/FIGUEIREDO_DEIVESON_L_10-11.png?itok=mPs2s2ip",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/TALBOTT_PAYTON_R_12-06.png?itok=s5Il5DRf",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/FIGUEIREDO_DEIVESON_L_10-03.png?itok=X46FA-Gc",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/TALBOTT_PAYTON_R_10-03.png?itok=PYq_fIe_",
           "weight_class": "Bantamweight Bout",
           "title_fight": false
         },
@@ -385,8 +385,8 @@
           "blue_odds": "-245",
           "red_country": "United States",
           "blue_country": "Argentina",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/GREEN_KING_L_07-11.png?itok=0YbR_taW",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/RIBOVICS_ESTEBAN_R_08-15.png?itok=Q6Mm8LjS",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/GREEN_KING_L_10-03.png?itok=eq_58ylU",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/RIBOVICS_ESTEBAN_R_10-03.png?itok=Z7oCadsr",
           "weight_class": "Lightweight Bout",
           "title_fight": false
         },
@@ -399,8 +399,8 @@
           "blue_odds": "+240",
           "red_country": "Croatia",
           "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/image/fighter_images/SHADOW_Fighter_fullLength_RED.png?VersionId=0NwYm4ow5ym9PWjgcpd05ObDBIC5pBtX&itok=CFBkG7gS",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/WILLIAMS_KHAOS_R_05-16.png?itok=TAsqbgPh",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/SOLDIC_ROBERTO_L_10-03.png?itok=zMMnGKXc",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/WILLIAMS_KHAOS_R_10-03.png?itok=ynsCp2mN",
           "weight_class": "Welterweight Bout",
           "title_fight": false
         },
@@ -413,8 +413,8 @@
           "blue_odds": "+175",
           "red_country": "Cameroon",
           "blue_country": "Russia",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/GAUTIER_ATEBA_L_05-09.png?itok=LsHVwg8j",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/KOPYLOV_ROMAN_R_07-19.png?itok=ayOFildI",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/GAUTIER_ATEBA_L_10-03.png?itok=RwwBQcqK",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/KOPYLOV_ROMAN_R_10-03.png?itok=0_R5F4T1",
           "weight_class": "Middleweight Bout",
           "title_fight": false
         }
@@ -742,8 +742,8 @@
             "blue": "Piera Rodriguez",
             "red_rank": "",
             "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
+            "red_odds": "+135",
+            "blue_odds": "-160",
             "red_country": "Brazil",
             "blue_country": "Venezuela",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/ALENCAR_TALITA_L_04-25.png?itok=IK3WIE8x",
