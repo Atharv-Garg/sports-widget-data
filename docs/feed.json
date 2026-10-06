@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-06T14:11:03.906127Z",
-  "generated_at_ist": "2026-10-06T19:41:03.906130+05:30",
+  "generated_at_utc": "2026-10-06T19:31:10.429912Z",
+  "generated_at_ist": "2026-10-07T01:01:10.429915+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2026",
@@ -353,8 +353,8 @@
           "blue": "Christian Leroy Duncan",
           "red_rank": "#4",
           "blue_rank": "#10",
-          "red_odds": "-",
-          "blue_odds": "-",
+          "red_odds": "-140",
+          "blue_odds": "+120",
           "red_country": "Brazil",
           "blue_country": "England",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/ALLEN_BRENDAN_L_06-06.png?itok=cjSneQ6n",
@@ -367,8 +367,8 @@
           "blue": "Jai Herbert",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-",
-          "blue_odds": "-",
+          "red_odds": "-200",
+          "blue_odds": "+165",
           "red_country": "Brazil",
           "blue_country": "England",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/CAMILO_MATHEUS_R.png?itok=2DfH0HEr",
@@ -381,8 +381,8 @@
           "blue": "Ketlen Souza",
           "red_rank": "#8",
           "blue_rank": "",
-          "red_odds": "-",
-          "blue_odds": "-",
+          "red_odds": "-225",
+          "blue_odds": "+185",
           "red_country": "Mexico",
           "blue_country": "Brazil",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/GODINEZ_LOOPY_L_03-29.png?itok=oWRCjGaO",
@@ -395,8 +395,8 @@
           "blue": "Kai Kamaka III",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-",
-          "blue_odds": "-",
+          "red_odds": "-155",
+          "blue_odds": "+130",
           "red_country": "United States",
           "blue_country": "United States",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/FILI_ANDRE_L_03-14.png?itok=EI8OaSkp",
@@ -405,17 +405,17 @@
           "title_fight": false
         },
         {
-          "red": "Julius Walker",
-          "blue": "Gerald Meerschaert",
+          "red": "Malcolm Wellmaker",
+          "blue": "Otari Tanzilovi",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-",
-          "blue_odds": "-",
+          "red_odds": "-225",
+          "blue_odds": "+185",
           "red_country": "United States",
-          "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/WALKER_JULIUS_L_08-09.png?itok=qDUL7Dmb",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/MEERSCHAERT_GERALD_R_05-02.png?itok=FAxnnhKv",
-          "weight_class": "Light Heavyweight Bout",
+          "blue_country": "Georgia",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/WELLMAKER_MALCOM_L_05-16.png?itok=dEafqrQy",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/TANZILOVI_OTARI_R_06-20.png?itok=ZniOIwvD",
+          "weight_class": "Bantamweight Bout",
           "title_fight": false
         }
       ],
@@ -450,7 +450,7 @@
             "red": "Erin Blanchfield",
             "blue": "Jasmine Jasudavicius",
             "red_rank": "#4",
-            "blue_rank": "#7",
+            "blue_rank": "#6",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "United States",
@@ -660,7 +660,7 @@
             "red_rank": "",
             "blue_rank": "",
             "red_odds": "+120",
-            "blue_odds": "-140",
+            "blue_odds": "-145",
             "red_country": "Brazil",
             "blue_country": "Venezuela",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/ALENCAR_TALITA_L_04-25.png?itok=IK3WIE8x",
@@ -679,7 +679,7 @@
         "venue": "Meta APEX",
         "city": "Las Vegas United States",
         "country": "",
-        "main_card_start_utc": "2026-11-07T22:00:00Z",
+        "main_card_start_utc": "2026-11-08T01:00:00Z",
         "main_card": [
           {
             "red": "Gabriel Bonfim",
@@ -754,7 +754,7 @@
         ],
         "url": "https://www.ufc.com/event/ufc-fight-night-november-07-2026",
         "_source": "ufc.com",
-        "main_card_start_ist": "2026-11-08T03:30:00+05:30"
+        "main_card_start_ist": "2026-11-08T06:30:00+05:30"
       },
       {
         "name": "Polymarket UFC 334: Gane vs Hokit",
@@ -923,7 +923,7 @@
         "main_card_start_ist": "2026-11-21T23:30:00+05:30"
       },
       {
-        "name": "UFC 335: TBD vs TBD: Oliveira vs Lopes",
+        "name": "UFC 335: Oliveira vs Lopes",
         "kind": "PPV",
         "venue": "T-Mobile Arena",
         "city": "Las Vegas United States",
