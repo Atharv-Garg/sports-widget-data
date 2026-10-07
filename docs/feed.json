@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-06T23:15:11.650718Z",
-  "generated_at_ist": "2026-10-07T04:45:11.650721+05:30",
+  "generated_at_utc": "2026-10-07T02:24:24.800042Z",
+  "generated_at_ist": "2026-10-07T07:54:24.800046+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2026",
@@ -450,7 +450,7 @@
             "red": "Erin Blanchfield",
             "blue": "Jasmine Jasudavicius",
             "red_rank": "#4",
-            "blue_rank": "#6",
+            "blue_rank": "#7",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "United States",
@@ -572,16 +572,16 @@
             "title_fight": false
           },
           {
-            "red": "Arnold Allen",
-            "blue": "Aaron Pico",
-            "red_rank": "#7",
+            "red": "Aaron Pico",
+            "blue": "Losene Keita",
+            "red_rank": "#11",
             "blue_rank": "#11",
             "red_odds": "-",
             "blue_odds": "-",
-            "red_country": "England",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/ALLEN_ARNOLD_L_05-16.png?itok=ZSXY9vo0",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/PICO_AARON_R_08-16.png?itok=c4FjhSRf",
+            "red_country": "United States",
+            "blue_country": "Belgium",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/PICO_AARON_R_08-16.png?itok=c4FjhSRf",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/KEITA_LOSENE_R_03-21.png?itok=FsuKPcwQ",
             "weight_class": "Featherweight Bout",
             "title_fight": false
           }
