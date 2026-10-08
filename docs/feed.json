@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-08T15:34:32.071077Z",
-  "generated_at_ist": "2026-10-08T21:04:32.071081+05:30",
+  "generated_at_utc": "2026-10-08T20:48:54.658453Z",
+  "generated_at_ist": "2026-10-09T02:18:54.658455+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2026",
@@ -355,10 +355,10 @@
           "blue_rank": "#10",
           "red_odds": "-140",
           "blue_odds": "+120",
-          "red_country": "Brazil",
+          "red_country": "United States",
           "blue_country": "England",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/ALLEN_BRENDAN_L_06-06.png?itok=cjSneQ6n",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/DUNCAN_CHRISTIAN_LEROY_R_07-18.png?itok=-Qt73IKv",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/ALLEN_BRENDAN_L_10-10.png?itok=Y3-yPnQk",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/DUNCAN_CHRISTIAN_LEROY_R_10-10.png?itok=UADdg6GJ",
           "weight_class": "Middleweight Bout",
           "title_fight": false
         },
@@ -371,8 +371,8 @@
           "blue_odds": "+165",
           "red_country": "Brazil",
           "blue_country": "England",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/CAMILO_MATHEUS_R.png?itok=2DfH0HEr",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/HERBERT_JAI_R_04-18.png?itok=_2rjWA4-",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/CAMILO_MATHEUS_L_10-10.png?itok=ng8vUA_b",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/HERBERT_JAI_R_10-10.png?itok=wFxaRyIa",
           "weight_class": "Lightweight Bout",
           "title_fight": false
         },
@@ -385,8 +385,8 @@
           "blue_odds": "+185",
           "red_country": "Mexico",
           "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/GODINEZ_LOOPY_L_03-29.png?itok=oWRCjGaO",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/SOUZA_KETLEN_R_02-07.png?itok=FjVgpmuV",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/GODINEZ_LOOPY_L_10-10.png?itok=h4UQXf1K",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/SOUZA_KETLEN_R_10-10.png?itok=bbuZc-66",
           "weight_class": "Women's Strawweight Bout",
           "title_fight": false
         },
@@ -399,8 +399,8 @@
           "blue_odds": "+130",
           "red_country": "United States",
           "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/FILI_ANDRE_L_03-14.png?itok=EI8OaSkp",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/KAMAKA_KAI_R_07-11.png?itok=YvgMgAXn",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/FILI_ANDRE_L_10-10.png?itok=oAMyjBAO",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/KAMAKA_KAI_R_10-10.png?itok=76iakX5J",
           "weight_class": "Featherweight Bout",
           "title_fight": false
         },
@@ -413,8 +413,8 @@
           "blue_odds": "+185",
           "red_country": "United States",
           "blue_country": "Georgia",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/WELLMAKER_MALCOM_L_05-16.png?itok=dEafqrQy",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/TANZILOVI_OTARI_R_06-20.png?itok=ZniOIwvD",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/WELLMAKER_MALCOM_L_10-10.png?itok=l6yncBbG",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/TANZILOVI_OTARI_R_10-10.png?itok=45im3vKM",
           "weight_class": "Bantamweight Bout",
           "title_fight": false
         }
