@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-09T14:40:11.265511Z",
-  "generated_at_ist": "2026-10-09T20:10:11.265514+05:30",
+  "generated_at_utc": "2026-10-09T19:46:11.484379Z",
+  "generated_at_ist": "2026-10-10T01:16:11.484382+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2026",
@@ -923,59 +923,16 @@
         "main_card_start_ist": "2026-11-21T23:30:00+05:30"
       },
       {
-        "name": "UFC 335: Oliveira vs Lopes",
-        "kind": "PPV",
-        "venue": "T-Mobile Arena",
-        "city": "Las Vegas United States",
+        "name": "TBD vs TBD: Main event TBA",
+        "kind": "Event",
+        "venue": "Principality Stadium",
+        "city": "United Kingdom",
         "country": "",
-        "main_card_start_utc": "2026-12-13T02:00:00Z",
-        "main_card": [
-          {
-            "red": "Charles Oliveira",
-            "blue": "Diego Lopes",
-            "red_rank": "#3",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Brazil",
-            "blue_country": "Brazil",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/OLIVEIRA_CHARLES_L_BMFMOCK.png?itok=ZzbBba4A",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/LOPES_DIEGO_R_01-31.png?itok=EB0y4HHj",
-            "weight_class": "Lightweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Sergei Pavlovich",
-            "blue": "Alex Pereira",
-            "red_rank": "#3",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Russia",
-            "blue_country": "Brazil",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/PAVLOVICH_SERGEI_L_05-30.png?itok=p-NxVbjP",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/PEREIRA_ALEX_R_10-04.png?itok=MTT8kXap",
-            "weight_class": "Heavyweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Joe Pyfer",
-            "blue": "Bo Nickal",
-            "red_rank": "#6",
-            "blue_rank": "#14",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "United States",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-06/PYFER_JOE_L_06-29.png?itok=uphqCuCw",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/NICKAL_BO_R_05-03.png?itok=P4NaoA3s",
-            "weight_class": "Middleweight Bout",
-            "title_fight": false
-          }
-        ],
-        "url": "https://www.ufc.com/event/ufc-335",
+        "main_card_start_utc": "2026-12-11T22:00:00Z",
+        "main_card": [],
+        "url": "https://www.ufc.com/event/ufc-176",
         "_source": "ufc.com",
-        "main_card_start_ist": "2026-12-13T07:30:00+05:30"
+        "main_card_start_ist": "2026-12-12T03:30:00+05:30"
       }
     ]
   },
