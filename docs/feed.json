@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-10T09:03:59.477551Z",
-  "generated_at_ist": "2026-10-10T14:33:59.477553+05:30",
+  "generated_at_utc": "2026-10-10T15:21:39.681542Z",
+  "generated_at_ist": "2026-10-10T20:51:39.681546+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2026",
@@ -35,10 +35,10 @@
         },
         {
           "type": "Qualifying",
-          "start_utc": "2026-10-10T13:00:00+00:00",
-          "end_utc": "2026-10-10T14:00:00+00:00",
-          "start_ist": "2026-10-10T18:30:00+05:30",
-          "end_ist": "2026-10-10T19:30:00+05:30"
+          "start_utc": "2026-10-10T13:30:00+00:00",
+          "end_utc": "2026-10-10T14:30:00+00:00",
+          "start_ist": "2026-10-10T19:00:00+05:30",
+          "end_ist": "2026-10-10T20:00:00+05:30"
         },
         {
           "type": "Race",
@@ -936,8 +936,5 @@
       }
     ]
   },
-  "_warnings": [
-    "F1 fetch failed: HTTP Error 401: Unauthorized",
-    "F1 empty; reused previous feed's races (last-known-good)"
-  ]
+  "_warnings": []
 }
