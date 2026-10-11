@@ -1,102 +1,55 @@
 {
-  "generated_at_utc": "2026-10-11T08:47:45.447232Z",
-  "generated_at_ist": "2026-10-11T14:17:45.447236+05:30",
+  "generated_at_utc": "2026-10-11T15:38:33.365323Z",
+  "generated_at_ist": "2026-10-11T21:08:33.365326+05:30",
   "f1": {
     "next": {
-      "name": "FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2026",
-      "short_name": "Singapore Grand Prix",
-      "round": 1296,
-      "circuit": "Singapore",
-      "location": "Marina Bay",
-      "country": "Singapore",
-      "flag_emoji": "🇸🇬",
+      "name": "FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026",
+      "short_name": "United States Grand Prix",
+      "round": 1297,
+      "circuit": "Austin",
+      "location": "Austin",
+      "country": "United States",
+      "flag_emoji": "🇺🇸",
       "external_url": "https://www.formula1.com/en/racing/2026.html",
       "sessions": [
         {
           "type": "FP1",
-          "start_utc": "2026-10-09T08:30:00+00:00",
-          "end_utc": "2026-10-09T09:30:00+00:00",
-          "start_ist": "2026-10-09T14:00:00+05:30",
-          "end_ist": "2026-10-09T15:00:00+05:30"
+          "start_utc": "2026-10-23T17:30:00+00:00",
+          "end_utc": "2026-10-23T18:30:00+00:00",
+          "start_ist": "2026-10-23T23:00:00+05:30",
+          "end_ist": "2026-10-24T00:00:00+05:30"
         },
         {
-          "type": "Sprint Quali",
-          "start_utc": "2026-10-09T12:30:00+00:00",
-          "end_utc": "2026-10-09T13:14:00+00:00",
-          "start_ist": "2026-10-09T18:00:00+05:30",
-          "end_ist": "2026-10-09T18:44:00+05:30"
+          "type": "FP2",
+          "start_utc": "2026-10-23T21:00:00+00:00",
+          "end_utc": "2026-10-23T22:00:00+00:00",
+          "start_ist": "2026-10-24T02:30:00+05:30",
+          "end_ist": "2026-10-24T03:30:00+05:30"
         },
         {
-          "type": "Sprint",
-          "start_utc": "2026-10-10T09:00:00+00:00",
-          "end_utc": "2026-10-10T09:30:00+00:00",
-          "start_ist": "2026-10-10T14:30:00+05:30",
-          "end_ist": "2026-10-10T15:00:00+05:30"
+          "type": "FP3",
+          "start_utc": "2026-10-24T17:30:00+00:00",
+          "end_utc": "2026-10-24T18:30:00+00:00",
+          "start_ist": "2026-10-24T23:00:00+05:30",
+          "end_ist": "2026-10-25T00:00:00+05:30"
         },
         {
           "type": "Qualifying",
-          "start_utc": "2026-10-10T13:30:00+00:00",
-          "end_utc": "2026-10-10T14:30:00+00:00",
-          "start_ist": "2026-10-10T19:00:00+05:30",
-          "end_ist": "2026-10-10T20:00:00+05:30"
+          "start_utc": "2026-10-24T21:00:00+00:00",
+          "end_utc": "2026-10-24T22:00:00+00:00",
+          "start_ist": "2026-10-25T02:30:00+05:30",
+          "end_ist": "2026-10-25T03:30:00+05:30"
         },
         {
           "type": "Race",
-          "start_utc": "2026-10-11T12:00:00+00:00",
-          "end_utc": "2026-10-11T14:00:00+00:00",
-          "start_ist": "2026-10-11T17:30:00+05:30",
-          "end_ist": "2026-10-11T19:30:00+05:30"
+          "start_utc": "2026-10-25T20:00:00+00:00",
+          "end_utc": "2026-10-25T22:00:00+00:00",
+          "start_ist": "2026-10-26T01:30:00+05:30",
+          "end_ist": "2026-10-26T03:30:00+05:30"
         }
       ]
     },
     "upcoming": [
-      {
-        "name": "FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026",
-        "short_name": "United States Grand Prix",
-        "round": 1297,
-        "circuit": "Austin",
-        "location": "Austin",
-        "country": "United States",
-        "flag_emoji": "🇺🇸",
-        "external_url": "https://www.formula1.com/en/racing/2026.html",
-        "sessions": [
-          {
-            "type": "FP1",
-            "start_utc": "2026-10-23T17:30:00+00:00",
-            "end_utc": "2026-10-23T18:30:00+00:00",
-            "start_ist": "2026-10-23T23:00:00+05:30",
-            "end_ist": "2026-10-24T00:00:00+05:30"
-          },
-          {
-            "type": "FP2",
-            "start_utc": "2026-10-23T21:00:00+00:00",
-            "end_utc": "2026-10-23T22:00:00+00:00",
-            "start_ist": "2026-10-24T02:30:00+05:30",
-            "end_ist": "2026-10-24T03:30:00+05:30"
-          },
-          {
-            "type": "FP3",
-            "start_utc": "2026-10-24T17:30:00+00:00",
-            "end_utc": "2026-10-24T18:30:00+00:00",
-            "start_ist": "2026-10-24T23:00:00+05:30",
-            "end_ist": "2026-10-25T00:00:00+05:30"
-          },
-          {
-            "type": "Qualifying",
-            "start_utc": "2026-10-24T21:00:00+00:00",
-            "end_utc": "2026-10-24T22:00:00+00:00",
-            "start_ist": "2026-10-25T02:30:00+05:30",
-            "end_ist": "2026-10-25T03:30:00+05:30"
-          },
-          {
-            "type": "Race",
-            "start_utc": "2026-10-25T20:00:00+00:00",
-            "end_utc": "2026-10-25T22:00:00+00:00",
-            "start_ist": "2026-10-26T01:30:00+05:30",
-            "end_ist": "2026-10-26T03:30:00+05:30"
-          }
-        ]
-      },
       {
         "name": "FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2026",
         "short_name": "Mexico City Grand Prix",
@@ -188,6 +141,53 @@
             "end_utc": "2026-11-08T19:00:00+00:00",
             "start_ist": "2026-11-08T22:30:00+05:30",
             "end_ist": "2026-11-09T00:30:00+05:30"
+          }
+        ]
+      },
+      {
+        "name": "FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2026",
+        "short_name": "Las Vegas Grand Prix",
+        "round": 1300,
+        "circuit": "Las Vegas",
+        "location": "Las Vegas",
+        "country": "United States",
+        "flag_emoji": "🇺🇸",
+        "external_url": "https://www.formula1.com/en/racing/2026.html",
+        "sessions": [
+          {
+            "type": "FP1",
+            "start_utc": "2026-11-20T00:30:00+00:00",
+            "end_utc": "2026-11-20T01:30:00+00:00",
+            "start_ist": "2026-11-20T06:00:00+05:30",
+            "end_ist": "2026-11-20T07:00:00+05:30"
+          },
+          {
+            "type": "FP2",
+            "start_utc": "2026-11-20T04:00:00+00:00",
+            "end_utc": "2026-11-20T05:00:00+00:00",
+            "start_ist": "2026-11-20T09:30:00+05:30",
+            "end_ist": "2026-11-20T10:30:00+05:30"
+          },
+          {
+            "type": "FP3",
+            "start_utc": "2026-11-21T00:30:00+00:00",
+            "end_utc": "2026-11-21T01:30:00+00:00",
+            "start_ist": "2026-11-21T06:00:00+05:30",
+            "end_ist": "2026-11-21T07:00:00+05:30"
+          },
+          {
+            "type": "Qualifying",
+            "start_utc": "2026-11-21T04:00:00+00:00",
+            "end_utc": "2026-11-21T05:00:00+00:00",
+            "start_ist": "2026-11-21T09:30:00+05:30",
+            "end_ist": "2026-11-21T10:30:00+05:30"
+          },
+          {
+            "type": "Race",
+            "start_utc": "2026-11-22T04:00:00+00:00",
+            "end_utc": "2026-11-22T06:00:00+00:00",
+            "start_ist": "2026-11-22T09:30:00+05:30",
+            "end_ist": "2026-11-22T11:30:00+05:30"
           }
         ]
       }
@@ -341,172 +341,89 @@
   },
   "ufc": {
     "next": {
-      "name": "UFC Fight Night: Allen vs Duncan",
+      "name": "UFC Fight Night: Buckley vs Malott",
       "kind": "Fight Night",
-      "venue": "Meta APEX",
-      "city": "Las Vegas United States",
+      "venue": "Rogers Place",
+      "city": "Edmonton Canada",
       "country": "",
-      "main_card_start_utc": "2026-10-11T00:00:00Z",
+      "main_card_start_utc": "2026-10-18T00:00:00Z",
       "main_card": [
         {
-          "red": "Brendan Allen",
-          "blue": "Christian Leroy Duncan",
-          "red_rank": "#4",
-          "blue_rank": "#10",
-          "red_odds": "-140",
-          "blue_odds": "+120",
+          "red": "Joaquin Buckley",
+          "blue": "Mike Malott",
+          "red_rank": "#10",
+          "blue_rank": "#13",
+          "red_odds": "-",
+          "blue_odds": "-",
           "red_country": "United States",
-          "blue_country": "England",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/ALLEN_BRENDAN_L_10-10.png?itok=Y3-yPnQk",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/DUNCAN_CHRISTIAN_LEROY_R_10-10.png?itok=UADdg6GJ",
-          "weight_class": "Middleweight Bout",
+          "blue_country": "Canada",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/BUCKLEY_JOAQUIN_L_05-11.png?itok=bprERCvC",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/MALOTT_MIKE_R_04-18.png?itok=GoMs8zVq",
+          "weight_class": "Welterweight Bout",
           "title_fight": false
         },
         {
-          "red": "Matheus Camilo",
-          "blue": "Jai Herbert",
+          "red": "Erin Blanchfield",
+          "blue": "Jasmine Jasudavicius",
+          "red_rank": "#4",
+          "blue_rank": "#6",
+          "red_odds": "-",
+          "blue_odds": "-",
+          "red_country": "United States",
+          "blue_country": "Canada",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/BLANCHFIELD_ERIN_L_11-15.png?itok=LkUgYA81",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/JASUDAVICIUS_JASMINE_R_10-18.png?itok=fdL4lA_B",
+          "weight_class": "Women's Flyweight Bout",
+          "title_fight": false
+        },
+        {
+          "red": "Kyle Nelson",
+          "blue": "Cristian Perez Gonzalez",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-200",
-          "blue_odds": "+165",
-          "red_country": "Brazil",
-          "blue_country": "England",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/CAMILO_MATHEUS_L_10-10.png?itok=ng8vUA_b",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/HERBERT_JAI_R_10-10.png?itok=wFxaRyIa",
+          "red_odds": "-",
+          "blue_odds": "-",
+          "red_country": "Canada",
+          "blue_country": "Mexico",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/NELSON_KYLE_L_10-18.png?itok=1GaT02L2",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/PEREZ_CRISTIAN_R_08-18.png?itok=U0WCHO9-",
           "weight_class": "Lightweight Bout",
           "title_fight": false
         },
         {
-          "red": "Loopy Godinez",
-          "blue": "Ketlen Souza",
-          "red_rank": "#8",
-          "blue_rank": "",
-          "red_odds": "-225",
-          "blue_odds": "+185",
-          "red_country": "Mexico",
-          "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/GODINEZ_LOOPY_L_10-10.png?itok=h4UQXf1K",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/SOUZA_KETLEN_R_10-10.png?itok=bbuZc-66",
-          "weight_class": "Women's Strawweight Bout",
-          "title_fight": false
-        },
-        {
-          "red": "Andre Fili",
-          "blue": "Kai Kamaka III",
+          "red": "Marc-Andre Barriault",
+          "blue": "Kyle Daukaus",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-155",
-          "blue_odds": "+130",
-          "red_country": "United States",
+          "red_odds": "-",
+          "blue_odds": "-",
+          "red_country": "Canada",
           "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/FILI_ANDRE_L_10-10.png?itok=oAMyjBAO",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/KAMAKA_KAI_R_10-10.png?itok=76iakX5J",
-          "weight_class": "Featherweight Bout",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/BARRIAULT_MARC-ANDRE_L_05-10.png?itok=LWKJCRt8",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/DAUKAUS_KYLE_R_06-14.png?itok=MOoTqloy",
+          "weight_class": "Middleweight Bout",
           "title_fight": false
         },
         {
-          "red": "Malcolm Wellmaker",
-          "blue": "Otari Tanzilovi",
+          "red": "Louis Jourdain",
+          "blue": "Timmy Cuamba",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-225",
-          "blue_odds": "+185",
-          "red_country": "United States",
-          "blue_country": "Georgia",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/WELLMAKER_MALCOM_L_10-10.png?itok=l6yncBbG",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/TANZILOVI_OTARI_R_10-10.png?itok=45im3vKM",
+          "red_odds": "-",
+          "blue_odds": "-",
+          "red_country": "Canada",
+          "blue_country": "United States",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/JOURDAIN_LOUIS_L_09-30.png?itok=j3yv61BU",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-02/CUAMBA_TIMOTHY_R_02-10.png?itok=xGOZnERV",
           "weight_class": "Bantamweight Bout",
           "title_fight": false
         }
       ],
-      "url": "https://www.ufc.com/event/ufc-fight-night-october-10-2026",
+      "url": "https://www.ufc.com/event/ufc-fight-night-october-17-2026",
       "_source": "ufc.com",
-      "main_card_start_ist": "2026-10-11T05:30:00+05:30"
+      "main_card_start_ist": "2026-10-18T05:30:00+05:30"
     },
     "upcoming": [
-      {
-        "name": "UFC Fight Night: Buckley vs Malott",
-        "kind": "Fight Night",
-        "venue": "Rogers Place",
-        "city": "Edmonton Canada",
-        "country": "",
-        "main_card_start_utc": "2026-10-18T00:00:00Z",
-        "main_card": [
-          {
-            "red": "Joaquin Buckley",
-            "blue": "Mike Malott",
-            "red_rank": "#10",
-            "blue_rank": "#13",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "United States",
-            "blue_country": "Canada",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/BUCKLEY_JOAQUIN_L_05-11.png?itok=bprERCvC",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/MALOTT_MIKE_R_04-18.png?itok=GoMs8zVq",
-            "weight_class": "Welterweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Erin Blanchfield",
-            "blue": "Jasmine Jasudavicius",
-            "red_rank": "#4",
-            "blue_rank": "#6",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "United States",
-            "blue_country": "Canada",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/BLANCHFIELD_ERIN_L_11-15.png?itok=LkUgYA81",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/JASUDAVICIUS_JASMINE_R_10-18.png?itok=fdL4lA_B",
-            "weight_class": "Women's Flyweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Kyle Nelson",
-            "blue": "Cristian Perez Gonzalez",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Canada",
-            "blue_country": "Mexico",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/NELSON_KYLE_L_10-18.png?itok=1GaT02L2",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/PEREZ_CRISTIAN_R_08-18.png?itok=U0WCHO9-",
-            "weight_class": "Lightweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Marc-Andre Barriault",
-            "blue": "Kyle Daukaus",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Canada",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/BARRIAULT_MARC-ANDRE_L_05-10.png?itok=LWKJCRt8",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/DAUKAUS_KYLE_R_06-14.png?itok=MOoTqloy",
-            "weight_class": "Middleweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Louis Jourdain",
-            "blue": "Timmy Cuamba",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Canada",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/JOURDAIN_LOUIS_L_09-30.png?itok=j3yv61BU",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-02/CUAMBA_TIMOTHY_R_02-10.png?itok=xGOZnERV",
-            "weight_class": "Bantamweight Bout",
-            "title_fight": false
-          }
-        ],
-        "url": "https://www.ufc.com/event/ufc-fight-night-october-17-2026",
-        "_source": "ufc.com",
-        "main_card_start_ist": "2026-10-18T05:30:00+05:30"
-      },
       {
         "name": "UFC 333: Volkanovski vs Evloev",
         "kind": "PPV",
@@ -933,6 +850,75 @@
         "url": "https://www.ufc.com/event/ufc-176",
         "_source": "ufc.com",
         "main_card_start_ist": "2026-12-12T03:30:00+05:30"
+      },
+      {
+        "name": "UFC 335: Oliveira vs Lopes",
+        "kind": "PPV",
+        "venue": "T-Mobile Arena",
+        "city": "Las Vegas United States",
+        "country": "",
+        "main_card_start_utc": "2026-12-13T02:00:00Z",
+        "main_card": [
+          {
+            "red": "Charles Oliveira",
+            "blue": "Diego Lopes",
+            "red_rank": "#3",
+            "blue_rank": "",
+            "red_odds": "-166",
+            "blue_odds": "+140",
+            "red_country": "Brazil",
+            "blue_country": "Brazil",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/OLIVEIRA_CHARLES_L_BMFMOCK.png?itok=ZzbBba4A",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/LOPES_DIEGO_R_01-31.png?itok=EB0y4HHj",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Sergei Pavlovich",
+            "blue": "Alex Pereira",
+            "red_rank": "#3",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Russia",
+            "blue_country": "Brazil",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/PAVLOVICH_SERGEI_L_05-30.png?itok=p-NxVbjP",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/PEREIRA_ALEX_R_10-04.png?itok=MTT8kXap",
+            "weight_class": "Heavyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Joe Pyfer",
+            "blue": "Bo Nickal",
+            "red_rank": "#6",
+            "blue_rank": "#14",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-06/PYFER_JOE_L_06-29.png?itok=uphqCuCw",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/NICKAL_BO_R_05-03.png?itok=P4NaoA3s",
+            "weight_class": "Middleweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Brandon Moreno",
+            "blue": "Charles Johnson",
+            "red_rank": "#8",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Mexico",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/MORENO_BRANDON_L_09-12.png?itok=ot9Qm8dd",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/JOHNSON_CHARLES_R_01-24.png?itok=lctx4p36",
+            "weight_class": "Flyweight Bout",
+            "title_fight": false
+          }
+        ],
+        "url": "https://www.ufc.com/event/ufc-335",
+        "_source": "ufc.com",
+        "main_card_start_ist": "2026-12-13T07:30:00+05:30"
       }
     ]
   },
