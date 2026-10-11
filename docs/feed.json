@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-11T15:38:33.365323Z",
-  "generated_at_ist": "2026-10-11T21:08:33.365326+05:30",
+  "generated_at_utc": "2026-10-11T19:43:08.654929Z",
+  "generated_at_ist": "2026-10-12T01:13:08.654932+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026",
@@ -198,7 +198,7 @@
           "position": 1,
           "code": "ANT",
           "name": "Antonelli",
-          "points": 325,
+          "points": 340,
           "team": "Mercedes",
           "color": "#27F4D2"
         },
@@ -206,7 +206,7 @@
           "position": 2,
           "code": "RUS",
           "name": "Russell",
-          "points": 236,
+          "points": 238,
           "team": "Mercedes",
           "color": "#27F4D2"
         },
@@ -214,31 +214,31 @@
           "position": 3,
           "code": "HAM",
           "name": "Hamilton",
-          "points": 221,
+          "points": 229,
           "team": "Ferrari",
           "color": "#E8002D"
         },
         {
           "position": 4,
-          "code": "LEC",
-          "name": "Leclerc",
-          "points": 197,
-          "team": "Ferrari",
-          "color": "#E8002D"
+          "code": "VER",
+          "name": "Verstappen",
+          "points": 221,
+          "team": "Red Bull",
+          "color": "#3671C6"
         },
         {
           "position": 5,
-          "code": "VER",
-          "name": "Verstappen",
-          "points": 196,
-          "team": "Red Bull",
-          "color": "#3671C6"
+          "code": "LEC",
+          "name": "Leclerc",
+          "points": 215,
+          "team": "Ferrari",
+          "color": "#E8002D"
         },
         {
           "position": 6,
           "code": "NOR",
           "name": "Norris",
-          "points": 189,
+          "points": 201,
           "team": "McLaren",
           "color": "#FF8000"
         },
@@ -246,7 +246,7 @@
           "position": 7,
           "code": "PIA",
           "name": "Piastri",
-          "points": 128,
+          "points": 138,
           "team": "McLaren",
           "color": "#FF8000"
         },
@@ -254,7 +254,7 @@
           "position": 8,
           "code": "HAD",
           "name": "Hadjar",
-          "points": 96,
+          "points": 97,
           "team": "Red Bull",
           "color": "#3671C6"
         },
@@ -262,7 +262,7 @@
           "position": 9,
           "code": "LAW",
           "name": "Lawson",
-          "points": 69,
+          "points": 75,
           "team": "Red Bull",
           "color": "#3671C6"
         },
@@ -279,31 +279,31 @@
         {
           "position": 1,
           "name": "Mercedes",
-          "points": 561,
+          "points": 578,
           "color": "#27F4D2"
         },
         {
           "position": 2,
           "name": "Ferrari",
-          "points": 418,
+          "points": 444,
           "color": "#E8002D"
         },
         {
           "position": 3,
           "name": "McLaren",
-          "points": 317,
+          "points": 339,
           "color": "#FF8000"
         },
         {
           "position": 4,
           "name": "Red Bull",
-          "points": 306,
+          "points": 332,
           "color": "#3671C6"
         },
         {
           "position": 5,
           "name": "RB F1 Team",
-          "points": 94,
+          "points": 100,
           "color": "#6692FF"
         },
         {
@@ -321,7 +321,7 @@
         {
           "position": 8,
           "name": "Audi",
-          "points": 19,
+          "points": 23,
           "color": "#009982"
         },
         {
