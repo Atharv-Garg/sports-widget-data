@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-12T09:45:26.005694Z",
-  "generated_at_ist": "2026-10-12T15:15:26.005698+05:30",
+  "generated_at_utc": "2026-10-12T19:21:15.780691Z",
+  "generated_at_ist": "2026-10-13T00:51:15.780695+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026",
@@ -840,18 +840,6 @@
         "main_card_start_ist": "2026-11-21T23:30:00+05:30"
       },
       {
-        "name": "TBD vs TBD: Main event TBA",
-        "kind": "Event",
-        "venue": "Principality Stadium",
-        "city": "United Kingdom",
-        "country": "",
-        "main_card_start_utc": "2026-12-11T22:00:00Z",
-        "main_card": [],
-        "url": "https://www.ufc.com/event/ufc-176",
-        "_source": "ufc.com",
-        "main_card_start_ist": "2026-12-12T03:30:00+05:30"
-      },
-      {
         "name": "UFC 335: Oliveira vs Lopes",
         "kind": "PPV",
         "venue": "T-Mobile Arena",
@@ -919,6 +907,18 @@
         "url": "https://www.ufc.com/event/ufc-335",
         "_source": "ufc.com",
         "main_card_start_ist": "2026-12-13T07:30:00+05:30"
+      },
+      {
+        "name": "UFC Fight Night: Main event TBA",
+        "kind": "Fight Night",
+        "venue": "Afterpay Arena",
+        "city": "Sydney Olympic Park Australia",
+        "country": "",
+        "main_card_start_utc": "2027-02-06T22:00:00Z",
+        "main_card": [],
+        "url": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
+        "_source": "ufc.com",
+        "main_card_start_ist": "2027-02-07T03:30:00+05:30"
       }
     ]
   },
