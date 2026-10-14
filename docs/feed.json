@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-14T05:24:14.550411Z",
-  "generated_at_ist": "2026-10-14T10:54:14.550414+05:30",
+  "generated_at_utc": "2026-10-14T10:36:23.457378Z",
+  "generated_at_ist": "2026-10-14T16:06:23.457382+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026",
@@ -852,8 +852,8 @@
             "blue": "Diego Lopes",
             "red_rank": "#3",
             "blue_rank": "",
-            "red_odds": "-155",
-            "blue_odds": "+130",
+            "red_odds": "-150",
+            "blue_odds": "+125",
             "red_country": "Brazil",
             "blue_country": "Brazil",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/OLIVEIRA_CHARLES_L_BMFMOCK.png?itok=ZzbBba4A",
@@ -866,8 +866,8 @@
             "blue": "Alex Pereira",
             "red_rank": "#3",
             "blue_rank": "",
-            "red_odds": "-180",
-            "blue_odds": "+150",
+            "red_odds": "-190",
+            "blue_odds": "+160",
             "red_country": "Russia",
             "blue_country": "Brazil",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/PAVLOVICH_SERGEI_L_05-30.png?itok=p-NxVbjP",
