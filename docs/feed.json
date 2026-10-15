@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-15T19:22:59.483965Z",
-  "generated_at_ist": "2026-10-16T00:52:59.483968+05:30",
+  "generated_at_utc": "2026-10-15T22:40:14.255126Z",
+  "generated_at_ist": "2026-10-16T04:10:14.255129+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026",
@@ -357,8 +357,8 @@
           "blue_odds": "-125",
           "red_country": "United States",
           "blue_country": "Canada",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/BUCKLEY_JOAQUIN_L_05-11.png?itok=bprERCvC",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/MALOTT_MIKE_R_04-18.png?itok=GoMs8zVq",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/BUCKLEY_JOAQUIN_L_10-17.png?itok=o435Ly6X",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/MALOTT_MIKE_R_10-17.png?itok=5Y47VML8",
           "weight_class": "Welterweight Bout",
           "title_fight": false
         },
@@ -371,8 +371,8 @@
           "blue_odds": "+260",
           "red_country": "United States",
           "blue_country": "Canada",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/BLANCHFIELD_ERIN_L_11-15.png?itok=LkUgYA81",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/JASUDAVICIUS_JASMINE_R_10-18.png?itok=fdL4lA_B",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/BLANCHFIELD_ERIN_L_10-17.png?itok=GWNaE5YG",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/JASUDAVICIUS_JASMINE_R_10-17.png?itok=ez0B8ZRX",
           "weight_class": "Women's Flyweight Bout",
           "title_fight": false
         },
@@ -385,8 +385,8 @@
           "blue_odds": "-370",
           "red_country": "Canada",
           "blue_country": "Mexico",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/NELSON_KYLE_L_10-18.png?itok=1GaT02L2",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/PEREZ_CRISTIAN_R_08-18.png?itok=U0WCHO9-",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/NELSON_KYLE_L_10-17.png?itok=2lrl2pI-",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/PEREZ_CRISTIAN_R_10-17.png?itok=umbAYZyS",
           "weight_class": "Lightweight Bout",
           "title_fight": false
         },
@@ -399,8 +399,8 @@
           "blue_odds": "-185",
           "red_country": "Canada",
           "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/BARRIAULT_MARC-ANDRE_L_05-10.png?itok=LWKJCRt8",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/DAUKAUS_KYLE_R_06-14.png?itok=MOoTqloy",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/BARRIAULT_MARC-ANDRE_L_10-17.png?itok=mVD5lhNC",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/DAUKAUS_KYLE_R_10-17.png?itok=dlOsZfRi",
           "weight_class": "Middleweight Bout",
           "title_fight": false
         },
@@ -409,12 +409,12 @@
           "blue": "Timmy Cuamba",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-185",
-          "blue_odds": "+155",
+          "red_odds": "-180",
+          "blue_odds": "+150",
           "red_country": "Canada",
           "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/JOURDAIN_LOUIS_L_09-30.png?itok=j3yv61BU",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-02/CUAMBA_TIMOTHY_R_02-10.png?itok=xGOZnERV",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/JOURDAIN_LOUIS_L_10-17.png?itok=EfuSf1Dx",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/CUAMBA_TIMMY_R_10-17.png?itok=bfZzvtlM",
           "weight_class": "Bantamweight Bout",
           "title_fight": false
         }
@@ -876,20 +876,6 @@
             "title_fight": false
           },
           {
-            "red": "Joe Pyfer",
-            "blue": "Bo Nickal",
-            "red_rank": "#6",
-            "blue_rank": "#14",
-            "red_odds": "-192",
-            "blue_odds": "+160",
-            "red_country": "United States",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-06/PYFER_JOE_L_06-29.png?itok=uphqCuCw",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/NICKAL_BO_R_05-03.png?itok=P4NaoA3s",
-            "weight_class": "Middleweight Bout",
-            "title_fight": false
-          },
-          {
             "red": "Brandon Moreno",
             "blue": "Charles Johnson",
             "red_rank": "#8",
@@ -904,17 +890,31 @@
             "title_fight": false
           },
           {
-            "red": "Maycee Barber",
-            "blue": "Carli Judice",
-            "red_rank": "#6",
+            "red": "Quentin Pasley",
+            "blue": "Junior Tafa",
+            "red_rank": "",
             "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "United States",
+            "blue_country": "Australia",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/PASLEY_QUENTEN_L_09-08.png?itok=zn-OfZXx",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/TAFA_JUNIOR_R_06-06.png?itok=O41jc27J",
+            "weight_class": "Light Heavyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Joe Pyfer",
+            "blue": "Bo Nickal",
+            "red_rank": "#6",
+            "blue_rank": "#14",
+            "red_odds": "-192",
+            "blue_odds": "+160",
+            "red_country": "United States",
             "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/BARBER_MAYCEE_L_12-06.png?itok=Cr6Up2gA",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/JUDICE_CARLI_R_02-21.png?itok=OsuDiPxc",
-            "weight_class": "Women's Flyweight Bout",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-06/PYFER_JOE_L_06-29.png?itok=uphqCuCw",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/NICKAL_BO_R_05-03.png?itok=P4NaoA3s",
+            "weight_class": "Middleweight Bout",
             "title_fight": false
           }
         ],
