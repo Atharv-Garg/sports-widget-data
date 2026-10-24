@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-24T00:01:21.482696Z",
-  "generated_at_ist": "2026-10-24T05:31:21.482700+05:30",
+  "generated_at_utc": "2026-10-24T04:33:17.421708Z",
+  "generated_at_ist": "2026-10-24T10:03:17.421711+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026",
@@ -682,20 +682,6 @@
         "main_card_start_utc": "2026-11-21T18:00:00Z",
         "main_card": [
           {
-            "red": "Jiří Procházka",
-            "blue": "Navajo Stirling",
-            "red_rank": "#2",
-            "blue_rank": "#5",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Czechia",
-            "blue_country": "New Zealand",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/PROCHAZKA_JIRI_L_04-11.png?itok=vr41IWZw",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/STIRLING_NAVAJO_R_08-01.png?itok=aL1Vfoli",
-            "weight_class": "Light Heavyweight Bout",
-            "title_fight": false
-          },
-          {
             "red": "Aljamain Sterling",
             "blue": "Kevin Vallejos",
             "red_rank": "#4",
@@ -749,6 +735,20 @@
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/GAZIEV_SHAMIL_L_05-02.png?itok=__SWao2O",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/TEIXEIRA_TALLISON_R_07-12.png?itok=OkqxReP6",
             "weight_class": "Heavyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Jake Matthews",
+            "blue": "Tahir Abdullayev",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Australia",
+            "blue_country": "Azerbaijan",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/MATTHEWS_JAKE_L_05-30.png?itok=8ws1GMM2",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/ABDULLAYEV_TAHIR_L_06-27.png?itok=pP3Pz-tL",
+            "weight_class": "Welterweight Bout",
             "title_fight": false
           }
         ],
