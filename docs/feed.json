@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-24T19:28:46.413078Z",
-  "generated_at_ist": "2026-10-25T00:58:46.413081+05:30",
+  "generated_at_utc": "2026-10-24T21:53:19.483787Z",
+  "generated_at_ist": "2026-10-25T03:23:19.483790+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026",
@@ -840,13 +840,42 @@
         "main_card_start_ist": "2026-12-13T07:30:00+05:30"
       },
       {
-        "name": "UFC 336: Main event TBA",
+        "name": "UFC 336: Van vs Kape",
         "kind": "PPV",
         "venue": "Scotiabank Arena",
         "city": "Toronto Canada",
         "country": "",
         "main_card_start_utc": "2027-01-31T02:00:00Z",
-        "main_card": [],
+        "main_card": [
+          {
+            "red": "Joshua Van",
+            "blue": "Manel Kape",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Myanmar",
+            "blue_country": "Portugal",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/VAN_JOSHUA_L_BELT_09-19.png?itok=bbecsBBL",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/KAPE_MANEL_R_12-13.png?itok=ohNPBhpu",
+            "weight_class": "TBD",
+            "title_fight": false
+          },
+          {
+            "red": "Carlos Prates",
+            "blue": "Michael Morales",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Brazil",
+            "blue_country": "Ecuador",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/PRATES_CARLOS_L_08-17.png?itok=VY7BAjV5",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/MORALES_MICHAEL_R_11-15.png?itok=lhzHlqBV",
+            "weight_class": "TBD",
+            "title_fight": false
+          }
+        ],
         "url": "https://www.ufc.com/event/ufc-336",
         "_source": "ufc.com",
         "main_card_start_ist": "2027-01-31T07:30:00+05:30"
@@ -865,5 +894,8 @@
       }
     ]
   },
-  "_warnings": []
+  "_warnings": [
+    "F1 fetch failed: HTTP Error 401: Unauthorized",
+    "F1 empty; reused previous feed's races (last-known-good)"
+  ]
 }
