@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-25T00:19:44.855117Z",
-  "generated_at_ist": "2026-10-25T05:49:44.855120+05:30",
+  "generated_at_utc": "2026-10-25T05:18:42.127773Z",
+  "generated_at_ist": "2026-10-25T10:48:42.127777+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026",
@@ -377,20 +377,6 @@
           "title_fight": true
         },
         {
-          "red": "Lone’er Kavanagh",
-          "blue": "Ramazan Temirov",
-          "red_rank": "#6",
-          "blue_rank": "#10",
-          "red_odds": "-105",
-          "blue_odds": "-115",
-          "red_country": "England",
-          "blue_country": "Uzbekistan",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/KAVANAGH_LONEER_L_10-24.png?itok=FGM8GXjG",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/TEMIROV_RAMAZAN_R_10-24.png?itok=rwtaigSV",
-          "weight_class": "Flyweight Bout",
-          "title_fight": false
-        },
-        {
           "red": "Alexander Volkov",
           "blue": "Rizvan Kuniev",
           "red_rank": "#2",
@@ -416,6 +402,20 @@
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/PICO_AARON_R_08-16.png?itok=c4FjhSRf",
           "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/KEITA_LOSENE_R_10-24.png?itok=orwyDRNV",
           "weight_class": "Featherweight Bout",
+          "title_fight": false
+        },
+        {
+          "red": "Azamat Murzakanov",
+          "blue": "Dominick Reyes",
+          "red_rank": "#7",
+          "blue_rank": "#8",
+          "red_odds": "-220",
+          "blue_odds": "+180",
+          "red_country": "Russia",
+          "blue_country": "United States",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/MURZAKANOV_AZAMAT_L_10-24.png?itok=x1XiuB6m",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/REYES_DOMINICK_R_10-24.png?itok=kP_F84gA",
+          "weight_class": "Light Heavyweight Bout",
           "title_fight": false
         }
       ],
