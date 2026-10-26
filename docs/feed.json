@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-26T12:57:45.506384Z",
-  "generated_at_ist": "2026-10-26T18:27:45.506387+05:30",
+  "generated_at_utc": "2026-10-26T19:16:52.370819Z",
+  "generated_at_ist": "2026-10-27T00:46:52.370822+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2026",
@@ -779,30 +779,30 @@
           {
             "red": "Joshua Van",
             "blue": "Manel Kape",
-            "red_rank": "",
-            "blue_rank": "",
+            "red_rank": "C",
+            "blue_rank": "#2",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "Myanmar",
             "blue_country": "Portugal",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/VAN_JOSHUA_L_BELT_09-19.png?itok=bbecsBBL",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/KAPE_MANEL_R_12-13.png?itok=ohNPBhpu",
-            "weight_class": "TBD",
-            "title_fight": false
+            "weight_class": "Flyweight Title Bout",
+            "title_fight": true
           },
           {
             "red": "Carlos Prates",
             "blue": "Michael Morales",
-            "red_rank": "",
-            "blue_rank": "",
+            "red_rank": "#2",
+            "blue_rank": "#3",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "Brazil",
             "blue_country": "Ecuador",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/PRATES_CARLOS_L_08-17.png?itok=VY7BAjV5",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/MORALES_MICHAEL_R_11-15.png?itok=lhzHlqBV",
-            "weight_class": "TBD",
-            "title_fight": false
+            "weight_class": "Welterweight Interim Title Bout",
+            "title_fight": true
           }
         ],
         "url": "https://www.ufc.com/event/ufc-336",
