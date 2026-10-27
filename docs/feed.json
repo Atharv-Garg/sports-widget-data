@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-27T19:38:29.975206Z",
-  "generated_at_ist": "2026-10-28T01:08:29.975209+05:30",
+  "generated_at_utc": "2026-10-27T23:11:42.219600Z",
+  "generated_at_ist": "2026-10-28T04:41:42.219603+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2026",
@@ -516,6 +516,20 @@
         "main_card_start_utc": "2026-11-15T02:00:00Z",
         "main_card": [
           {
+            "red": "Ciryl Gane",
+            "blue": "Josh Hokit",
+            "red_rank": "C",
+            "blue_rank": "#4",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "France",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/GANE_CIRYL_L_BELT_01-22.png?itok=QXhpvQW9",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/HOKIT_JOSH_R_04-11.png?itok=WDowTRJ1",
+            "weight_class": "Heavyweight Title Bout",
+            "title_fight": true
+          },
+          {
             "red": "Kayla Harrison",
             "blue": "Amanda Nunes",
             "red_rank": "C",
@@ -569,20 +583,6 @@
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/HASAN_BILAL_L_08-29.png?itok=a9CuzxKQ",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-09/GURULE_LUIS_R_09-13.png?itok=ZE3etFBY",
             "weight_class": "Flyweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Stephen Thompson",
-            "blue": "Charles Radtke",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "United States",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/THOMPSON_STEPHEN_L_07-12.png?itok=Ajtw3HXf",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/RADTKE_CHARLES_R_05-10.png?itok=xzXwORTy",
-            "weight_class": "Welterweight Bout",
             "title_fight": false
           }
         ],
