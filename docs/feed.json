@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-26T23:09:27.801873Z",
-  "generated_at_ist": "2026-10-27T04:39:27.801876+05:30",
+  "generated_at_utc": "2026-10-27T02:03:55.569435Z",
+  "generated_at_ist": "2026-10-27T07:33:55.569439+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2026",
@@ -377,20 +377,6 @@
           "title_fight": false
         },
         {
-          "red": "Yana Santos",
-          "blue": "Luana Santos",
-          "red_rank": "#6",
-          "blue_rank": "#7",
-          "red_odds": "-260",
-          "blue_odds": "-225",
-          "red_country": "Russia",
-          "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/SANTOS_YANA_L_05-03.png?itok=AEZXt3Qg",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/SANTOS_LUANA_R_06-20.png?itok=2SFtcaFg",
-          "weight_class": "Women's Bantamweight Bout",
-          "title_fight": false
-        },
-        {
           "red": "Ode' Osbourne",
           "blue": "Cody Durden",
           "red_rank": "",
@@ -402,6 +388,20 @@
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/OSBOURNE_ODE_L_02-21.png?itok=pUwfN9BO",
           "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/DURDEN_CODY_R_07-11.png?itok=H8GRr5YF",
           "weight_class": "Flyweight Bout",
+          "title_fight": false
+        },
+        {
+          "red": "Yana Santos",
+          "blue": "Luana Santos",
+          "red_rank": "#6",
+          "blue_rank": "#7",
+          "red_odds": "-260",
+          "blue_odds": "-225",
+          "red_country": "Russia",
+          "blue_country": "Brazil",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/SANTOS_YANA_L_05-03.png?itok=AEZXt3Qg",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/SANTOS_LUANA_R_06-20.png?itok=2SFtcaFg",
+          "weight_class": "Women's Bantamweight Bout",
           "title_fight": false
         },
         {
@@ -489,17 +489,17 @@
             "title_fight": false
           },
           {
-            "red": "Mantas Kondratavičius",
-            "blue": "Andre Petroski",
+            "red": "Billy Elekana",
+            "blue": "Lucas Fernando",
             "red_rank": "",
             "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
-            "red_country": "Lithuania",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/KONDRATAVICIUS_MANTAS_L_03-21.png?itok=WqKzfr3y",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/PETROSKI_ANDRE_R_05-16.png?itok=h8TtwACb",
-            "weight_class": "Middleweight Bout",
+            "red_country": "United States",
+            "blue_country": "Brazil",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/ELEKANA_BILLY_L_01-31.png?itok=11376dr5",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/FERNANDO_LUCAS_R_08-15.png?itok=6rJIETAv",
+            "weight_class": "Light Heavyweight Bout",
             "title_fight": false
           }
         ],
