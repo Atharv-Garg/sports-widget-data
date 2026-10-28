@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-28T15:26:53.906983Z",
-  "generated_at_ist": "2026-10-28T20:56:53.906986+05:30",
+  "generated_at_utc": "2026-10-28T20:33:13.661284Z",
+  "generated_at_ist": "2026-10-29T02:03:13.661287+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2026",
@@ -561,7 +561,7 @@
             "red": "Uroš Medić",
             "blue": "Kevin Holland",
             "red_rank": "#12",
-            "blue_rank": "",
+            "blue_rank": "#15",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "Serbia",
@@ -643,7 +643,7 @@
           {
             "red": "Jared Cannonier",
             "blue": "Ikram Aliskerov",
-            "red_rank": "#11",
+            "red_rank": "#12",
             "blue_rank": "#13",
             "red_odds": "-",
             "blue_odds": "-",
@@ -700,8 +700,8 @@
             "blue": "Alex Pereira",
             "red_rank": "#3",
             "blue_rank": "",
-            "red_odds": "-190",
-            "blue_odds": "+160",
+            "red_odds": "-205",
+            "blue_odds": "+170",
             "red_country": "Russia",
             "blue_country": "Brazil",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/PAVLOVICH_SERGEI_L_05-30.png?itok=p-NxVbjP",
@@ -742,8 +742,8 @@
             "blue": "Bo Nickal",
             "red_rank": "#6",
             "blue_rank": "#14",
-            "red_odds": "-192",
-            "blue_odds": "+160",
+            "red_odds": "-198",
+            "blue_odds": "+164",
             "red_country": "United States",
             "blue_country": "United States",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-06/PYFER_JOE_L_06-29.png?itok=uphqCuCw",
@@ -810,8 +810,8 @@
         "main_card_start_ist": "2027-01-31T07:30:00+05:30"
       },
       {
-        "name": "UFC Fight Night: Main event TBA",
-        "kind": "Fight Night",
+        "name": "UFC Sydney: Main event TBA",
+        "kind": "Event",
         "venue": "Afterpay Arena",
         "city": "Sydney Olympic Park Australia",
         "country": "",
