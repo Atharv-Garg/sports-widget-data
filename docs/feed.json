@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-29T19:13:05.020062Z",
-  "generated_at_ist": "2026-10-30T00:43:05.020065+05:30",
+  "generated_at_utc": "2026-10-29T23:16:59.476689Z",
+  "generated_at_ist": "2026-10-30T04:46:59.476692+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2026",
@@ -357,8 +357,8 @@
           "blue_odds": "-105",
           "red_country": "Brazil",
           "blue_country": "Australia",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/MOICANO_RENATO_L_04-04.png?itok=k1Tac0wx",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/NOLAN_TOM_R_06-06.png?itok=SXg4FKfb",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/MOICANO_RENATO_L_10-31.png?itok=pQRt8fI4",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/NOLAN_TOM_R_10-31.png?itok=C6Z1VWZn",
           "weight_class": "Lightweight Bout",
           "title_fight": false
         },
@@ -371,8 +371,8 @@
           "blue_odds": "-260",
           "red_country": "Jamaica",
           "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-04/BROWN_RANDY_L_04-26.png?itok=NKho-P7q",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-06/SMITH_JACOBE_R_06-28.png?itok=HgB-mohB",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/BROWN_RANDY_L_10-31.png?itok=4usapKxK",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/SMITH_JACOBE_R_10-31.png?itok=vxPmJHbG",
           "weight_class": "Welterweight Bout",
           "title_fight": false
         },
@@ -385,8 +385,8 @@
           "blue_odds": "-105",
           "red_country": "Jamaica",
           "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/OSBOURNE_ODE_L_02-21.png?itok=pUwfN9BO",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/DURDEN_CODY_R_07-11.png?itok=H8GRr5YF",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/OSBOURNE_ODE_L_10-31.png?itok=a-3zZDKM",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/DURDEN_CODY_R_10-31.png?itok=5l23--Jo",
           "weight_class": "Flyweight Bout",
           "title_fight": false
         },
@@ -399,8 +399,8 @@
           "blue_odds": "-225",
           "red_country": "Russia",
           "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/SANTOS_YANA_L_05-03.png?itok=AEZXt3Qg",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/SANTOS_LUANA_R_06-20.png?itok=2SFtcaFg",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/SANTOS_YANA_L_10-31.png?itok=3QGE8kte",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/SANTOS_LUANA_R_10-31.png?itok=gxDAO06V",
           "weight_class": "Women's Bantamweight Bout",
           "title_fight": false
         },
@@ -413,8 +413,8 @@
           "blue_odds": "+250",
           "red_country": "United States",
           "blue_country": "Azerbaijan",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/LEBOSNOYANI_JEAN-PAUL_R_02-21.png?itok=6OuH9YNU",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/HASANOV_FARMAN_L_06-27.png?itok=Gvxky28n",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/LEBOSNOYANI_JEAN-PAUL_L_10-31.png?itok=TAAL62YF",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/HASANOV_FARMAN_R_10-31.png?itok=ZbX_n1Oq",
           "weight_class": "Welterweight Bout",
           "title_fight": false
         }
