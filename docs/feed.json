@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-30T15:55:06.035486Z",
-  "generated_at_ist": "2026-10-30T21:25:06.035490+05:30",
+  "generated_at_utc": "2026-10-30T20:46:19.769547Z",
+  "generated_at_ist": "2026-10-31T02:16:19.769551+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2026",
@@ -395,7 +395,7 @@
           "blue": "Luana Santos",
           "red_rank": "#6",
           "blue_rank": "#7",
-          "red_odds": "-300",
+          "red_odds": "-305",
           "blue_odds": "-225",
           "red_country": "Russia",
           "blue_country": "Brazil",
