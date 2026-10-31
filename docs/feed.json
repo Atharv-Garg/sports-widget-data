@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-10-30T20:46:19.769547Z",
-  "generated_at_ist": "2026-10-31T02:16:19.769551+05:30",
+  "generated_at_utc": "2026-10-31T00:08:03.909097Z",
+  "generated_at_ist": "2026-10-31T05:38:03.909100+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2026",
@@ -425,7 +425,7 @@
     },
     "upcoming": [
       {
-        "name": "UFC Fight Night: Bonfim vs Brady",
+        "name": "UFC Fight Night: Cortes Acosta vs Walker",
         "kind": "Fight Night",
         "venue": "Meta APEX",
         "city": "Las Vegas United States",
@@ -433,17 +433,17 @@
         "main_card_start_utc": "2026-11-08T01:00:00Z",
         "main_card": [
           {
-            "red": "Gabriel Bonfim",
-            "blue": "Sean Brady",
-            "red_rank": "#5",
-            "blue_rank": "#6",
+            "red": "Waldo Cortes Acosta",
+            "blue": "Johnny Walker",
+            "red_rank": "#6",
+            "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
-            "red_country": "Brazil",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/BONFIM_GABRIEL_L_11-08.png?itok=BeSZUr8a",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/BRADY_SEAN_R_03-22.png?itok=zU8ITEU5",
-            "weight_class": "Welterweight Bout",
+            "red_country": "Dominican Republic",
+            "blue_country": "Brazil",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/CORTES_ACOSTA_WALDO_L_09-12.png?itok=xe7OyefZ",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/WALKER_JOHNNY_R_04-11.png?itok=AvyI1teS",
+            "weight_class": "Heavyweight Bout",
             "title_fight": false
           },
           {
