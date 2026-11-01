@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-01T16:23:53.466176Z",
-  "generated_at_ist": "2026-11-01T21:53:53.466179+05:30",
+  "generated_at_utc": "2026-11-01T20:49:35.074407Z",
+  "generated_at_ist": "2026-11-02T02:19:35.074410+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2026",
@@ -740,5 +740,8 @@
       }
     ]
   },
-  "_warnings": []
+  "_warnings": [
+    "F1 fetch failed: HTTP Error 401: Unauthorized",
+    "F1 empty; reused previous feed's races (last-known-good)"
+  ]
 }
