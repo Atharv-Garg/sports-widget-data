@@ -1,102 +1,55 @@
 {
-  "generated_at_utc": "2026-11-01T20:49:35.074407Z",
-  "generated_at_ist": "2026-11-02T02:19:35.074410+05:30",
+  "generated_at_utc": "2026-11-02T00:42:24.239555Z",
+  "generated_at_ist": "2026-11-02T06:12:24.239559+05:30",
   "f1": {
     "next": {
-      "name": "FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2026",
-      "short_name": "Mexico City Grand Prix",
-      "round": 1298,
-      "circuit": "Mexico City",
-      "location": "Mexico City",
-      "country": "Mexico",
-      "flag_emoji": "🇲🇽",
+      "name": "FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO PAULO 2026",
+      "short_name": "São Paulo Grand Prix",
+      "round": 1299,
+      "circuit": "Interlagos",
+      "location": "São Paulo",
+      "country": "Brazil",
+      "flag_emoji": "🇧🇷",
       "external_url": "https://www.formula1.com/en/racing/2026.html",
       "sessions": [
         {
           "type": "FP1",
-          "start_utc": "2026-10-30T18:30:00+00:00",
-          "end_utc": "2026-10-30T19:30:00+00:00",
-          "start_ist": "2026-10-31T00:00:00+05:30",
-          "end_ist": "2026-10-31T01:00:00+05:30"
+          "start_utc": "2026-11-06T15:30:00+00:00",
+          "end_utc": "2026-11-06T16:30:00+00:00",
+          "start_ist": "2026-11-06T21:00:00+05:30",
+          "end_ist": "2026-11-06T22:00:00+05:30"
         },
         {
           "type": "FP2",
-          "start_utc": "2026-10-30T22:00:00+00:00",
-          "end_utc": "2026-10-30T23:00:00+00:00",
-          "start_ist": "2026-10-31T03:30:00+05:30",
-          "end_ist": "2026-10-31T04:30:00+05:30"
+          "start_utc": "2026-11-06T19:00:00+00:00",
+          "end_utc": "2026-11-06T20:00:00+00:00",
+          "start_ist": "2026-11-07T00:30:00+05:30",
+          "end_ist": "2026-11-07T01:30:00+05:30"
         },
         {
           "type": "FP3",
-          "start_utc": "2026-10-31T17:30:00+00:00",
-          "end_utc": "2026-10-31T18:30:00+00:00",
-          "start_ist": "2026-10-31T23:00:00+05:30",
-          "end_ist": "2026-11-01T00:00:00+05:30"
+          "start_utc": "2026-11-07T14:30:00+00:00",
+          "end_utc": "2026-11-07T15:30:00+00:00",
+          "start_ist": "2026-11-07T20:00:00+05:30",
+          "end_ist": "2026-11-07T21:00:00+05:30"
         },
         {
           "type": "Qualifying",
-          "start_utc": "2026-10-31T21:00:00+00:00",
-          "end_utc": "2026-10-31T22:00:00+00:00",
-          "start_ist": "2026-11-01T02:30:00+05:30",
-          "end_ist": "2026-11-01T03:30:00+05:30"
+          "start_utc": "2026-11-07T18:00:00+00:00",
+          "end_utc": "2026-11-07T19:00:00+00:00",
+          "start_ist": "2026-11-07T23:30:00+05:30",
+          "end_ist": "2026-11-08T00:30:00+05:30"
         },
         {
           "type": "Race",
-          "start_utc": "2026-11-01T20:00:00+00:00",
-          "end_utc": "2026-11-01T22:00:00+00:00",
-          "start_ist": "2026-11-02T01:30:00+05:30",
-          "end_ist": "2026-11-02T03:30:00+05:30"
+          "start_utc": "2026-11-08T17:00:00+00:00",
+          "end_utc": "2026-11-08T19:00:00+00:00",
+          "start_ist": "2026-11-08T22:30:00+05:30",
+          "end_ist": "2026-11-09T00:30:00+05:30"
         }
       ]
     },
     "upcoming": [
-      {
-        "name": "FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO PAULO 2026",
-        "short_name": "São Paulo Grand Prix",
-        "round": 1299,
-        "circuit": "Interlagos",
-        "location": "São Paulo",
-        "country": "Brazil",
-        "flag_emoji": "🇧🇷",
-        "external_url": "https://www.formula1.com/en/racing/2026.html",
-        "sessions": [
-          {
-            "type": "FP1",
-            "start_utc": "2026-11-06T15:30:00+00:00",
-            "end_utc": "2026-11-06T16:30:00+00:00",
-            "start_ist": "2026-11-06T21:00:00+05:30",
-            "end_ist": "2026-11-06T22:00:00+05:30"
-          },
-          {
-            "type": "FP2",
-            "start_utc": "2026-11-06T19:00:00+00:00",
-            "end_utc": "2026-11-06T20:00:00+00:00",
-            "start_ist": "2026-11-07T00:30:00+05:30",
-            "end_ist": "2026-11-07T01:30:00+05:30"
-          },
-          {
-            "type": "FP3",
-            "start_utc": "2026-11-07T14:30:00+00:00",
-            "end_utc": "2026-11-07T15:30:00+00:00",
-            "start_ist": "2026-11-07T20:00:00+05:30",
-            "end_ist": "2026-11-07T21:00:00+05:30"
-          },
-          {
-            "type": "Qualifying",
-            "start_utc": "2026-11-07T18:00:00+00:00",
-            "end_utc": "2026-11-07T19:00:00+00:00",
-            "start_ist": "2026-11-07T23:30:00+05:30",
-            "end_ist": "2026-11-08T00:30:00+05:30"
-          },
-          {
-            "type": "Race",
-            "start_utc": "2026-11-08T17:00:00+00:00",
-            "end_utc": "2026-11-08T19:00:00+00:00",
-            "start_ist": "2026-11-08T22:30:00+05:30",
-            "end_ist": "2026-11-09T00:30:00+05:30"
-          }
-        ]
-      },
       {
         "name": "FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2026",
         "short_name": "Las Vegas Grand Prix",
@@ -188,6 +141,53 @@
             "end_utc": "2026-11-29T18:00:00+00:00",
             "start_ist": "2026-11-29T21:30:00+05:30",
             "end_ist": "2026-11-29T23:30:00+05:30"
+          }
+        ]
+      },
+      {
+        "name": "FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2026",
+        "short_name": "Abu Dhabi Grand Prix",
+        "round": 1302,
+        "circuit": "Yas Marina Circuit",
+        "location": "Yas Marina",
+        "country": "United Arab Emirates",
+        "flag_emoji": "🇦🇪",
+        "external_url": "https://www.formula1.com/en/racing/2026.html",
+        "sessions": [
+          {
+            "type": "FP1",
+            "start_utc": "2026-12-04T09:30:00+00:00",
+            "end_utc": "2026-12-04T10:30:00+00:00",
+            "start_ist": "2026-12-04T15:00:00+05:30",
+            "end_ist": "2026-12-04T16:00:00+05:30"
+          },
+          {
+            "type": "FP2",
+            "start_utc": "2026-12-04T13:00:00+00:00",
+            "end_utc": "2026-12-04T14:00:00+00:00",
+            "start_ist": "2026-12-04T18:30:00+05:30",
+            "end_ist": "2026-12-04T19:30:00+05:30"
+          },
+          {
+            "type": "FP3",
+            "start_utc": "2026-12-05T10:30:00+00:00",
+            "end_utc": "2026-12-05T11:30:00+00:00",
+            "start_ist": "2026-12-05T16:00:00+05:30",
+            "end_ist": "2026-12-05T17:00:00+05:30"
+          },
+          {
+            "type": "Qualifying",
+            "start_utc": "2026-12-05T14:00:00+00:00",
+            "end_utc": "2026-12-05T15:00:00+00:00",
+            "start_ist": "2026-12-05T19:30:00+05:30",
+            "end_ist": "2026-12-05T20:30:00+05:30"
+          },
+          {
+            "type": "Race",
+            "start_utc": "2026-12-06T13:00:00+00:00",
+            "end_utc": "2026-12-06T15:00:00+00:00",
+            "start_ist": "2026-12-06T18:30:00+05:30",
+            "end_ist": "2026-12-06T20:30:00+05:30"
           }
         ]
       }
@@ -740,8 +740,5 @@
       }
     ]
   },
-  "_warnings": [
-    "F1 fetch failed: HTTP Error 401: Unauthorized",
-    "F1 empty; reused previous feed's races (last-known-good)"
-  ]
+  "_warnings": []
 }
