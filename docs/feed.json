@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-02T17:01:55.099147Z",
-  "generated_at_ist": "2026-11-02T22:31:55.099151+05:30",
+  "generated_at_utc": "2026-11-02T23:52:14.752722Z",
+  "generated_at_ist": "2026-11-03T05:22:14.752725+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO PAULO 2026",
@@ -246,7 +246,7 @@
           "position": 7,
           "code": "PIA",
           "name": "Piastri",
-          "points": 150,
+          "points": 144,
           "team": "McLaren",
           "color": "#FF8000"
         },
@@ -254,7 +254,7 @@
           "position": 8,
           "code": "HAD",
           "name": "Hadjar",
-          "points": 105,
+          "points": 107,
           "team": "Red Bull",
           "color": "#3671C6"
         },
@@ -262,7 +262,7 @@
           "position": 9,
           "code": "LAW",
           "name": "Lawson",
-          "points": 79,
+          "points": 83,
           "team": "Red Bull",
           "color": "#3671C6"
         },
@@ -270,7 +270,7 @@
           "position": 10,
           "code": "GAS",
           "name": "Gasly",
-          "points": 43,
+          "points": 42,
           "team": "Alpine F1 Team",
           "color": "#0093CC"
         }
@@ -291,37 +291,37 @@
         {
           "position": 3,
           "name": "Red Bull",
-          "points": 380,
+          "points": 382,
           "color": "#3671C6"
         },
         {
           "position": 4,
           "name": "McLaren",
-          "points": 371,
+          "points": 365,
           "color": "#FF8000"
         },
         {
           "position": 5,
           "name": "RB F1 Team",
-          "points": 104,
+          "points": 108,
           "color": "#6692FF"
         },
         {
           "position": 6,
           "name": "Alpine F1 Team",
-          "points": 74,
+          "points": 69,
           "color": "#0093CC"
         },
         {
           "position": 7,
           "name": "Haas F1 Team",
-          "points": 30,
+          "points": 31,
           "color": "#B6BABD"
         },
         {
           "position": 8,
           "name": "Audi",
-          "points": 23,
+          "points": 27,
           "color": "#009982"
         },
         {
@@ -727,13 +727,42 @@
         "main_card_start_ist": "2027-01-31T07:30:00+05:30"
       },
       {
-        "name": "UFC Sydney: Main event TBA",
-        "kind": "Event",
+        "name": "UFC Fight Night: Salkilld vs Saint Denis",
+        "kind": "Fight Night",
         "venue": "Afterpay Arena",
         "city": "Sydney Olympic Park Australia",
         "country": "",
         "main_card_start_utc": "2027-02-06T22:00:00Z",
-        "main_card": [],
+        "main_card": [
+          {
+            "red": "Quillan Salkilld",
+            "blue": "Benoît Saint Denis",
+            "red_rank": "#7",
+            "blue_rank": "#6",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Australia",
+            "blue_country": "France",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/SALKILLD_QUILLAN_L_01-31.png?itok=YcLp6904",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/SAINT_DENIS_BENOIT_R_01-31.png?itok=QWAO-WUe",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Bogdan Guskov",
+            "blue": "Robert Whittaker",
+            "red_rank": "#8",
+            "blue_rank": "#11",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Uzbekistan",
+            "blue_country": "Australia",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/7/GUSKOV_BOGDAN_L_01-18.png?itok=FohFgC68",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/WHITTAKER_ROBERT_R_07-11.png?itok=MAc6E7xv",
+            "weight_class": "Light Heavyweight Bout",
+            "title_fight": false
+          }
+        ],
         "url": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
         "_source": "ufc.com",
         "main_card_start_ist": "2027-02-07T03:30:00+05:30"
