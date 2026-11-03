@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-02T23:52:14.752722Z",
-  "generated_at_ist": "2026-11-03T05:22:14.752725+05:30",
+  "generated_at_utc": "2026-11-03T06:44:22.888199Z",
+  "generated_at_ist": "2026-11-03T12:14:22.888202+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO PAULO 2026",
@@ -613,17 +613,17 @@
             "title_fight": false
           },
           {
-            "red": "Sergei Pavlovich",
-            "blue": "Alex Pereira",
-            "red_rank": "#3",
+            "red": "Alex Pereira",
+            "blue": "Sergei Pavlovich",
+            "red_rank": "",
             "blue_rank": "",
-            "red_odds": "-205",
-            "blue_odds": "+170",
-            "red_country": "Russia",
-            "blue_country": "Brazil",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/PAVLOVICH_SERGEI_L_05-30.png?itok=p-NxVbjP",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/PEREIRA_ALEX_R_10-04.png?itok=MTT8kXap",
-            "weight_class": "Heavyweight Bout",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Brazil",
+            "blue_country": "Russia",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/PEREIRA_ALEX_L.png?itok=40KEyjeK",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/PAVLOVICH_SERGEI_R_06-22.png?itok=ud2uD1Tl",
+            "weight_class": "TBD",
             "title_fight": false
           },
           {
