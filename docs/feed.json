@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-04T15:45:59.359492Z",
-  "generated_at_ist": "2026-11-04T21:15:59.359495+05:30",
+  "generated_at_utc": "2026-11-04T21:31:46.848689Z",
+  "generated_at_ist": "2026-11-05T03:01:46.848692+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO PAULO 2026",
@@ -760,6 +760,34 @@
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/7/GUSKOV_BOGDAN_L_01-18.png?itok=FohFgC68",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/WHITTAKER_ROBERT_R_07-11.png?itok=MAc6E7xv",
             "weight_class": "Light Heavyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Marwan Rahiki",
+            "blue": "JooSang Yoo",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Morocco",
+            "blue_country": "South Korea",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/RAHIKI_MARWAN_L_05-02.png?itok=ZCvYmcq7",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/YOO_JOOSANG_R_09-19.png?itok=r-71yNyU",
+            "weight_class": "Featherweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Kaan Ofli",
+            "blue": "Joanderson Brito",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Australia",
+            "blue_country": "Brazil",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/OFLI_KAAN_L_06-27.png?itok=YVZiFcD0",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/BRITO_JOANDERSON_R_09-19.png?itok=npTfeyHc",
+            "weight_class": "Featherweight Bout",
             "title_fight": false
           }
         ],
