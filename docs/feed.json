@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-04T00:53:46.528614Z",
-  "generated_at_ist": "2026-11-04T06:23:46.528617+05:30",
+  "generated_at_utc": "2026-11-04T07:28:55.526494Z",
+  "generated_at_ist": "2026-11-04T12:58:55.526497+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO PAULO 2026",
@@ -391,20 +391,6 @@
           "title_fight": false
         },
         {
-          "red": "Seokhyeon Ko",
-          "blue": "Wellington Turman",
-          "red_rank": "",
-          "blue_rank": "",
-          "red_odds": "-",
-          "blue_odds": "-",
-          "red_country": "South Korea",
-          "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-06/KO_SEOKHYEON_L_06-21.png?itok=0TbU7QQZ",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/TURMAN_WELLINGTON_R_07-25.png?itok=edl-tevT",
-          "weight_class": "Welterweight Bout",
-          "title_fight": false
-        },
-        {
           "red": "Billy Elekana",
           "blue": "Lucas Fernando",
           "red_rank": "",
@@ -416,6 +402,20 @@
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/ELEKANA_BILLY_L_01-31.png?itok=11376dr5",
           "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/FERNANDO_LUCAS_R_08-15.png?itok=6rJIETAv",
           "weight_class": "Light Heavyweight Bout",
+          "title_fight": false
+        },
+        {
+          "red": "Priscila Cachoeira",
+          "blue": "Nina Milošević",
+          "red_rank": "",
+          "blue_rank": "",
+          "red_odds": "-",
+          "blue_odds": "-",
+          "red_country": "Brazil",
+          "blue_country": "Serbia",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/CACHOEIRA_PRISCILA_L_06-06.png?itok=H8kx523Z",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/MILOSEVIC_NINA_L_08-01.png?itok=Xacar1A1",
+          "weight_class": "Women's Bantamweight Bout",
           "title_fight": false
         }
       ],
