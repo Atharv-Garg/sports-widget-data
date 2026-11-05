@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-05T17:38:50.946754Z",
-  "generated_at_ist": "2026-11-05T23:08:50.946757+05:30",
+  "generated_at_utc": "2026-11-05T22:51:56.055801Z",
+  "generated_at_ist": "2026-11-06T04:21:56.055804+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO PAULO 2026",
@@ -357,8 +357,8 @@
           "blue_odds": "-",
           "red_country": "Dominican Republic",
           "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/CORTES_ACOSTA_WALDO_L_09-12.png?itok=xe7OyefZ",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/WALKER_JOHNNY_R_04-11.png?itok=AvyI1teS",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/CORTES_ACOSTA_WALDO_L_11-07.png?itok=cOBtoLES",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/WALKER_JOHNNY_R_11-07.png?itok=brgNu9NT",
           "weight_class": "Heavyweight Bout",
           "title_fight": false
         },
@@ -371,8 +371,8 @@
           "blue_odds": "-",
           "red_country": "United States",
           "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/SUAREZ_TATIANA_L_04-11.png?itok=-XhH4172",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-04/JANDIROBA_VIRNA_R_04-12.png?itok=4Kts2B55",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/SUAREZ_TATIANA_L_11-07.png?itok=g-WMLXbt",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/JANDIROBA_VIRNA_R_11-07.png?itok=LMckld4G",
           "weight_class": "Women's Strawweight Bout",
           "title_fight": false
         },
@@ -385,8 +385,8 @@
           "blue_odds": "-",
           "red_country": "England",
           "blue_country": "United States",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/GRANT_DAVEY_L_04-25.png?itok=RTtukIUQ",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-02/SMITH_ELIJAH_R_02-15.png?itok=1jzq2URZ",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/GRANT_DAVEY_L_11-07.png?itok=IO3vOpCw",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/SMITH_ELIJAH_R_11-07.png?itok=_aWAVN_X",
           "weight_class": "Bantamweight Bout",
           "title_fight": false
         },
@@ -399,8 +399,8 @@
           "blue_odds": "-",
           "red_country": "United States",
           "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/ELEKANA_BILLY_L_01-31.png?itok=11376dr5",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/FERNANDO_LUCAS_R_08-15.png?itok=6rJIETAv",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/ELEKANA_BILLY_L_11-07.png?itok=mwabAZZ2",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/FERNANDO_LUCAS_R_11-07.png?itok=Tf30Vf8q",
           "weight_class": "Light Heavyweight Bout",
           "title_fight": false
         },
@@ -413,8 +413,8 @@
           "blue_odds": "-",
           "red_country": "Brazil",
           "blue_country": "Serbia",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/CACHOEIRA_PRISCILA_L_06-06.png?itok=H8kx523Z",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/MILOSEVIC_NINA_L_08-01.png?itok=Xacar1A1",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/CACHOEIRA_PRISCILA_L_11-07.png?itok=qleRQPpE",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/MILOSEVIC_NINA_R_11-07.png?itok=vvDM-ZXt",
           "weight_class": "Women's Bantamweight Bout",
           "title_fight": false
         }
@@ -558,6 +558,20 @@
             "title_fight": false
           },
           {
+            "red": "Kyoji Horiguchi",
+            "blue": "Asu Almabayev",
+            "red_rank": "#5",
+            "blue_rank": "#7",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Japan",
+            "blue_country": "Kazakhstan",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/HORIGUCHI_KYOJI_R_11-22.png?itok=qRrP_oHZ",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/ALMABAYEV_ASU_R_11-22.png?itok=PvfpY_3W",
+            "weight_class": "Flyweight Bout",
+            "title_fight": false
+          },
+          {
             "red": "Jared Cannonier",
             "blue": "Ikram Aliskerov",
             "red_rank": "#12",
@@ -569,20 +583,6 @@
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/CANNONIER_JARED_L_07-18.png?itok=yBmEEtM9",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-06/ALISKEROV_IKRAM_R_06-22.png?itok=BA8p0tjX",
             "weight_class": "Middleweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Shamil Gaziev",
-            "blue": "Tallison Teixeira",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Bahrain",
-            "blue_country": "Brazil",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/GAZIEV_SHAMIL_L_05-02.png?itok=__SWao2O",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/TEIXEIRA_TALLISON_R_07-12.png?itok=OkqxReP6",
-            "weight_class": "Heavyweight Bout",
             "title_fight": false
           }
         ],
@@ -603,8 +603,8 @@
             "blue": "Diego Lopes",
             "red_rank": "#3",
             "blue_rank": "",
-            "red_odds": "-150",
-            "blue_odds": "+125",
+            "red_odds": "-155",
+            "blue_odds": "+130",
             "red_country": "Brazil",
             "blue_country": "Brazil",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/OLIVEIRA_CHARLES_L_BMFMOCK.png?itok=ZzbBba4A",
