@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-06T03:25:15.753756Z",
-  "generated_at_ist": "2026-11-06T08:55:15.753759+05:30",
+  "generated_at_utc": "2026-11-06T11:30:16.277293Z",
+  "generated_at_ist": "2026-11-06T17:00:16.277296+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO PAULO 2026",
@@ -349,6 +349,20 @@
       "main_card_start_utc": "2026-11-08T01:00:00Z",
       "main_card": [
         {
+          "red": "Waldo Cortes Acosta",
+          "blue": "Johnny Walker",
+          "red_rank": "#6",
+          "blue_rank": "",
+          "red_odds": "-",
+          "blue_odds": "-",
+          "red_country": "Dominican Republic",
+          "blue_country": "Brazil",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/CORTES_ACOSTA_WALDO_L_11-07.png?itok=cOBtoLES",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/WALKER_JOHNNY_R_11-07.png?itok=brgNu9NT",
+          "weight_class": "Heavyweight Bout",
+          "title_fight": false
+        },
+        {
           "red": "Tatiana Suarez",
           "blue": "Virna Jandiroba",
           "red_rank": "#2",
@@ -402,20 +416,6 @@
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/CACHOEIRA_PRISCILA_L_11-07.png?itok=qleRQPpE",
           "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/MILOSEVIC_NINA_R_11-07.png?itok=vvDM-ZXt",
           "weight_class": "Women's Bantamweight Bout",
-          "title_fight": false
-        },
-        {
-          "red": "Mitch Raposo",
-          "blue": "Marcos Degli",
-          "red_rank": "",
-          "blue_rank": "",
-          "red_odds": "-",
-          "blue_odds": "-",
-          "red_country": "United States",
-          "blue_country": "Brazil",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/RAPOSO_MITCH_L_11-07.png?itok=QZSufPYg",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/DEGLI_MARCOS_R_11-07.png?itok=8WNkR2_R",
-          "weight_class": "Flyweight Bout",
           "title_fight": false
         }
       ],
