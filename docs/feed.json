@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-07T20:29:52.061612Z",
-  "generated_at_ist": "2026-11-08T01:59:52.061615+05:30",
+  "generated_at_utc": "2026-11-07T23:57:49.497783Z",
+  "generated_at_ist": "2026-11-08T05:27:49.497786+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO PAULO 2026",
@@ -353,8 +353,8 @@
           "blue": "Johnny Walker",
           "red_rank": "#6",
           "blue_rank": "",
-          "red_odds": "-",
-          "blue_odds": "-",
+          "red_odds": "-225",
+          "blue_odds": "+185",
           "red_country": "Dominican Republic",
           "blue_country": "Brazil",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/CORTES_ACOSTA_WALDO_L_11-07.png?itok=cOBtoLES",
@@ -367,8 +367,8 @@
           "blue": "Virna Jandiroba",
           "red_rank": "#2",
           "blue_rank": "#3",
-          "red_odds": "-",
-          "blue_odds": "-",
+          "red_odds": "-198",
+          "blue_odds": "+164",
           "red_country": "United States",
           "blue_country": "Brazil",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/SUAREZ_TATIANA_L_11-07.png?itok=g-WMLXbt",
@@ -381,8 +381,8 @@
           "blue": "Elijah Smith",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-",
-          "blue_odds": "-",
+          "red_odds": "+260",
+          "blue_odds": "-320",
           "red_country": "England",
           "blue_country": "United States",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/GRANT_DAVEY_L_11-07.png?itok=IO3vOpCw",
@@ -395,8 +395,8 @@
           "blue": "Lucas Fernando",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-",
-          "blue_odds": "-",
+          "red_odds": "+265",
+          "blue_odds": "-330",
           "red_country": "United States",
           "blue_country": "Brazil",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/ELEKANA_BILLY_L_11-07.png?itok=mwabAZZ2",
@@ -409,8 +409,8 @@
           "blue": "Nina Milošević",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-",
-          "blue_odds": "-",
+          "red_odds": "+390",
+          "blue_odds": "-520",
           "red_country": "Brazil",
           "blue_country": "Serbia",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/CACHOEIRA_PRISCILA_L_11-07.png?itok=qleRQPpE",
@@ -797,8 +797,5 @@
       }
     ]
   },
-  "_warnings": [
-    "F1 fetch failed: HTTP Error 401: Unauthorized",
-    "F1 empty; reused previous feed's races (last-known-good)"
-  ]
+  "_warnings": []
 }
