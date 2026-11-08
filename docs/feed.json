@@ -1,102 +1,55 @@
 {
-  "generated_at_utc": "2026-11-08T18:29:48.583804Z",
-  "generated_at_ist": "2026-11-08T23:59:48.583806+05:30",
+  "generated_at_utc": "2026-11-08T22:28:52.418612Z",
+  "generated_at_ist": "2026-11-09T03:58:52.418615+05:30",
   "f1": {
     "next": {
-      "name": "FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO PAULO 2026",
-      "short_name": "São Paulo Grand Prix",
-      "round": 1299,
-      "circuit": "Interlagos",
-      "location": "São Paulo",
-      "country": "Brazil",
-      "flag_emoji": "🇧🇷",
+      "name": "FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2026",
+      "short_name": "Las Vegas Grand Prix",
+      "round": 1300,
+      "circuit": "Las Vegas",
+      "location": "Las Vegas",
+      "country": "United States",
+      "flag_emoji": "🇺🇸",
       "external_url": "https://www.formula1.com/en/racing/2026.html",
       "sessions": [
         {
           "type": "FP1",
-          "start_utc": "2026-11-06T15:30:00+00:00",
-          "end_utc": "2026-11-06T16:30:00+00:00",
-          "start_ist": "2026-11-06T21:00:00+05:30",
-          "end_ist": "2026-11-06T22:00:00+05:30"
+          "start_utc": "2026-11-20T00:30:00+00:00",
+          "end_utc": "2026-11-20T01:30:00+00:00",
+          "start_ist": "2026-11-20T06:00:00+05:30",
+          "end_ist": "2026-11-20T07:00:00+05:30"
         },
         {
           "type": "FP2",
-          "start_utc": "2026-11-06T19:00:00+00:00",
-          "end_utc": "2026-11-06T20:00:00+00:00",
-          "start_ist": "2026-11-07T00:30:00+05:30",
-          "end_ist": "2026-11-07T01:30:00+05:30"
+          "start_utc": "2026-11-20T04:00:00+00:00",
+          "end_utc": "2026-11-20T05:00:00+00:00",
+          "start_ist": "2026-11-20T09:30:00+05:30",
+          "end_ist": "2026-11-20T10:30:00+05:30"
         },
         {
           "type": "FP3",
-          "start_utc": "2026-11-07T14:30:00+00:00",
-          "end_utc": "2026-11-07T15:30:00+00:00",
-          "start_ist": "2026-11-07T20:00:00+05:30",
-          "end_ist": "2026-11-07T21:00:00+05:30"
+          "start_utc": "2026-11-21T00:30:00+00:00",
+          "end_utc": "2026-11-21T01:30:00+00:00",
+          "start_ist": "2026-11-21T06:00:00+05:30",
+          "end_ist": "2026-11-21T07:00:00+05:30"
         },
         {
           "type": "Qualifying",
-          "start_utc": "2026-11-07T18:00:00+00:00",
-          "end_utc": "2026-11-07T19:00:00+00:00",
-          "start_ist": "2026-11-07T23:30:00+05:30",
-          "end_ist": "2026-11-08T00:30:00+05:30"
+          "start_utc": "2026-11-21T04:00:00+00:00",
+          "end_utc": "2026-11-21T05:00:00+00:00",
+          "start_ist": "2026-11-21T09:30:00+05:30",
+          "end_ist": "2026-11-21T10:30:00+05:30"
         },
         {
           "type": "Race",
-          "start_utc": "2026-11-08T17:00:00+00:00",
-          "end_utc": "2026-11-08T19:00:00+00:00",
-          "start_ist": "2026-11-08T22:30:00+05:30",
-          "end_ist": "2026-11-09T00:30:00+05:30"
+          "start_utc": "2026-11-22T04:00:00+00:00",
+          "end_utc": "2026-11-22T06:00:00+00:00",
+          "start_ist": "2026-11-22T09:30:00+05:30",
+          "end_ist": "2026-11-22T11:30:00+05:30"
         }
       ]
     },
     "upcoming": [
-      {
-        "name": "FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2026",
-        "short_name": "Las Vegas Grand Prix",
-        "round": 1300,
-        "circuit": "Las Vegas",
-        "location": "Las Vegas",
-        "country": "United States",
-        "flag_emoji": "🇺🇸",
-        "external_url": "https://www.formula1.com/en/racing/2026.html",
-        "sessions": [
-          {
-            "type": "FP1",
-            "start_utc": "2026-11-20T00:30:00+00:00",
-            "end_utc": "2026-11-20T01:30:00+00:00",
-            "start_ist": "2026-11-20T06:00:00+05:30",
-            "end_ist": "2026-11-20T07:00:00+05:30"
-          },
-          {
-            "type": "FP2",
-            "start_utc": "2026-11-20T04:00:00+00:00",
-            "end_utc": "2026-11-20T05:00:00+00:00",
-            "start_ist": "2026-11-20T09:30:00+05:30",
-            "end_ist": "2026-11-20T10:30:00+05:30"
-          },
-          {
-            "type": "FP3",
-            "start_utc": "2026-11-21T00:30:00+00:00",
-            "end_utc": "2026-11-21T01:30:00+00:00",
-            "start_ist": "2026-11-21T06:00:00+05:30",
-            "end_ist": "2026-11-21T07:00:00+05:30"
-          },
-          {
-            "type": "Qualifying",
-            "start_utc": "2026-11-21T04:00:00+00:00",
-            "end_utc": "2026-11-21T05:00:00+00:00",
-            "start_ist": "2026-11-21T09:30:00+05:30",
-            "end_ist": "2026-11-21T10:30:00+05:30"
-          },
-          {
-            "type": "Race",
-            "start_utc": "2026-11-22T04:00:00+00:00",
-            "end_utc": "2026-11-22T06:00:00+00:00",
-            "start_ist": "2026-11-22T09:30:00+05:30",
-            "end_ist": "2026-11-22T11:30:00+05:30"
-          }
-        ]
-      },
       {
         "name": "FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2026",
         "short_name": "Qatar Grand Prix",
@@ -190,6 +143,46 @@
             "end_ist": "2026-12-06T20:30:00+05:30"
           }
         ]
+      },
+      {
+        "name": "FORMULA 1 ARAMCO PRE-SEASON TESTING 2027",
+        "short_name": "Pre-Season Testing",
+        "round": 1309,
+        "circuit": "Sakhir",
+        "location": "Sakhir",
+        "country": "Bahrain",
+        "flag_emoji": "🇧🇭",
+        "external_url": "https://www.formula1.com/en/racing/2027.html",
+        "sessions": [
+          {
+            "type": "Day 1",
+            "start_utc": "2027-02-24T04:00:00+00:00",
+            "end_utc": "2027-02-24T12:00:00+00:00",
+            "start_ist": "2027-02-24T09:30:00+05:30",
+            "end_ist": "2027-02-24T17:30:00+05:30"
+          },
+          {
+            "type": "Day 2",
+            "start_utc": "2027-02-25T04:00:00+00:00",
+            "end_utc": "2027-02-25T12:00:00+00:00",
+            "start_ist": "2027-02-25T09:30:00+05:30",
+            "end_ist": "2027-02-25T17:30:00+05:30"
+          },
+          {
+            "type": "Day 3",
+            "start_utc": "2027-02-26T04:00:00+00:00",
+            "end_utc": "2027-02-26T12:00:00+00:00",
+            "start_ist": "2027-02-26T09:30:00+05:30",
+            "end_ist": "2027-02-26T17:30:00+05:30"
+          },
+          {
+            "type": "Day 4",
+            "start_utc": "2027-02-27T04:00:00+00:00",
+            "end_utc": "2027-02-27T12:00:00+00:00",
+            "start_ist": "2027-02-27T09:30:00+05:30",
+            "end_ist": "2027-02-27T17:30:00+05:30"
+          }
+        ]
       }
     ],
     "standings": {
@@ -198,7 +191,7 @@
           "position": 1,
           "code": "ANT",
           "name": "Antonelli",
-          "points": 380,
+          "points": 390,
           "team": "Mercedes",
           "color": "#27F4D2"
         },
@@ -206,31 +199,31 @@
           "position": 2,
           "code": "VER",
           "name": "Verstappen",
-          "points": 261,
+          "points": 279,
           "team": "Red Bull",
           "color": "#3671C6"
         },
         {
           "position": 3,
-          "code": "HAM",
-          "name": "Hamilton",
-          "points": 259,
-          "team": "Ferrari",
-          "color": "#E8002D"
+          "code": "RUS",
+          "name": "Russell",
+          "points": 262,
+          "team": "Mercedes",
+          "color": "#27F4D2"
         },
         {
           "position": 4,
-          "code": "RUS",
-          "name": "Russell",
-          "points": 250,
-          "team": "Mercedes",
-          "color": "#27F4D2"
+          "code": "HAM",
+          "name": "Hamilton",
+          "points": 261,
+          "team": "Ferrari",
+          "color": "#E8002D"
         },
         {
           "position": 5,
           "code": "LEC",
           "name": "Leclerc",
-          "points": 245,
+          "points": 251,
           "team": "Ferrari",
           "color": "#E8002D"
         },
@@ -238,7 +231,7 @@
           "position": 6,
           "code": "NOR",
           "name": "Norris",
-          "points": 221,
+          "points": 246,
           "team": "McLaren",
           "color": "#FF8000"
         },
@@ -246,7 +239,7 @@
           "position": 7,
           "code": "PIA",
           "name": "Piastri",
-          "points": 144,
+          "points": 152,
           "team": "McLaren",
           "color": "#FF8000"
         },
@@ -254,7 +247,7 @@
           "position": 8,
           "code": "HAD",
           "name": "Hadjar",
-          "points": 107,
+          "points": 122,
           "team": "Red Bull",
           "color": "#3671C6"
         },
@@ -262,7 +255,7 @@
           "position": 9,
           "code": "LAW",
           "name": "Lawson",
-          "points": 83,
+          "points": 87,
           "team": "Red Bull",
           "color": "#3671C6"
         },
@@ -279,31 +272,31 @@
         {
           "position": 1,
           "name": "Mercedes",
-          "points": 630,
+          "points": 652,
           "color": "#27F4D2"
         },
         {
           "position": 2,
           "name": "Ferrari",
-          "points": 504,
+          "points": 512,
           "color": "#E8002D"
         },
         {
           "position": 3,
           "name": "Red Bull",
-          "points": 382,
+          "points": 415,
           "color": "#3671C6"
         },
         {
           "position": 4,
           "name": "McLaren",
-          "points": 365,
+          "points": 398,
           "color": "#FF8000"
         },
         {
           "position": 5,
           "name": "RB F1 Team",
-          "points": 108,
+          "points": 112,
           "color": "#6692FF"
         },
         {
@@ -321,7 +314,7 @@
         {
           "position": 8,
           "name": "Audi",
-          "points": 27,
+          "points": 28,
           "color": "#009982"
         },
         {
@@ -714,8 +707,5 @@
       }
     ]
   },
-  "_warnings": [
-    "F1 fetch failed: HTTP Error 401: Unauthorized",
-    "F1 empty; reused previous feed's races (last-known-good)"
-  ]
+  "_warnings": []
 }
