@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-08T22:28:52.418612Z",
-  "generated_at_ist": "2026-11-09T03:58:52.418615+05:30",
+  "generated_at_utc": "2026-11-09T01:58:23.460521Z",
+  "generated_at_ist": "2026-11-09T07:28:23.460524+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2026",
@@ -223,7 +223,7 @@
           "position": 5,
           "code": "LEC",
           "name": "Leclerc",
-          "points": 251,
+          "points": 249,
           "team": "Ferrari",
           "color": "#E8002D"
         },
@@ -255,7 +255,7 @@
           "position": 9,
           "code": "LAW",
           "name": "Lawson",
-          "points": 87,
+          "points": 89,
           "team": "Red Bull",
           "color": "#3671C6"
         },
@@ -278,7 +278,7 @@
         {
           "position": 2,
           "name": "Ferrari",
-          "points": 512,
+          "points": 510,
           "color": "#E8002D"
         },
         {
@@ -296,7 +296,7 @@
         {
           "position": 5,
           "name": "RB F1 Team",
-          "points": 112,
+          "points": 114,
           "color": "#6692FF"
         },
         {
