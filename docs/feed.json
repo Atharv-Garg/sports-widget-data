@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-09T20:09:17.194557Z",
-  "generated_at_ist": "2026-11-10T01:39:17.194559+05:30",
+  "generated_at_utc": "2026-11-10T02:43:15.705800Z",
+  "generated_at_ist": "2026-11-10T08:13:15.705804+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2026",
@@ -499,6 +499,89 @@
         "url": "https://www.ufc.com/event/ufc-fight-night-november-21-2026",
         "_source": "ufc.com",
         "main_card_start_ist": "2026-11-21T23:30:00+05:30"
+      },
+      {
+        "name": "UFC Fight Night: Adesanya vs Magomedov",
+        "kind": "Fight Night",
+        "venue": "The Venue",
+        "city": "Riyadh Saudi Arabia",
+        "country": "",
+        "main_card_start_utc": "2026-12-05T18:00:00Z",
+        "main_card": [
+          {
+            "red": "Israel Adesanya",
+            "blue": "Shara Magomedov",
+            "red_rank": "#9",
+            "blue_rank": "#15",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Nigeria",
+            "blue_country": "Russia",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/ADESANYA_ISRAEL_L_03-28.png?itok=aIr9nof4",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/MAGOMEDOV_SHARA_R_06-22.png?itok=7FqoiXhr",
+            "weight_class": "Middleweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Ian Machado Garry",
+            "blue": "Yaroslav Amosov",
+            "red_rank": "#1",
+            "blue_rank": "#11",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Ireland",
+            "blue_country": "Ukraine",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-04/MACHADO_GARRY_IAN_L_04-26.png?itok=vunlHb77",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/AMOSOV_YAROSLAV_R_12-13.png?itok=D_Y7w3-g",
+            "weight_class": "Welterweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Serghei Spivac",
+            "blue": "Mario Pinto",
+            "red_rank": "#9",
+            "blue_rank": "#15",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Moldova",
+            "blue_country": "Portugal",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/SPIVAC_SERGHEI_L_08-22.png?itok=4zTw1bbp",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/PINTO_MARIO_R_10-11.png?itok=dYjm2-Hv",
+            "weight_class": "Heavyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Levan Chokheli",
+            "blue": "Islam Dulatov",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Georgia",
+            "blue_country": "Türkiye",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/CHOKHELI_LEVAN_R_06-20.png?itok=ASP8_llp",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-07/DULATOV_ISLAM_R_07-19.png?itok=-KhE0UjR",
+            "weight_class": "Welterweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Mairon Santos",
+            "blue": "Akbar Abdullaev",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Brazil",
+            "blue_country": "Kyrgyzstan",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/SANTOS_MAIRON_L_03-08.png?itok=KKCT8q9C",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/ABDULLAEV_AKBAR_R_09-15.png?itok=fpJyCKCG",
+            "weight_class": "Lightweight Bout",
+            "title_fight": false
+          }
+        ],
+        "url": "https://www.ufc.com/event/ufc-fight-night-december-05-2026",
+        "_source": "ufc.com",
+        "main_card_start_ist": "2026-12-05T23:30:00+05:30"
       },
       {
         "name": "UFC 335: Oliveira vs Lopes",
