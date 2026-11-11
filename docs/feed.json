@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-10T23:25:17.505842Z",
-  "generated_at_ist": "2026-11-11T04:55:17.505845+05:30",
+  "generated_at_utc": "2026-11-11T03:01:04.992216Z",
+  "generated_at_ist": "2026-11-11T08:31:04.992219+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2026",
@@ -596,8 +596,8 @@
             "blue": "Diego Lopes",
             "red_rank": "#3",
             "blue_rank": "",
-            "red_odds": "-155",
-            "blue_odds": "+130",
+            "red_odds": "-150",
+            "blue_odds": "+125",
             "red_country": "Brazil",
             "blue_country": "Brazil",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/OLIVEIRA_CHARLES_L_BMFMOCK.png?itok=ZzbBba4A",
