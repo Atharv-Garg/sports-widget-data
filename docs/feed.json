@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-13T02:54:51.519472Z",
-  "generated_at_ist": "2026-11-13T08:24:51.519475+05:30",
+  "generated_at_utc": "2026-11-13T10:55:38.417420Z",
+  "generated_at_ist": "2026-11-13T16:25:38.417422+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2026",
@@ -346,8 +346,8 @@
           "blue": "Josh Hokit",
           "red_rank": "C",
           "blue_rank": "#4",
-          "red_odds": "-170",
-          "blue_odds": "+140",
+          "red_odds": "-200",
+          "blue_odds": "+165",
           "red_country": "France",
           "blue_country": "United States",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-11/GANE_CIRYL_L_BELT_11-14.png?itok=oFC2_aFo",
