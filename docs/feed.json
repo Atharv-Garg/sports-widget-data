@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-16T18:55:33.103437Z",
-  "generated_at_ist": "2026-11-17T00:25:33.103439+05:30",
+  "generated_at_utc": "2026-11-17T02:27:30.977400Z",
+  "generated_at_ist": "2026-11-17T07:57:30.977404+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2026",
@@ -443,7 +443,7 @@
             "red": "Ian Machado Garry",
             "blue": "Yaroslav Amosov",
             "red_rank": "#1",
-            "blue_rank": "#11",
+            "blue_rank": "#12",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "Ireland",
@@ -456,7 +456,7 @@
           {
             "red": "Serghei Spivac",
             "blue": "Mario Pinto",
-            "red_rank": "#9",
+            "red_rank": "#10",
             "blue_rank": "#15",
             "red_odds": "-",
             "blue_odds": "-",
@@ -774,7 +774,7 @@
             "red": "Bogdan Guskov",
             "blue": "Robert Whittaker",
             "red_rank": "#8",
-            "blue_rank": "#11",
+            "blue_rank": "#10",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "Uzbekistan",
