@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-23T00:29:01.059403Z",
-  "generated_at_ist": "2026-11-23T05:59:01.059405+05:30",
+  "generated_at_utc": "2026-11-23T08:14:20.203165Z",
+  "generated_at_ist": "2026-11-23T13:44:20.203169+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2026",
@@ -464,7 +464,7 @@
             "blue_country": "United States",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/MORENO_BRANDON_L_09-12.png?itok=ot9Qm8dd",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/JOHNSON_CHARLES_R_01-24.png?itok=lctx4p36",
-            "weight_class": "TBD",
+            "weight_class": "Flyweight Bout",
             "title_fight": false
           },
           {
@@ -805,5 +805,7 @@
       }
     ]
   },
-  "_warnings": []
+  "_warnings": [
+    "F1 standings fetch failed: The read operation timed out; reusing previous"
+  ]
 }
