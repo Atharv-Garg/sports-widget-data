@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-23T08:14:20.203165Z",
-  "generated_at_ist": "2026-11-23T13:44:20.203169+05:30",
+  "generated_at_utc": "2026-11-23T20:13:31.095348Z",
+  "generated_at_ist": "2026-11-24T01:43:31.095352+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2026",
@@ -592,17 +592,17 @@
         "main_card_start_utc": "2027-01-24T01:00:00Z",
         "main_card": [
           {
-            "red": "Gabriel Bonfim",
-            "blue": "Sean Brady",
-            "red_rank": "#5",
-            "blue_rank": "#6",
+            "red": "Sean Brady",
+            "blue": "Gabriel Bonfim",
+            "red_rank": "#6",
+            "blue_rank": "#5",
             "red_odds": "-130",
             "blue_odds": "+110",
-            "red_country": "Brazil",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/BONFIM_GABRIEL_L_11-08.png?itok=BeSZUr8a",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/BRADY_SEAN_R_03-22.png?itok=zU8ITEU5",
-            "weight_class": "TBD",
+            "red_country": "United States",
+            "blue_country": "Brazil",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/BRADY_SEAN_L_05-09.png?itok=8fki7UPx",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/BONFIM_GABRIEL_R_06-06.png?itok=xe0dZNv6",
+            "weight_class": "Welterweight Bout",
             "title_fight": false
           }
         ],
@@ -629,8 +629,8 @@
             "blue_country": "Portugal",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/VAN_JOSHUA_L_BELT_09-19.png?itok=bbecsBBL",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/KAPE_MANEL_R_12-13.png?itok=ohNPBhpu",
-            "weight_class": "TBD",
-            "title_fight": false
+            "weight_class": "Flyweight Title Bout",
+            "title_fight": true
           },
           {
             "red": "Carlos Prates",
@@ -643,8 +643,8 @@
             "blue_country": "Ecuador",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/5/PRATES_CARLOS_L_08-17.png?itok=VY7BAjV5",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/MORALES_MICHAEL_R_11-15.png?itok=lhzHlqBV",
-            "weight_class": "TBD",
-            "title_fight": false
+            "weight_class": "Welterweight Interim Title Bout",
+            "title_fight": true
           },
           {
             "red": "Lance Gibson Jr.",
@@ -657,7 +657,7 @@
             "blue_country": "United States",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-12/GIBSON_JR_LANCE_R_12-13.png?itok=nWDVqON9",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/JOHNSON_MICHAEL_R_03-07.png?itok=XInNjFZr",
-            "weight_class": "TBD",
+            "weight_class": "Lightweight Bout",
             "title_fight": false
           },
           {
@@ -671,7 +671,7 @@
             "blue_country": "England",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-10/SIDEY_SERHIY_L_11-02.png?itok=Jaig6dtG",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/SCOTT_LOUIS_LEE_R_08-19.png?itok=NgpOKRq9",
-            "weight_class": "TBD",
+            "weight_class": "Bantamweight Bout",
             "title_fight": false
           },
           {
@@ -685,7 +685,7 @@
             "blue_country": "Scotland",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/NELSON_CAM_R_08-29.png?itok=Sjvpig8N",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/CLANCY_JR_SEAN_R_08-25.png?itok=XxMOc--1",
-            "weight_class": "TBD",
+            "weight_class": "Welterweight Bout",
             "title_fight": false
           }
         ],
@@ -712,7 +712,7 @@
             "blue_country": "France",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/SALKILLD_QUILLAN_L_01-31.png?itok=YcLp6904",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-01/SAINT_DENIS_BENOIT_R_01-31.png?itok=QWAO-WUe",
-            "weight_class": "TBD",
+            "weight_class": "Lightweight Bout",
             "title_fight": false
           },
           {
@@ -726,7 +726,7 @@
             "blue_country": "Australia",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-01/7/GUSKOV_BOGDAN_L_01-18.png?itok=FohFgC68",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/WHITTAKER_ROBERT_R_07-11.png?itok=MAc6E7xv",
-            "weight_class": "TBD",
+            "weight_class": "Light Heavyweight Bout",
             "title_fight": false
           },
           {
@@ -740,7 +740,7 @@
             "blue_country": "England",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/MICALLEF_JONATHAN_L_05-02.png?itok=1GNqY9GI",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/PATTERSON_SAM_R_07-25.png?itok=bXYil1gO",
-            "weight_class": "TBD",
+            "weight_class": "Welterweight Bout",
             "title_fight": false
           },
           {
@@ -754,7 +754,7 @@
             "blue_country": "South Korea",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/RAHIKI_MARWAN_L_05-02.png?itok=ZCvYmcq7",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/YOO_JOOSANG_R_09-19.png?itok=r-71yNyU",
-            "weight_class": "TBD",
+            "weight_class": "Featherweight Bout",
             "title_fight": false
           },
           {
@@ -768,7 +768,7 @@
             "blue_country": "Brazil",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/OFLI_KAAN_L_06-27.png?itok=YVZiFcD0",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/BRITO_JOANDERSON_R_09-19.png?itok=npTfeyHc",
-            "weight_class": "TBD",
+            "weight_class": "Featherweight Bout",
             "title_fight": false
           }
         ],
@@ -795,7 +795,7 @@
             "blue_country": "United States",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-06/PYFER_JOE_L_06-29.png?itok=uphqCuCw",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/NICKAL_BO_R_05-03.png?itok=P4NaoA3s",
-            "weight_class": "TBD",
+            "weight_class": "Middleweight Bout",
             "title_fight": false
           }
         ],
@@ -805,7 +805,5 @@
       }
     ]
   },
-  "_warnings": [
-    "F1 standings fetch failed: The read operation timed out; reusing previous"
-  ]
+  "_warnings": []
 }
