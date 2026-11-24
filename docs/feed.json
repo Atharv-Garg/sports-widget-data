@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-23T20:13:31.095348Z",
-  "generated_at_ist": "2026-11-24T01:43:31.095352+05:30",
+  "generated_at_utc": "2026-11-24T04:47:10.338043Z",
+  "generated_at_ist": "2026-11-24T10:17:10.338045+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2026",
@@ -346,8 +346,8 @@
           "blue": "Shara Magomedov",
           "red_rank": "#9",
           "blue_rank": "#15",
-          "red_odds": "-165",
-          "blue_odds": "+140",
+          "red_odds": "-170",
+          "blue_odds": "+145",
           "red_country": "Nigeria",
           "blue_country": "Russia",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/ADESANYA_ISRAEL_L_03-28.png?itok=aIr9nof4",
@@ -370,26 +370,12 @@
           "title_fight": false
         },
         {
-          "red": "Serghei Spivac",
-          "blue": "Mario Pinto",
-          "red_rank": "#10",
-          "blue_rank": "#15",
-          "red_odds": "-",
-          "blue_odds": "-",
-          "red_country": "Moldova",
-          "blue_country": "Portugal",
-          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/SPIVAC_SERGHEI_L_08-22.png?itok=4zTw1bbp",
-          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/PINTO_MARIO_R_10-11.png?itok=dYjm2-Hv",
-          "weight_class": "Heavyweight Bout",
-          "title_fight": false
-        },
-        {
           "red": "Levan Chokheli",
           "blue": "Islam Dulatov",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-",
-          "blue_odds": "-",
+          "red_odds": "+185",
+          "blue_odds": "-225",
           "red_country": "Georgia",
           "blue_country": "Türkiye",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/CHOKHELI_LEVAN_R_06-20.png?itok=ASP8_llp",
@@ -398,12 +384,26 @@
           "title_fight": false
         },
         {
+          "red": "Serghei Spivac",
+          "blue": "Mario Pinto",
+          "red_rank": "#10",
+          "blue_rank": "#15",
+          "red_odds": "+270",
+          "blue_odds": "-340",
+          "red_country": "Moldova",
+          "blue_country": "Portugal",
+          "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/SPIVAC_SERGHEI_L_08-22.png?itok=4zTw1bbp",
+          "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-10/PINTO_MARIO_R_10-11.png?itok=dYjm2-Hv",
+          "weight_class": "Heavyweight Bout",
+          "title_fight": false
+        },
+        {
           "red": "Mairon Santos",
           "blue": "Akbar Abdullaev",
           "red_rank": "",
           "blue_rank": "",
-          "red_odds": "-",
-          "blue_odds": "-",
+          "red_odds": "+260",
+          "blue_odds": "-320",
           "red_country": "Brazil",
           "blue_country": "Kyrgyzstan",
           "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/SANTOS_MAIRON_L_03-08.png?itok=KKCT8q9C",
@@ -802,6 +802,18 @@
         "url": "https://www.ufc.com/event/ufc-fight-night-february-13-2027",
         "_source": "ufc.com",
         "main_card_start_ist": "2027-02-14T03:30:00+05:30"
+      },
+      {
+        "name": "UFC 337: Main event TBA",
+        "kind": "PPV",
+        "venue": "Kia Center",
+        "city": "Orlando United States",
+        "country": "",
+        "main_card_start_utc": "2027-02-20T22:00:00Z",
+        "main_card": [],
+        "url": "https://www.ufc.com/event/ufc-337",
+        "_source": "ufc.com",
+        "main_card_start_ist": "2027-02-21T03:30:00+05:30"
       }
     ]
   },
