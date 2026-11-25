@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-25T08:28:27.637468Z",
-  "generated_at_ist": "2026-11-25T13:58:27.637470+05:30",
+  "generated_at_utc": "2026-11-25T18:50:08.870884Z",
+  "generated_at_ist": "2026-11-26T00:20:08.870887+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2026",
@@ -603,6 +603,62 @@
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/BRADY_SEAN_L_05-09.png?itok=8fki7UPx",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-06/BONFIM_GABRIEL_R_06-06.png?itok=xe0dZNv6",
             "weight_class": "Welterweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Pat Sabatini",
+            "blue": "Vinicius Oliveira",
+            "red_rank": "#13",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "Brazil",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-05/SABATINI_PAT_L_05-09.png?itok=l-brP4MA",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/OLIVEIRA_VINICIUS_R_02-07.png?itok=KUsyepWW",
+            "weight_class": "Featherweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Neil Magny",
+            "blue": "Daniil Donchenko",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "Ukraine",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/MAGNY_NEIL_L_08-15.png?itok=wMhaWwNc",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-02/DONCHENKO_DANIIL_R_02-07.png?itok=yljrC3iG",
+            "weight_class": "Welterweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Azamat Bekoev",
+            "blue": "Eric McConico",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Russia",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/BEKOEV_AZAMAT_L_04-04.png?itok=pTz5dH8s",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/MCCONICO_ERIC_R_08-15.png?itok=992sYOJR",
+            "weight_class": "Middleweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Yadier del Valle",
+            "blue": "Ezra Elliot",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Cuba",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-05/DEL_VALLE_YADIER_L_05-17.png?itok=ifboIuAk",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-07/ELLIOT_EZRA_L_07-18.png?itok=R0uEicnm",
+            "weight_class": "Featherweight Bout",
             "title_fight": false
           }
         ],
