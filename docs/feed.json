@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-24T15:19:30.208226Z",
-  "generated_at_ist": "2026-11-24T20:49:30.208229+05:30",
+  "generated_at_utc": "2026-11-25T00:06:31.433432Z",
+  "generated_at_ist": "2026-11-25T05:36:31.433435+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2026",
@@ -345,7 +345,7 @@
           "red": "Israel Adesanya",
           "blue": "Shara Magomedov",
           "red_rank": "#9",
-          "blue_rank": "#15",
+          "blue_rank": "#14",
           "red_odds": "-160",
           "blue_odds": "+135",
           "red_country": "Nigeria",
@@ -359,7 +359,7 @@
           "red": "Ian Machado Garry",
           "blue": "Yaroslav Amosov",
           "red_rank": "#1",
-          "blue_rank": "#11",
+          "blue_rank": "#12",
           "red_odds": "-190",
           "blue_odds": "+160",
           "red_country": "Ireland",
@@ -430,8 +430,8 @@
             "blue": "Diego Lopes",
             "red_rank": "#3",
             "blue_rank": "",
-            "red_odds": "-165",
-            "blue_odds": "+140",
+            "red_odds": "-155",
+            "blue_odds": "+130",
             "red_country": "Brazil",
             "blue_country": "Brazil",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-03/OLIVEIRA_CHARLES_L_BMFMOCK.png?itok=ZzbBba4A",
@@ -444,8 +444,8 @@
             "blue": "Sergei Pavlovich",
             "red_rank": "",
             "blue_rank": "#3",
-            "red_odds": "+175",
-            "blue_odds": "-210",
+            "red_odds": "+160",
+            "blue_odds": "-190",
             "red_country": "Brazil",
             "blue_country": "Russia",
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-03/PEREIRA_ALEX_L.png?itok=40KEyjeK",
@@ -468,20 +468,6 @@
             "title_fight": false
           },
           {
-            "red": "Kyler Phillips",
-            "blue": "Ethyn Ewing",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "United States",
-            "blue_country": "United States",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/PHILLIPS_KYLER_L_04-18.png?itok=_NHWnCe-",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/EWING_ETHYN_R_11-15.png?itok=Oggk8fu6",
-            "weight_class": "Bantamweight Bout",
-            "title_fight": false
-          },
-          {
             "red": "Damian Pinas",
             "blue": "Baisangur Susurkaev",
             "red_rank": "",
@@ -493,6 +479,20 @@
             "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/PINAS_DAMIAN_L_10-03.png?itok=t4l_JJGI",
             "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/SUSURKAEV_BAISANGUR_L_11-15.png?itok=agTj8rgW",
             "weight_class": "Middleweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Kyler Phillips",
+            "blue": "Ethyn Ewing",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "United States",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-04/PHILLIPS_KYLER_L_04-18.png?itok=_NHWnCe-",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-11/EWING_ETHYN_R_11-15.png?itok=Oggk8fu6",
+            "weight_class": "Bantamweight Bout",
             "title_fight": false
           }
         ],
@@ -511,7 +511,7 @@
           {
             "red": "Yair Rodriguez",
             "blue": "Steve Garcia",
-            "red_rank": "#7",
+            "red_rank": "#8",
             "blue_rank": "#10",
             "red_odds": "-",
             "blue_odds": "-",
@@ -622,7 +622,7 @@
             "red": "Joshua Van",
             "blue": "Manel Kape",
             "red_rank": "C",
-            "blue_rank": "#2",
+            "blue_rank": "#1",
             "red_odds": "-135",
             "blue_odds": "+115",
             "red_country": "Myanmar",
@@ -661,31 +661,31 @@
             "title_fight": false
           },
           {
-            "red": "Serhiy Sidey",
-            "blue": "Louis Lee Scott",
-            "red_rank": "",
-            "blue_rank": "",
-            "red_odds": "-",
-            "blue_odds": "-",
-            "red_country": "Ukraine",
-            "blue_country": "England",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2024-10/SIDEY_SERHIY_L_11-02.png?itok=Jaig6dtG",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2025-08/SCOTT_LOUIS_LEE_R_08-19.png?itok=NgpOKRq9",
-            "weight_class": "Bantamweight Bout",
-            "title_fight": false
-          },
-          {
-            "red": "Cam Nelson",
-            "blue": "Sean Clancy Jr.",
+            "red": "Tanner Boser",
+            "blue": "José Montanha",
             "red_rank": "",
             "blue_rank": "",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "Canada",
-            "blue_country": "Scotland",
-            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/NELSON_CAM_R_08-29.png?itok=Sjvpig8N",
-            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-09/CLANCY_JR_SEAN_R_08-25.png?itok=XxMOc--1",
-            "weight_class": "Welterweight Bout",
+            "blue_country": "Brazil",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/BOSER_TANNER_L_10-17.png?itok=QsIgnV2B",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/MONTANHA_JOSE_R_08-08.png?itok=5qIPwdqW",
+            "weight_class": "Heavyweight Bout",
+            "title_fight": false
+          },
+          {
+            "red": "Marc-Andre Barriault",
+            "blue": "Tresean Gore",
+            "red_rank": "",
+            "blue_rank": "",
+            "red_odds": "-",
+            "blue_odds": "-",
+            "red_country": "Canada",
+            "blue_country": "United States",
+            "red_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-10/BARRIAULT_MARC-ANDRE_L_10-17.png?itok=mVD5lhNC",
+            "blue_img": "https://www.ufc.com/images/styles/event_fight_card_upper_body_of_standing_athlete/s3/2026-08/GORE_TRESEAN_R_08-15.png?itok=7NUG20w9",
+            "weight_class": "Middleweight Bout",
             "title_fight": false
           }
         ],
@@ -699,7 +699,7 @@
         "venue": "Afterpay Arena",
         "city": "Sydney Olympic Park Australia",
         "country": "",
-        "main_card_start_utc": "2027-02-06T22:00:00Z",
+        "main_card_start_utc": "2027-02-07T01:00:00Z",
         "main_card": [
           {
             "red": "Quillan Salkilld",
@@ -774,7 +774,7 @@
         ],
         "url": "https://www.ufc.com/event/ufc-fight-night-february-06-2027",
         "_source": "ufc.com",
-        "main_card_start_ist": "2027-02-07T03:30:00+05:30"
+        "main_card_start_ist": "2027-02-07T06:30:00+05:30"
       },
       {
         "name": "UFC Fight Night: Pyfer vs Nickal",
@@ -788,7 +788,7 @@
             "red": "Joe Pyfer",
             "blue": "Bo Nickal",
             "red_rank": "#6",
-            "blue_rank": "#14",
+            "blue_rank": "#13",
             "red_odds": "-",
             "blue_odds": "-",
             "red_country": "United States",
@@ -817,5 +817,7 @@
       }
     ]
   },
-  "_warnings": []
+  "_warnings": [
+    "F1 standings fetch failed: HTTP Error 530: <none>; reusing previous"
+  ]
 }
