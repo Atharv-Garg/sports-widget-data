@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-11-25T00:06:31.433432Z",
-  "generated_at_ist": "2026-11-25T05:36:31.433435+05:30",
+  "generated_at_utc": "2026-11-25T08:28:27.637468Z",
+  "generated_at_ist": "2026-11-25T13:58:27.637470+05:30",
   "f1": {
     "next": {
       "name": "FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2026",
@@ -817,7 +817,5 @@
       }
     ]
   },
-  "_warnings": [
-    "F1 standings fetch failed: HTTP Error 530: <none>; reusing previous"
-  ]
+  "_warnings": []
 }
